@@ -1,0 +1,8 @@
+created: 20150228113450000
+modified: 20150228113654000
+tags: Definitions
+title: URI
+tmap.id: 7214e4d5-3d1b-4b39-8a8b-9938aa13f42a
+type: text/vnd.tiddlywiki
+
+A <<.dlink-ex "URI" "http://en.wikipedia.org/wiki/Uniform_resource_identifier">> (also often known as a <<.def URL>>) is a string of characters used to specify the location of a resource such as a web page.

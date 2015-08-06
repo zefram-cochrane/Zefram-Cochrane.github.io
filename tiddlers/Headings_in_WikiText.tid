@@ -1,0 +1,23 @@
+caption: Headings
+created: 20131205161234909
+modified: 20131205161256525
+tags: WikiText
+title: Headings in WikiText
+tmap.id: a42891b2-bcc5-43e6-bf8e-7a2d775b70ad
+type: text/vnd.tiddlywiki
+
+Headings are specified with one or more leading `!` characters:
+
+```
+! This is a level 1 heading
+
+!! This is a level 2 heading
+
+!!! This is a level 3 heading
+```
+
+CSS classes can be assigned to individual headings like this:
+
+```
+!.myStyle This heading has the class `myStyle`
+```

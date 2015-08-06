@@ -1,0 +1,12 @@
+caption: Macros
+created: 20131205160746466
+modified: 20150221094003000
+tags: WikiText
+title: Macros in WikiText
+tmap.id: 9441660f-977d-40f7-a90b-af338d3467e9
+type: text/vnd.tiddlywiki
+
+The use of [[macros|Macros]] in WikiText has two distinct aspects:
+
+* [[Defining macros|Macro Definitions in WikiText]]
+* [[Calling macros|Macro Calls in WikiText]]

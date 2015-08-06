@@ -1,0 +1,8 @@
+created: 20130822173400000
+modified: 20140912145800365
+tags: Features
+title: Scalability
+tmap.id: 2a37f9a0-4c61-469b-9829-e907e1557dd6
+type: text/vnd.tiddlywiki
+
+You might expect that TiddlyWiki's architecture as a SinglePageApplication would make it unsuitable for large amounts of data. In fact, TiddlyWiki users regularly work with files that are 20 or 30 megabytes without problems - and successful experiments have been done up into the gigabytes.
