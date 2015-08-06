@@ -1,0 +1,9 @@
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+created: 20150806130418388
+id: 7fb014c8-dd02-4e8b-9e9a-242d207c296f
+isview: true
+modified: 20150806100344956
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/XSCALE
+type: text/vnd.tiddlywiki
+

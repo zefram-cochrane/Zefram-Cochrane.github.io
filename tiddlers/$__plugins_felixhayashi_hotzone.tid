@@ -1,0 +1,44 @@
+author: Felix Küppers
+core-version: >=5.1.5
+created: 20150806095659106
+dependents: 
+description: HotZone - Be notified when tiddlers are scrolled into view
+list: Configuration License Readme
+plugin-type: plugin
+released: 
+source: https://github.com/felixhayashi/TW5-HotZone
+title: $:/plugins/felixhayashi/hotzone
+type: application/json
+version: 0.0.2
+
+{
+    "tiddlers": {
+        "$:/plugins/felixhayashi/hotzone/config.js": {
+            "text": "/*\\\n\ntitle: $:/plugins/felixhayashi/hotzone/config.js\ntype: application/javascript\nmodule-type: library\n\n@preserve\n\n\\*/\n(function(){\"use strict\";exports.config={classNames:{storyRiver:\"tc-story-river\",tiddlerFrame:\"tc-tiddler-frame\",tiddlerTitle:\"tc-title\"},references:{userConfig:\"$:/config/hotzone/focusOffset\",focussedTiddlerStore:\"$:/temp/focussedTiddler\"},checkbackTime:$tw.utils.getAnimationDuration()}})();",
+            "title": "$:/plugins/felixhayashi/hotzone/config.js",
+            "type": "application/javascript",
+            "module-type": "library"
+        },
+        "$:/plugins/felixhayashi/hotzone/hotzone.js": {
+            "text": "/*\\\n\ntitle: $:/plugins/felixhayashi/hotzone/hotzone.js\ntype: application/javascript\nmodule-type: startup\n\n@preserve\n\n\\*/\n(function(){\"use strict\";exports.name=\"hotzone\";exports.platforms=[\"browser\"];exports.after=[\"story\"];exports.synchronous=true;exports.startup=function(){var e=require(\"$:/plugins/felixhayashi/hotzone/config.js\").config;var t=null;var i=false;var r=document.getElementsByClassName(e.classNames.storyRiver)[0];var s=r.getElementsByClassName(e.classNames.tiddlerFrame);var n=$tw.wiki.getTiddlerData(e.references.userConfig,{});var a=isNaN(parseInt(n.focusOffset))?150:parseInt(n.focusOffset);var o=function(t,i,r){if(!(t instanceof Element))return;if(!$tw.utils.hasClass(t,e.classNames.tiddlerFrame))return;var s=t.getElementsByClassName(e.classNames.tiddlerTitle)[0];if(s){var n=s.innerText||s.textContent;return n.trim()}};var l=function(e,r){if(r){t=null}if(!i){i=true;window.setTimeout(d,e||0)}};var f=function(t,i){$tw.wiki.addTiddler(new $tw.Tiddler({title:e.references.focussedTiddlerStore,text:t},$tw.wiki.getModificationFields()));if(i){var r=document.getElementsByClassName(\"hzone-focus\")[0];if(r){$tw.utils.removeClass(r,\"hzone-focus\")}$tw.utils.addClass(i,\"hzone-focus\")}};var d=function(){if(s.length){var e=42;for(var r=0;r<s.length;r++){if(window.getComputedStyle(s[r])[\"display\"]===\"block\"){e=s[r].getBoundingClientRect().left;break}}var n=document.elementFromPoint(e+1,a);var l=o(n);if(l!==t&&$tw.wiki.getTiddler(l)){t=l;f(t,n)}}else if(t){t=\"\";f(t)}i=false};var u=function(e){if(e[\"$:/HistoryList\"]){if(!$tw.wiki.tiddlerExists(\"$:/HistoryList\"))return;var t=$tw.wiki.getTiddler(\"$:/HistoryList\").fields[\"current-tiddler\"];var i=$tw.wiki.getTiddlerList(\"$:/StoryList\");var r=i.indexOf(t)>=0;if(!r)return;l($tw.utils.getAnimationDuration()+100)}else if(e[\"$:/StoryList\"]){l($tw.utils.getAnimationDuration()+100,true)}};var c=function(e){l(250)};$tw.wiki.addEventListener(\"change\",u);window.addEventListener(\"scroll\",c,false);c()}})();",
+            "title": "$:/plugins/felixhayashi/hotzone/hotzone.js",
+            "type": "application/javascript",
+            "module-type": "startup"
+        },
+        "$:/plugins/felixhayashi/hotzone/Configuration": {
+            "title": "$:/plugins/felixhayashi/hotzone/Configuration",
+            "text": "Please see the [[GitHub page|https://github.com/felixhayashi/TW5-HotZone]] for more information on the options.\n\nSave and reload the wiki to activate changes.\n\n<table>\n  <tr>\n    <th align=\"left\">Focus offset:</th>\n    <td><$edit-text tiddler=\"$:/config/hotzone/focusOffset\" tag=\"input\" default=\"71px\" /></td>\n  </tr>\n</table>"
+        },
+        "$:/temp/focussedTiddler": {
+            "title": "$:/temp/focussedTiddler"
+        },
+        "$:/plugins/felixhayashi/hotzone/License": {
+            "title": "$:/plugins/felixhayashi/hotzone/License",
+            "text": "This code is released under the BSD license. For the exact terms visit:\n\nhttps://github.com/felixhayashi/TW5-HotZone/blob/master/LICENSE"
+        },
+        "$:/plugins/felixhayashi/hotzone/Readme": {
+            "title": "$:/plugins/felixhayashi/hotzone/Readme",
+            "text": "Please visit the [[GitHub page|https://github.com/felixhayashi/TW5-HotZone]] for more information."
+        }
+    }
+}

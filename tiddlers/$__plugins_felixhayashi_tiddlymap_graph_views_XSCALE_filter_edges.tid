@@ -1,0 +1,5 @@
+created: 20150806100313861
+filter: [prefix[$:/plugins/felixhayashi/tiddlymap/graph/edgeTypes]] +[suffix[tw-body:link]] +[suffix[tw-list:tags]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/XSCALE/filter/edges
+type: text/vnd.tiddlywiki
+
