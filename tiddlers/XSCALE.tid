@@ -1,0 +1,26 @@
+created: 20150807021258524
+modified: 20150807021422745
+title: XSCALE
+tmap.id: 3341bf6c-f6d7-4545-8486-482d0067bbb5
+type: text/vnd.tiddlywiki
+
+We're just getting started on this wiki but feel free to wander around and poke at things. If you want to get up to speed and don't want to wait to see this thing fill out, you can go poke around http://agiletng.org. If you feel like [[contributing|Contributing]] let PeterMerel know.
+
+So ... in a tiny little half-baked nutshell the essential principles of 3rd generation Agile form an acronym:
+
+"""
+[[e|eXtropic]]''X''[[tropic|eXtropic]]
+&nbsp;&nbsp;''S''[[cale-symmetric|Scale-symmetric]]
+&nbsp;&nbsp;''C''[[ontinuous|Continuous]]
+&nbsp;&nbsp;''A''[[utonomous|Autonomous]]
+&nbsp;&nbsp;''L''[[ean|Lean]]
+&nbsp;&nbsp;''E''[[cosystem|Ecosystem]]
+"""
+
+Click each principle to understand where XSCALE comes from or for the nuts-and-bolts here are some big pictures: 
+
+"""
+* [[Practices]]
+* [[Organization]]
+* [[Metrics]]
+"""

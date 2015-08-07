@@ -1,0 +1,13 @@
+created: 20150807051018491
+modified: 20150807052003611
+title: 3rd Generation Agile
+tmap.id: 658324f5-722e-44a9-b8eb-253f643ed683
+type: text/vnd.tiddlywiki
+
+This page will expand shortly, but in a nutshell:
+
+* 1st generation is the original small-team methods - think XP, Scrum and Kanban. Note these things aren't mutually exclusive but high-performing Agile teams instead pick out PracticePatterns from them that suit them best. [[XSCALE]] recommends the ones in [[XScrumban]] for high-performance delivery teams but YMMV.
+ 
+* 2nd generation is the methods that attempt to scale Agile by fitting it to some non-Agile methods of product, portfolio or change management. Think LeSS, SAFe and DAD. Also not mutually exclusive but they're so complicated that few people worry about more than one of them.
+
+* 3rd generation focuses on making the organization and its business Agile from top to bottom. Right now that means SpotifyEngineeringCulture, [[Holacracy]] and [[XSCALE]]. Again there's a lot of overlap but it's fair to say we have some strong opinions here about what best fits our [[principles|XSCALE]] ...
