@@ -117,6 +117,10 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="http://tiddlywiki.com" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/DefaultSidebarTab</li>
+
+<li>$:/config/Navigation/openLinkFromInsideRiver</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions</li>
 
 <li>$:/ControlPanel</li>
@@ -162,6 +166,8 @@ Error message and password prompt
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/state/tab-1749438307</li>
 
 <li>$:/status/IsLoggedIn</li>
 
@@ -425,10 +431,16 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div modified="20150807132803771" title="$:/config/DefaultSidebarTab" revision="1" bag="default">
+<pre>$:/core/ui/SideBar/Recent</pre>
+</div>
+<div modified="20150807132829840" title="$:/config/Navigation/openLinkFromInsideRiver" revision="1" bag="default">
+<pre>above</pre>
+</div>
 <div created="20150806081802299" modified="20150806081801223" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>show</pre>
 </div>
-<div color="#bbb" created="20150806090010542" icon="$:/core/images/options-button" modified="20150807025742318" title="$:/ControlPanel" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div color="#bbb" created="20150806090010542" icon="$:/core/images/options-button" modified="20150807132843695" title="$:/ControlPanel" type="text/vnd.tiddlywiki" revision="1" bag="default">
 <pre>&lt;div class=&quot;tc-control-panel&quot;&gt;
 &lt;&lt;tabs &quot;[all[shadows+tiddlers]tag[$:/tags/ControlPanel]!has[draft.of]]&quot; &quot;$:/core/ui/ControlPanel/Info&quot;&gt;&gt;
 &lt;/div&gt;
@@ -6816,17 +6828,20 @@ Error message and password prompt
 <div created="20150806085922955" modified="20150807025736749" title="$:/SiteTitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>XSCALE</pre>
 </div>
+<div modified="20150807132753757" title="$:/state/tab-1749438307" revision="1" bag="default">
+<pre>$:/core/ui/ControlPanel/Settings</pre>
+</div>
 <div title="$:/status/IsLoggedIn" revision="2" bag="default">
 <pre>yes</pre>
 </div>
 <div title="$:/status/UserName" revision="1" bag="default">
 <pre></pre>
 </div>
-<div list="[[What's XSCALE?]] eXtropic NegativeEntropy" title="$:/StoryList" revision="13" bag="default">
+<div list="[[3rd Generation Agile]] [[What's XSCALE?]] eXtropic" title="$:/StoryList" revision="11" bag="default">
 <pre></pre>
 </div>
-<div modified="20150807130920708" title="$:/temp/focussedTiddler" revision="2" bag="default">
-<pre>eXtropic</pre>
+<div modified="20150807132847102" title="$:/temp/focussedTiddler" revision="5" bag="default">
+<pre>3rd Generation Agile</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
 <pre>{
@@ -6842,8 +6857,8 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div title="$:/temp/tmap/currentTiddler" revision="16" bag="default">
-<pre>eXtropic</pre>
+<div title="$:/temp/tmap/currentTiddler" revision="15" bag="default">
+<pre>3rd Generation Agile</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.9" revision="0" bag="default">
 <pre>{
@@ -6950,14 +6965,17 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20150807051018491" modified="20150807052003611" title="3rd Generation Agile" tmap.id="658324f5-722e-44a9-b8eb-253f643ed683" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20150807051018491" modified="20150807133120640" title="3rd Generation Agile" tmap.id="658324f5-722e-44a9-b8eb-253f643ed683" type="text/vnd.tiddlywiki" revision="1" bag="default">
 <pre>This page will expand shortly, but in a nutshell:
 
-* 1st generation is the original small-team methods - think XP, Scrum and Kanban. Note these things aren't mutually exclusive but high-performing Agile teams instead pick out PracticePatterns from them that suit them best. [[XSCALE]] recommends the ones in [[XScrumban]] for high-performance delivery teams but YMMV.
+; ''1st generation''
+: the original small-team methods - mainly XP, Scrum and Kanban. Note these aren't mutually exclusive but high-performing Agile teams instead pick out PracticePatterns from them that suit them best. [[XSCALE]] recommends the ones in [[XScrumban]] for high-performance delivery teams but YMMV.
  
-* 2nd generation is the methods that attempt to scale Agile by fitting it to some non-Agile methods of product, portfolio or change management. Think LeSS, SAFe and DAD. Also not mutually exclusive but they're so complicated that few people worry about more than one of them.
+; ''2nd generation'' 
+: methods that attempt to scale Agile by fitting it to some non-Agile methods of product, portfolio and change management. Think LeSS, SAFe and DAD. These aren't mutually exclusive either but they're such complicated games that few people worry about more than one of them.
 
-* 3rd generation focuses on making the organization and its business Agile from top to bottom. Right now that means SpotifyEngineeringCulture, [[Holacracy]] and [[XSCALE]]. Again there's a lot of overlap but it's fair to say we have some strong opinions here about what best fits our [[principles|XSCALE]] ...</pre>
+; ''3rd generation'' 
+: focuses on making the organization and its business Agile from top to bottom. Right now that means SpotifyEngineeringCulture, [[Holacracy]] and [[XSCALE]]. Again there's a lot of overlap but it's fair to say we have some strong opinions here about what best fits our [[principles|XSCALE]] ...</pre>
 </div>
 <div created="20150325170720682" modified="20150414072711004" tags="HelloThere" title="A Gentle Guide to TiddlyWiki" tmap.id="26ce23f2-52ee-4c83-9d3a-c125e6ec0571" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>TiddlyWiki is an incredibly flexible and versatile tool that is conceived and constructed differently than most software. This can make it hard to understand until the moment when it clicks, and becomes a seamless extension of your brain.
@@ -7521,14 +7539,14 @@ Note that these operations modify the tiddlers in the wiki store and so may affe
 You can't edit an external image directly in the browser except by changing the URI field to point to a different image.
 </pre>
 </div>
-<div created="20150804074124555" creator="Peter Merel" modified="20150807132120381" modifier="Peter Merel" title="eXtropic" tmap.id="7f127c8d-7b1e-40db-b241-3dc50d44433b" type="text/vnd.tiddlywiki" revision="5" bag="default">
+<div created="20150804074124555" creator="Peter Merel" modified="20150807132707630" modifier="Peter Merel" title="eXtropic" tmap.id="7f127c8d-7b1e-40db-b241-3dc50d44433b" type="text/vnd.tiddlywiki" revision="1" bag="default">
 <pre>Extropy is the reason fridges stay cold and flowers come from fertilizer. In business, extropy is any process of positive change in the [[rate of return on investment|ROROI]]. 
 
 We live in a world where technology change obsoletes products at an ever-increasing rate. Ten years ago there were no smart phones. Ten years hence the whole market for smart phones will have been destroyed by purveyors of [[AR]] and [[3D printers]]. Any business that isn't [[extropic|eXtropic]], that isn't working on bringing new products to market and proactively removing internal waste, stress and misalignments, will be swiftly outcompeted by those that are.
 
 Extropy is the opposite of the better known physical concept of [[entropy]]. You can think of a system's entropy as the the number of different states its components can have at once. For example, before ice melts it has lower entropy than after; this is because liquid water can flow in more directions simultaneously than solid ice, The [[Second Law of Thermodynamics]] says there's no way to reduce the overall entropy of any closed system.
 
-Extropy isn't just entropy with a minus sign. It occurs because flowers, fridges, businesses and in fact most real world systems aren't closed systems but open ones able to use energy to access and store more energy. In OpenSystems both entropy and extropy occur at the same time. So in an Agile business we think of extropy as the capability to open markets for new products - new in the sense of not competing with products that are already in the market. Internally it's the capability to continuously improve productivity to increase the rate of R and decrease the rate of I in [[ROI]].
+Extropy isn't just entropy with a minus sign. It occurs because flowers, fridges, businesses and in fact most real world systems aren't closed systems but open ones able to use energy to access and store more energy. In OpenSystems both entropy and extropy occur at the same time. So in an Agile business we think of extropy as the capability to open markets for new products - new in the sense of not competing with products that are already in the market. Internally it's the capability to continuously improve organization to increase the rate of R and decrease the rate of I in [[ROI]].
 
 ''See also:'' 
 
@@ -8493,7 +8511,7 @@ If a `title` field is specified in the header then it is treated as a prefix for
 ** Closing the bottom tiddler will close it and the bottom of the tiddler above it will come into view.
 </pre>
 </div>
-<div created="20150807131701122" modified="20150807131712679" title="NegativeEntropy" tmap.id="b89da85c-2501-4f9f-a598-ef2491fe4fa9" type="text/vnd.tiddlywiki" revision="3" bag="default">
+<div created="20150807131701122" modified="20150807131712679" title="NegativeEntropy" tmap.id="b89da85c-2501-4f9f-a598-ef2491fe4fa9" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Described in some depth at http://www.i-sis.org.uk/negentr.php</pre>
 </div>
 <div created="20150807023337103" modified="20150807023342565" title="open system" tmap.id="f826c8ed-6012-4d13-bbfa-8ffaed2da8f3" type="text/vnd.tiddlywiki" revision="0" bag="default">
