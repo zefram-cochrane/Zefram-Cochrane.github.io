@@ -1,6 +1,6 @@
 created: 20150808200118670
-modified: 20150808200117603
+modified: 20150808201503781
 title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler
 type: text/vnd.tiddlywiki
 
-show
+hide

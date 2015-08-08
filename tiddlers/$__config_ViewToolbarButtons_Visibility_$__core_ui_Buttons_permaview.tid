@@ -1,6 +1,6 @@
 created: 20150808200022122
-modified: 20150808200021037
+modified: 20150808201425921
 title: $:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/permaview
 type: text/vnd.tiddlywiki
 
-show
+hide
