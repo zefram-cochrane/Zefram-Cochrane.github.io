@@ -179,6 +179,10 @@ Error message and password prompt
 
 <li>$:/temp/tmap/currentTiddler</li>
 
+<li>$:/theme</li>
+
+<li>$:/themes/tiddlywiki/centralised</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
@@ -331,6 +335,8 @@ Error message and password prompt
 
 <li>Preserving open tiddlers at startup</li>
 
+<li>Principles</li>
+
 <li>Quine</li>
 
 <li>ROI</li>
@@ -407,7 +413,7 @@ Error message and password prompt
 
 <li>Welcome Visitors</li>
 
-<li>What's XSCALE?</li>
+<li>What is this about?</li>
 
 <li>Widgets in WikiText</li>
 
@@ -438,7 +444,7 @@ Error message and password prompt
 <div created="20150806081802299" modified="20150806081801223" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>show</pre>
 </div>
-<div color="#bbb" created="20150806090010542" icon="$:/core/images/options-button" modified="20150807132843695" title="$:/ControlPanel" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div color="#bbb" created="20150806090010542" icon="$:/core/images/options-button" modified="20150807233941734" title="$:/ControlPanel" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;div class=&quot;tc-control-panel&quot;&gt;
 &lt;&lt;tabs &quot;[all[shadows+tiddlers]tag[$:/tags/ControlPanel]!has[draft.of]]&quot; &quot;$:/core/ui/ControlPanel/Info&quot;&gt;&gt;
 &lt;/div&gt;
@@ -6152,8 +6158,9 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20150806085941434" modified="20150806085947362" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>[[What's XSCALE?]]
+<div created="20150806085941434" modified="20150807233936970" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Welcome Visitors]]
+[[Principles]]
 </pre>
 </div>
 <div title="$:/isEncrypted" revision="0" bag="default">
@@ -6832,11 +6839,11 @@ Error message and password prompt
 <div title="$:/status/UserName" revision="1" bag="default">
 <pre></pre>
 </div>
-<div list="[[What's XSCALE?]]" title="$:/StoryList" revision="1" bag="default">
+<div list="[[Welcome Visitors]] Principles" title="$:/StoryList" revision="1" bag="default">
 <pre></pre>
 </div>
-<div modified="20150807133340277" title="$:/temp/focussedTiddler" revision="1" bag="default">
-<pre>What's XSCALE?</pre>
+<div modified="20150808003128034" title="$:/temp/focussedTiddler" revision="1" bag="default">
+<pre>Welcome Visitors</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
 <pre>{
@@ -6853,7 +6860,21 @@ Error message and password prompt
 }</pre>
 </div>
 <div title="$:/temp/tmap/currentTiddler" revision="2" bag="default">
-<pre>What's XSCALE?</pre>
+<pre>Welcome Visitors</pre>
+</div>
+<div created="20150808000809642" modified="20150808000808409" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>$:/themes/tiddlywiki/centralised</pre>
+</div>
+<div author="JeremyRuston" core-version="&gt;=5.0.0" created="20150808000715731" dependents="$:/themes/tiddlywiki/snowwhite" description="Centralises the story river, experimental" name="Centralised" plugin-type="theme" title="$:/themes/tiddlywiki/centralised" type="application/json" version="5.1.9" revision="0" bag="default">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/themes/tiddlywiki/centralised/styles.tid&quot;: {
+            &quot;title&quot;: &quot;$:/themes/tiddlywiki/centralised/styles.tid&quot;,
+            &quot;tags&quot;: &quot;[[$:/tags/Stylesheet]]&quot;,
+            &quot;text&quot;: &quot;\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\n@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {\n\n\thtml .tc-page-container {\n\t\ttext-align: center;\n\t}\n\n\thtml .tc-story-river {\n\t\tposition: relative;\n\t\twidth: 770px;\n\t\tpadding: 42px;\n\t\tmargin: 0 auto;\n\t\ttext-align: left;\n\t}\n\n\thtml .tc-sidebar-scrollable {\n\t\ttext-align: left;\n\t\tleft: 50%;\n\t\tright: 0;\n\t\tmargin-left: 343px;\n\t}\n}\n&quot;
+        }
+    }
+}</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.9" revision="0" bag="default">
 <pre>{
@@ -7182,7 +7203,7 @@ The default value is `$:/core/ui/TiddlerInfo/Tools` corresponding to the ''Tools
 &lt;/ul&gt;
 </pre>
 </div>
-<div created="20131101111400000" modified="20150806091851039" tags="Community EditMe" title="Contributing" tmap.id="81c9f355-02da-4a37-91ac-ef936a5a9231" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20131101111400000" modified="20150807134144562" tags="Community Refactor" title="Contributing" tmap.id="81c9f355-02da-4a37-91ac-ef936a5a9231" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>This needs to be repurposed for [[XSCALE]].
 
 ----
@@ -8657,8 +8678,8 @@ When TiddlyWiki starts up it processes permalinks according to the following ste
 # If the ''target'' is specified then navigate to it, otherwise navigate to the first tiddler in the ''story list''
 </pre>
 </div>
-<div created="20150806090356310" modified="20150806090900847" title="PeterMerel" tmap.id="e83bc974-6435-4430-b715-e98d278f3d09" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>One of the original XP-dudes, Pete wants to take Agile well beyond its IT roots and apply it to ProductManagement, PortfolioManagement and ChangeManagement. Pete's working on the [[XSCALE Book]] and if that's not far out enough he's got another one in the works - something called [[The Agile Tao]] ...
+<div created="20150806090356310" modified="20150807133728524" title="PeterMerel" tmap.id="e83bc974-6435-4430-b715-e98d278f3d09" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>One of the original XP-dudes, Pete has taken Agile well beyond its IT roots and applied it to ProductManagement, PortfolioManagement and ChangeManagement. Pete's working on the [[XSCALE Book]] and if that's not far out enough he has another one in the works - something mysteriously titled [[The Agile Tao]] ...
 
 In real life Pete does not talk about himself in the third person.</pre>
 </div>
@@ -8681,6 +8702,9 @@ Sometimes it's useful to re-open the same tiddlers that were open when the file 
 
 This filter returns the tiddlers specified in the [[$:/StoryList]] tiddler, which is the system tiddler that TiddlyWiki uses to store the sequence of tiddlers in the current story.
 </pre>
+</div>
+<div created="20150807230844378" modified="20150808000753760" tags="" title="Principles" tmap.id="0b7425cc-c940-47cb-a9b6-2eba8ce8b4ce" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>{{XSCALE}}</pre>
 </div>
 <div created="20150806085401107" tags="Definitions" title="Quine" tmap.id="6510550b-57a6-4d74-9c52-695420d79b5e" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Wikipedia [[defines a Quine|http://en.wikipedia.org/wiki/Quine_(computing)]] as //a computer program which takes no input and produces a copy of its own source code as its only output//.
@@ -9791,20 +9815,17 @@ vis.js Timeline is a TiddlyWiki plugin that allows you to link your wiki-topics 
 &lt;&lt;&lt;
 </pre>
 </div>
-<div created="20150807023829352" modified="20150807030113287" tags="Meta" title="Welcome Visitors" tmap.id="fc2b848e-e550-4d94-a61b-f278f68423f7" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>Welcome to [[xscale.wiki]], a place to discuss the state of the art in [[3rd Generation Agile]]. This is an intentional online community open to any qualified [[Agilist]] who embraces the [[XSCALE]] principles. You don't have to be certified to [[contribute|Contributing]] here - just informed by experience and open to different perspectives than your own.
+<div created="20150807023829352" modified="20150808000528789" tags="Meta" title="Welcome Visitors" tmap.id="fc2b848e-e550-4d94-a61b-f278f68423f7" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>This is a community about [[People, Patterns and Productivity]] based on the [[XSCALE principles|Principles]]. Thanks for kindly dropping in. Sit a spell. Kick your shoes off. 
 
-We have a few StyleGuidelines you should understand before [[Editing]] this wiki. Stick by the ManifestoValues and the [[XSCALE]] principles and we'll thank you for everything you [[contribute|Contributing]] here.
+xscale.wiki is in TiddlyWiki format for the freedom, simplicity, and communications power that provides. And it's served by GitHub to enable [[decentralized collaboration]].
 
-If friction occurs - well, github protocols fix most of that but our [[Social Rules]] are just what [[Bill And Ted]] said - 
-
-* [[Be excellent to each other]] and
-* [[Party on, dudes!]]
+We always accept newcomers with valuable contributions. Everything on xscale.wiki is under a [[cc-by-nc-sa|http://creativecommons.org/licenses/by-nc-sa/4.0/]] license by the respective editors but please grok our StyleGuidelines and SocialRules before [[Contributing]]. 
 
 -- [[Pete|PeterMerel]]</pre>
 </div>
-<div created="20150804070131879" creator="Peter Merel" modified="20150807021437941" modifier="Peter Merel" tags="" title="What's XSCALE?" tmap.edges="{&quot;6e36eeb9-ae92-457f-9c8a-75df4e243dea&quot;:{&quot;to&quot;:&quot;7f127c8d-7b1e-40db-b241-3dc50d44433b&quot;,&quot;type&quot;:&quot;Principle&quot;}}" tmap.id="4a1551bc-a707-460d-8a3f-86e3ba711de0" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>{{XSCALE}}</pre>
+<div created="20150804070131879" creator="Peter Merel" modified="20150807133620834" modifier="Peter Merel" tags="" title="What is this about?" tmap.id="99350a8e-3b0c-4105-8be2-892f84264af3" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre></pre>
 </div>
 <div caption="Widgets" created="20131205160840915" modified="20140619111725471" tags="WikiText" title="Widgets in WikiText" tmap.id="433574c5-ed6d-47f1-b53b-d4c23410f2dc" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Widgets provide rich functionality within WikiText. They have the same syntax as [[HTML elements|HTML in WikiText]], but the tag name always starts with `$`. For example:
@@ -9846,28 +9867,32 @@ The following elements of WikiText syntax are built into the core:
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/6ElUruH92tc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
 </div>
-<div created="20131219100444289" modified="20150806091705631" tags="[[TiddlyWiki on Node.js]]" title="Working with the XSCALE repository" tmap.id="35378c88-242a-4df1-8bfc-2114825f7aaa" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre></pre>
+<div created="20131219100444289" modified="20150807134039562" tags="Describe" title="Working with the XSCALE repository" tmap.id="35378c88-242a-4df1-8bfc-2114825f7aaa" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>* How to check out the repo and set up your local editing environment.
+* How to work with it if you're in the A:TNG crew maintaining it
+* How to contribute to it if you're not yet in that crew</pre>
 </div>
-<div created="20150807021258524" modified="20150807110350464" title="XSCALE" tmap.id="3341bf6c-f6d7-4545-8486-482d0067bbb5" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>We're just getting started on this wiki but feel free to wander around and poke at things. If you want to get up to speed and don't want to wait to see this thing fill out, you can go poke around http://agiletng.org. If you feel like [[contributing|Contributing]] let [[Pete|PeterMerel]] know.
+<div created="20150807021258524" modified="20150808000046308" title="XSCALE" tmap.id="3341bf6c-f6d7-4545-8486-482d0067bbb5" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>XSCALE is an acronym for the principles of [[3rd Generation Agile]]:
 
-So ... in a tiny sketchy nutshell the essential principles of 3rd generation Agile form this acronym:
+; [[e|eXtropic]]''X''[[tropic|eXtropic]]
+: positive sum games over zero sum games
+; &amp;nbsp;&amp;nbsp;''S''[[cale-symmetric|Scale-symmetric]]
+: fractal Agile over fragile Agile
+; &amp;nbsp;&amp;nbsp;''C''[[ontinuous|Continuous]]
+: high cadence small batch single-piece flow
+; &amp;nbsp;&amp;nbsp;''A''[[utonomous|Autonomous]]
+: right-sized self-organizing squads, chapters and portfolios
+; &amp;nbsp;&amp;nbsp;''L''[[ean|Lean]]
+: grounding all decisions in bottom-line metrics and analytics
+; &amp;nbsp;&amp;nbsp;''E''[[cosystem|Ecosystem]]
+: decentralized, adaptive, iterative and contractive
+
+We recommend pragmatic nuts-and-bolts practices that deliver on these principles: 
 
 &quot;&quot;&quot;
-[[e|eXtropic]]''X''[[tropic|eXtropic]]
-&amp;nbsp;&amp;nbsp;''S''[[cale-symmetric|Scale-symmetric]]
-&amp;nbsp;&amp;nbsp;''C''[[ontinuous|Continuous]]
-&amp;nbsp;&amp;nbsp;''A''[[utonomous|Autonomous]]
-&amp;nbsp;&amp;nbsp;''L''[[ean|Lean]]
-&amp;nbsp;&amp;nbsp;''E''[[cosystem|Ecosystem]]
-&quot;&quot;&quot;
-
-Click each principle to understand where XSCALE comes from or for the nuts-and-bolts here are some big pictures: 
-
-&quot;&quot;&quot;
-* [[Practices]]
-* [[Organization]]
+* [[Structures]]
+* [[Interactions]]
 * [[Metrics]]
 &quot;&quot;&quot;</pre>
 </div>

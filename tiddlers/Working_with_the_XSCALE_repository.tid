@@ -1,7 +1,10 @@
 created: 20131219100444289
-modified: 20150806091705631
-tags: [[TiddlyWiki on Node.js]]
+modified: 20150807134039562
+tags: Describe
 title: Working with the XSCALE repository
 tmap.id: 35378c88-242a-4df1-8bfc-2114825f7aaa
 type: text/vnd.tiddlywiki
 
+* How to check out the repo and set up your local editing environment.
+* How to work with it if you're in the A:TNG crew maintaining it
+* How to contribute to it if you're not yet in that crew
