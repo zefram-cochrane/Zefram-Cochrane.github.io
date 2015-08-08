@@ -117,6 +117,14 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="http://tiddlywiki.com" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/_LeftBar</li>
+
+<li>$:/_LeftBar/Macros</li>
+
+<li>$:/_LeftBar/Reveal</li>
+
+<li>$:/_LeftBar/StyleSheet</li>
+
 <li>$:/config/DefaultSidebarTab</li>
 
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
@@ -186,6 +194,8 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>$:/themes/tongerner/bluish</li>
 
 <li>3rd Generation Agile</li>
 
@@ -435,6 +445,109 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20150130232420338" modified="20150205154223034" summary="The actual ~LeftBar. Lists all tiddlers tagged with its name." tags="$:/tags/PageTemplate $:/_LeftBarCore" title="$:/_LeftBar" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>&lt;$scrollable fallthrough=&quot;no&quot; class=&quot;tc-leftbar-scrollable&quot;&gt;
+
+&lt;$reveal state=&quot;$:/state/LeftBar&quot; type=&quot;match&quot; text=&quot;yes&quot; default=&quot;yes&quot; retain=&quot;yes&quot;&gt;
+
+&lt;$list filter=&quot;[all[shadows+tiddlers]tag[$:/_LeftBar]!has[draft.of]]&quot;&gt;
+{{!!text}}
+&lt;/$list&gt;
+
+&lt;/$reveal&gt;
+
+&lt;/$scrollable&gt;
+</pre>
+</div>
+<div created="20150131221448784" modified="20150205212513676" summary="Macros to reveal/hide either sidebar based on values in their state tiddlers. Compare with &quot;if-sidebar&quot; in [[$:/core/macros/CSS]]" tags="$:/tags/Macro $:/_LeftBarCore" title="$:/_LeftBar/Macros" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>\define if-leftbar(text)
+&lt;$reveal state=&quot;$:/state/LeftBar&quot; type=&quot;match&quot; text=&quot;yes&quot; default=&quot;yes&quot;&gt;$text$&lt;/$reveal&gt;
+\end
+
+\define if-no-leftbar(text)
+&lt;$reveal state=&quot;$:/state/LeftBar&quot; type=&quot;nomatch&quot; text=&quot;yes&quot; default=&quot;yes&quot;&gt;$text$&lt;/$reveal&gt;
+\end
+
+\define if-rightbar(text)
+&lt;$reveal state=&quot;$:/state/sidebar&quot; type=&quot;match&quot; text=&quot;yes&quot; default=&quot;yes&quot;&gt;$text$&lt;/$reveal&gt;
+\end
+
+\define if-no-rightbar(text)
+&lt;$reveal state=&quot;$:/state/sidebar&quot; type=&quot;nomatch&quot; text=&quot;yes&quot; default=&quot;yes&quot;&gt;$text$&lt;/$reveal&gt;
+\end
+
+</pre>
+</div>
+<div created="20150130230345427" modified="20150207001053802" summary="Sets ~LeftBar state via left reveal/hide arrow. Compare to core tiddler [[$:/core/ui/TopBar/menu]]" tags="$:/_LeftBarCore $:/tags/PageTemplate" title="$:/_LeftBar/Reveal" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>&lt;span class=&quot;tc-topbar tc-topbar-left&quot;&gt;
+&lt;$reveal state=&quot;$:/state/LeftBar&quot; type=&quot;nomatch&quot; text=&quot;no&quot;&gt;
+&lt;$button set=&quot;$:/state/LeftBar&quot; setTo=&quot;no&quot; tooltip=&quot;Hide LeftBar&quot; aria-label=&quot;Hide LeftBar&quot; class=&quot;tc-btn-invisible&quot;&gt;{{$:/core/images/chevron-left}}&lt;/$button&gt;
+&lt;/$reveal&gt;
+&lt;$reveal state=&quot;$:/state/LeftBar&quot; type=&quot;match&quot; text=&quot;no&quot;&gt;
+&lt;$button set=&quot;$:/state/LeftBar&quot; setTo=&quot;yes&quot; tooltip=&quot;Hide LeftBar&quot; aria-label=&quot;Show LeftBar&quot; class=&quot;tc-btn-invisible&quot;&gt;{{$:/core/images/chevron-right}}&lt;/$button&gt;
+&lt;/$reveal&gt;
+&lt;/span&gt;</pre>
+</div>
+<div created="20150119093602111" modified="20150205213130330" summary="CSS for ~LeftBar core components, including macro calls to conditionally set CSS." tags="$:/tags/Stylesheet $:/_LeftBarCore" title="$:/_LeftBar/StyleSheet" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>.tc-tiddler-frame {
+     width: 100%;
+}
+
+html .tc-story-river {
+	position: absolute;
+	width:auto; 
+	z-index: 999;
+}
+
+.tc-leftbar-scrollable {
+	position:absolute;
+ 	left:0;
+	width: 18em;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	margin: 0 0 0 0px;
+	padding: 65px 10px 30px 10px;
+}
+
+.tc-sidebar-scrollable {
+	position:relative;
+	float: right;
+	left: auto;
+	width: 21em;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	padding: 75px 0 30px 0px;
+	z-index: 1000; 
+}
+
+&lt;&lt;if-no-rightbar &quot;
+
+html .tc-story-river { right: 4em; padding-right:0em;}
+.tc-sidebar-scrollable { z-index: 998;}
+
+&quot;&gt;&gt;
+
+&lt;&lt;if-rightbar &quot;
+
+.tc-story-river { right: 22.5em; padding-right: 0em;}
+.tc-sidebar-scrollable { z-index: 1000;}
+
+&quot;&gt;&gt;
+
+&lt;&lt;if-no-leftbar &quot;
+
+html .tc-story-river { left: 0; padding-left: 4em;}
+
+&quot;&gt;&gt;
+
+&lt;&lt;if-leftbar &quot;
+
+.tc-story-river { left: 18em; padding-left: 0em;}
+
+&quot;&gt;&gt;</pre>
+</div>
 <div created="20150807132804998" modified="20150807132803771" title="$:/config/DefaultSidebarTab" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
@@ -6842,7 +6955,7 @@ Error message and password prompt
 <div list="[[Welcome Visitors]] Principles" title="$:/StoryList" revision="1" bag="default">
 <pre></pre>
 </div>
-<div modified="20150808003128034" title="$:/temp/focussedTiddler" revision="1" bag="default">
+<div modified="20150808070242631" title="$:/temp/focussedTiddler" revision="1" bag="default">
 <pre>Welcome Visitors</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -6862,8 +6975,8 @@ Error message and password prompt
 <div title="$:/temp/tmap/currentTiddler" revision="2" bag="default">
 <pre>Welcome Visitors</pre>
 </div>
-<div created="20150808000809642" modified="20150808000808409" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>$:/themes/tiddlywiki/centralised</pre>
+<div created="20150808000809642" modified="20150808070225584" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>$:/themes/tiddlywiki/snowwhite</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20150808000715731" dependents="$:/themes/tiddlywiki/snowwhite" description="Centralises the story river, experimental" name="Centralised" plugin-type="theme" title="$:/themes/tiddlywiki/centralised" type="application/json" version="5.1.9" revision="0" bag="default">
 <pre>{
@@ -6977,6 +7090,38 @@ Error message and password prompt
         &quot;$:/themes/tiddlywiki/vanilla/sticky&quot;: {
             &quot;title&quot;: &quot;$:/themes/tiddlywiki/vanilla/sticky&quot;,
             &quot;text&quot;: &quot;&lt;$reveal state=\&quot;$:/themes/tiddlywiki/vanilla/options/stickytitles\&quot; type=\&quot;match\&quot; text=\&quot;yes\&quot;&gt;\n``\n.tc-tiddler-title {\n\tposition: -webkit-sticky;\n\tposition: -moz-sticky;\n\tposition: -o-sticky;\n\tposition: -ms-sticky;\n\tposition: sticky;\n\ttop: 0px;\n\tbackground: ``&lt;&lt;colour tiddler-background&gt;&gt;``;\n\tz-index: 500;\n}\n``\n&lt;/$reveal&gt;\n&quot;
+        }
+    }
+}</pre>
+</div>
+<div author="TonGerner" core-version="5.1.9" created="20141004095634634" creator="TonGerner" dependents="$:/themes/tiddlywiki/snowwhite" description="A theme with bluish colors" list="readme" modified="20150706123240923" modifier="TonGerner" name="Bluish" plugin-type="theme" source="http://tongerner.tiddlyspot.com/" title="$:/themes/tongerner/bluish" type="application/json" version="0.7.19" revision="0" bag="default">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/themes/tongerner/bluish/icon&quot;: {
+            &quot;text&quot;: &quot;AAABAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAAAADfpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/4KUn/+nAaP/v0pP/7s2H/+e5V//irjz/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/irjz/6cBo/+7Nh//x15//8tuo//LbqP/x15//8def//LbqP/v0pP/57lX/+ClJ//fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/+ClJ//pwGj/79KT//HXn//x15//8tuo//LbqP/x15//8def//LbqP/y26j/8def//HXn//y26j/8tuo/+7Nh//nuVf/4q48/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/+CpL//uz4z/8def//LbqP/y26j/8def//HXn//y26j/8tuo//HXn//x15//8tuo//LbqP/x15//8def//LbqP/y26j/8def//HXn//y26j/8NSX/96fGP/cmw7/36Um/9+lJv/cmw7/3JsO/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/+/Sk//y26j/8def//HXn//y26j/8tuo//HXn//uz4z/6cJs/+OwQP/gpyv/57tb//DUl//y26j/8def//HXn//y26j/8tuo//HXn//tzYb/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/6cFp//LbqP/x15//8def//HXnv/rx3n/4q05/9ycEP/fpSb/36Um/9ybDv/cmw7/36Yo/+W1Tf/pwWr/79KT//LbqP/y26j/8def/+e6WP/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/gpij/79KT/+vHef/ltU3/3JwQ/9ybDv/fpSb/36Um/9+jIv/mt1H/6L5i/+KsN//cmw7/3JsO/9+lJv/fpij/4q05/+nBav/x157/468+/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3qEd/+e9X//uz4r/8dee//HXn//y26j/8tqm/+vFc//ksUP/4akw/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/foyL/5rdS/+7Qj//y26j/8def//HXn//y26j/8tuo//HXn//x15//8tuo//LbqP/x15//7cuB/+i+Yv/irDf/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/92eFf/ovmP/7tCP//HXn//x15//8tuo//LbqP/x15//8def//LbqP/y26j/8def//HXn//y26j/8tuo//HXn//x15//8tuo//LbqP/ty4H/5rdR/+CnLP/fpSb/3JsO/9ybDv/fpSb/36Um/9+lJv/fpSb/3JsO/9ybDv/fpSb/4KYp//DTlv/x15//8tuo//LbqP/x15//8def//LbqP/y26j/79KT/+m/Zf/rxXT/8dee//HXn//x15//8tuo//LbqP/x15//8def//LbqP/x16D/3Z0S/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/6sJs//HXn//y26j/8tuo//HXn//w1Zn/7MuB/+a5Vv/dnRT/3JsO/9+lJv/gpyv/5LFD/+vFc//x2aP/8tuo//HXn//x15//8tuo/+vIef/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/ltk//8tuo//DVmf/rxXP/5rlW/+CnK//cmw7/3JsO/9+lJv/hqjH/3qAZ/9ybDv/fpSb/36Um/92dFP/ksUP/7MuB//HZo//x15//4647/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/+CmKf/ks0n/3JwQ/9ybDv/fpSb/36Um/92fF//ksUP/7MuB//Lapf/w1Zn/6cFq/+W3Uf/gqC7/3JsO/9ybDv/fpSb/36Yo/+KrNf/dnRL/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/4aox/+SzSP/rx3j/8tqm//LbqP/x15//8def//LbqP/y26j/8def//HWnf/tzYX/57ta/96gGv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/dnxf/5LFD/+zLgf/y2qX/8def//HXn//y26j/8tuo//HXn//x15//8tuo//LbqP/x15//8def//LbqP/y26j/8NWb/+vFc//muVb/4Kgu/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9ybDv/cmw7/36Um/9+lJv/cmw7/3p8Y//Lapv/y26j/8def//HXn//y26j/8tuo//HXn//x15//8tuo//HZo//w1Zn/8def//LbqP/y26j/8def//HXn//y26j/8tuo//HXn//x1pz/4Kkv/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/7s+L//LbqP/x15//8def//LbqP/y26j/8dad/+zJfv/nvV//4akw/96gGv/ltU3/7s+K//Lapv/x15//8def//LbqP/y26j/8def/+zKfv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/ltk//8def//LbqP/y2qb/7Ml+/+W1Tf/hqTD/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3qAa/+e9X//uz4r/8dad//HXn//y26j/6L1g/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/96iHv/qw27/5bdR/+CnK//cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/dnhX/468//+zJff/hqzT/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/3JsO/9ybDv/fpSb/36Um/9ybDv/cmw7/36Um/9+lJv/cmw7/3JsO/9+lJv/fpSb/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=&quot;,
+            &quot;created&quot;: &quot;20140912183915003&quot;,
+            &quot;creator&quot;: &quot;TonGerner&quot;,
+            &quot;modified&quot;: &quot;20140912183936778&quot;,
+            &quot;modifier&quot;: &quot;TonGerner&quot;,
+            &quot;title&quot;: &quot;$:/themes/tongerner/bluish/icon&quot;,
+            &quot;type&quot;: &quot;image/x-icon&quot;
+        },
+        &quot;$:/themes/tongerner/bluish/readme&quot;: {
+            &quot;text&quot;: &quot;A theme with mainly bluish colors.&quot;,
+            &quot;created&quot;: &quot;20140912183958768&quot;,
+            &quot;creator&quot;: &quot;TonGerner&quot;,
+            &quot;modified&quot;: &quot;20150613192936459&quot;,
+            &quot;modifier&quot;: &quot;TonGerner&quot;,
+            &quot;title&quot;: &quot;$:/themes/tongerner/bluish/readme&quot;
+        },
+        &quot;$:/themes/tongerner/bluish/styles&quot;: {
+            &quot;created&quot;: &quot;20140830140918220&quot;,
+            &quot;creator&quot;: &quot;TonGerner&quot;,
+            &quot;text&quot;: &quot;\\define tversion(theme)\n&lt;$list filter=\&quot;[has[version]]+[prefix[$:/themes/tongerner/$theme$]]\&quot;&gt;&lt;$view field=\&quot;version\&quot;/&gt;\n\\end\n\n&lt;pre&gt;/* ============ Bluish theme v&lt;&lt;tversion \&quot;bluish\&quot;&gt;&gt; ============= */\n\n/* VERTICAL OFFSET FOR TOP OF TIDDLERS */\n\n.tc-story-river {\n     padding-top: 0px;\n     transform: translate(0px, 42px);\n     -ms-transform: translate(0px, 42px);\n     -webkit-transform: translate(0px, 42px);\n}\n\n/* VERTICAL OFFSET FOR TOP OF SIDEBAR */\n\n.tc-sidebar-scrollable {\n    top: 0px;\n}\n\n\n/* GENERAL */\n/* body prefix required! */\nbody.tc-body {\n     font-family: Verdana, Geneva, \&quot;DejaVu Sans\&quot;, sans-serif;\n     color: #0044BB;\n     background-color: #FAFBFD;\n}\n\n/* COLORS */\n.black {\n     color: #000000;\n}\n\n.BLACK {\n     color: #000000;\n     font-weight: bold;\n}\n\n.red {\n     color: #FF0000;\n}\n\n.RED {\n     color: #FF0000;\n     font-weight: bold;\n}\n\n.brown {\n     color: #884411;\n}\n\n.BROWN {\n     color: #884411;\n     font-weight: bold;\n}\n\n.blue {\n     color: #006DEC;\n}\n\n.BLUE {\n     color: #006DEC;\n     font-weight: bold;\n}\n\n.lightblue {\n     color: #007DFF;\n}\n\n/* TEXT STYLES */\n.smalltext {\n     font-size: 0.7em;\n}\n\n.monospace {\n     font-family: Inconsolata, Consolas, monospace, serif;\n}\n\n/* TIDDLER FRAME */\n.tc-tiddler-frame {\n     background-color: #FEFEFE;\n     border-radius: 1em;\n     -moz-border-radius: 1em;\n     -webkit-border-radius: 1em;\n}\n\n/* TITLES */\n.tc-site-title, .tc-titlebar {\n     font-size: 2em;\n     font-weight: bold;\n     color: #0044BB;\n     text-shadow: 2px 2px 4px #999999;\n     border-bottom: 2px solid #D1DDF3;\n     margin-bottom: 0.4em;\n     padding-bottom: 11px;\n}\n\n.tc-titlebar {\n     font-size: 1.9em;\n     padding-top: 2px;\n}\n\n.tc-site-title {\n     padding-bottom: 14px;\n}\n\n/* font-size title in edit mode */\ninput.tc-edit-texteditor {\n     font-size: 1.3em;\n}\n\n/* font-size add tag */\n.tc-edit-add-tag .tc-add-tag-name input {\n     font-size: 1.0em;\n     width: 50%;\n}\n\n/* font-size add field &amp; value */\n.tc-edit-field-add-name input.tc-edit-texteditor{\n     font-size: 1.0em;\n}\n.tc-edit-field-add-value input.tc-edit-texteditor{\n     font-size: 1.0em;\n}\n\n/* HEADINGS */\nh1, h2, h3, h4, h5, h6 {\n     line-height: 1em;\n     margin: 0px;\n}\n\nh1 {\n     font-size: 1.3em;\n     font-weight: 700;\n}\n\nh2 {\n     font-size: 1.2em;\n     font-weight: 700;\n}\n\nh3 {\n     font-size: 1.1em;\n     font-weight: 700;\n}\n\nh4 {\n     font-size: 1.0em;\n     font-variant:small-caps;\n     font-weight: 700;\n}\n\n/* LINKS */\na.tc-tiddlylink {\n     color: #007dff;\n     font-weight: normal;\n}\n\na.tc-tiddlylink:hover {\n     text-decoration: underline;\n}\n\na.tc-tiddlylink-missing {\n     font-style: normal;\n     color: red;\n}\n\na.tc-tiddlylink-shadow {\n     font-weight: bold;\n}\n\na.tc-tiddlylink-shadow.tc-tiddlylink-resolves {\n     font-weight: bold;\n     color: #884411;\n}\n\nblockquote {\n     border-left: 5px solid #CCE6FF;\n}\n\n/* SLIDER */\nhtml .tc-slider {\n     color: #006DEC;\n     font-weight: bold;\n}\n\n.tc-slider:hover {\n     color: #006DEC;\n     text-decoration: underline;\n}\n\n/* SLIDER TIDDLERS */\n.sliderBG {\n     color: #000080;\n     background-color: #F7FAFF;\n}\n\n/* BUTTONS */\n.tc-page-controls svg {\n     fill: #B9CCEC;\n}\n\n.tc-page-controls button:hover svg,\n.tc-page-controls a:hover svg {\n     fill: #0044BB;\n}\n\n/* html prefix required!! */\nhtml .tc-tiddler-controls svg {\n     fill: #B9CCEC;\n}\n\n.tc-tiddler-controls button.tc-btn-invisible:hover svg {\n     fill: #0044BB;\n}\n.tc-sidebar-lists button.tc-btn-mini {\n     color: #B9CCEC;\n     font-weight: bold;\n}\n\n.tc-sidebar-lists button.tc-btn-mini:hover {\n     color: #0044BB;\n     font-weight: bold;\n}\n\n.tc-topbar button svg {\n     fill: #B9CCEC;\n}\n\n.tc-topbar button:hover svg {\n     fill: #0044BB;\n}\n\n/* SIZE OF BUTTON IMAGES IN DOCUMENTATION */\n.tc-image-button {\n     height: 1.1em;\n}\n\n/* tiddler controls */\n.tc-tiddler-controls .tc-drop-down a,\n.tc-tiddler-controls .tc-drop-down button {\n     font-size: 0.9em;\n     font-weight: normal;\n}\n\n/* TAGS DROPDOWN LISTS */\n.tc-tag-list-item .tc-drop-down a,\n.tc-drop-down button,\n.tc-sidebar-lists .tc-drop-down a,\n.tc-sidebar-lists .tc-drop-down button {\n    color: #0044BB;\n    font-size: 1.0em;\n}\n\n.tc-tag-list-item .tc-drop-down a:hover,\n.tc-sidebar-lists .tc-drop-down a:hover {\n     color: #FFFFFF;\n}\n\n/* DROPDOWN MENU MORE */\n/* page controls */\n.tc-drop-down a, .tc-drop-down button {\n    color: #0044BB;\n    font-size: 0.7em;\n}\n\n/* TABS*/\n.tc-tiddler-info .tc-tab-buttons button.tc-tab-selected {\n     background-color: #D1DDF3;\n     font-weight: bold;\n     border: 1px solid #A2BBE6;\n     border-radius: 0.3em;\n}\n\n.tc-tab-buttons {\n    margin-bottom: -1px;\n}\n\n.tc-tab-buttons button.tc-tab-selected {\n     color: #0044BB;\n     font-weight: bold;\n     background-color: #D1DDF3;\n     border: 1px solid #A2BBE6;\n     border-radius: 0.3em;\n}\n\n.tc-tab-buttons button {\n     color: #0044BB;\n     background-color: #FFFFFF;\n     border: 1px solid #D1DDF3;\n     border-radius: 0.3em;\n}\n\n.tc-tab-buttons.tc-vertical button {\n     background-color: #FFFFFF;\n     border: 1px solid #D1DDF3;\n     border-radius: 0.3em;\n}\n\n.tc-tab-buttons.tc-vertical button.tc-tab-selected {\n     background-color: #D1DDF3;\n     font-weight: bold;\n}\n\n.tc-tab-divider {\n     border-top: 1px solid #D1DDF3;\n}\n\n.tc-tab-divider.tc-vertical  {\n/*     display: none;*/\n     border-right: #D1DDF3;\n}\n\n.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {\n     background-color: #D1DDF3;\n     font-weight: bold;\n     border: 1px solid #A2BBE6;\n     border-radius: 0.3em;\n}\n\n.tc-sidebar-lists .tc-tab-buttons button {\n     background-color: #FFFFFF;\n     color: #0044BB;\n     border: 1px solid #D1DDF3;\n     border-radius: 0.3em;\n}\n\n.tc-sidebar-lists .tc-tab-divider {\n     border-top: 1px solid #D1DDF3;\n}\n\n.tc-more-sidebar .tc-tab-buttons button {\n     background: #FFFFFF;\n     border: 1px solid #D1DDF3;\n     border-radius: 0.3em;\n}\n\n.tc-more-sidebar .tc-tab-buttons button.tc-tab-selected {\n     background: #D1DDF3;\n     border: 1px solid #A2BBE6;\n     border-radius: 0.3em;\n}\n\n/* SIDEBAR */\n/* subtitle, date recent tiddlers, search heading + count, tag count, TW version */\n.tc-sidebar-header {\n     color: #5D88D4;\n}\n\n/* entries (links) in Sidebar tabs + X to close search */\n.tc-sidebar-lists a.tc-tiddlylink {\n     color: #5D88D4;\n     fill: #5D88D4;\n}\n\n.tc-sidebar-lists a.tc-tiddlylink:hover {\n     color: #0044BB;\n     fill: #0044BB;\n}\n\n/* BROWN OVERWRITTEN SHADOW TIDDLERS */\n.tc-sidebar-lists a.tc-tiddlylink-shadow.tc-tiddlylink-resolves {\n     font-weight: bold;\n     color: #884411;\n}\n\n/* Tools tab, button hint (+ Control panel) */\n.tc-muted {\n     color: #5D88D4;\n}\n\n/* search entries */\n.tc-sidebar-lists input {\n     color: #0044BB;\n}\n\n/* EDIT MODE */\ntextarea.tc-edit-texteditor, code, kbd, pre, samp {\n     font-family: Inconsolata, Consolas, monospace, serif;\n     font-size: 1em;\n}\n\ntextarea, input [type=\&quot;text\&quot;] {\n     color: #0044BB;\n}\ninput.tc-titlebar.tc-edit-texteditor {\n     color: #0044BB;\n}\n\n/* OMIT SOLID BORDER-BOTTOM */\n.tc-keyboard .tc-titlebar {\n     border-bottom-style: none;\n}\n\n/* SAVE NOTIFICATION SHIFTED LEFT */\n.tc-notification {\n     right: 72px;\n     background-color: #FFFFFF;\n}\n\n/* BORDERLESS TABLES */\n.borderless, .borderless table, .borderless td, .borderless tr, .borderless th, .borderless tbody {\n     border:0 !important;\n     margin:0 !important;\n     padding:0 !important;\n}\n\n/* BREADCRUMBS TOP MENU */\n\n/* COLOR OF BREADCRUMBS */\n.tc-breadcrumbs a.tc-tiddlylink {\n     color: #EEE; /* color of breadcrumb links */\n     background-color: #04B; /* background color of breadcrumb links */\n     padding: 0px 5px 3px 5px; /* corrected padding */\n}\n\n.tc-breadcrumbs a.tc-tiddlylink:hover {\n     background-color: #007dff; /* background color when hovering */\n}\n\n/* COLOR OF BREADCRUMB CLOSE [x] */\nhtml .tc-btn-top {\n     color: #777; /* color of 'x' */\n     background-color: #04B;  /* background color of 'x' */\n     padding: 1px 5px 4px 0px; /* corrected padding */\n}\n.tc-btn-top:hover {\n     color: #EEE; /* color of 'x' when hovering */\n     background-color: #007dff; /* background color when hovering */\n}\n&lt;/pre&gt;&quot;,
+            &quot;modified&quot;: &quot;20150717090049534&quot;,
+            &quot;modifier&quot;: &quot;TonGerner&quot;,
+            &quot;tags&quot;: &quot;$:/tags/Stylesheet&quot;,
+            &quot;title&quot;: &quot;$:/themes/tongerner/bluish/styles&quot;
         }
     }
 }</pre>
@@ -9815,12 +9960,12 @@ vis.js Timeline is a TiddlyWiki plugin that allows you to link your wiki-topics 
 &lt;&lt;&lt;
 </pre>
 </div>
-<div created="20150807023829352" modified="20150808000528789" tags="Meta" title="Welcome Visitors" tmap.id="fc2b848e-e550-4d94-a61b-f278f68423f7" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20150807023829352" modified="20150808004047887" tags="Meta" title="Welcome Visitors" tmap.id="fc2b848e-e550-4d94-a61b-f278f68423f7" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>This is a community about [[People, Patterns and Productivity]] based on the [[XSCALE principles|Principles]]. Thanks for kindly dropping in. Sit a spell. Kick your shoes off. 
 
-xscale.wiki is in TiddlyWiki format for the freedom, simplicity, and communications power that provides. And it's served by GitHub to enable [[decentralized collaboration]].
+xscale.wiki is in TiddlyWiki format and served by GitHub to enable [[decentralized collaboration]]. It was started by [[Peter Merel|PeterMerel]] and a small crew of long-time Agilists but we always accept newcomers with valuable contributions. 
 
-We always accept newcomers with valuable contributions. Everything on xscale.wiki is under a [[cc-by-nc-sa|http://creativecommons.org/licenses/by-nc-sa/4.0/]] license by the respective editors but please grok our StyleGuidelines and SocialRules before [[Contributing]]. 
+Everything on xscale.wiki is under a [[cc-by-nc-sa|http://creativecommons.org/licenses/by-nc-sa/4.0/]] license by the respective editors but please grok our StyleGuidelines and SocialRules before [[Contributing]]. 
 
 -- [[Pete|PeterMerel]]</pre>
 </div>
