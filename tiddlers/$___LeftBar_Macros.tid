@@ -1,0 +1,23 @@
+created: 20150131221448784
+modified: 20150205212513676
+summary: Macros to reveal/hide either sidebar based on values in their state tiddlers. Compare with "if-sidebar" in [[$:/core/macros/CSS]]
+tags: $:/tags/Macro $:/_LeftBarCore
+title: $:/_LeftBar/Macros
+type: text/vnd.tiddlywiki
+
+\define if-leftbar(text)
+<$reveal state="$:/state/LeftBar" type="match" text="yes" default="yes">$text$</$reveal>
+\end
+
+\define if-no-leftbar(text)
+<$reveal state="$:/state/LeftBar" type="nomatch" text="yes" default="yes">$text$</$reveal>
+\end
+
+\define if-rightbar(text)
+<$reveal state="$:/state/sidebar" type="match" text="yes" default="yes">$text$</$reveal>
+\end
+
+\define if-no-rightbar(text)
+<$reveal state="$:/state/sidebar" type="nomatch" text="yes" default="yes">$text$</$reveal>
+\end
+

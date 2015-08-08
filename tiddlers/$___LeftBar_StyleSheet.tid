@@ -1,0 +1,65 @@
+created: 20150119093602111
+modified: 20150205213130330
+summary: CSS for ~LeftBar core components, including macro calls to conditionally set CSS.
+tags: $:/tags/Stylesheet $:/_LeftBarCore
+title: $:/_LeftBar/StyleSheet
+type: text/vnd.tiddlywiki
+
+.tc-tiddler-frame {
+     width: 100%;
+}
+
+html .tc-story-river {
+	position: absolute;
+	width:auto; 
+	z-index: 999;
+}
+
+.tc-leftbar-scrollable {
+	position:absolute;
+ 	left:0;
+	width: 18em;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	margin: 0 0 0 0px;
+	padding: 65px 10px 30px 10px;
+}
+
+.tc-sidebar-scrollable {
+	position:relative;
+	float: right;
+	left: auto;
+	width: 21em;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	padding: 75px 0 30px 0px;
+	z-index: 1000; 
+}
+
+<<if-no-rightbar "
+
+html .tc-story-river { right: 4em; padding-right:0em;}
+.tc-sidebar-scrollable { z-index: 998;}
+
+">>
+
+<<if-rightbar "
+
+.tc-story-river { right: 22.5em; padding-right: 0em;}
+.tc-sidebar-scrollable { z-index: 1000;}
+
+">>
+
+<<if-no-leftbar "
+
+html .tc-story-river { left: 0; padding-left: 4em;}
+
+">>
+
+<<if-leftbar "
+
+.tc-story-river { left: 18em; padding-left: 0em;}
+
+">>

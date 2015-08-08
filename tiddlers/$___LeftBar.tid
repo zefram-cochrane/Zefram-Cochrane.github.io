@@ -1,0 +1,18 @@
+created: 20150130232420338
+modified: 20150205154223034
+summary: The actual ~LeftBar. Lists all tiddlers tagged with its name.
+tags: $:/tags/PageTemplate $:/_LeftBarCore
+title: $:/_LeftBar
+type: text/vnd.tiddlywiki
+
+<$scrollable fallthrough="no" class="tc-leftbar-scrollable">
+
+<$reveal state="$:/state/LeftBar" type="match" text="yes" default="yes" retain="yes">
+
+<$list filter="[all[shadows+tiddlers]tag[$:/_LeftBar]!has[draft.of]]">
+{{!!text}}
+</$list>
+
+</$reveal>
+
+</$scrollable>

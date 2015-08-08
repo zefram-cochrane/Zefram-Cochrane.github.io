@@ -1,0 +1,15 @@
+created: 20150130230345427
+modified: 20150207001053802
+summary: Sets ~LeftBar state via left reveal/hide arrow. Compare to core tiddler [[$:/core/ui/TopBar/menu]]
+tags: $:/_LeftBarCore $:/tags/PageTemplate
+title: $:/_LeftBar/Reveal
+type: text/vnd.tiddlywiki
+
+<span class="tc-topbar tc-topbar-left">
+<$reveal state="$:/state/LeftBar" type="nomatch" text="no">
+<$button set="$:/state/LeftBar" setTo="no" tooltip="Hide LeftBar" aria-label="Hide LeftBar" class="tc-btn-invisible">{{$:/core/images/chevron-left}}</$button>
+</$reveal>
+<$reveal state="$:/state/LeftBar" type="match" text="no">
+<$button set="$:/state/LeftBar" setTo="yes" tooltip="Hide LeftBar" aria-label="Show LeftBar" class="tc-btn-invisible">{{$:/core/images/chevron-right}}</$button>
+</$reveal>
+</span>
