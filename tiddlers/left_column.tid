@@ -1,0 +1,9 @@
+created: 20150808074203789
+modified: 20150808111151128
+tags: $:/_LeftBar
+title: left column
+tmap.id: a3e2a21a-e7cb-490e-bd74-ef7f2eda254f
+type: text/vnd.tiddlywiki
+
+<h1>Recent Changes</h1>
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>

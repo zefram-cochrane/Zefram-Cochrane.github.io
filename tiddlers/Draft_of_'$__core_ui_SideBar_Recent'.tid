@@ -1,0 +1,10 @@
+caption: {{$:/language/SideBar/Recent/Caption}}
+created: 20150808110444420
+draft.of: $:/core/ui/SideBar/Recent
+draft.title: $:/core/ui/SideBar/Recent
+modified: 20150808110443302
+tags: $:/tags/SideBar
+title: Draft of '$:/core/ui/SideBar/Recent'
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>
