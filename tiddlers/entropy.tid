@@ -1,0 +1,11 @@
+created: 20150808232656840
+modified: 20150809000400300
+title: entropy
+tmap.id: b3feef48-ad51-466f-854a-35fe90fa7e5f
+type: text/vnd.tiddlywiki
+
+The number of different states a system's components can experience at once. Before ice melts, for example, it has lower entropy than after because liquid water can flow in more ways simultaneously than solid ice. In [[XSCALE]], entropy is a key metric to determine the lack of [[product-market fit]].
+
+The famous [[Second Law of Thermodynamics]] says we can't reduce the entropy of a closed system. Flowers, fridges, and most human systems aren't closed, however. 
+
+The opposite of entropy is [[extropy|eXtropic]], which occurs in open systems to the extent we're able to use energy to access and store more energy, pumping entropy away as heat. In an open system both entropy and extropy occur at the same time.
