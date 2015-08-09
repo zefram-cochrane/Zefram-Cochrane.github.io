@@ -1,0 +1,14 @@
+created: 20150809075355689
+modified: 20150809075945605
+tags: Meta
+title: ToDo
+tmap.id: 57747d29-3e91-4134-8c63-b75b537e4728
+type: text/vnd.tiddlywiki
+
+* Add the 3 big external images - see whether they can be added as SVG
+* Add femto-summaries of the xscale practices all tagged "expand"
+* Figure out how to change the page toolbar to link to xscale-specific tags
+* Create a kanban tiddler by using a toolbar for the workstate tags
+* Push the search field to the right of the page toolbar
+* Make the title link expose Info/References somehow
+* ...
