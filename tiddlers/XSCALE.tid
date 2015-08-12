@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20150811030847752
+modified: 20150812023755046
 title: XSCALE
 tmap.id: 3341bf6c-f6d7-4545-8486-482d0067bbb5
 type: text/vnd.tiddlywiki
@@ -7,12 +7,12 @@ type: text/vnd.tiddlywiki
 XSCALE is a pattern language for [[3rd Generation Agile]], extending the [[Agile Manifesto]] to [[Product Management]], [[Portfolio Management]], [[Change Management]] and [[Holarchy]]. The name is an acronym for the principles of the [[pattern language]]:
 
 """
-[[e|eXtropic]]''X''[[tropic|eXtropic]]: [[positive sum games]] over [[zero sum games]]
-&nbsp;&nbsp;''S''[[cale-symmetric|Scale-symmetric]]: [[fractal]] over [[fragile]]
-&nbsp;&nbsp;''C''[[ontinuous|Continuous]]: [[small batch]] [[asynchronous]][[single-piece flow]] over [[big room meetings]]
-&nbsp;&nbsp;''A''[[utonomous|Autonomous]]: [[holarchy]] over [[hierarchy]]
-&nbsp;&nbsp;''L''[[ean|Lean]]: optimizing [[bottom-line]] [[metrics]] and [[analytics]]
-&nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: [[decentralized]], [[adaptive]], [[iterative and contractive]]
+[[e|eXtropic]]''X''[[tropic|eXtropic]]: [[market-making products]] and [[positive sum strategies]]
+&nbsp;&nbsp;''S''[[cale-symmetric|Scale-symmetric]]: [[breadth-first]] [[iterative and contractive]]
+&nbsp;&nbsp;''C''[[ontinuous|Continuous]]: [[small batch]] [[decentralised]] [[pull-based flow]]
+&nbsp;&nbsp;''A''[[utonomous|Autonomous]]: [[Holarchies]] of [[self-organising squads]] self-align via [[chapter meetings]]
+&nbsp;&nbsp;''L''[[ean|Lean]]: [[ROI+COD prioritisation]] and [[continuous improvement]]
+&nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: [[metric feedback loops]] inform [[adaptive leadership]]
 """
 
 * [[Patterns|Practice Patterns]] * [[Structures]] * [[Metrics]]
