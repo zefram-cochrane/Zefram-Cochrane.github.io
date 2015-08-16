@@ -1,0 +1,43 @@
+<img src="http://xscale.wiki/images/xscale-practices.png" width="650" height="423" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:pete  -->
+<area shape="rect" coords="0,120,31,299"  nohref="nohref" />
+<area shape="rect" coords="136,43,236,60" href="#Impact%20Mapping" />
+<area shape="rect" coords="109,91,214,107"  nohref="nohref" />
+<area shape="rect" coords="97,139,210,154"  nohref="nohref" />
+<area shape="rect" coords="92,188,181,204"  nohref="nohref" />
+<area shape="rect" coords="96,236,209,252"  nohref="nohref" />
+<area shape="rect" coords="100,283,208,298"  nohref="nohref" />
+<area shape="rect" coords="110,332,230,346"  nohref="nohref" />
+<area shape="rect" coords="152,371,232,397"  nohref="nohref" />
+<area shape="rect" coords="222,6,325,27"  nohref="nohref" />
+<area shape="rect" coords="338,5,480,27"  nohref="nohref" />
+<area shape="rect" coords="283,52,481,79"  nohref="nohref" />
+<area shape="rect" coords="295,104,481,127"  nohref="nohref" />
+<area shape="rect" coords="332,149,481,173"  nohref="nohref" />
+<area shape="rect" coords="339,198,394,223"  nohref="nohref" />
+<area shape="rect" coords="405,198,479,223"  nohref="nohref" />
+<area shape="rect" coords="324,249,482,270"  nohref="nohref" />
+<area shape="rect" coords="281,292,403,317"  nohref="nohref" />
+<area shape="rect" coords="415,294,482,318"  nohref="nohref" />
+<area shape="rect" coords="266,342,348,368"  nohref="nohref" />
+<area shape="rect" coords="365,341,484,367"  nohref="nohref" />
+<area shape="rect" coords="233,397,481,416"  nohref="nohref" />
+<area shape="circle" coords="571,83,48"  nohref="nohref" />
+<area shape="circle" coords="572,206,47"  nohref="nohref" />
+<area shape="circle" coords="571,334,47"  nohref="nohref" />
+<area shape="rect" coords="510,12,568,26"  nohref="nohref" />
+<area shape="rect" coords="576,12,628,26"  nohref="nohref" />
+<area shape="rect" coords="514,138,566,154"  nohref="nohref" />
+<area shape="rect" coords="573,140,634,154"  nohref="nohref" />
+<area shape="rect" coords="518,267,561,279"  nohref="nohref" />
+<area shape="rect" coords="575,267,629,279"  nohref="nohref" />
+<area shape="rect" coords="510,389,569,402"  nohref="nohref" />
+<area shape="rect" coords="574,393,636,406"  nohref="nohref" />
+<area shape="rect" coords="487,125,507,309"  nohref="nohref" />
+</map>
