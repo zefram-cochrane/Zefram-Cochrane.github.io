@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20150816182520755
+modified: 20150816183509265
 title: XSCALE
 tmap.id: 3341bf6c-f6d7-4545-8486-482d0067bbb5
 type: text/vnd.tiddlywiki
@@ -8,10 +8,10 @@ XSCALE is a pattern language for [[3rd Generation Agile]], extending the [[Agile
 
 """
 [[e|eXtropic]]''X''[[tropic|eXtropy]]: capable of generating change
-&nbsp;&nbsp;''S''[[cale-symmetric|Scale Symmetry]]: simple in that similar at any scale
+&nbsp;&nbsp;''S''[[cale-symmetric|Scale Symmetry]]: simply similar at any scale
 &nbsp;&nbsp;''C''[[ontinuous|Continuous]]: small-batch, breadth-first, pull-based workflow
-&nbsp;&nbsp;''A''[[utonomous|Autonomous]]: holarchic self-aligning self-organising squads
-&nbsp;&nbsp;''L''[[earning]]: measuring and optimising bottom-line metrics & analytics
+&nbsp;&nbsp;''A''[[utonomous|Autonomous]]: self-aligning, self-organising holarchy
+&nbsp;&nbsp;''L''[[earning]]: optimising bottom-line-based metrics & analytics
 &nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: decentralised, harmonious, positive sum games
 """
 
