@@ -1,10 +1,10 @@
 created: 20150809165413052
-modified: 20150818022241346
+modified: 20150818023551117
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
 
-<img src="http://xscale.wiki/images/xscale-practices.png" width="600" height="423" border="0" usemap="#map" />
+<img src="http://xscale.wiki/images/xscale-practices.png" width="600" height="393" border="0" usemap="#map" />
 
 <map name="map">
 <area shape="rect" coords="0,122,47,301"  nohref="nohref" />
