@@ -1,17 +1,12 @@
 created: 20150809165413052
-modified: 20150812031012880
-title: $:patterns-image
+modified: 20150818020039260
+title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
 
 <img src="http://xscale.wiki/images/xscale-practices.png" width="650" height="423" border="0" usemap="#map" />
 
 <map name="map">
-<!-- #$-:Image map file created by GIMP Image Map plug-in -->
-<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
-<!-- #$-:Please do not edit lines starting with "#$" -->
-<!-- #$VERSION:2.3 -->
-<!-- #$AUTHOR:pete -->
 <area shape="rect" coords="0,122,47,301"  nohref="nohref" />
 <area shape="rect" coords="94,38,275,82" href="#Impact%20Mapping" />
 <area shape="rect" coords="74,88,290,130"  nohref="nohref" />
