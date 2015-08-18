@@ -1,0 +1,10 @@
+created: 20150809210853784
+modified: 20150818102751023
+tags: 
+title: XSCALE Practices
+tmap.id: f1f31f19-d270-4e95-b5a9-afb3b1d8a3a5
+type: text/vnd.tiddlywiki
+
+{{$:/patterns-image}}
+
+|! [[Principles|XSCALE Principles]] | [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |

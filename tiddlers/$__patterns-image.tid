@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20150818054437308
+modified: 20150818073401100
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -7,22 +7,17 @@ type: text/vnd.tiddlywiki
 <img src="http://xscale.wiki/images/xscale-practices.png" width="600" height="392" border="0" usemap="#map" />
 
 <map name="map">
-<!-- #$-:Image map file created by GIMP Image Map plug-in -->
-<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
-<!-- #$-:Please do not edit lines starting with "#$" -->
-<!-- #$VERSION:2.3 -->
-<!-- #$AUTHOR:pete  -->
 <area shape="poly" coords="87,66,102,63,122,60,141,59,157,58,207,58,216,59,216,52,255,66,222,75,219,66,185,67,138,67,109,70,90,73,79,77,72,80,82,71" alt="Impact Mapping" href="#Impsvy%20Msppinh" />
 <area shape="poly" coords="46,119,66,114,86,110,112,106,132,105,161,103,187,102,215,103,228,103,225,97,269,108,229,117,227,112,201,111,170,111,132,113,97,117,68,121,53,126,46,129,40,132" alt="Set Based Design" href="#Set%20Based%20Design" />
 <area shape="poly" coords="31,163,39,160,54,155,66,153,86,150,116,147,158,145,194,144,223,144,254,145,254,140,298,151,259,160,257,154,209,154,169,153,126,154,85,158,57,162,43,165,33,170,29,174" alt="Behaviour Mapping" href="#Behaviour%20Mapping" />
 <area shape="poly" coords="29,208,41,204,58,200,78,196,101,193,135,190,169,189,201,188,258,189,271,189,268,185,309,196,275,203,272,198,226,197,174,197,124,199,84,202,59,206,42,211,34,215,30,220" alt="Business Bingo" href="#Business%20Bingo" />
 <area shape="poly" coords="39,256,47,252,60,248,80,243,105,239,131,237,157,235,195,234,229,234,251,235,250,229,294,240,255,250,251,243,228,244,194,243,154,244,121,246,89,249,67,254,54,258,43,265" alt="Release Refactoring" href="#Release%20Refactoring" />
 <area shape="poly" coords="66,304,74,298,83,294,100,288,123,282,148,279,181,277,199,278,219,277,217,272,259,284,221,293,219,288,185,287,165,287,136,288,114,292,96,297,84,302,78,307,74,314" alt="Portfolio Holarchy" href="#Portfolio%20Holarchy" />
-<area shape="poly" coords="111,343,116,338,123,333,131,330,145,326,156,325,169,323,182,323,195,323,212,324,212,318,245,329,214,335,213,330,198,330,175,329,159,331,143,333,130,338,123,341,121,345,122,350" alt="Autonomous Squds" href="#Autonomous%20Squads" />
+<area shape="poly" coords="111,343,116,338,123,333,131,330,145,326,156,325,169,323,182,323,195,323,212,324,212,318,245,329,214,335,213,330,198,330,175,329,159,331,143,333,130,338,123,341,121,345,122,350" alt="Autonomous Squads" href="#Autonomous%20Squads" />
 <area shape="rect" coords="145,348,211,362" alt="Behaviour Driven Devops" href="#BD-Devops" />
 <area shape="rect" coords="97,307,213,319" alt="Autonomous Squads" href="#Autonomous%20 Squads" />
 <area shape="rect" coords="86,263,193,277" alt="Portfolio Holarchy" href="#Portfolio%20Holarchy" />
-<area shape="rect" coords="82,219,196,233" alt="Release Refactoring" href="#Release%20Refacoring" />
+<area shape="rect" coords="82,219,196,233" alt="Release Refactoring" href="#Release%20Refactoring" />
 <area shape="rect" coords="82,173,168,189" alt="Business Bingo" href="#Business%Bingo" />
 <area shape="rect" coords="88,128,193,143" alt="Behaviour Mapping" href="#Behaviour%20Mapping" />
 <area shape="rect" coords="97,85,196,101" alt="Set Based Design" href="#Set%20Based%20Design" />
@@ -31,7 +26,7 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="207,7,282,26" alt="Productivity Metrics" href="#Productivity%20Metrics" />
 <area shape="rect" coords="282,8,447,27" alt="Product Analytics" href="#Product%20Analytics" />
 <area shape="rect" coords="259,51,445,74" alt="Epic Landscape" href="#Epic%20Landscape" />
-<area shape="rect" coords="273,97,446,117" alt="Solution Constratins" href="#Solution%20Constraints" />
+<area shape="rect" coords="273,97,446,117" alt="Solution Constraints" href="#Solution%20Constraints" />
 <area shape="rect" coords="307,142,445,160" alt="Feature-Theme Matrix" href="#Feature-Theme Matrix" />
 <area shape="rect" coords="313,185,405,208" alt="Feature Budget / Feature Points" href="#Feature%20Points" />
 <area shape="rect" coords="405,186,447,205" alt="ROI+COD" href="#Royal%20Cod" />
@@ -46,7 +41,7 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="475,363,525,380" alt="Autonomy" href="#Autonomy" />
 <area shape="rect" coords="528,364,587,380" alt="Acceleration" href="#Acceleration" />
 <area shape="circle" coords="522,313,47" alt="Chapter Meetings" href="#Chapter%20Meetings" />
-<area shape="circle" coords="522,196,47" alt="Product Squads" href="#Product%20Sqiads" />
+<area shape="circle" coords="522,196,47" alt="Product Squads" href="#Product%20Squads" />
 <area shape="circle" coords="521,78,48" alt="Portfolio Squad" href="#Portfolio%20Squad" />
 <area shape="rect" coords="471,14,526,28" alt="Assessment" href="#Assessment" />
 <area shape="rect" coords="531,15,581,29" alt="Allocation" href="#Allocation" />
