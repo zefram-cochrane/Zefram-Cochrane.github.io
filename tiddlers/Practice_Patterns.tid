@@ -1,19 +1,8 @@
 created: 20150809210853784
-modified: 20150818000155067
+modified: 20150818054538589
 tags: 
 title: Practice Patterns
 tmap.id: 7e9b4fad-511f-49f9-989e-619e0c58321e
 type: text/vnd.tiddlywiki
 
 {{$:/patterns-image}}
-
-|[[Impact Mapping]] |[[Epic Landscape]] |
-|[[Set Based Design]] |[[Solution Constraints]] |
-|[[Behaviour Mapping]] |[[Feature-Theme Matrix]] |
-|[[Business Bingo]] |[[Feature Budgets]] & [[Royal Cod]] |
-|[[Release Refactoring]] |[[Feature Release Plans]] |
-|[[Portfolio Holarchy]] |[[Squad Orchestration]] |
-|[[Autonomous Squads]] |[[Bottom-Line Metrics]] & [[Quality Gates]] |
-|[[BD-DevOps]] |[[Automated Configuration Management]] |
-|[[Continuous Delivery]] |[[Quality Metrics]] |
-|[[Continuous Adaptation]] |[[Product Analytics]] |
