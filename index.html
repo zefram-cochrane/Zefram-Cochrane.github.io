@@ -213,15 +213,11 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
-<li>$:/state/tab/sidebar--1835078512</li>
-
 <li>$:/status/IsLoggedIn</li>
 
 <li>$:/status/UserName</li>
 
 <li>$:/StoryList</li>
-
-<li>$:/temp/advancedsearch</li>
 
 <li>$:/temp/focussedTiddler</li>
 
@@ -300,6 +296,8 @@ Error message and password prompt
 <li>Documentation Style Guide</li>
 
 <li>Draft of '$:/core/ui/SideBar/Recent'</li>
+
+<li>Draft of 'What's XSCALE?'</li>
 
 <li>Encryption</li>
 
@@ -6310,7 +6308,7 @@ Error message and password prompt
 <div created="20150808103426618" modified="20150808103425457" title="$:/palette" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>$:/palettes/Vanilla</pre>
 </div>
-<div created="20150809165413052" modified="20150819133314159" title="$:/patterns-image" tmap.id="5c634d57-0d12-4012-81a7-99a69c2e1f1d" type="text/vnd.tiddlywiki" revision="2" bag="default">
+<div created="20150809165413052" modified="20150819133314159" title="$:/patterns-image" tmap.id="5c634d57-0d12-4012-81a7-99a69c2e1f1d" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;img src=&quot;http://xscale.wiki/images/xscale-practices.png&quot; width=&quot;600&quot; height=&quot;392&quot; border=&quot;0&quot; usemap=&quot;#map&quot; /&gt;
 
 &lt;map name=&quot;map&quot;&gt;
@@ -7108,22 +7106,16 @@ Error message and password prompt
 <div created="20150806085922955" modified="20150807025736749" title="$:/SiteTitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>XSCALE</pre>
 </div>
-<div modified="20150819133324849" title="$:/state/tab/sidebar--1835078512" revision="2" bag="default">
-<pre>$:/plugins/felixhayashi/tiddlymap/hook/editor</pre>
-</div>
 <div title="$:/status/IsLoggedIn" revision="2" bag="default">
 <pre>yes</pre>
 </div>
 <div title="$:/status/UserName" revision="1" bag="default">
 <pre></pre>
 </div>
-<div list="[[XSCALE Principles]] [[XSCALE Practices]] [[What's XSCALE?]] [[3rd Generation Agile]]" title="$:/StoryList" revision="33" bag="default">
+<div list="[[XSCALE Principles]] [[XSCALE Practices]] [[Draft of 'What's XSCALE?']] [[3rd Generation Agile]]" title="$:/StoryList" revision="10" bag="default">
 <pre></pre>
 </div>
-<div created="20150819132203439" modified="20150819132204027" title="$:/temp/advancedsearch" revision="5" bag="default">
-<pre>image</pre>
-</div>
-<div modified="20150820031400580" title="$:/temp/focussedTiddler" revision="18" bag="default">
+<div modified="20150820041936611" title="$:/temp/focussedTiddler" revision="3" bag="default">
 <pre>XSCALE Principles</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -7140,13 +7132,13 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20150820025645619" modified="20150820031531400" title="$:/temp/search" revision="7" bag="default">
+<div created="20150820041919478" modified="20150820044719714" title="$:/temp/search" revision="7" bag="default">
 <pre></pre>
 </div>
-<div title="$:/temp/tmap/currentTiddler" revision="41" bag="default">
+<div title="$:/temp/tmap/currentTiddler" revision="13" bag="default">
 <pre>XSCALE Principles</pre>
 </div>
-<div list="[[XSCALE Principles]] [[3rd Generation Agile]] eXtropic [[XSCALE Practices]] [[XSCALE Structures]] [[XSCALE Metrics]]" title="$:/temp/tmap/nodes/Live View" revision="11" bag="default">
+<div list="[[XSCALE Principles]] [[3rd Generation Agile]] eXtropic [[XSCALE Practices]] [[XSCALE Structures]] [[XSCALE Metrics]]" title="$:/temp/tmap/nodes/Live View" revision="4" bag="default">
 <pre></pre>
 </div>
 <div created="20150808000809642" modified="20150808195446534" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7776,6 +7768,14 @@ Additional topics:
 </div>
 <div caption="{{$:/language/SideBar/Recent/Caption}}" created="20150808110444420" draft.of="$:/core/ui/SideBar/Recent" draft.title="$:/core/ui/SideBar/Recent" modified="20150808110443302" tags="$:/tags/SideBar" title="Draft of '$:/core/ui/SideBar/Recent'" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
+</pre>
+</div>
+<div created="20150807230844378" draft.of="What's XSCALE?" draft.title="What's XSCALE?" modified="20150820041913461" tags="" title="Draft of 'What's XSCALE?'" tmap.id="c316c705-88c0-4458-a4b7-12a39e0f4de5" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<pre>This wiki is currently half-baked. But don't let that stop you. I expect to get it fully baked over the next couple of weeks and you may as well stick your nose in now as later.
+
+----
+
+{{XSCALE Principles}}
 </pre>
 </div>
 <div created="20130825160900000" modified="20150607112027069" tags="Features [[Working with TiddlyWiki]]" title="Encryption" tmap.id="52f14ec8-b9fa-4799-953c-83cc61d9d94c" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -9013,8 +9013,8 @@ When TiddlyWiki starts up it processes permalinks according to the following ste
 # If the ''target'' is specified then navigate to it, otherwise navigate to the first tiddler in the ''story list''
 </pre>
 </div>
-<div created="20150806090356310" modified="20150807133728524" title="PeterMerel" tmap.id="e83bc974-6435-4430-b715-e98d278f3d09" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>One of the original XP-dudes, Pete has taken Agile well beyond its IT roots and applied it to ProductManagement, PortfolioManagement and ChangeManagement. Pete's working on the [[XSCALE Book]] and if that's not far out enough he has another one in the works - something mysteriously titled [[The Agile Tao]] ...
+<div created="20150806090356310" modified="20150820031802578" title="PeterMerel" tmap.id="e83bc974-6435-4430-b715-e98d278f3d09" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>One of the original XP-dudes, Pete has taken Agile well beyond its IT roots and applied it to ProductManagement, PortfolioManagement and ChangeManagement at the largest scales. Pete's working on the [[XSCALE Book]] and if that's not far out enough he has another one in the works - something mysteriously titled [[The Agile Tao]] ...
 
 In real life Pete does not talk about himself in the third person.</pre>
 </div>
@@ -10235,13 +10235,13 @@ The following elements of WikiText syntax are built into the core:
 
 |! [[Principles|XSCALE Principles]] | [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |</pre>
 </div>
-<div created="20150807021258524" modified="20150820031130307" title="XSCALE Principles" tmap.id="fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc" type="text/vnd.tiddlywiki" revision="4" bag="default">
+<div created="20150807021258524" modified="20150820042202794" title="XSCALE Principles" tmap.id="fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc" type="text/vnd.tiddlywiki" revision="3" bag="default">
 <pre>XSCALE is a pattern language for [[3rd Generation Agile]], extending the [[Agile Manifesto]] to [[Product Management]], [[Portfolio Management]], [[Change Management]] and [[Holarchy]]. The name is an acronym for the principles of the [[pattern language]]:
 
 &quot;&quot;&quot;
 [[e|eXtropic]]''X''[[tropic|eXtropic]]: generating new products to open new markets
-&amp;nbsp;&amp;nbsp;''S''[[imple]]: standardised practice patterns and scale symmetric structures
-&amp;nbsp;&amp;nbsp;''C''[[ontinuous|Continuous]]: small-batch, pull-based, breadth-first, integrated workflows
+&amp;nbsp;&amp;nbsp;''S''[[imple]]: pragmatic pattern-language and scale-symmetric structures
+&amp;nbsp;&amp;nbsp;''C''[[ontinuous|Continuous]]: breadth-first, small-batch, pull-based, integrated workflows
 &amp;nbsp;&amp;nbsp;''A''[[utonomous|Autonomous]]: self-organising, self-aligning squads facilitated by servant-leaders
 &amp;nbsp;&amp;nbsp;''L''[[earning]]: rapid, iterative, scientific adaptation to bottom-line metrics &amp; analytics
 &amp;nbsp;&amp;nbsp;''E''[[cosystem|Ecosystem]]: decentralised, holarchic, whole-board thinking and positive-sum games
