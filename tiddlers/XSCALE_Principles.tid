@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20150902193622125
+modified: 20150929185716864
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
@@ -7,8 +7,8 @@ type: text/vnd.tiddlywiki
 XSCALE is a pattern language for [[3rd Generation Agile]], extending the [[Agile Manifesto]] to [[Product Management]], [[Portfolio Management]], [[Change Management]] and [[Holarchy]]. The name is an acronym for the principles of the [[pattern language]]:
 
 """
-[[e|eXtropic]]''X''[[tropic|eXtropic]] growth: measure and optimise [[Rate of ROI|ROROI]] and [[stack the S-curves]].
-&nbsp;&nbsp;''S''[[imple]] design: the elegance of minimum.Not look and feel; how it works.
+[[e|eXtropic]]''X''[[tropic|eXtropic]] growth: measure and optimise [[Rate of ROI|ROROI]] by [[stacking the S-curves]].
+&nbsp;&nbsp;''S''[[imple]] design: the elegance of minimum. Not look and feel; how it works.
 &nbsp;&nbsp;''C''[[ontinuous|Continuous]] adaptation, delivery and improvement; teams to products to markets
 &nbsp;&nbsp;''A''[[utonomous|Autonomous]] self-organising, self-aligning, right-sized squads in a [[holarchy]]
 &nbsp;&nbsp;''L''[[earning]]: rapid, iterative, contractive measurement of [[bottom-line based metrics]]
