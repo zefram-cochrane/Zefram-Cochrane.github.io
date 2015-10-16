@@ -1,0 +1,16 @@
+created: 20151010230026627
+modified: 20151013080827553
+tags: 
+title: Autonomous Squad
+tmap.id: 8e46dcb6-5a53-4901-872a-20ff89fe68a5
+type: text/vnd.tiddlywiki
+
+A squad is a small team stable in structure over the period of a [[release]]. Its composition and priorities are determined by its [[servant leaders]], but in every other respect it is purely autonomous, determining the details of its own process, planning its own tasking, controlling its own estimates, and making its own time commitments. 
+
+To maximize productivity, squads are kept small, on the order of 4 to 8 members, with [[Portfolio Mapping]] used to minimize dependencies between the squads and assure each possesses all competencies necessary to define, deliver and operate the functionality for which it is accountable. 
+
+Fully [[Autonomous Squad]]s require resolution of the [[Scrum-Master Anti-Pattern]]. By lifting Scrum Masters into the role of [[Product Coach]]es, XSCALE harks back to the proven [[Extreme Programming]] division of labor. Rotating responsibility for facilitating Agile ceremonies among squad members requires only the occasional suggestion by a [[Product Coach]] to run smooth, and this way the squad experiences the empowering reality that it is fully capable and fully trusted to organize its own work for itself.
+
+''See Also''
+
+|! [[Chapter Meeting]] |! [[Support Squad]] |! [[Delivery Squad]] |! [[Product Squad]] |! [[Portfolio Squad]] |

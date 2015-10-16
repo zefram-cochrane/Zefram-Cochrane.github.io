@@ -1,0 +1,9 @@
+created: 20151010123949166
+modified: 20151010124105168
+title: Continuous Delivery
+tmap.id: b7542af0-d1ef-4e9a-b2df-32e2b4607ac1
+type: text/vnd.tiddlywiki
+
+Continuous Delivery (CD) is a discipline of automated regression testing that assures new or changed package functionality will meet acceptance criteria, and guarantees good operation under [[Automated Configuration Management]]. It enables rapid feature releases by multiple delivery squads who share ownership of their codebase in parallel. 
+
+CD reduces the time between feature development and benefit realization. It controls technical debt; improves team productivity by decreasing [[defect half-life]]; and enables rapid changes to business priorities without generating cycles of waste and rework. It generates quality improvements “for free” - meaning savings in the cost of quality far outweigh the CD setup costs. By eliminating the major root cause of development unreliability, CD enables business to plan aggressively to seize emerging market opportunities, constituting a competitive advantage in its own right. Statistics about the number of features in compliance with their acceptance criteria constitutes the fundamental delivery quality KPI.

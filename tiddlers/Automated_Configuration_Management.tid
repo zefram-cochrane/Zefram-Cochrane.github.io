@@ -1,0 +1,7 @@
+created: 20151010123241704
+modified: 20151010123304792
+title: Automated Configuration Management
+tmap.id: 63096f39-872e-4c2b-8ca0-21c513e78c19
+type: text/vnd.tiddlywiki
+
+[[Automated Configuration Management]] is a way to maintain a coherent software system in a changing cloud of servers. It treats the configuration of the cloud as part of the system’s code, so automating the process of deploying changes to it. In this way the process by which new deployments are defined is the same process by which changes to deployments are rolled out. That makes certain the different generations of servers always operate the same way and the system’s key parameters match a known good state. Statistics about the amount of time the system spends in and out of this state constitute the fundamental operational quality KPI.

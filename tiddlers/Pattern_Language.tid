@@ -1,0 +1,7 @@
+created: 20151013022640337
+modified: 20151013023351691
+title: Pattern Language
+tmap.id: 75cbf5b1-291b-4f72-9358-f69eccee4fdb
+type: text/vnd.tiddlywiki
+
+[[Christopher Alexander]]'s classic work defining a language of design patterns for physical architecture is online [[here|https://archive.org/stream/APatternLanguage/A_Pattern_Language#page/n17/mode/2up]]. Alexander's work inspired the software community to describe the repeating patterns of software architecture in similar terms in [[The Gang Of Four book|https://sourcemaking.com/design_patterns]] and its various sequels. The form has been extended here to describe a [[practice pattern language]].

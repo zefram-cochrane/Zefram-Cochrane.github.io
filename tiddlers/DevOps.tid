@@ -1,0 +1,21 @@
+created: 20151010113640913
+modified: 20151010123926710
+title: DevOps
+tmap.id: 1760d840-de9e-4943-a6e3-0171554949a4
+type: text/vnd.tiddlywiki
+
+The traditional distinction between development and operations teams creates unnecessary pain for both. Operations are tasked to deal with quality problems they have inadequate technical competence to fix. Development are responsible for creating technical quality in systems over which they have no control. The two groups wind up with misaligned KPIs and budgets, resulting in heroics, rework cycles and blame games.
+
+Devops comes from realizing it’s more efficient for Development and Operations to share accountability for maintaining and improving system behaviors. In practical terms, DevOps is based on 3 basic [[practice patterns]]:
+
+* [[Continuous Delivery]]
+* [[Automated Deployment]]
+* [[Automated Configuration Management]]
+
+The engineering philosophy that results from shared Dev/Ops accountability, however, goes a lot deeper than this. To date it has been most profoundly explored in [[Gene Kim's Phoenix Project|http://itrevolution.com/the-three-ways-principles-underpinning-devops/]], which describes it in terms of "3 Ways":
+
+* [[Systems Thinking]]
+* [[Metric Feedback Loops]]
+* [[Continuous Learning]]
+
+The DevOps patterns and principles provide the bedrock practice foundation for XSCALE, which regards them as the essential generators of the [[Agile Manifesto]]'s principle of [[Technical Excellence]].

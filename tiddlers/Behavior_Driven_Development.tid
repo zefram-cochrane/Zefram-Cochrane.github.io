@@ -1,0 +1,11 @@
+created: 20151010124153916
+modified: 20151010124542332
+title: Behavior Driven Development
+tmap.id: 388fd078-9414-4baa-98f3-1664c91eb47e
+type: text/vnd.tiddlywiki
+
+Acceptance criteria for [[Continuous Delivery]] have to come from somewhere. The most concrete acceptance criterion is an automated test. While developers easily create these tests, they’re not really qualified to say that their test proves the code’s business value. That’s a tester’s responsibility, but in traditional development it’s a Catch-22 because traditional testers aren’t supposed to understand code. Furthermore the BA’s description of package behavior must be perfect, and the tester must understand it perfectly, to assure a developer isn’t required to turn valuable system behaviors into less valuable ones. Or, worse, the system ships with surprising behaviors resulting in costly production incidents
+
+To “move quality to the left” as in this diagram requires a format for specifying acceptance criteria per feature and per story that is equally accessible to developers, testers and business stakeholders, a common language that precisely establishes their shared contract.  [[Behavior Driven Development]] provides this common language. It enables developers to glue automated test steps together with an English Language format that is only a little different from what testers and BAs are used to seeing in traditional specs. BDD language is put together in small batches, minimizing WIP and replacing the process of signoff with a process of iterative prioritization of work items. 
+
+BDD dramatically reduces the total cost of ownership of testing in [[Continuous Delivery]] and [[Automated Configuration Management]]. Industry experience of BDD shows the code for a step implementation is reused an average of 20 times across a test suite, which reduces average cost of the whole suite by a factor of 20. BDD’s ability to replace signoff with iterative prioritization of small batches of acceptance criteria is also a key enabler for Agile delivery. Statistics concerning the percentage coverage of the codebase by BDD tests and the depth of this coverage also form a Delivery quality KPI.
