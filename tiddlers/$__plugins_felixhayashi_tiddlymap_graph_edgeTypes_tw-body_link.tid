@@ -1,0 +1,9 @@
+created: 20151019232449412
+description: A link that is contained in the tiddler's body pointing to another resource.
+label: links
+modified: 20151019232827785
+show-label: false
+style: {"color":{"color":"rgba(92,110,255,1)","highlight":"rgba(84,233,255,1)","hover":"rgba(86,255,86,1)"},"dashes":false,"arrows":{"to":{"scaleFactor":1}},"shadow":true}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/tw-body:link
+type: text/vnd.tiddlywiki
+

@@ -1,9 +1,9 @@
 created: 20150811065840468
-modified: 20151013081441884
+modified: 20151019212009694
 title: Portfolio Squad
 tmap.id: 4d5193a4-dfc4-48da-a259-7aba72489ea4
 type: text/vnd.tiddlywiki
 
-Each [[Portfolio]] is steered by a [[squad|Autonomous Squad]] of [[rotating representatives]] each drawn from a different [[Chapter|Chapter Meeting]]. This squad's primary accountability is to factor and refactor the functional responsibilities of its portfolio's [[squads|Autonomous Squad]] by means of the practice of [[Portfolio Mapping]].
+Each [[Portfolio]] is steered by a [[squad|Autonomous Squad]] of [[rotating representatives]] each drawn from a different [[Chapter|Chapter Meeting]]. This squad's primary accountability is to factor and refactor the functional responsibilities of its portfolio's [[squads|Autonomous Squad]] by means of the practice of [[Portfolio Mapping]]. The portfolio squad derives its business drivers and priorities from its [[Portfolio Owner]] while its good order, observation of ceremonies and metric productivity are maintained by its [[Portfolio Coach]].
 
 A single [[Portfolio]] may employ several distinct kinds of squad. A common arrangement is to use different kinds of squads for product definition, feature delivery, and DevOps. All together the number of members of a portfolio can be no larger than the [[Dunbar Number]].

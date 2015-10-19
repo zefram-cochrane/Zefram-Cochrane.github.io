@@ -1,0 +1,7 @@
+created: 20151019223429035
+modified: 20151019223720372
+title: Portfolio Increment
+tmap.id: 40bbbcad-6035-42fc-9737-49244aa8852b
+type: text/vnd.tiddlywiki
+
+[[Portfolio]]s typically maintain a quarterly planning horizon. This period is called a [[Portfolio Increment]] or PI. {{SAFe}} calls it a Product Increment. PIs may be calendar-synchronized or treated as a sliding window or horizon. Calendar-synchronized PIs generally make it easier to align changes in system behavior with marketing, partner and vendor calendars.

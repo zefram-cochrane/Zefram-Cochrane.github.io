@@ -1,5 +1,5 @@
 created: 20151010113640913
-modified: 20151010123926710
+modified: 20151019202305551
 title: DevOps
 tmap.id: 1760d840-de9e-4943-a6e3-0171554949a4
 type: text/vnd.tiddlywiki
@@ -12,7 +12,7 @@ Devops comes from realizing it’s more efficient for Development and Operations
 * [[Automated Deployment]]
 * [[Automated Configuration Management]]
 
-The engineering philosophy that results from shared Dev/Ops accountability, however, goes a lot deeper than this. To date it has been most profoundly explored in [[Gene Kim's Phoenix Project|http://itrevolution.com/the-three-ways-principles-underpinning-devops/]], which describes it in terms of "3 Ways":
+The engineering philosophy that results from shared Dev/Ops accountability, however, goes a lot deeper than this. To date it has been most profoundly explored by {{Gene Kim}}, who describes it in terms of "3 Ways":
 
 * [[Systems Thinking]]
 * [[Metric Feedback Loops]]

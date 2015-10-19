@@ -1,0 +1,26 @@
+created: 20151019212104221
+modified: 20151019232352231
+tags: 
+title: Release Refactoring
+tmap.id: 54ac4d96-fd8d-4be8-a688-011f8e92f5bf
+type: text/vnd.tiddlywiki
+
+[[Product Squad]]s and [[Portfolio Squad]]s aim to deliver the highest [[ROROI]] in a [[Portfolio Increment]]. Where throughput expectations vary, market conditions change, or significant new learnings occur, they need to [[continuously adapt|Continuous Adaptation]] their release commitments. And they need to do align these decisions between business and technical authorities through [[Management by Numbers]] so that stress and politics do not occur.
+
+''Therefore,''
+
+Release Refactoring is a simple consensus game that enables rapid rational trade-offs between different  feature-sets while respecting the date and budget limits of a PI. An alternate approach for [[Portfolio]]s without PIs is [[Getting Features Done]].
+
+# Using the [[Royal Cod]] prioritization derived by [[Business Bingo]], lay out all available [[Feature]]s in columns grouped by [[Epic]].
+# Pick the first column. Pick the feature at the top of the column. Let business authorities say whether the [[Epic]]'s business driver can be satisfied without including this feature in the PI. 
+# Continue feature by feature until the Epic's [[Product Owner]] sees one that, while still valuable, could be left out without preventing satisfaction of the driver.
+# All of the features above that one constitute the minimum viable feature-set for that Epic in the PI. Call that feature-set "bronze". 
+# Continue to pick features in that column now asking its Product Owner whether the feature has a concrete quantified business value or whether it's a "nice to have". Call the former "silver" and the latter "gold".
+# Total how many feature points are in each of the bronze, silver and gold levels for that column.
+# Do steps 1-6 for all columns.
+# If fitting to a continuous delivery funding model, POs simply prioritize the bronze, silver and gold tranches of features across all columns.  Pick the most important one, then the next most important one, and so on. Use the [[Feature Point]] budgets to project release dates for marketing and other business development purposes.
+# If you're playing to create a release plan for a particular [[PI|Portfolio Increment]], determine how many feature points correspond to that release. Now let the POs determine which combination of bronze/silver/gold levels will maximize [[ROROI]] for that release.
+# Keep all of these decisions on an [[Information Radiator]] to assure continuous alignment to them and as an easy starting point for the next [[Release Refactoring]] session.
+
+Release Refactoring is played whenever new features are added to the [[Behavior Map|Behavior Mapping]], whenever [[Sprint Planning]] indicates a feature's budget is blown, or whenever the PO calls for it. Because this is such a quick game it's also possible to play using [[Set Based Design]] in an [[Agile R&D]] mode to evaluate alternative product plans to evaluate possible responses to changes in market conditions.
+
