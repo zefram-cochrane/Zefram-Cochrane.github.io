@@ -1,9 +1,9 @@
 created: 20151013020742947
-modified: 20151019053729314
+modified: 20151020000406930
 title: practice pattern language
 tmap.id: 96ecbfaa-62a9-41ea-95e6-249ee632ca32
 type: text/vnd.tiddlywiki
 
 A [[Pattern Language]] for collaborative practices. The key difference between a pattern language and a framework is that you only apply a pattern when you actually need it - when it addresses a challenge or a risk you're actually experiencing.
 
-Pattern languages have long been associated with Agile. Prominent examples include the original [[XP practice pattern language|http://c2.com/cgi/wiki?ExtremeProgrammingCorePractices]] and [[ScrumPLOP|https://sites.google.com/a/scrumplop.org/published-patterns/home]], 
+Pattern languages have long been associated with Agile. Prominent examples include the original {{XP}} and {{Scrum}} pattern languages, 
