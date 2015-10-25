@@ -1,10 +1,10 @@
 created: 20151011043749025
-modified: 20151013081125805
+modified: 20151025013331782
 title: Chapter Meeting
 tmap.id: bc973ec7-4b60-4c68-b46e-28f46b0cc4ae
 type: text/vnd.tiddlywiki
 
-To align dependencies and learnings among team members of common competence across [[Autonomous Squad]]s, XSCALE adopts the [[SEC|Spotify Engineering Culture]] practice of [[Chapter Meeting]]s. 
+To align dependencies and learnings among team members of common competence across [[Autonomous Squad]]s, XSCALE adopts the {{Spotify}} practice of [[Chapter Meeting]]s. 
 
 Squad members spend about 90% of their allocated time [[Pair-Working]] together cross-competence to deliver value. The remaining 10% of their time is spent sharing learnings, opportunities and challenges with their common-competence fellows in [[Chapter Meeting]]s. These meetings are synchronized to occur at the same time weekly immediately prior to Squad [[Retrospectives]]. This synchronization serves both to ensure that squads are never starved of a specific competence, and that each retrospective is fully informed by [[Whole Board Thinking]] about the experiences of the other squads in their [[Portfolio]].
 

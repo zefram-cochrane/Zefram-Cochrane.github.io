@@ -1,0 +1,15 @@
+created: 20151025025853144
+modified: 20151025072114702
+title: Scrum-Master
+tmap.id: b3483ac3-a547-4e48-a7ca-323ad0a964ac
+type: text/vnd.tiddlywiki
+
+Going along with [[Uncle Bob|https://www.youtube.com/watch?v=hG4LH6P8Syk&list=PL5DcL6vURgXolNPvr9reUnBYzV4RgWNp8&index=3]], XSCALE considers Scrum-Masters [[harmful]]. Why? Because designating an individual "Scrum Master" interferes in the normal processes of collaboration and self-organisation in an [[Autonomous Squad]]. 
+
+Having an individual take accountability for this role is just making them a project manager by another name. Or in a feature stream with more than one squad, scrum masters are generally expected to multi-task between the squads, leaving them with too little time to engage as a peer of the [[Product Owner]] in discussions with members of the [[Product Squad]]. This generally pushes the product owner into project-manager behaviours.
+
+There's nothing wrong with the [[Scrum]] practice patterns. They're nice, simple ways for a small team to manage themselves ''without'' anyone having such a designation. If you insist on having a phrase to describe running some Scrum practice, it could be "being a Scrum Master". But the role was only ever intended to be a temporary thing.
+
+''Therefore,''
+
+We lift the role of Scrum Master into the realm of [[Product Management]] by re-desginating it a [[Product Coach]] following the proven [[XP division of labor]]. Rotating responsibility for facilitating Agile ceremonies among squad members requires only the occasional suggestion by a [[Product Coach]] to run smooth, and this way the squad experiences the empowering reality that it is fully capable and fully trusted to organise its own work for itself. Meanwhile the [[Product Coach]] functions as a fully trusted peer of a [[Product Owner]].

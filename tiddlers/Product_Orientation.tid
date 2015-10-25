@@ -1,0 +1,16 @@
+created: 20151025014244067
+modified: 20151025021843692
+title: Product Orientation
+tmap.id: 9a51a1ac-4c50-4645-a917-9cf889044bc4
+type: text/vnd.tiddlywiki
+
+As [[Dave Martin|http://agiletng.org/2014/04/13/product-funding/]] nicely explains, the very concept of a project is largely irrelevant to modern businesses. These depend on cycles of commercial relationship based on continuous exchange of streams of products and services, not one-off constructions of dams and skyscrapers. 
+
+Yet we still have managers concerning themselves with projects, hiring people to join teams with fixed budgets and deadline dates and then letting them go back out into the marketplace, and the organisation's memory and competence along with them. It's as if, once the first products ship, no one will ever want more, and no one will want the behaviours of the products to change on a regular basis, or to maintain the understanding that supports the products.
+
+Businesses oriented toward projects are forever losing knowledge, scrabbling  to justify budget for the "next project", which is really just the next turn in the product lifecycle, and reinventing wheels that project after project reinvented before them. Worst of all, since the business people stay and the developers come and go, project orientation breaks the trust between product definition ("business") and product delivery ("technology") teams so that they can't collaborate effectively, resulting in cultures of blame and confusion. 
+
+''Therefore,''
+
+Instead of regarding projects as real things, regard them as inconvenient fictions. The reality is that business has certain [[critical number]]s it needs to hit in order to raise revenue and cut costs. Those numbers drive the ongoing delivery of products and services. By focusing [[Product Squad]]s this way, rather than imagining some mythical "final build" we dramatically improve trust, quality, productivity, morale, ROI, and everything else businesses hold holy.
+

@@ -1,0 +1,7 @@
+created: 20151025075724345
+modified: 20151025075754258
+title: Analysis Paralysis
+tmap.id: 84e47398-3f15-4a71-a7ba-49b30de30262
+type: text/vnd.tiddlywiki
+
+Growing requirements must all be kept in sync, and that means a great deal of WIP at any one time. Since changing one detail often results in cycles of change to others, analysis activity can fall into a never-ending process.

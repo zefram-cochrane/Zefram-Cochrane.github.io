@@ -1,0 +1,22 @@
+created: 20151025075551974
+modified: 20151025101735890
+tags: 
+title: Behavior Mapping
+tmap.id: 2a0fe3c2-6cdb-49a4-a0c7-9d2731b44830
+type: text/vnd.tiddlywiki
+
+Traditional Business Analysis almost invariably yields poor [[Product-Market Fit]]:
+
+* It gets bogged down in details and cross-referencng as requirements documents grow, leading to [[Analysis Paralysis]]
+
+* The paralysis is cut short by time pressure whereupon the program is tasked to deliver a half-solution - a compromised product - with incomplete [[Acceptance Criteria]]
+
+* Sometimes, in [[naive Agile]] programs, delivery begins before analysis has covered sufficient ground to assure any significant business value can be delivered. This invariably leads to rework and sometimes to [[business case failure]].
+ 
+''Therefore,''
+
+XSCALE concretes product plans iteratively, breadth-first, in a lightweight collaborative game called Behavior Mapping. Each iteration of this game is scoped to just a limited depth. The output of each is a [[Feature Theme Matrix]] for the highest priority parts of a preceding iteration. This breadth-first top-down process steadily contracts the scope of [[Product Squad]] conversations and prevents cycles of requirement dependencies, swiftly generating a deliverable story backlog that represents the highest achievable [[ROI]]. 
+
+The product’s features are analyzed in terms of key categories of acceptance criteria called themes. Themes are drawn from architectural constraints, business rules, UX design personas and non-functional requirements. The contents of the features and themes matrix are nothing more than simple checkmarks – a feature has acceptance criteria in a particular category, or it does not. Systematic coverage checking discovers missing features and aligns the product planning team’s expectations for the next iteration of feature mapping. This is a quick and simple game that can be quickly revisited upon any new learnings about market-fit, solution constraints, or delivery capacity that may invalidate previous plans.
+
+''practice details to follow ...''

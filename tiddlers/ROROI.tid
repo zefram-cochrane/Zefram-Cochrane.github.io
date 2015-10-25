@@ -1,11 +1,13 @@
 created: 20150807021640290
-modified: 20150807022807478
+modified: 20151025025536841
 tags: Illustrate Portfolio Metric
 title: ROROI
 tmap.id: 6aae94db-3c6d-4bbf-9eac-67668e892a17
 type: text/vnd.tiddlywiki
 
-[[ROROI]] is the rate of [[Return on Investment]]. If you graph ROI over time - a key [[XSCALE]] [[metric]] at the [[Portfolio]] level, you can see lots of wibbles and wobbles. Some bets don't pay off and that's okay But if it's overall flattening out, or worse declining, your portfolio is no longer continuously improving and your PortfolioSquad needs to figure out why not. Is it:
+Business naturally focuses on [[Return on Investment|ROI]], but this is obviously short-sighted. Delivering a new feature that improves ROI isn't as advantageous as delivering a new feature that doesn't improve ROI at all, but improves the **rate** of ROI for all subsequent feature deliveries.
+
+If you graph ROI over time - the key [[XSCALE]] [[metric]] - you can see lots of wibbles and wobbles. Some bets don't pay off and that's okay But if it's overall flattening out, or worse declining, your portfolio is no longer continuously improving and your PortfolioSquad needs to figure out why not. Because this is the difference between [[eXtropic]] and [[entropic|entropy]]. Is your problem:
 
 * MarketSaturation
 * [[Waste]]

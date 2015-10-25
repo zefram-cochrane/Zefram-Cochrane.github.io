@@ -1,11 +1,11 @@
 created: 20150807051018491
-modified: 20151020000604351
+modified: 20151025071834057
 title: 3rd Generation Agile
 tmap.id: 658324f5-722e-44a9-b8eb-253f643ed683
 type: text/vnd.tiddlywiki
 
 """
-''1st generation'' - small high performance teams - {{XP}}, {{Scrum}} and [[Kanban]]
+''1st generation'' - small high performance teams - {{XP}}, {{Scrum}} and {{Kanban}}
 ''2nd generation'' - adapting Agile to enterprises - [[LeSS]], {{SAFe}} and [[DAD]]
-''3rd generation'' - adapting enterprises to Agile - [[SEC|Spotify Engineering Culture]], [[Holacracy]] and [[XSCALE|XSCALE Practices]]
+''3rd generation'' - adapting enterprises to Agile - {{Spotify}}, {{Holacracy}} and [[XSCALE|XSCALE Practices]]
 """
