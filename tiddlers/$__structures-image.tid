@@ -1,0 +1,26 @@
+created: 20150809220300027
+modified: 20151106024153299
+tags: 
+title: $:/structures-image
+tmap.id: f310f480-85d4-47cc-8163-8f674b288622
+type: text/vnd.tiddlywiki
+
+<img src="http://xscale.wiki/images/xscale-structures.png" width="600" height="382" border="0" usemap="#structuremap" />
+
+<map name="structuremap">
+<area shape="rect" coords="345,233,594,344" alt="Guild Meetings" href="#Guild%20Meeting" />
+<area shape="rect" coords="362,106,592,170" alt="Portfolio Chapter" href="#Portfolio%20Chapter" />
+<area shape="rect" coords="362,173,592,220" alt="Transformation Chapter" href="#Transformation%20Chapter" />
+<area shape="rect" coords="330,12,359,369" alt="Portfolio Squad" href="#Portfolio%20Squad" />
+<area shape="rect" coords="370,11,578,55" alt="Dunbar&apos;s Number" href="#Dunbar%20Number" />
+<area shape="rect" coords="219,10,329,142" alt="Chapter Meetings" href="#Chapter%20Meeting" />
+<area shape="rect" coords="219,180,330,354" alt="Chapter Meetings" href="#Chapter%20Meeting" />
+<area shape="rect" coords="14,167,218,291" alt="Delivery Squads" href="#Delivery%20Squad" />
+<area shape="rect" coords="17,27,214,148" alt="Product Squads" href="#Product%20Squad" />
+<area shape="rect" coords="10,296,216,364" alt="Support Squads" href="#Support%20Squad" />
+<area shape="rect" coords="358,343,592,373" alt="Portfolios" href="#Portfolio" />
+<area shape="rect" coords="217,142,330,160" alt="Portfolio Owner" href="#Portfolio%20Owner" />
+<area shape="rect" coords="220,161,331,180" alt="Portfolio Coach" href="#Portfolio%20Coach" />
+<area shape="rect" coords="17,146,116,167" alt="Product Owners" href="#Product%20Owner" />
+<area shape="rect" coords="115,147,220,166" alt="Product Coaches" href="#Product%20Coach" />
+</map>

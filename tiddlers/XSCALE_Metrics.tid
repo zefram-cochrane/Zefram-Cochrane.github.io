@@ -1,10 +1,10 @@
 created: 20150809220636012
-modified: 20150818103219182
+modified: 20151106061502457
 tags: 
 title: XSCALE Metrics
 tmap.id: 064f9b90-1b6a-4946-b93d-80178e6d9875
 type: text/vnd.tiddlywiki
 
-{{$:metrics-image}}
+{{$:/metrics-image}}
 
-|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] | [[Metrics|XSCALE Metrics]] |
+|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |

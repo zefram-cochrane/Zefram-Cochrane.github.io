@@ -1,0 +1,26 @@
+<img src="Untitled" width="643" height="425" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:pete   -->
+<area shape="poly" coords="259,420,304,410,342,406,347,396,384,392,397,378,455,377,490,354,524,354,550,321,578,320,600,297,620,294,626,284,642,283,642,421,263,422" alt="System Integration Testing" href="#System%20Integration%20Testing" />
+<area shape="poly" coords="178,420,236,418,258,406,290,406,332,387,364,388,396,371,427,370,446,350,464,352,477,332,498,331,510,313,527,314,545,297,566,299,574,290,582,290,595,278,603,278,626,251,642,251,642,282,627,283,619,293,599,298,578,321,550,321,525,352,489,353,456,377,395,377,384,391,346,394,342,406,301,409,260,422" alt="Feature Integration Testing" href="#Feature%20Integration%20Testing" />
+<area shape="poly" coords="164,418,192,417,214,405,249,406,295,386,329,386,370,366,402,367,422,346,445,349,456,326,479,326,492,306,512,306,537,291,556,292,568,282,575,282,587,270,597,269,622,242,641,241,641,252,625,252,603,277,593,278,583,289,572,289,566,300,546,297,527,313,508,313,498,330,476,333,464,352,444,350,427,368,396,370,363,389,331,387,286,406,256,405,235,419,169,420" alt="Continuous Integration" href="#Continuous%20Integration" />
+<area shape="poly" coords="41,418,124,411,150,399,187,399,213,385,241,382,271,374,293,374,315,364,337,365,356,354,379,354,396,337,413,338,421,321,440,321,450,305,477,305,489,293,504,294,508,290,513,290,531,279,563,271,583,250,620,231,641,231,642,241,622,243,597,269,586,271,575,284,568,282,555,294,537,292,512,305,490,306,478,325,456,327,442,347,421,345,399,366,369,365,326,384,294,384,247,403,212,403,192,416,170,421" alt="Velocity x Story Points" href="#Story%20Points" />
+<area shape="poly" coords="120,408,144,394,189,390,211,373,237,373,269,359,296,358,312,345,340,345,354,335,382,330,396,311,416,309,426,287,444,288,448,271,477,272,490,252,506,253,524,245,532,233,560,228,583,197,642,163,642,229,618,232,580,252,562,270,530,281,515,292,508,289,505,293,488,293,477,306,450,306,441,322,420,322,412,340,395,340,376,355,353,352,336,368,315,364,293,374,270,373,243,382,213,385,188,400,150,399" alt="Behavior Driven Development" href="#Behavior%20Driven%20Development" />
+<area shape="poly" coords="30,418,67,405,119,400,124,387,165,383,177,370,238,364,274,341,308,341,338,304,368,303,387,275,411,272,419,256,445,251,464,233,493,226,515,205,555,200,572,185,606,178,643,150,643,164,582,196,561,227,532,232,523,245,507,253,490,252,479,272,449,268,444,288,427,288,417,307,396,310,384,330,354,333,339,344,314,344,296,357,270,357,239,373,212,372,191,391,146,391,120,410" alt="Feature Point Budgets" href="#Feature%20Point" />
+<area shape="poly" coords="33,417,641,132,641,152,605,178,569,187,554,203,513,208,491,226,459,232,445,250,417,258,412,274,391,275,370,305,340,305,309,341,271,342,236,367,164,385,126,387,120,401,71,405" alt="Release Map Horizon" href="#Release%20Map" />
+<area shape="poly" coords="274,306,642,68,643,133" alt="Return on Product/Epic Investment" href="#ROROI" />
+<area shape="rect" coords="280,22,617,89" alt="Rate of Return on Investment" href="#ROROI" />
+<area shape="rect" coords="21,20,251,54" alt="Rate of Return on Investment" href="#ROROI" />
+<area shape="rect" coords="22,55,252,90" alt="Release Map Horizon" href="#Release$20Map" />
+<area shape="rect" coords="23,88,254,125" alt="Feature Point Budgets" href="#Feature$20Point" />
+<area shape="rect" coords="22,125,253,162" alt="BDD-Covered Features" href="#Behavior%20Driven$20Development" />
+<area shape="rect" coords="23,163,253,201" alt="Velocity x Story Points" href="#Story$20Point" />
+<area shape="rect" coords="23,201,252,237" alt="Continuously integrated stories" href="#Continuous%20Integration" />
+<area shape="rect" coords="23,237,252,273" alt="Feature Integration Testing" href="#Feature%20Integration%20Testing" />
+<area shape="rect" coords="22,273,250,311" alt="System Integration Testing" href="#System%20Integration%20Testing" />
+</map>
