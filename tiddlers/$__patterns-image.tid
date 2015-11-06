@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20151106061907437
+modified: 20151106081140049
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -41,7 +41,7 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="475,363,525,380" alt="Autonomy" href="#Autonomy" />
 <area shape="rect" coords="528,364,587,380" alt="Acceleration" href="#Acceleration" />
 <area shape="circle" coords="530,313,47" alt="Chapter Meetings" href="#Chapter%20Meetings" />
-<area shape="circle" coords="530,196,47" alt="Product Squads" href="#Product%20Squads" />
+<area shape="circle" coords="530,196,47" alt="Product Squad" href="#Product%20Squad" />
 <area shape="circle" coords="530,80,48" alt="Portfolio Squad" href="#Portfolio%20Squad" />
 <area shape="rect" coords="471,14,526,28" alt="Assessment" href="#Assessment" />
 <area shape="rect" coords="531,15,581,29" alt="Allocation" href="#Allocation" />
