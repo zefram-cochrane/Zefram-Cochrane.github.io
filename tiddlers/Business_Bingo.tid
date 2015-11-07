@@ -1,5 +1,5 @@
 created: 20151025033945673
-modified: 20151025071242364
+modified: 20151107080219147
 title: Business Bingo
 tmap.id: 0c12d380-3c37-4d1b-9020-837483f26464
 type: text/vnd.tiddlywiki
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 
 ''Therefore,''
 
-Business Bingo is a simple way to quickly determine the budget (time * resource) and relative ROI (RoyalCod) of a feature set without waiting for its features to be broken down into estimable stories. It bases estimates and priorities on the historical costs of a set of features delivered in previous releases and takes costs of analysis and operation into account too. It also provides a simple method to “monetize” [[Story Points]] in terms of feature budgets in [[Feature Points]].
+Business Bingo is a simple way to quickly determine the budget (time * resource) and relative ROI (Royal Cod) of a feature set without waiting for its features to be broken down into estimable stories. It bases estimates and priorities on the historical costs of a set of features delivered in previous releases and takes costs of analysis and operation into account too. It also provides a simple method to “monetize” [[Story Points]] in terms of feature budgets in [[Feature Points]].
 
 Best of all, [[Business Bingo]] is easy, fun to play, and quickly aligns business and technical stakeholders. It works like this:
 

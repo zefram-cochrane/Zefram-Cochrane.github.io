@@ -1,15 +1,22 @@
 created: 20151013040922475
-modified: 20151107032735724
+modified: 20151107101603589
 title: Impact Mapping
 tmap.id: ecf624e0-0f5e-42a6-af7c-6611e0808ede
 type: text/vnd.tiddlywiki
 
 There are several problems in the way product roadmaps are usually specified.
 
-* [[Product Owner]]s and their stakeholders frequently regard their intuitions as a superior metric to [[Product Analytics]]. This can lead to [[Business Case]]s that don't optimise [[Product-Market Fit]] and so products that don't fit the market - no matter how excellent the quality and productivity of [[Delivery Squad]] activities. Such intuition also generates the [[all or nothing anti-pattern]].
+* [[Product Owner]]s and their stakeholders frequently may intuition as a superior metric to [[Product Analytics]], but this frequently leads to [[Business Case]]s that don't optimise [[Product-Market Fit]] and thereby products that don't fit the market - no matter how excellent the quality and productivity of [[Delivery Squad]] activities. Such intuition may also give rise to the [[all or nothing anti-pattern]].
 
 * Many delivery groups field projects that duplicate a great deal of analysis and delivery effort simply because their roadmaps and release plans are not normalised to reveal commonalities in project baselines. Such duplications are pure [[Waste]]. Furthermore, many such duplications lead to incompatible services that require subsequent projects to bridge and refactor, constituting still more [[Waste]]. Some larger corporations spend most of their IT budgets on such wastes.
 
 * Many analysts do not think [[Breadth First]], and thereby generate requirements that constitute [[Frame Problems]], [[Half Solutions]] and local maxima in the landscape of business value. This isn't their fault; [[Whole Board Thinking]] isn't commonly taught to analysts and most people don't test their frame of reference frequently enough to prevent these problems.
 
 ''Therefore,''
+
+# Convert to ENF
+# Quantify assumptions
+# Winnow as you go
+# Map epic landscape across all product lines
+# Inform assumptions via metrics/SME
+# determine critical numbers per metric

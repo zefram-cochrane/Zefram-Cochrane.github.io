@@ -1,0 +1,5 @@
+created: 20151107065558748
+title: $:/plugins/felixhayashi/tiddlymap/config/vis/user
+type: text/vnd.tiddlywiki
+
+{"nodes":{"shadow":true,"shape":"box","font":{"size":16}},"manipulation":{"initiallyActive":false}}

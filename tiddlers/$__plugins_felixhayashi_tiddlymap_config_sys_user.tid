@@ -1,19 +1,23 @@
 created: 20150806095842135
-modified: 20150806095842135
+modified: 20151107070251235
 title: $:/plugins/felixhayashi/tiddlymap/config/sys/user
 type: application/json
 
 {
-    "field.nodeId": "tmap.id",
     "field.nodeLabel": "caption",
     "field.nodeIcon": "icon",
     "field.nodeInfo": "description",
     "field.viewMarker": "isview",
+    "field.nodeId": "tmap.id",
     "field.edgeTypeMarker": "tmap.is-edge-type",
     "field.edges": "tmap.edges",
-    "edgeClickBehaviour": "manager",
+    "liveTab.fallbackView": "Live View",
+    "edgeClickBehaviour": "nothing",
     "debug": "false",
     "notifications": "true",
     "editNodeOnCreate": "false",
-    "singleClickMode": "true"
+    "singleClickMode": "true",
+    "editorMenuBar.showNeighScopeButton": "true",
+    "editorMenuBar.showScreenshotButton": "false",
+    "defaultView": "Live View"
 }

@@ -1,0 +1,15 @@
+created: 20151107075348979
+modified: 20151107080118827
+title: all or nothing anti-pattern
+tmap.id: c578227c-332c-4e29-ad66-7b8eecd3df9f
+type: text/vnd.tiddlywiki
+
+Some stakeholders, and even [[Product Owner]]s, are under the misapprehension that [[Release Planning]] is a [[Zero Sum Game]].
+
+''Therefore,''
+
+They attempt to use power and confrontation to gain the upper hand in negotiating a release plan, rather than rationally prioritising [[Feature]]s and [[Stories|User Story]]. When asked to prioritise, they will insist that their plan is "all or nothing" and that all features possess equal business value.
+
+''But,''
+
+[[Royal Cod]] prioritisation and [[Release Refactoring]] would derive a rational prioritisation even if all features had the same business value. Once a [[Zero Sum Game]]r realises that prioritisation will happen whether they participate or not, they generally realise, correctly, that it's in their interests to participate.
