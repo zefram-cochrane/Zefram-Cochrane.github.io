@@ -1,0 +1,9 @@
+created: 20151106233336956
+modified: 20151106235914992
+title: Acceptance Criteria
+tmap.id: 765974e0-eab8-4b75-bca2-33be390c5216
+type: text/vnd.tiddlywiki
+
+[[Acceptance Criteria]] are required for each [[Feature]] and [[Story]] to respect the normal [[INVEST]] properties and [[Definitions of Done|Definition of Done]]. 
+
+An acceptance criterion generally comes in one of two forms. The first is a simple bullet point statement. In the [[Theme]] of security this might be something like "the channel should be secured with RSA encryption". The second is an expanded version of the first, generally expressed as an automatable [[Gherkin Scenario]].

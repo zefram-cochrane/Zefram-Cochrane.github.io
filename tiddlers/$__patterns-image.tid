@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20151106081140049
+modified: 20151107004943910
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -31,7 +31,7 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="313,185,405,208" alt="Feature Budget / Feature Points" href="#Feature%20Points" />
 <area shape="rect" coords="405,186,447,205" alt="ROI+COD" href="#Royal%20Cod" />
 <area shape="rect" coords="301,231,445,250" alt="Release Plans" href="#Release%20Plans" />
-<area shape="rect" coords="264,273,360,293" alt="Squad Holarchy" href="#Squad%20Holarchy" />
+<area shape="rect" coords="264,273,360,293" alt="Holarchy" href="#Holarchy" />
 <area shape="rect" coords="360,274,445,293" alt="Multi-level Backlogs" href="#Multi-level%20Backlogs" />
 <area shape="rect" coords="247,316,322,338" alt="Cumulative Flow Diagrams" href="#Cumulative%20Flow%20Diagrams" />
 <area shape="rect" coords="322,316,445,339" alt="Quality Metrics" href="#Quality%20Metrics" />

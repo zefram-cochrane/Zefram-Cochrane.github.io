@@ -1,0 +1,9 @@
+created: 20151106232802034
+modified: 20151106233318952
+title: Theme
+tmap.id: a94813b2-960a-4bad-b0b4-a75bcba10a5f
+type: text/vnd.tiddlywiki
+
+In XSCALE a [[Theme]] defines a category of [[Acceptance Criteria]] for some cross-cutting technical, business or user experience aspect of system behavior. 
+
+This is a subtly different definition to the one used in Scrum, where a Theme is simply a collection of Epics that maintain some logical relationship to one another.
