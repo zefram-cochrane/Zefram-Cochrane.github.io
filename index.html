@@ -147,6 +147,8 @@ Error message and password prompt
 
 <li>$:/config/Toolbar/ButtonClass</li>
 
+<li>$:/config/Toolbar/Text</li>
+
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close-others</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit</li>
@@ -225,13 +227,9 @@ Error message and password prompt
 
 <li>$:/structures-image</li>
 
-<li>$:/temp/advancedsearch</li>
-
 <li>$:/temp/focussedTiddler</li>
 
 <li>$:/temp/info-plugin</li>
-
-<li>$:/temp/search</li>
 
 <li>$:/temp/tmap/currentTiddler</li>
 
@@ -258,6 +256,8 @@ Error message and password prompt
 <li>About</li>
 
 <li>Acceptance Criteria</li>
+
+<li>Agile Manifesto</li>
 
 <li>Agile Organisation</li>
 
@@ -326,8 +326,6 @@ Error message and password prompt
 <li>Documentation Style Guide</li>
 
 <li>Draft of '$:/core/ui/SideBar/Recent'</li>
-
-<li>Draft of 'Impact Mapping'</li>
 
 <li>Draft of 'Portfolio Mapping'</li>
 
@@ -398,6 +396,8 @@ Error message and password prompt
 <li>HyperText Markup Language</li>
 
 <li>Images in WikiText</li>
+
+<li>Impact Mapping</li>
 
 <li>ImportTiddlers</li>
 
@@ -647,8 +647,11 @@ Error message and password prompt
 <div created="20150808201700925" modified="20150808201659865" title="$:/config/Tiddlers/TitleLinks" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>yes</pre>
 </div>
-<div created="20150808201808841" modified="20150808201807285" title="$:/config/Toolbar/ButtonClass" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20150808201808841" modified="20151106224951026" title="$:/config/Toolbar/ButtonClass" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>tc-btn-invisible</pre>
+</div>
+<div created="20151106225012178" modified="20151106225010933" title="$:/config/Toolbar/Text" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>no</pre>
 </div>
 <div created="20150808200027402" modified="20150808201427787" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close-others" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>hide</pre>
@@ -6418,7 +6421,7 @@ Error message and password prompt
 <div created="20150808103426618" modified="20150808103425457" title="$:/palette" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>$:/palettes/Vanilla</pre>
 </div>
-<div created="20150809165413052" modified="20151107004943910" title="$:/patterns-image" tmap.id="5c634d57-0d12-4012-81a7-99a69c2e1f1d" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div created="20150809165413052" modified="20151107004943910" title="$:/patterns-image" tmap.id="5c634d57-0d12-4012-81a7-99a69c2e1f1d" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;img src=&quot;http://xscale.wiki/images/xscale-practices.png&quot; width=&quot;600&quot; height=&quot;392&quot; border=&quot;0&quot; usemap=&quot;#map&quot; /&gt;
 
 &lt;map name=&quot;map&quot;&gt;
@@ -6983,8 +6986,8 @@ Error message and password prompt
 <div created="20150806100120434" title="$:/plugins/felixhayashi/tiddlymap/graph/views/XSCALE/map" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>{&quot;fc2b848e-e550-4d94-a61b-f278f68423f7&quot;:{&quot;x&quot;:-82,&quot;y&quot;:-294},&quot;c316c705-88c0-4458-a4b7-12a39e0f4de5&quot;:{&quot;x&quot;:-74,&quot;y&quot;:-183},&quot;f1f31f19-d270-4e95-b5a9-afb3b1d8a3a5&quot;:{&quot;x&quot;:-246,&quot;y&quot;:-105},&quot;c5ab91d2-cc62-4fac-ba7d-e47f23dc9d3d&quot;:{&quot;x&quot;:-65,&quot;y&quot;:-104},&quot;064f9b90-1b6a-4946-b93d-80178e6d9875&quot;:{&quot;x&quot;:96,&quot;y&quot;:-104.390625}}</pre>
 </div>
-<div created="20150806130424381" modified="20150824133657254" title="$:/plugins/felixhayashi/tiddlymap/misc/defaultViewHolder" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View</pre>
+<div created="20150806130424381" modified="20151107011501462" title="$:/plugins/felixhayashi/tiddlymap/misc/defaultViewHolder" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>Live View</pre>
 </div>
 <div created="20150806095707253" modified="20150929190606476" title="$:/plugins/felixhayashi/tiddlymap/misc/meta" type="application/json" revision="0" bag="default">
 <pre>{
@@ -7274,7 +7277,7 @@ Error message and password prompt
 <div title="$:/status/UserName" revision="1" bag="default">
 <pre></pre>
 </div>
-<div list="[[XSCALE Practices]]" title="$:/StoryList" revision="39" bag="default">
+<div list="[[XSCALE Practices]]" title="$:/StoryList" revision="1" bag="default">
 <pre></pre>
 </div>
 <div created="20150809220300027" modified="20151106024153299" tags="" title="$:/structures-image" tmap.id="f310f480-85d4-47cc-8163-8f674b288622" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7298,10 +7301,7 @@ Error message and password prompt
 &lt;area shape=&quot;rect&quot; coords=&quot;115,147,220,166&quot; alt=&quot;Product Coaches&quot; href=&quot;#Product%20Coach&quot; /&gt;
 &lt;/map&gt;</pre>
 </div>
-<div created="20151107004850150" modified="20151107004850634" title="$:/temp/advancedsearch" revision="5" bag="default">
-<pre>image</pre>
-</div>
-<div modified="20151107005255782" title="$:/temp/focussedTiddler" revision="25" bag="default">
+<div modified="20151107034948998" title="$:/temp/focussedTiddler" revision="1" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -7318,13 +7318,10 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20151107005023041" modified="20151107005247914" title="$:/temp/search" revision="6" bag="default">
-<pre></pre>
-</div>
-<div title="$:/temp/tmap/currentTiddler" revision="50" bag="default">
+<div title="$:/temp/tmap/currentTiddler" revision="2" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
-<div list="[[XSCALE Practices]] [[XSCALE Metrics]] [[XSCALE Structures]] [[XSCALE Principles]] [[3rd Generation Agile]]" title="$:/temp/tmap/nodes/Live View" revision="23" bag="default">
+<div list="[[XSCALE Practices]] [[XSCALE Metrics]] [[XSCALE Structures]] [[XSCALE Principles]] [[3rd Generation Agile]]" title="$:/temp/tmap/nodes/Live View" revision="3" bag="default">
 <pre></pre>
 </div>
 <div created="20150808000809642" modified="20150901051126906" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7511,11 +7508,16 @@ How can you make ~TiddlyWiki work for you? We recommend you start with our intro
 &lt;&lt;list-links &quot;[tag[About]]&quot;&gt;&gt;
 </pre>
 </div>
-<div created="20151106233336956" modified="20151106235914992" title="Acceptance Criteria" tmap.id="765974e0-eab8-4b75-bca2-33be390c5216" type="text/vnd.tiddlywiki" revision="1" bag="default">
-<pre></pre>
+<div created="20151106233336956" modified="20151106235914992" title="Acceptance Criteria" tmap.id="765974e0-eab8-4b75-bca2-33be390c5216" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Acceptance Criteria]] are required for each [[Feature]] and [[Story]] to respect the normal [[INVEST]] properties and [[Definitions of Done|Definition of Done]]. 
+
+An acceptance criterion generally comes in one of two forms. The first is a simple bullet point statement. In the [[Theme]] of security this might be something like &quot;the channel should be secured with RSA encryption&quot;. The second is an expanded version of the first, generally expressed as an automatable [[Gherkin Scenario]].</pre>
 </div>
-<div created="20151010083258772" modified="20151013080954656" title="Agile Organisation" tmap.id="de4a2725-1b06-4a88-911e-3ae9366363e5" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>Agile Organisations extend the values of the [[Agile Manifesto]] to all business functions. They take the form of a [[Holarchy]] of [[Autonomous Squad]]s facilitated by [[servant leader]]s, not commanded by [[managers]]. Their squads [[continuously adapt|Continuous Adaptation]] their composition to fit their competencies to the creation and support of the [[features]] of their [[products and services]], and to fit these to their markets. They boldly seek out new markets through [[Agile R&amp;D]],</pre>
+<div created="20151107032929187" modified="20151107032950336" title="Agile Manifesto" tmap.id="91d94cc5-e5b8-428b-bccd-8135afcf499e" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Agile Manifesto|http://agilemanifesto.org]]</pre>
+</div>
+<div created="20151010083258772" modified="20151107033011377" title="Agile Organisation" tmap.id="de4a2725-1b06-4a88-911e-3ae9366363e5" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>Agile Organisations extend the values of the {{Agile Manifesto}} to all business functions. They take the form of a [[Holarchy]] of [[Autonomous Squad]]s facilitated by [[servant leader]]s, not commanded by [[managers]]. Their squads [[continuously adapt|Continuous Adaptation]] their composition to fit their competencies to the creation and support of the [[features]] of their [[products and services]], and to fit these to their markets. They boldly seek out new markets through [[Agile R&amp;D]],</pre>
 </div>
 <div created="20151025075724345" modified="20151025075754258" title="Analysis Paralysis" tmap.id="84e47398-3f15-4a71-a7ba-49b30de30262" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Growing requirements must all be kept in sync, and that means a great deal of WIP at any one time. Since changing one detail often results in cycles of change to others, analysis activity can fall into a never-ending process.</pre>
@@ -7596,7 +7598,7 @@ To “move quality to the left” as in this diagram requires a format for speci
 
 BDD dramatically reduces the total cost of ownership of testing in [[Continuous Delivery]] and [[Automated Configuration Management]]. Industry experience of BDD shows the code for a step implementation is reused an average of 20 times across a test suite, which reduces average cost of the whole suite by a factor of 20. BDD’s ability to replace signoff with iterative prioritization of small batches of acceptance criteria is also a key enabler for Agile delivery. Statistics concerning the percentage coverage of the codebase by BDD tests and the depth of this coverage also form a Delivery quality KPI.</pre>
 </div>
-<div created="20151025075551974" modified="20151107004408034" tags="" title="Behavior Mapping" tmap.id="2a0fe3c2-6cdb-49a4-a0c7-9d2731b44830" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div created="20151025075551974" modified="20151107004408034" tags="" title="Behavior Mapping" tmap.id="2a0fe3c2-6cdb-49a4-a0c7-9d2731b44830" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Traditional Business Analysis often yields poor [[Product-Market Fit]]:
 
 * It gets bogged down in details and cross-referencng as requirements documents grow, leading to [[Analysis Paralysis]]
@@ -8076,9 +8078,6 @@ Additional topics:
 <pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
 </pre>
 </div>
-<div created="20151013040922475" draft.of="Impact Mapping" draft.title="Impact Mapping" modified="20151013040921382" title="Draft of 'Impact Mapping'" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre></pre>
-</div>
 <div created="20151013085605792" draft.of="Portfolio Mapping" draft.title="Portfolio Mapping" modified="20151015024904536" tags="" title="Draft of 'Portfolio Mapping'" tmap.id="596b30a0-5d0a-464b-8a50-89f51547ef9f" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>As an organisation adapts products to its market, the structure, responsibilities and membership of its teams must evolve. In a traditional organisation such &quot;reorgs&quot; are stressful and risky. Their motivation and outcomes depend on unpredictable political forces as [[managers]] are forced to play [[zero sum games]] with their [[Individual KPI]]s to keep their bonuses. Like renovating a house, a reorg that begins with an alteration to the KPI of a single manager may have huge, long-lasting and unforeseeable knock-on effects.
 
@@ -8235,8 +8234,15 @@ Extropic business doesn't compete with existing products but rather obsoletes th
 
 Internally to a business we regard extropy as the capability to continuously improve the organization of teams - to increase the rate of R and decrease the rate of I in [[ROI]].</pre>
 </div>
-<div created="20151106230916977" modified="20151106231345537" title="Feature-Theme Matrix" tmap.id="d9feba62-5ae4-44d3-b810-ad8d6b9e37a3" type="text/vnd.tiddlywiki" revision="1" bag="default">
-<pre></pre>
+<div created="20151106230916977" modified="20151106231345537" title="Feature-Theme Matrix" tmap.id="d9feba62-5ae4-44d3-b810-ad8d6b9e37a3" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Behavior Mapping]] analyzes [[Features|Feature]] in terms of key categories of acceptance criteria called [[Themes|Theme]]. Themes are drawn from 
+
+* Architectural elements
+* Business rules
+* Design personas
+* Non-functional requirements. 
+
+The contents of the matrix are nothing more than simple checkmarks. This is to say that a feature has acceptance criteria in a particular category, or it does not.</pre>
 </div>
 <div caption="Formatting" created="20131205155959399" modified="20131230120942930" tags="WikiText" title="Formatting in WikiText" tmap.id="684897f6-5884-4e31-98c7-5bb7a4057dd3" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Available character formatting includes:
@@ -8396,8 +8402,8 @@ Your browser may ask you to accept the download before it begins
 &lt;&lt;&lt;
 </pre>
 </div>
-<div created="20151013075743752" modified="20151025033845854" title="Guild Meeting" tmap.id="957dbfdc-9332-49a7-8dff-623f7fbd4999" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>As large organisations may be comprised of many interacting portfolios, the guild system enables portfolios to align to the organisation's overall business strategy, market position and technical choices while maintaining their respective autonomy.
+<div created="20151013075743752" modified="20151107011626164" title="Guild Meeting" tmap.id="957dbfdc-9332-49a7-8dff-623f7fbd4999" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>As large organisations may be comprised of many interacting portfolios, the guild system enables portfolios to align to the organisation's overall business strategy, market position and technical choices while maintaining their respective [[autonomy|Autonomy]].
 
 Guilds are meetings held to maintain alignment between [[Portfolio]]s on crosscutting concerns outside the normal [[chapter|Chapter Meeting]] competencies. They may also be used to coordinate chapters across Portfolios. </pre>
 </div>
@@ -8695,6 +8701,17 @@ Renders as:
 {{Motovun Jack.jpg}}
 
 </pre>
+</div>
+<div created="20151013040922475" modified="20151107032735724" title="Impact Mapping" tmap.id="ecf624e0-0f5e-42a6-af7c-6611e0808ede" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>There are several problems in the way product roadmaps are usually specified.
+
+* [[Product Owner]]s and their stakeholders frequently regard their intuitions as a superior metric to [[Product Analytics]]. This can lead to [[Business Case]]s that don't optimise [[Product-Market Fit]] and so products that don't fit the market - no matter how excellent the quality and productivity of [[Delivery Squad]] activities. Such intuition also generates the [[all or nothing anti-pattern]].
+
+* Many delivery groups field projects that duplicate a great deal of analysis and delivery effort simply because their roadmaps and release plans are not normalised to reveal commonalities in project baselines. Such duplications are pure [[Waste]]. Furthermore, many such duplications lead to incompatible services that require subsequent projects to bridge and refactor, constituting still more [[Waste]]. Some larger corporations spend most of their IT budgets on such wastes.
+
+* Many analysts do not think [[Breadth First]], and thereby generate requirements that constitute [[Frame Problems]], [[Half Solutions]] and local maxima in the landscape of business value. This isn't their fault; [[Whole Board Thinking]] isn't commonly taught to analysts and most people don't test their frame of reference frequently enough to prevent these problems.
+
+''Therefore,''</pre>
 </div>
 <div created="20130825162000000" modified="20141125195251055" tags="Features" title="ImportTiddlers" tmap.id="ba141eaa-5cc0-4f20-9783-4c12857ea45d" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>You can import content into a TiddlyWiki file in several ways:
@@ -9940,8 +9957,10 @@ The best way to make sure that your data is safe is to practise a rigorous syste
 * Be defensive and redundant: for example, take multiple backups and keep them in separate physical locations
 </pre>
 </div>
-<div created="20151106232802034" modified="20151106233318952" title="Theme" tmap.id="a94813b2-960a-4bad-b0b4-a75bcba10a5f" type="text/vnd.tiddlywiki" revision="1" bag="default">
-<pre></pre>
+<div created="20151106232802034" modified="20151106233318952" title="Theme" tmap.id="a94813b2-960a-4bad-b0b4-a75bcba10a5f" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>In XSCALE a [[Theme]] defines a category of [[Acceptance Criteria]] for some cross-cutting technical, business or user experience aspect of system behavior. 
+
+This is a subtly different definition to the one used in Scrum, where a Theme is simply a collection of Epics that maintain some logical relationship to one another.</pre>
 </div>
 <div created="20151013044300193" modified="20151013055355761" title="Three Amigos" tmap.id="7c0b0ee1-af3e-414c-bf87-e0823f386ad5" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>In a [[Delivery Squad]], BAs, Testers and Developers take turns [[Pair-Working]] in a pattern described at https://www.scrumalliance.org/community/articles/2013/2013-april/introducing-the-three-amigos .</pre>
@@ -10733,13 +10752,13 @@ The following elements of WikiText syntax are built into the core:
 <div created="20151020000245839" modified="20151020000523662" tags="" title="XP" tmap.id="a90059d0-8654-47ee-ab6c-acdbe7e72e93" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[XP|http://c2.com/cgi/wiki?ExtremeProgrammingCorePractices]]</pre>
 </div>
-<div created="20150809220636012" modified="20151107005143278" tags="" title="XSCALE Metrics" tmap.id="064f9b90-1b6a-4946-b93d-80178e6d9875" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div created="20150809220636012" modified="20151107005143278" tags="" title="XSCALE Metrics" tmap.id="064f9b90-1b6a-4946-b93d-80178e6d9875" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |
 
 {{$:/metrics-image}}
 </pre>
 </div>
-<div created="20150809210853784" modified="20151107005118214" tags="" title="XSCALE Practices" tmap.id="f1f31f19-d270-4e95-b5a9-afb3b1d8a3a5" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div created="20150809210853784" modified="20151107005118214" tags="" title="XSCALE Practices" tmap.id="f1f31f19-d270-4e95-b5a9-afb3b1d8a3a5" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>|! [[Principles|XSCALE Principles]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |
 
 {{$:/patterns-image}}</pre>
@@ -10762,7 +10781,7 @@ An acronym for the principles of an [[Agile Organisation]]. Also the name of a [
 
 |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |</pre>
 </div>
-<div created="20150809220432050" modified="20151107005221344" tags="" title="XSCALE Structures" tmap.id="c5ab91d2-cc62-4fac-ba7d-e47f23dc9d3d" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div created="20150809220432050" modified="20151107005221344" tags="" title="XSCALE Structures" tmap.id="c5ab91d2-cc62-4fac-ba7d-e47f23dc9d3d" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Metrics|XSCALE Metrics]] |
 
 {{$:/structures-image}}</pre>
