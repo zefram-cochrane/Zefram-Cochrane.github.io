@@ -225,6 +225,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/sidebar</li>
+
 <li>$:/status/IsLoggedIn</li>
 
 <li>$:/status/UserName</li>
@@ -272,6 +274,8 @@ Error message and password prompt
 <li>Agile Manifesto</li>
 
 <li>Agile Organisation</li>
+
+<li>Agile:TNG</li>
 
 <li>all or nothing anti-pattern</li>
 
@@ -7306,13 +7310,16 @@ Error message and password prompt
 <div created="20150806085922955" modified="20151107105741432" title="$:/SiteTitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[XSCALE|XSCALE Principles]]</pre>
 </div>
+<div modified="20151108112257234" title="$:/state/sidebar" revision="2" bag="default">
+<pre>yes</pre>
+</div>
 <div title="$:/status/IsLoggedIn" revision="2" bag="default">
 <pre>yes</pre>
 </div>
 <div title="$:/status/UserName" revision="1" bag="default">
 <pre></pre>
 </div>
-<div list="[[XSCALE Practices]]" title="$:/StoryList" revision="55" bag="default">
+<div list="[[XSCALE Practices]]" title="$:/StoryList" revision="97" bag="default">
 <pre></pre>
 </div>
 <div created="20150809220300027" modified="20151106024153299" tags="" title="$:/structures-image" tmap.id="f310f480-85d4-47cc-8163-8f674b288622" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7336,10 +7343,10 @@ Error message and password prompt
 &lt;area shape=&quot;rect&quot; coords=&quot;115,147,220,166&quot; alt=&quot;Product Coaches&quot; href=&quot;#Product%20Coach&quot; /&gt;
 &lt;/map&gt;</pre>
 </div>
-<div created="20151108100121649" modified="20151108100332951" title="$:/temp/advancedsearch" revision="7" bag="default">
-<pre>chapt</pre>
+<div created="20151108100121649" modified="20151108111246553" title="$:/temp/advancedsearch" revision="11" bag="default">
+<pre>topr</pre>
 </div>
-<div modified="20151108100419901" title="$:/temp/focussedTiddler" revision="44" bag="default">
+<div modified="20151108112414819" title="$:/temp/focussedTiddler" revision="65" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -7359,10 +7366,10 @@ Error message and password prompt
 <div created="20151108002814239" modified="20151108100332951" title="$:/temp/search" revision="31" bag="default">
 <pre></pre>
 </div>
-<div title="$:/temp/tmap/currentTiddler" revision="58" bag="default">
+<div title="$:/temp/tmap/currentTiddler" revision="103" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
-<div list="[[XSCALE Practices]] [[XSCALE Metrics]] [[XSCALE Structures]] [[XSCALE Principles]] [[3rd Generation Agile]]" title="$:/temp/tmap/nodes/Live View" revision="57" bag="default">
+<div list="[[XSCALE Practices]] [[XSCALE Metrics]] [[XSCALE Structures]] [[XSCALE Principles]] [[3rd Generation Agile]]" title="$:/temp/tmap/nodes/Live View" revision="109" bag="default">
 <pre></pre>
 </div>
 <div created="20150808000809642" modified="20150901051126906" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7519,9 +7526,9 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20151107113225310" modified="20151107214835057" tags="$:/tags/TopRightBar" title="$:/topright" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20151107113225310" modified="20151108111640492" tags="$:/tags/TopRightBar" title="$:/topright" type="text/vnd.tiddlywiki" revision="4" bag="default">
 <pre>&lt;span class=&quot;tc-subtitle&quot;&gt;
-&lt;span id=&quot;copyright&quot; property=&quot;dc:rights&quot;&gt;Copyright &amp;copy; &lt;span property=&quot;dc:dateCopyrighted&quot;&gt;2015&lt;/span&gt; &lt;span property=&quot;dc:publisher&quot;&gt;Peter Merel&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode&quot;&gt;&lt;img src=&quot;http://xscale.wiki/images/cc-by-nc-sa.png&quot;&gt;&lt;/a&gt;&lt;/span&gt;</pre>
+&lt;span id=&quot;copyright&quot; property=&quot;dc:rights&quot;&gt;Copyright &amp;copy; &lt;span property=&quot;dc:dateCopyrighted&quot;&gt;2015&lt;/span&gt; &lt;span property=&quot;dc:publisher&quot;&gt;[[Peter Merel]] &amp; [[Agile:TNG]]&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode&quot;&gt;&lt;img src=&quot;http://xscale.wiki/images/cc-by-nc-sa.png&quot;&gt;&lt;/a&gt;&lt;/span&gt;</pre>
 </div>
 <div created="20150808195648704" modified="20150901051134588" title="$:/view" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>top</pre>
@@ -7563,6 +7570,9 @@ An acceptance criterion generally comes in one of two forms. The first is a simp
 </div>
 <div created="20151010083258772" modified="20151107033011377" title="Agile Organisation" tmap.id="de4a2725-1b06-4a88-911e-3ae9366363e5" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Agile Organisations extend the values of the {{Agile Manifesto}} to all business functions. They take the form of a [[Holarchy]] of [[Autonomous Squad]]s facilitated by [[servant leader]]s, not commanded by [[managers]]. Their squads [[continuously adapt|Continuous Adaptation]] their composition to fit their competencies to the creation and support of the [[features]] of their [[products and services]], and to fit these to their markets. They boldly seek out new markets through [[Agile R&amp;D]],</pre>
+</div>
+<div created="20151108111525325" modified="20151108112408466" tags="" title="Agile:TNG" tmap.id="a739fbe8-e9e8-4d98-90bc-4c889f2db40c" revision="6" bag="default">
+<pre>Agile: The Next Generation is an alliance of professional XSCALE coaches, trainers and practitioners working together to advance the state of the Agile art. The A:TNG website is [[here|http://agiletng.org]].</pre>
 </div>
 <div created="20151107075348979" modified="20151107080118827" title="all or nothing anti-pattern" tmap.id="c578227c-332c-4e29-ad66-7b8eecd3df9f" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Some stakeholders, and even [[Product Owner]]s, are under the misapprehension that [[Release Planning]] is a [[Zero Sum Game]].
@@ -9487,10 +9497,10 @@ When TiddlyWiki starts up it processes permalinks according to the following ste
 # If the ''target'' is specified then navigate to it, otherwise navigate to the first tiddler in the ''story list''
 </pre>
 </div>
-<div created="20150806090356310" modified="20151107064552476" title="Peter Merel" tmap.id="e83bc974-6435-4430-b715-e98d278f3d09" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>One of the attendees of the first Agile Alliance meeting in 2000, Pete focuses on applying Agile to [[Product Management]], [[Portfolio Management]], [[OCM]], [[HR] and non-IT [[Service Management]] to make up a wholely [[Agile Organization]]. 
+<div created="20150806090356310" modified="20151108112238983" title="Peter Merel" tmap.id="e83bc974-6435-4430-b715-e98d278f3d09" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<pre>Pete works with [[Agile Organisation]]s to generate exponential growth. [[Product Management]], [[Portfolio Management]], [[OCM]], [[HR]] and non-IT [[Service Management]] are specific focuses of his work.. 
 
-Right now Pete's working on the first [[XSCALE Book]] and if that's not far out enough he has another one in the works - something mysteriously titled [[The Agile Tao]] ...
+Right now Pete's working on the first [[XSCALE Book]] and if that's not far out enough he has another in the works - something mysteriously titled [[The Agile Tao]] ...
 
 You can reach Pete &lt;a href=&quot;mailto:peter.merel@mac.com&quot;&gt;here&lt;/a&gt;. In real life Pete does not talk about himself in the third person.</pre>
 </div>
