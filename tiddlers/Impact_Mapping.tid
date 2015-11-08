@@ -1,5 +1,5 @@
 created: 20151013040922475
-modified: 20151108100032888
+modified: 20151108201213584
 title: Impact Mapping
 tmap.id: ecf624e0-0f5e-42a6-af7c-6611e0808ede
 type: text/vnd.tiddlywiki
@@ -14,6 +14,7 @@ There are several problems in the way product roadmaps are usually specified.
 
 ''Therefore,''
 
+# Describe the market in terms of [[User Journeys]].
 # Convert each existing business case / BRD / [[Lean Canvas]] / back of the napkin into [[Epic Normal Form]].
 # For each epic, quantify the assumptions that link the ''Why'' to the ''Who'', the ''Who'' to the ''How'', and the ''How'' to the ''What''. If you can't figure out how to attach a metric to an assumption, find a subject matter expert who can figure it out. Really, you need to understand what numbers are underpinning your intuition if this is going to be science rather than just pretend.
 # Starting with the Why->Who assumption, test these assumptions against real analytic data that describes real market behaviors. If you don't have that data, build a [[Spike]] and gather some. Or find a subject matter expert you trust to provide it. Or if you don't have budget just Google for some. Remember, you're testing your assumptions so you don't waste a lot more budget building the wrong things.

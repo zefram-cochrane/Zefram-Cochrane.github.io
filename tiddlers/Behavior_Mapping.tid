@@ -1,5 +1,5 @@
 created: 20151025075551974
-modified: 20151107004408034
+modified: 20151108195500052
 tags: 
 title: Behavior Mapping
 tmap.id: 2a0fe3c2-6cdb-49a4-a0c7-9d2731b44830
@@ -30,5 +30,11 @@ Traditional Business Analysis often yields poor [[Product-Market Fit]]:
 # If a theme has no checkboxes ticked, delete it. If it has only a very small number ticked, consider refactoring those checkboxes into a standalone feature.
 # This process continues until the team agrees that the matrix is complete or it has reached the [[last responsible moment]].
 
-To use [[Behavior Mapping]] properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and dull if features and themes are too numerous or
-detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
+''But,''
+
+* To use [[Behavior Mapping]] properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and contentious if features and themes are too numerous or too detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
+
+* [[Behavior Mapping]] is pointless if your epics don't fit the market. Therefore, before spending very much time on features, do a pass at [[Impact Mapping]].
+
+* In order to determine budgets per feature and the optimal order in which to deliver features, [[Business Bingo]].
+

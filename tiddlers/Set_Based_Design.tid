@@ -1,0 +1,25 @@
+created: 20151108195553972
+modified: 20151108201254052
+tags: Describe
+title: Set Based Design
+tmap.id: ff1175cf-14d4-4982-af0d-5d54b30452fa
+type: text/vnd.tiddlywiki
+
+Diagram: Picasso's Bull
+
+* The purpose of Design: adding value by removing that without.
+* Solution constraints as acceptance criteria
+* Problems with Design Thinking
+
+''Therefore,''
+
+# Spiking in time boxes
+# The two design meetings
+# Refactoring and winnowing to fit constraints
+# The last responsible moment
+
+''But,''
+
+* Lean UX: Market -> personas
+* Understanding the epic landscape -> impact mapping
+* Solution constraints to feature sets -> Behavior Mapping

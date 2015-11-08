@@ -241,6 +241,8 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/NewTagName</li>
+
 <li>$:/temp/search</li>
 
 <li>$:/temp/tmap/currentTiddler</li>
@@ -524,6 +526,8 @@ Error message and password prompt
 <li>Searching in TiddlyWiki</li>
 
 <li>Second Law of Thermodynamics</li>
+
+<li>Set Based Design</li>
 
 <li>Setting a favicon</li>
 
@@ -7319,7 +7323,7 @@ Error message and password prompt
 <div title="$:/status/UserName" revision="1" bag="default">
 <pre></pre>
 </div>
-<div list="[[XSCALE Practices]]" title="$:/StoryList" revision="97" bag="default">
+<div list="[[XSCALE Practices]]" title="$:/StoryList" revision="117" bag="default">
 <pre></pre>
 </div>
 <div created="20150809220300027" modified="20151106024153299" tags="" title="$:/structures-image" tmap.id="f310f480-85d4-47cc-8163-8f674b288622" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7346,7 +7350,7 @@ Error message and password prompt
 <div created="20151108100121649" modified="20151108111246553" title="$:/temp/advancedsearch" revision="11" bag="default">
 <pre>topr</pre>
 </div>
-<div modified="20151108112414819" title="$:/temp/focussedTiddler" revision="65" bag="default">
+<div modified="20151108201335089" title="$:/temp/focussedTiddler" revision="89" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -7363,13 +7367,16 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div title="$:/temp/NewTagName" revision="1" bag="default">
+<pre></pre>
+</div>
 <div created="20151108002814239" modified="20151108100332951" title="$:/temp/search" revision="31" bag="default">
 <pre></pre>
 </div>
-<div title="$:/temp/tmap/currentTiddler" revision="103" bag="default">
+<div title="$:/temp/tmap/currentTiddler" revision="141" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
-<div list="[[XSCALE Practices]] [[XSCALE Metrics]] [[XSCALE Structures]] [[XSCALE Principles]] [[3rd Generation Agile]]" title="$:/temp/tmap/nodes/Live View" revision="109" bag="default">
+<div list="[[XSCALE Practices]] [[XSCALE Metrics]] [[XSCALE Structures]] [[XSCALE Principles]] [[3rd Generation Agile]]" title="$:/temp/tmap/nodes/Live View" revision="155" bag="default">
 <pre></pre>
 </div>
 <div created="20150808000809642" modified="20150901051126906" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7664,7 +7671,7 @@ To “move quality to the left” as in this diagram requires a format for speci
 
 BDD dramatically reduces the total cost of ownership of testing in [[Continuous Delivery]] and [[Automated Configuration Management]]. Industry experience of BDD shows the code for a step implementation is reused an average of 20 times across a test suite, which reduces average cost of the whole suite by a factor of 20. BDD’s ability to replace signoff with iterative prioritization of small batches of acceptance criteria is also a key enabler for Agile delivery. Statistics concerning the percentage coverage of the codebase by BDD tests and the depth of this coverage also form a Delivery quality KPI.</pre>
 </div>
-<div created="20151025075551974" modified="20151107004408034" tags="" title="Behavior Mapping" tmap.id="2a0fe3c2-6cdb-49a4-a0c7-9d2731b44830" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20151025075551974" modified="20151108195500052" tags="" title="Behavior Mapping" tmap.id="2a0fe3c2-6cdb-49a4-a0c7-9d2731b44830" type="text/vnd.tiddlywiki" revision="2" bag="default">
 <pre>Traditional Business Analysis often yields poor [[Product-Market Fit]]:
 
 * It gets bogged down in details and cross-referencng as requirements documents grow, leading to [[Analysis Paralysis]]
@@ -7690,8 +7697,14 @@ BDD dramatically reduces the total cost of ownership of testing in [[Continuous 
 # If a theme has no checkboxes ticked, delete it. If it has only a very small number ticked, consider refactoring those checkboxes into a standalone feature.
 # This process continues until the team agrees that the matrix is complete or it has reached the [[last responsible moment]].
 
-To use [[Behavior Mapping]] properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and dull if features and themes are too numerous or
-detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
+''But,''
+
+* To use [[Behavior Mapping]] properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and contentious if features and themes are too numerous or too detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
+
+* [[Behavior Mapping]] is pointless if your epics don't fit the market. Therefore, before spending very much time on features, do a pass at [[Impact Mapping]].
+
+* In order to determine budgets per feature and the optimal order in which to deliver features, [[Business Bingo]].
+
 </pre>
 </div>
 <div caption="Block Quotes" created="20131206154636572" modified="20131206162157596" tags="WikiText" title="Block Quotes in WikiText" tmap.id="dc0d219d-aa64-46d3-b566-30264e2a9a6d" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -8774,7 +8787,7 @@ Renders as:
 
 </pre>
 </div>
-<div created="20151013040922475" modified="20151108100032888" title="Impact Mapping" tmap.id="ecf624e0-0f5e-42a6-af7c-6611e0808ede" type="text/vnd.tiddlywiki" revision="3" bag="default">
+<div created="20151013040922475" modified="20151108201213584" title="Impact Mapping" tmap.id="ecf624e0-0f5e-42a6-af7c-6611e0808ede" type="text/vnd.tiddlywiki" revision="4" bag="default">
 <pre>There are several problems in the way product roadmaps are usually specified.
 
 * [[Product Owner]]s and their stakeholders may regard intuition as a superior metric to [[Product Analytics]], but this frequently leads to [[Business Case]]s that don't optimise [[Product-Market Fit]] and thereby products that don't fit the market. Which is to say, building the wrong thing. No matter how excellent the quality and productivity of [[Delivery Squad]] activities, that won't do you any good. Such intuition may also give rise to the [[all or nothing anti-pattern]].
@@ -8785,6 +8798,7 @@ Renders as:
 
 ''Therefore,''
 
+# Describe the market in terms of [[User Journeys]].
 # Convert each existing business case / BRD / [[Lean Canvas]] / back of the napkin into [[Epic Normal Form]].
 # For each epic, quantify the assumptions that link the ''Why'' to the ''Who'', the ''Who'' to the ''How'', and the ''How'' to the ''What''. If you can't figure out how to attach a metric to an assumption, find a subject matter expert who can figure it out. Really, you need to understand what numbers are underpinning your intuition if this is going to be science rather than just pretend.
 # Starting with the Why-&gt;Who assumption, test these assumptions against real analytic data that describes real market behaviors. If you don't have that data, build a [[Spike]] and gather some. Or find a subject matter expert you trust to provide it. Or if you don't have budget just Google for some. Remember, you're testing your assumptions so you don't waste a lot more budget building the wrong things.
@@ -9760,6 +9774,27 @@ Clicking on the magnifying glass icon to the right of the search box will open [
 </div>
 <div created="20151107050533541" modified="20151107050611116" tags="" title="Second Law of Thermodynamics" tmap.id="659703d6-d6a2-4d2c-a618-949a95f1b9e8" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Second Law of Thermodynamics|http://en.wikipedia.org]]</pre>
+</div>
+<div created="20151108195553972" modified="20151108201254052" tags="Describe" title="Set Based Design" tmap.id="ff1175cf-14d4-4982-af0d-5d54b30452fa" revision="5" bag="default">
+<pre>Diagram: Picasso's Bull
+
+* The purpose of Design: adding value by removing that without.
+* Solution constraints as acceptance criteria
+* Problems with Design Thinking
+
+''Therefore,''
+
+# Spiking in time boxes
+# The two design meetings
+# Refactoring and winnowing to fit constraints
+# The last responsible moment
+
+''But,''
+
+* Lean UX: Market -&gt; personas
+* Understanding the epic landscape -&gt; impact mapping
+* Solution constraints to feature sets -&gt; Behavior Mapping
+</pre>
 </div>
 <div created="20131224074240979" modified="20140912142228347" tags="[[Customise TiddlyWiki]]" title="Setting a favicon" tmap.id="a9304b82-7eca-4fa6-9306-76b5a67a5270" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&quot;favicons&quot; are small icons that most browsers display to help users identify websites.
