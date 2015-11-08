@@ -1,5 +1,5 @@
 created: 20150806095842135
-modified: 20151107070251235
+modified: 20151107235748650
 title: $:/plugins/felixhayashi/tiddlymap/config/sys/user
 type: application/json
 
@@ -19,5 +19,6 @@ type: application/json
     "singleClickMode": "true",
     "editorMenuBar.showNeighScopeButton": "true",
     "editorMenuBar.showScreenshotButton": "false",
-    "defaultView": "Live View"
+    "defaultView": "Live View",
+    "suppressedDialogs.dublicateIdInfo": true
 }

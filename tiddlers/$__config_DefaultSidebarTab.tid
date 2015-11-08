@@ -1,6 +1,6 @@
 created: 20150807132804998
-modified: 20151107065605253
+modified: 20151107234758699
 title: $:/config/DefaultSidebarTab
 type: text/vnd.tiddlywiki
 
-$:/plugins/felixhayashi/tiddlymap/hook/liveTab
+$:/plugins/felixhayashi/tiddlymap/hook/editor

@@ -1,5 +1,5 @@
 created: 20151010230026627
-modified: 20151025025843937
+modified: 20151107223330655
 tags: 
 title: Autonomous Squad
 tmap.id: 8e46dcb6-5a53-4901-872a-20ff89fe68a5
@@ -9,7 +9,7 @@ A squad is a small self-organizing team stable in structure over the period of a
 
 To maximize productivity, squads are kept small, on the order of 4 to 8 members, with [[Portfolio Mapping]] used to minimize dependencies between the squads and assure each possesses all competencies necessary to define, deliver and operate the functionality for which it is accountable. 
 
-Fully [[Autonomous Squad]]s require resolution of the [[Scrum-Master]] anti-pattern.
+Fully [[Autonomous Squad]]s require resolution of the [[Scrum-Master|Product Coach]] anti-pattern.
 
 ''See Also''
 

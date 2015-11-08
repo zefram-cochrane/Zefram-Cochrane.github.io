@@ -1,14 +1,14 @@
 created: 20151025025853144
-modified: 20151025072114702
-title: Scrum-Master
-tmap.id: b3483ac3-a547-4e48-a7ca-323ad0a964ac
+modified: 20151107223858481
+title: Product Coach
+tmap.id: 57d5153d-3ad7-4adc-a4a9-b8f0509cc7c0
 type: text/vnd.tiddlywiki
 
 Going along with [[Uncle Bob|https://www.youtube.com/watch?v=hG4LH6P8Syk&list=PL5DcL6vURgXolNPvr9reUnBYzV4RgWNp8&index=3]], XSCALE considers Scrum-Masters [[harmful]]. Why? Because designating an individual "Scrum Master" interferes in the normal processes of collaboration and self-organisation in an [[Autonomous Squad]]. 
 
-Having an individual take accountability for this role is just making them a project manager by another name. Or in a feature stream with more than one squad, scrum masters are generally expected to multi-task between the squads, leaving them with too little time to engage as a peer of the [[Product Owner]] in discussions with members of the [[Product Squad]]. This generally pushes the product owner into project-manager behaviours.
+Having an individual take accountability for Scrum Mastering is just making them a [[project manager]] by another name. Or in a feature stream with more than one squad, scrum masters are generally expected to multi-task between the squads, leaving them with too little time to engage as a peer of the [[Product Owner]] in discussions with members of the [[Product Squad]], which instead pushes the product owner into project-manager behaviours.
 
-There's nothing wrong with the [[Scrum]] practice patterns. They're nice, simple ways for a small team to manage themselves ''without'' anyone having such a designation. If you insist on having a phrase to describe running some Scrum practice, it could be "being a Scrum Master". But the role was only ever intended to be a temporary thing.
+There's nothing wrong with the [[Scrum]] practice patterns. They're nice, simple ways for a small team to manage themselves ''without'' a permanently designated Scrum Master. If you insist on having a phrase to describe some scrum member running some scrum practice or, that could be "being a Scrum Master". But the role was only ever intended to be a temporary thing.
 
 ''Therefore,''
 
