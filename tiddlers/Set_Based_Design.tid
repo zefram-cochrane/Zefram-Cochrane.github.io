@@ -1,23 +1,29 @@
 created: 20151108195553972
-modified: 20151111193921282
+modified: 20151203203010895
 tags: Describe
 title: Set Based Design
 tmap.id: ff1175cf-14d4-4982-af0d-5d54b30452fa
 type: text/vnd.tiddlywiki
 
-Diagram: Picasso's Bull
+The word design is from the Latin 'de-' meaning removal and 'signere' meaning signal or mark. {{Ron Jeffries}} describes it as the process of ''adding value by removing that without.'' 
 
-* Design, from the Latin 'de-' meaning remove and 'signere' meaning signal or mark, is the process of adding value by removing that without. As illustrated here by Picasso's Bull, when it comes to system behavior this means we remove non-valuable behaviors by adding [[solution constraint]]s until the [[System Interface]] reaches what [[Steve Jobs]] called
+[img[http://xscale.wiki/images/bull.png]]
 
-> The elegance of minimum. Not form and function; how it works.
+Famously illustrated by Picasso's Bull, when it comes to technology, design means we remove non-valuable system behaviours by adding [[solution constraint]]s until the [[System Interface]] reaches what {{Steve Jobs}} called ''The elegance of minimum. Not form and function; how it works.''
 
-* Solution constraints take the same form as [[Acceptance Criteria]]. We can describe them using the same representations, starting with a variant of [[Feature-Theme Matrix]] where the Themes represent the [[solution constraints]] and the Features are embodied in [[Spike]]s.
+* Solution constraints take the same form as [[Acceptance Criteria]]. We may represent them with a [[Feature-Theme Matrix]] where Themes represent categories of [[solution constraint|Acceptance Criteria]] and Features are embodied in [[Spike|Spike Solution]]s.
 
-* A key flaw in the old [[Design Thinking]] approach was the lack of [[Whole Board Thinking]] meaning key solution constraints could be missed, thereby leading to over complex designs that still failed to meet a user's [[basic expectations]], while time could be wasted pursuing blind alleys in solution space that were already precluded by previous learnings. Design complexity also multiplied through the lack of a process of [[Systematic Refactoring]], generating [[System Interface]]s with unnecessary feature duplication and thereby clunky or modal UX.
+* The {{Design Thinking}} method fails in that it doesn't require [[Whole Board Thinking]]. This means key solution constraints may be missed, leading to over complex designs that fail to meet a user's [[basic expectations]]. It also permits time to be lost pursuing blind alleys in [[solution space]] that are already precluded by known constraints. 
+
+* Iterative [[Refactoring]] is essential to generate [[System Interface]]s without unnecessary feature duplication and thereby clunky or modal [[UX]]. 
+
+* There is inherent tension between the desire to perfect product design and the desire to ship imperfect products early enough to open markets and refine design by learning from market analytics. This is not an either/or choice - both are essential to design.
 
 ''Therefore,''
 
-# Establish a [[breadth-first]] sprint cycle where [[stories|Story]] each take one of three forms
+# First use [[Impact Mapping]] to establish a clear definition of the [[critical number]]s that must be met for a design to enable the [[Epic Landscape]] of a business case.
+
+#  [[breadth-first]] sprint cycle where [[stories|Story]] each take one of three forms
 #* [[Spike]]s
 #* [[Analytic]]s
 #* [[Refactoring]]s
