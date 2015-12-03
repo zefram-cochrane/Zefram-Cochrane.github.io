@@ -5,20 +5,20 @@
 <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
 <!-- #$-:Please do not edit lines starting with "#$" -->
 <!-- #$VERSION:2.3 -->
-<!-- #$AUTHOR:pete  -->
+<!-- #$AUTHOR:pete   -->
 <area shape="rect" coords="345,236,594,347" alt="Guild Meetings" href="#Guild%20Meeting" />
-<area shape="rect" coords="362,104,595,167" alt="Portfolio Chapter" href="#Portfolio%20Chapter" />
-<area shape="rect" coords="362,168,592,222" alt="Transformation Chapter" href="#Transformation%20Chapter" />
+<area shape="rect" coords="360,104,597,167" alt="Portfolio Chapter" href="#Portfolio%20Chapter" />
+<area shape="rect" coords="359,168,596,222" alt="Transformation Chapter" href="#Transformation%20Chapter" />
 <area shape="rect" coords="330,8,359,386" alt="Portfolio Squad" href="#Portfolio%20Squad" />
 <area shape="rect" coords="370,8,578,54" alt="Dunbar&apos;s Number" href="#Dunbar%20Number" />
 <area shape="rect" coords="215,4,329,142" alt="Chapter Meetings" href="#Chapter%20Meeting" />
 <area shape="rect" coords="214,179,329,386" alt="Chapter Meetings" href="#Chapter%20Meeting" />
 <area shape="rect" coords="8,168,212,298" alt="Delivery Squads" href="#Delivery%20Squad" />
-<area shape="rect" coords="0,23,214,155" alt="Product Squads" href="#Product%20Squad" />
-<area shape="rect" coords="1,298,214,397" alt="DevOps Support Squads" href="#DevOps" />
+<area shape="rect" coords="0,23,214,147" alt="Product Squads" href="#Product%20Squad" />
+<area shape="rect" coords="4,298,210,391" alt="DevOps Support Squads" href="#DevOps" />
 <area shape="rect" coords="358,348,592,391" alt="Portfolios" href="#Portfolio" />
 <area shape="rect" coords="220,160,331,179" alt="Portfolio Coach" href="#Portfolio%20Coach" />
-<area shape="rect" coords="17,148,116,170" alt="Product Owners" href="#Product%20Owner" />
-<area shape="rect" coords="115,151,220,170" alt="Product Coaches" href="#Product%20Coach" />
+<area shape="rect" coords="17,148,116,166" alt="Product Owners" href="#Product%20Owner" />
+<area shape="rect" coords="115,148,220,169" alt="Product Coaches" href="#Product%20Coach" />
 <area shape="rect" coords="217,143,330,161" alt="Portfolio Owner" href="#Portfolio%20Owner" />
 </map>
