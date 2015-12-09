@@ -1,8 +1,12 @@
+config.neighbourhood_directions: in
 config.neighbourhood_scope: 1
 config.physics_mode: true
 config.refresh-triggers: $:/temp/tmap/currentTiddler
+config.show_inter_neighbour_edges: false
+config.vis: {"edges":{"shadow":true}}
 created: 20150806095708772
 isview: true
+modified: 20151208053747552
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
 type: text/vnd.tiddlywiki
 

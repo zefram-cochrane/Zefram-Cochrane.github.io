@@ -2,4 +2,4 @@ created: 20151107065558748
 title: $:/plugins/felixhayashi/tiddlymap/config/vis/user
 type: text/vnd.tiddlywiki
 
-{"nodes":{"shadow":true,"shape":"box","font":{"size":16}},"manipulation":{"initiallyActive":false}}
+{"nodes":{"shadow":true,"shape":"box","font":{"size":16,"color":"rgba(0,0,0,1)"}},"manipulation":{"initiallyActive":false}}

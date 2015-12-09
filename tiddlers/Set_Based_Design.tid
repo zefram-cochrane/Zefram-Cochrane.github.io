@@ -1,19 +1,21 @@
 created: 20151108195553972
-modified: 20151203203010895
+modified: 20151203232823678
 tags: Describe
 title: Set Based Design
 tmap.id: ff1175cf-14d4-4982-af0d-5d54b30452fa
 type: text/vnd.tiddlywiki
 
-The word design is from the Latin 'de-' meaning removal and 'signere' meaning signal or mark. {{Ron Jeffries}} describes it as the process of ''adding value by removing that without.'' 
+The word design is from Latin 'de-' meaning remove and 'signere' meaning mark.
 
 [img[http://xscale.wiki/images/bull.png]]
 
-Famously illustrated by Picasso's Bull, when it comes to technology, design means we remove non-valuable system behaviours by adding [[solution constraint]]s until the [[System Interface]] reaches what {{Steve Jobs}} called ''The elegance of minimum. Not form and function; how it works.''
+Design means we remove non-valuable system behaviours by adding [[solution constraint]]s until the [[System Interface]] reaches what {{Steve Jobs}} called ''The elegance of minimum. Not form and function; how it works.''  {{Ron Jeffries}} describes it as the process of ''adding value by removing that without.'' 
 
-* Solution constraints take the same form as [[Acceptance Criteria]]. We may represent them with a [[Feature-Theme Matrix]] where Themes represent categories of [[solution constraint|Acceptance Criteria]] and Features are embodied in [[Spike|Spike Solution]]s.
+There are many schools of design and many design [[Pattern Language]]s. We're not concerned with the language specifics here, but a practice of design an XSCALE [[Product Squad]] can apply to define products to be delivered. Soecifically, we're concerned with:
 
-* The {{Design Thinking}} method fails in that it doesn't require [[Whole Board Thinking]]. This means key solution constraints may be missed, leading to over complex designs that fail to meet a user's [[basic expectations]]. It also permits time to be lost pursuing blind alleys in [[solution space]] that are already precluded by known constraints. 
+* Solution constraints as [[Acceptance Criteria]]. We may represent these with a [[Feature-Theme Matrix]] where Themes represent categories of constraint and Features are embodied in [[Spike|Spike Solution]]s.
+
+* [[Whole Board Thinking]] without which key solution constraints may be missed, leading to over complex designs that fail to meet a user's [[basic expectations]]m ir time nay be lost pursuing blind alleys in [[solution space]] that are already precluded by known constraints. 
 
 * Iterative [[Refactoring]] is essential to generate [[System Interface]]s without unnecessary feature duplication and thereby clunky or modal [[UX]]. 
 
@@ -21,12 +23,12 @@ Famously illustrated by Picasso's Bull, when it comes to technology, design mean
 
 ''Therefore,''
 
-# First use [[Impact Mapping]] to establish a clear definition of the [[critical number]]s that must be met for a design to enable the [[Epic Landscape]] of a business case.
+# Use [[Impact Mapping]] to establish a clear definition of the [[critical number]]s that must be met for a design to enable the [[Epic Landscape]] of a [[business case]].
 
-#  [[breadth-first]] sprint cycle where [[stories|Story]] each take one of three forms
-#* [[Spike]]s
-#* [[Analytic]]s
-#* [[Refactoring]]s
+#  A [[breadth-first]] sprint cycle where [[stories|Story]] each take one of three forms
+#* [[Spike|Spike Solution]]s to be evaluated to discover [[solution constraint]]s and test customer behavior.
+#* [[Analytic]]s to be implemented to evaluate the behavioral response of customers to the spikes.
+#* [[Refactoring]]s to simplify and integrate the features of multiple spikes to form the basis of another iteration. 
 # The two design meetings
 # Refactoring and winnowing to fit constraints
 # The last responsible moment

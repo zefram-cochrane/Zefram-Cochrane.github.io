@@ -1,0 +1,22 @@
+created: 20151209001600685
+modified: 20151209004555629
+title: Epic landscape
+tmap.id: 79342ee8-7439-4851-80fe-427167783d4f
+type: text/vnd.tiddlywiki
+
+[[Impact Mapping]] provides a simple way to reveal and reconcile overlapping analysis and delivery effort in parallel products and programs.
+
+Teams in the same portfolio are often faced with similar challenges and constraints, so it's natural for them to duplicate a lot of analysis and delivery effort. Such duplications are the worst kind of [[Waste]] - waste that could be avoided just by thinking things through. 
+
+Duplications also lead to incompatible services with overlapping [[sources of truth|source of truth]]. When this comes to light, projects to bridge and refactor the overlapping sources constitute still more [[Waste]]. A culture that permits this leads to very brittle enterprise architecture. With the left hand not knowing what the right hand is or is not doing, a large proportion of IT budgets are squandered.
+
+''Therefore,''
+
+# The [[Portfolio Squad]] maintains a cross-product [[impact map|Impact Mapping]] for all its [[Product Squad]]s. This is called the [[Epic Landscape]].
+
+# The Why/Who/How/What bubbles on the [[Epic Landscape]] are coloured to reflect their present states:
+#* Red: waste - inadequate [[ROROI]] to justify continuing to maintain this epic.
+#* Amber: - [[ROROI]] zero or less
+#* Green: [[ROROI]] positive. Though some bubbles might be more green than others ...
+#* Blue: [[ROROI]] unknown. [[Agile R&D]] required to identify or evaluate [[solution constraints]].
+#* In a mature representation, bubble radius indicates the relative sizes of the [[ROROI]] 

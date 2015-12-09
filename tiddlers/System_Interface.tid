@@ -1,0 +1,9 @@
+created: 20151203230738384
+modified: 20151203232302776
+title: System Interface
+tmap.id: 5e3f2b5f-60c1-40c1-ad70-5381b780ce10
+type: text/vnd.tiddlywiki
+
+Most of the universe is beyond our control. When we build a system, we're optimistic enough to expect that its behaviors are more or less under the control of its users and the other systems with which it interacts. 
+
+The [[System Interface]] describes the surface of those behaviors. We generally describe it in terms of [[BDD]] [[Acceptance Criteria]].

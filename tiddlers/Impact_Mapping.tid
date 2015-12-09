@@ -1,22 +1,21 @@
 created: 20151013040922475
-modified: 20151108201213584
+modified: 20151209001545026
 title: Impact Mapping
 tmap.id: ecf624e0-0f5e-42a6-af7c-6611e0808ede
 type: text/vnd.tiddlywiki
 
-There are several problems in the way product roadmaps are usually specified.
+There are problems in the way product roadmaps are usually specified.
 
-* [[Product Owner]]s and their stakeholders may regard intuition as a superior metric to [[Product Analytics]], but this frequently leads to [[Business Case]]s that don't optimise [[Product-Market Fit]] and thereby products that don't fit the market. Which is to say, building the wrong thing. No matter how excellent the quality and productivity of [[Delivery Squad]] activities, that won't do you any good. Such intuition may also give rise to the [[all or nothing anti-pattern]].
+* [[Product Owner]]s and stakeholders may regard creative intuition as more useful than [[Product Analytics]]. They may be right about that too - people seldom know what they want until they see a good [[design|Set Based Design]] for it. 
 
-* Many delivery groups field projects that duplicate a lot of analysis and delivery effort because their roadmaps and release plans are not normalised to reveal commonalities in [[Release Map]]s. Such duplications are the worst kind of [[Waste]] - waste that could be avoided just by thinking things through. Furthermore, many duplications lead to incompatible services that require subsequent projects to bridge and refactor them, constituting still more [[Waste]]. Some larger corporations are reported to spend most of their IT budgets on these wastes. There has to be a quicker, cheaper way to learn things.
+* On the other hand, [[Business Case]]s that don't optimise [[Product-Market Fit]] generate products that don't fit the market. Building the wrong thing, no matter how excellent the quality and productivity of [[delivery|Delivery Squad]], may result in negative [[ROI]]. Relying on intuition may also give rise to the [[all or nothing anti-pattern]]..
 
 * Many analysts do not think [[Breadth First]], and thereby generate requirements that constitute [[Frame Problems]], [[Half Solutions]] and local maxima in the landscape of business value. This isn't their fault; [[Whole Board Thinking]] isn't commonly taught to analysts and most people don't test their frame of reference frequently enough to prevent these problems.
 
 ''Therefore,''
 
-# Describe the market in terms of [[User Journeys]].
 # Convert each existing business case / BRD / [[Lean Canvas]] / back of the napkin into [[Epic Normal Form]].
-# For each epic, quantify the assumptions that link the ''Why'' to the ''Who'', the ''Who'' to the ''How'', and the ''How'' to the ''What''. If you can't figure out how to attach a metric to an assumption, find a subject matter expert who can figure it out. Really, you need to understand what numbers are underpinning your intuition if this is going to be science rather than just pretend.
+# For each epic, quantify the assumptions that link the ''Why'' to the ''Who'', the ''Who'' to the ''How'', and the ''How'' to the ''What''. If you can't figure out how to attach a metric to an assumption, find a subject matter expert who can figure out what numbers are underpinning your intuition.
 # Starting with the Why->Who assumption, test these assumptions against real analytic data that describes real market behaviors. If you don't have that data, build a [[Spike]] and gather some. Or find a subject matter expert you trust to provide it. Or if you don't have budget just Google for some. Remember, you're testing your assumptions so you don't waste a lot more budget building the wrong things.
 # Winnow assumptions as you go. If the link from Why->Who is broken, no amount of Who->How or How->What is going to get you market share. This way you avoid [[Analysis Paralysis]] by not analyzing things for no good reason.
 # Where your assumptions simply don't hold up, or where one is numerically inferior to a competing assumption about which Who must change its behavior to satisfy your Why, winnow the [[Epic Landscape]] so you don't [[Waste]] further analysis and delivery bandwidth when you could be producing [[Delighter]]s instead.

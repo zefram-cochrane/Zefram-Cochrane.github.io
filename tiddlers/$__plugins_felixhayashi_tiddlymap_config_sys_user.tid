@@ -1,5 +1,5 @@
 created: 20150806095842135
-modified: 20151107235748650
+modified: 20151209005105485
 title: $:/plugins/felixhayashi/tiddlymap/config/sys/user
 type: application/json
 
@@ -12,13 +12,13 @@ type: application/json
     "field.edgeTypeMarker": "tmap.is-edge-type",
     "field.edges": "tmap.edges",
     "liveTab.fallbackView": "Live View",
+    "suppressedDialogs.dublicateIdInfo": true,
     "edgeClickBehaviour": "nothing",
     "debug": "false",
     "notifications": "true",
     "editNodeOnCreate": "false",
     "singleClickMode": "true",
-    "editorMenuBar.showNeighScopeButton": "true",
+    "editorMenuBar.showNeighScopeButton": "false",
     "editorMenuBar.showScreenshotButton": "false",
-    "defaultView": "Live View",
-    "suppressedDialogs.dublicateIdInfo": true
+    "defaultView": "Live View"
 }
