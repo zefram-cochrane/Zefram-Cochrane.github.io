@@ -1,0 +1,18 @@
+created: 20151210035520344
+modified: 20151210041212175
+title: Royal Cod
+tmap.id: 9b6a8462-491e-4044-9978-47a3fe043d74
+type: text/vnd.tiddlywiki
+
+[[ROI]] priortieis are very easy to establish via [[Business Bingo]]. 
+
+But then you have to factor in the {{Cost Of Delay}}.
+
+''Therefore,''
+
+# After finishing the bingo session, lay out your features in order of decreasing [[ROI]].
+# Ask the technical authorities in the [[Product Squad]] whether any [[Technical Feature]]s have a {{Cost Of Delay}} that trumps their [[ROI]] due to technical dependencies or opportunities. Have them swap the order of two features to account for each.
+# Ask the business authorities int the [[Product Squad]] whether there are any business risks that mean a [[Business Feature]]'s COD trumps its ROI.  Swap accordingly.
+# If the team wants to debate these swaps, let them. If they can't get to an agreement, the [[Product Owner]] decides for them per the [[Iroquois Consensus]].
+
+The resulting prioritisation is called ''ROI + COD'', which is pronounced ''Royal Cod''.
