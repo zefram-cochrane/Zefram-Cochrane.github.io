@@ -207,6 +207,8 @@ Error message and password prompt
 
 <li>$:/plugins/felixhayashi/tiddlymap/graph/views/XSCALE/map</li>
 
+<li>$:/plugins/felixhayashi/tiddlymap/hook/liveTab</li>
+
 <li>$:/plugins/felixhayashi/tiddlymap/misc/defaultViewHolder</li>
 
 <li>$:/plugins/felixhayashi/tiddlymap/misc/meta</li>
@@ -223,6 +225,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/tab/sidebar--1835078512</li>
+
 <li>$:/status/IsLoggedIn</li>
 
 <li>$:/status/UserName</li>
@@ -236,6 +240,8 @@ Error message and password prompt
 <li>$:/temp/info-plugin</li>
 
 <li>$:/temp/tmap/currentTiddler</li>
+
+<li>$:/temp/tmap/holders/6ec6cc69-a5e9-49d9-aed4-1ea9a0871ab0</li>
 
 <li>$:/temp/tmap/nodes/Live View</li>
 
@@ -315,6 +321,8 @@ Error message and password prompt
 
 <li>Core Variables</li>
 
+<li>Cost Of Delay</li>
+
 <li>Creating SubStories</li>
 
 <li>Customising search results</li>
@@ -349,9 +357,9 @@ Error message and password prompt
 
 <li>Environment Variables on Node.js</li>
 
-<li>Epic landscape</li>
-
 <li>Epic Landscape</li>
+
+<li>Epic landscape</li>
 
 <li>ExternalImages</li>
 
@@ -479,6 +487,8 @@ Error message and password prompt
 
 <li>Philosophy of Tiddlers</li>
 
+<li>Planning Poker</li>
+
 <li>Portfolio</li>
 
 <li>Portfolio Increment</li>
@@ -510,6 +520,8 @@ Error message and password prompt
 <li>Ron Jeffries</li>
 
 <li>ROROI</li>
+
+<li>Royal Cod</li>
 
 <li>SAFe</li>
 
@@ -546,6 +558,8 @@ Error message and password prompt
 <li>Spotify</li>
 
 <li>Steve Jobs</li>
+
+<li>Story Point</li>
 
 <li>Structuring TiddlyWiki</li>
 
@@ -598,6 +612,8 @@ Error message and password prompt
 <li>UsingSVG</li>
 
 <li>Variables in WikiText</li>
+
+<li>Velocity</li>
 
 <li>Videos</li>
 
@@ -6966,7 +6982,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20150806095842135" modified="20151209005105485" title="$:/plugins/felixhayashi/tiddlymap/config/sys/user" type="application/json" revision="0" bag="default">
+<div created="20150806095842135" modified="20151219044256017" title="$:/plugins/felixhayashi/tiddlymap/config/sys/user" type="application/json" revision="0" bag="default">
 <pre>{
     &quot;field.nodeLabel&quot;: &quot;caption&quot;,
     &quot;field.nodeIcon&quot;: &quot;icon&quot;,
@@ -7022,6 +7038,30 @@ Error message and password prompt
 </div>
 <div created="20150806100120434" title="$:/plugins/felixhayashi/tiddlymap/graph/views/XSCALE/map" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>{&quot;fc2b848e-e550-4d94-a61b-f278f68423f7&quot;:{&quot;x&quot;:-82,&quot;y&quot;:-294},&quot;c316c705-88c0-4458-a4b7-12a39e0f4de5&quot;:{&quot;x&quot;:-74,&quot;y&quot;:-183},&quot;f1f31f19-d270-4e95-b5a9-afb3b1d8a3a5&quot;:{&quot;x&quot;:-246,&quot;y&quot;:-105},&quot;c5ab91d2-cc62-4fac-ba7d-e47f23dc9d3d&quot;:{&quot;x&quot;:-65,&quot;y&quot;:-104},&quot;064f9b90-1b6a-4946-b93d-80178e6d9875&quot;:{&quot;x&quot;:96,&quot;y&quot;:-104.390625}}</pre>
+</div>
+<div caption="Live" created="20151219044257234" tags="$:/tags/SideBar" title="$:/plugins/felixhayashi/tiddlymap/hook/liveTab" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>\define width() calc(100% - 15px)
+
+&lt;div class=&quot;tmap-mobile-editor&quot;&gt;
+  &lt;div class=&quot;tmap-flash-message tmap-warning&quot;&gt;
+    {{$:/core/images/info-button}}
+    The live tab is not displayed in mobile mode.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tmap-desktop-editor&quot;&gt;
+  &lt;$set name=&quot;view&quot;
+      filter=&quot;[{$:/temp/tmap/currentTiddler}get[tmap.open-view]]&quot;
+      emptyValue=&lt;&lt;tmap &quot;option&quot; &quot;config.sys.liveTab.fallbackView&quot;&gt;&gt;&gt;
+  &lt;div&gt;
+    &lt;$tiddlymap
+        view=&lt;&lt;view&gt;&gt;
+        click-to-use=&quot;false&quot;
+        refresh-triggers=&quot;$:/temp/tmap/currentTiddler&quot;
+        object-id=&quot;live_tab&quot;&gt;
+    &lt;/$tiddlymap&gt;
+  &lt;/div&gt;
+  &lt;/$set&gt; 
+&lt;/div&gt;</pre>
 </div>
 <div created="20150806130424381" modified="20151107011501462" title="$:/plugins/felixhayashi/tiddlymap/misc/defaultViewHolder" type="text/vnd.tiddlywiki" revision="1" bag="default">
 <pre>Live View</pre>
@@ -7308,6 +7348,9 @@ Error message and password prompt
 <div created="20150806085922955" modified="20151107105741432" title="$:/SiteTitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[XSCALE|XSCALE Principles]]</pre>
 </div>
+<div modified="20151219044336916" title="$:/state/tab/sidebar--1835078512" revision="1" bag="default">
+<pre>$:/plugins/felixhayashi/tiddlymap/hook/liveTab</pre>
+</div>
 <div title="$:/status/IsLoggedIn" revision="2" bag="default">
 <pre>yes</pre>
 </div>
@@ -7338,7 +7381,7 @@ Error message and password prompt
 &lt;area shape=&quot;rect&quot; coords=&quot;217,143,330,161&quot; alt=&quot;Portfolio Owner&quot; href=&quot;#Portfolio%20Owner&quot; /&gt;
 &lt;/map&gt;</pre>
 </div>
-<div modified="20151209024809593" title="$:/temp/focussedTiddler" revision="1" bag="default">
+<div modified="20151219044332964" title="$:/temp/focussedTiddler" revision="1" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -7358,7 +7401,10 @@ Error message and password prompt
 <div title="$:/temp/tmap/currentTiddler" revision="1" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
-<div list="[[XSCALE Practices]] [[3rd Generation Agile]] [[XSCALE Metrics]] [[XSCALE Principles]] [[XSCALE Structures]]" title="$:/temp/tmap/nodes/Live View" revision="3" bag="default">
+<div title="$:/temp/tmap/holders/6ec6cc69-a5e9-49d9-aed4-1ea9a0871ab0" revision="1" bag="default">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View</pre>
+</div>
+<div list="[[XSCALE Practices]] [[3rd Generation Agile]] [[XSCALE Metrics]] [[XSCALE Principles]] [[XSCALE Structures]]" title="$:/temp/tmap/nodes/Live View" revision="5" bag="default">
 <pre></pre>
 </div>
 <div created="20150808000809642" modified="20150901051126906" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7765,8 +7811,8 @@ The following table summarises the browser versions that are known to work with 
 |Safari |Version 6 and above |
 </pre>
 </div>
-<div created="20151025033945673" modified="20151107080219147" title="Business Bingo" tmap.id="0c12d380-3c37-4d1b-9020-837483f26464" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>[[Delivery squad]]s use a simple collaborative estimation method called [[Planning Poker]] to determine the relative effort needed to deliver different stories. These [[Story Point]] estimates can be converted into dollars and time by combination with squad throughput measurements called [[Velocity]]. But they're not a suitable input to [[Release Refactoring]] because:
+<div created="20151025033945673" modified="20151210042219190" title="Business Bingo" tmap.id="0c12d380-3c37-4d1b-9020-837483f26464" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Delivery squad]]s use a simple collaborative estimation method called {{Planning Poker}} to determine the relative effort needed to deliver different stories. These {{Story Point}} estimates can be converted into dollars and time by combination with squad throughput measurements called {{Velocity}}. But they're not a suitable input to [[Release Refactoring]] because:
 
 * They don't and were never intended to estimate a [[feature budget]]. To get at a budget estimate you'd have to multiply them by the [[Story Velocity]], which inevitably and intentionally varies from team to team and, within a single team, from time to time.
 * You can't produce story point estimates without breaking down [[Feature]]s into [[Stories|Story]]. If you wait until you've done that for all your features, you've stepped out of Agile-land back into Waterfall-land to have an Analysis [[phase]]. But if you don't commit to some kind of Feature-level release plan you'll wind up with the Business rebelling because of a lack of [[predictability]], which will also take you back to Waterfall-land.
@@ -7790,7 +7836,7 @@ Best of all, [[Business Bingo]] is easy, fun to play, and quickly aligns busines
 
 # Take features that wind up in the last 3 columns and break them into pieces you can estimate separately. This granularity limit greatly improves the overall quality of the estimates.
 
-# To estimate relative business value, you simply pick a different set of 3 probes - one for an existing deployed feature that the PO says has low business value, and then one that’s critically important to business function, and then one roughly in between. Place them at 3, 13 and 55, respectively, and the rest of the Bingo game runs as above. Do an [[ROI]] calculation and use it as input to [[RoyalCod]] prioritization.
+# To estimate relative business value, you simply pick a different set of 3 probes - one for an existing deployed feature that the PO says has low business value, and then one that’s critically important to business function, and then one roughly in between. Place them at 3, 13 and 55, respectively, and the rest of the Bingo game runs as above. Do an [[ROI]] calculation and use it as input to [[Royal Cod]] prioritization.
 
 Obviously there’s no dollar quantification of the return, but we’ve found business stakeholders quickly converge on which features are worth more than which. And the conversations they have in getting to agreement are extremely illuminating - the technical team members need to listen carefully and ask questions to make certain they share the businss context.
 </pre>
@@ -7925,6 +7971,9 @@ The core will also use various configuration variables and macros if you define 
 
 &lt;&lt;list-links &quot;[tag[Configuration Variables]]&quot;&gt;&gt;
 </pre>
+</div>
+<div created="20151210041056933" modified="20151210041134290" tags="" title="Cost Of Delay" tmap.id="6d2bd06f-f12a-4906-972c-ce0cfa84cc22" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Cost Of Delay|https://en.wikipedia.org/wiki/Cost_of_delay]]</pre>
 </div>
 <div created="20140214215718317" modified="20140919161514318" tags="Learning" title="Creating SubStories" tmap.id="666c482a-e1c1-4884-95f8-1ad415f83320" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>This example shows how to create a sub-story within a tiddler that is independent of the main story.
@@ -8219,6 +8268,9 @@ tiddlywiki mywiki --build index
 
 </pre>
 </div>
+<div created="20150811070230353" modified="20151107234833164" title="Epic Landscape" tmap.id="e63557c9-7ce3-4c99-838d-b3a7aa5b4eb8" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre></pre>
+</div>
 <div created="20151209001600685" modified="20151209004555629" title="Epic landscape" tmap.id="79342ee8-7439-4851-80fe-427167783d4f" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Impact Mapping]] provides a simple way to reveal and reconcile overlapping analysis and delivery effort in parallel products and programs.
 
@@ -8237,9 +8289,6 @@ Duplications also lead to incompatible services with overlapping [[sources of tr
 #* Blue: [[ROROI]] unknown. [[Agile R&amp;D]] required to identify or evaluate [[solution constraints]].
 #* In a mature representation, bubble radius indicates the relative sizes of the [[ROROI]] 
 </pre>
-</div>
-<div created="20150811070230353" modified="20151107234833164" title="Epic Landscape" tmap.id="e63557c9-7ce3-4c99-838d-b3a7aa5b4eb8" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre></pre>
 </div>
 <div created="20140610213500000" modified="20140912141341933" tags="Concepts Features" title="ExternalImages" tmap.id="61590fd4-49f9-476b-b6e2-4683ffb3ab6e" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>External images in TiddlyWiki are tiddlers that point to the URI of an image, rather than embedding the full image data. They can perform better than embedded images, particularly with large numbers or sizes of images. However, using them breaks the single file pattern of TiddlyWiki.
@@ -8791,12 +8840,12 @@ Renders as:
 
 </pre>
 </div>
-<div created="20151013040922475" modified="20151209001545026" title="Impact Mapping" tmap.id="ecf624e0-0f5e-42a6-af7c-6611e0808ede" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20151013040922475" modified="20151210035500741" title="Impact Mapping" tmap.id="ecf624e0-0f5e-42a6-af7c-6611e0808ede" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>There are problems in the way product roadmaps are usually specified.
 
-* [[Product Owner]]s and stakeholders may regard creative intuition as more useful than [[Product Analytics]]. They may be right about that too - people seldom know what they want until they see a good [[design|Set Based Design]] for it. 
+* [[Product Owner]]s and stakeholders may regard creative intuition as more useful than [[Product Analytics]]. They may be right about that too - customers seldom know what they want until they see a good [[design|Set Based Design]] for it. 
 
-* On the other hand, [[Business Case]]s that don't optimise [[Product-Market Fit]] generate products that don't fit the market. Building the wrong thing, no matter how excellent the quality and productivity of [[delivery|Delivery Squad]], may result in negative [[ROI]]. Relying on intuition may also give rise to the [[all or nothing anti-pattern]]..
+* On the other hand, [[Business Case]]s that don't optimise [[Product-Market Fit]] generate products that don't fit the market. Building the wrong thing, no matter how excellent the quality and productivity of [[delivery|Delivery Squad]], will result in negative [[ROI]]. Maintaining the wrong thing will reduce the [[ROROI]] too. Relying on intuition may also give rise to the [[all or nothing anti-pattern]]..
 
 * Many analysts do not think [[Breadth First]], and thereby generate requirements that constitute [[Frame Problems]], [[Half Solutions]] and local maxima in the landscape of business value. This isn't their fault; [[Whole Board Thinking]] isn't commonly taught to analysts and most people don't test their frame of reference frequently enough to prevent these problems.
 
@@ -9538,6 +9587,9 @@ The philosophy of [[tiddlers|Tiddlers]] is that we maximise the possibilities fo
 TiddlyWiki aspires to provide an algebra for tiddlers, a concise way of expressing and exploring the relationships between items of information.
 </pre>
 </div>
+<div created="20151210042009187" modified="20151210042017766" title="Planning Poker" tmap.id="ad2bc64c-32e9-4d21-b2a5-9f051b664352" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Planning Poker|https://en.wikipedia.org/wiki/Planning_poker]]</pre>
+</div>
 <div created="20151013055616740" modified="20151019211722294" title="Portfolio" tmap.id="1c598307-3cd4-49bb-9bc7-4e7851a612bd" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>A [[holarchy|Holarchy]] of [[squads|Autonomous Squad]] and [[chapters|Chapter Meeting]] that generates a distinct product or value stream is called a [[Portfolio]]. XSCALE portfolios are limited in size by the [[Dunbar Number]]. Each portfolio [[continuously adapts|Continuous Adaptation]] its configuration of squads and chapters to its [[release plans|Release Plan]] and business objectives through a [[Portfolio Squad]]. 
 </pre>
@@ -9677,6 +9729,20 @@ If you graph ROI over time - the key [[XSCALE]] [[metric]] - you can see lots of
 * OverBurden
 * BottleNecks
 * FrameProblem?</pre>
+</div>
+<div created="20151210035520344" modified="20151210041212175" title="Royal Cod" tmap.id="9b6a8462-491e-4044-9978-47a3fe043d74" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[ROI]] priortieis are very easy to establish via [[Business Bingo]]. 
+
+But then you have to factor in the {{Cost Of Delay}}.
+
+''Therefore,''
+
+# After finishing the bingo session, lay out your features in order of decreasing [[ROI]].
+# Ask the technical authorities in the [[Product Squad]] whether any [[Technical Feature]]s have a {{Cost Of Delay}} that trumps their [[ROI]] due to technical dependencies or opportunities. Have them swap the order of two features to account for each.
+# Ask the business authorities int the [[Product Squad]] whether there are any business risks that mean a [[Business Feature]]'s COD trumps its ROI.  Swap accordingly.
+# If the team wants to debate these swaps, let them. If they can't get to an agreement, the [[Product Owner]] decides for them per the [[Iroquois Consensus]].
+
+The resulting prioritisation is called ''ROI + COD'', which is pronounced ''Royal Cod''.</pre>
 </div>
 <div created="20151019223554093" modified="20151019223702158" tags="process" title="SAFe" tmap.id="a6f66ecb-4a35-41db-86c1-b9770a0ced9d" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[SAFe|http://scaledagileframework.com]]</pre>
@@ -9892,6 +9958,9 @@ Unusually, TiddlyWiki is also a SingleFileApplication.
 </div>
 <div created="20151203194457423" modified="20151203201104944" tags="" title="Steve Jobs" tmap.id="447a7cb0-eb3e-429a-bd4e-beff6def61f0" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Steve Jobs|https://hbr.org/2012/04/the-real-leadership-lessons-of-steve-jobs]]</pre>
+</div>
+<div created="20151210041330107" modified="20151210041903487" title="Story Point" tmap.id="70612359-e16a-409b-a2a2-2d25dd56141f" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Story Point||https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/]]</pre>
 </div>
 <div created="20131128090536894" modified="20150124211518000" tags="[[Working with TiddlyWiki]]" title="Structuring TiddlyWiki" tmap.id="ba81394f-407e-4fbe-a857-94c038580146" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>TiddlyWiki5 provides several features to help you structure information as [[tiddlers|Tiddlers]], and model the relationships between them:
@@ -10827,6 +10896,9 @@ This example uses the &lt;&lt;.olink backlinks&gt;&gt; [[operator|Filter Operato
 
 &lt;$macrocall $name=&quot;.example&quot; n=&quot;3&quot; eg=&quot;&quot;&quot;&lt;&lt;list-links filter:&quot;[&lt;currentTiddler&gt;backlinks[]]&quot;&gt;&gt;&quot;&quot;&quot;/&gt;
 </pre>
+</div>
+<div created="20151210042153407" modified="20151210042201743" title="Velocity" tmap.id="10abef94-6729-46b8-887b-2b3eb6849000" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[Velocity|https://agilefaq.wordpress.com/2013/01/14/what-is-velocity/]]</pre>
 </div>
 <div created="20140912150153512" modified="20140919161220608" tags="Learning" title="Videos" tmap.id="da2d9a0d-78e1-4fcc-b6fa-4f8da4e2f94c" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>The following TiddlyWiki videos are available.
