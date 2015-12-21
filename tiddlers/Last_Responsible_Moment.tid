@@ -1,0 +1,13 @@
+created: 20151221035855632
+modified: 20151221050956224
+title: Last Responsible Moment
+tmap.id: a847b44d-7936-41b4-a928-ced7da28d089
+type: text/vnd.tiddlywiki
+
+The moment when your team either has to make a choice or alter the commitments in the release plan to account for its inability to come up with an acceptable alternative. 
+
+If you use [[breadth-first thinking]] to iteratively narrow your field of choices by learning [[Solution Constraint]]s and aligning business, technical and design authorities to them, you can have several of moments, so "last" may not be exactly the right word for them. Each entails addition or modification of solution constraints to narrow the field of choices.
+
+If you reach ''LRM'' and you still have several viable alternatives, you may count yourself as fortunate. Some people reach that point without any. In this case a simple round of [[Business Bingo]] will enable the team to make a decision based on their guts. 
+
+If the team can't agree on Investment estimates for the bingo session, it's best to defer to the most senior technical authority. Likewise if you can't agree on the return, defer to the [[Product Owner]]. Like it or not, these people are most responsible for the consequences.

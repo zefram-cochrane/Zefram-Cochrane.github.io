@@ -239,9 +239,11 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/tiddlymap/notify</li>
+
 <li>$:/temp/tmap/currentTiddler</li>
 
-<li>$:/temp/tmap/holders/f80c77b1-1dff-477f-b23c-937e46d06533</li>
+<li>$:/temp/tmap/holders/452e32d9-4f14-4a77-b81f-d7cab7fe42b0</li>
 
 <li>$:/temp/tmap/nodes/Live View</li>
 
@@ -440,6 +442,8 @@ Error message and password prompt
 <li>Kanban</li>
 
 <li>KeyboardShortcuts</li>
+
+<li>Last Responsible Moment</li>
 
 <li>LazyLoading</li>
 
@@ -7350,7 +7354,7 @@ Error message and password prompt
 <div created="20150806085922955" modified="20151107105741432" title="$:/SiteTitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[XSCALE|XSCALE Principles]]</pre>
 </div>
-<div modified="20151221025020237" title="$:/state/tab/sidebar--1835078512" revision="1" bag="default">
+<div modified="20151221051243485" title="$:/state/tab/sidebar--1835078512" revision="3" bag="default">
 <pre>$:/plugins/felixhayashi/tiddlymap/hook/liveTab</pre>
 </div>
 <div title="$:/status/IsLoggedIn" revision="2" bag="default">
@@ -7359,7 +7363,7 @@ Error message and password prompt
 <div title="$:/status/UserName" revision="1" bag="default">
 <pre></pre>
 </div>
-<div list="[[XSCALE Practices]]" title="$:/StoryList" revision="1" bag="default">
+<div list="[[XSCALE Practices]]" title="$:/StoryList" revision="3" bag="default">
 <pre></pre>
 </div>
 <div created="20150809220300027" modified="20151203042003509" tags="" title="$:/structures-image" tmap.id="f310f480-85d4-47cc-8163-8f674b288622" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -7383,7 +7387,7 @@ Error message and password prompt
 &lt;area shape=&quot;rect&quot; coords=&quot;217,143,330,161&quot; alt=&quot;Portfolio Owner&quot; href=&quot;#Portfolio%20Owner&quot; /&gt;
 &lt;/map&gt;</pre>
 </div>
-<div modified="20151221025017497" title="$:/temp/focussedTiddler" revision="1" bag="default">
+<div modified="20151221051103559" title="$:/temp/focussedTiddler" revision="3" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -7400,13 +7404,16 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div title="$:/temp/tmap/currentTiddler" revision="1" bag="default">
+<div title="$:/temp/tiddlymap/notify" revision="2" bag="default">
+<pre>operation cancelled</pre>
+</div>
+<div title="$:/temp/tmap/currentTiddler" revision="3" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
-<div title="$:/temp/tmap/holders/f80c77b1-1dff-477f-b23c-937e46d06533" revision="1" bag="default">
+<div title="$:/temp/tmap/holders/452e32d9-4f14-4a77-b81f-d7cab7fe42b0" revision="1" bag="default">
 <pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View</pre>
 </div>
-<div list="[[XSCALE Practices]] [[3rd Generation Agile]] [[XSCALE Metrics]] [[XSCALE Principles]] [[XSCALE Structures]]" title="$:/temp/tmap/nodes/Live View" revision="5" bag="default">
+<div list="[[XSCALE Practices]] [[3rd Generation Agile]] [[XSCALE Metrics]] [[XSCALE Principles]] [[XSCALE Structures]]" title="$:/temp/tmap/nodes/Live View" revision="6" bag="default">
 <pre></pre>
 </div>
 <div created="20150808000809642" modified="20150901051126906" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -9042,6 +9049,15 @@ http://tiddlywiki.com/editions/introduction/
 |&lt;kbd&gt;ctrl-enter&lt;/kbd&gt; |Confirm changes to the draft tiddler containing the keyboard focus |
 |&lt;kbd&gt;escape&lt;/kbd&gt; |Abandon changes to the draft tiddler containing the keyboard focus |
 </pre>
+</div>
+<div created="20151221035855632" modified="20151221050956224" title="Last Responsible Moment" tmap.id="a847b44d-7936-41b4-a928-ced7da28d089" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>The moment when your team either has to make a choice or alter the commitments in the release plan to account for its inability to come up with an acceptable alternative. 
+
+If you use [[breadth-first thinking]] to iteratively narrow your field of choices by learning [[Solution Constraint]]s and aligning business, technical and design authorities to them, you can have several of moments, so &quot;last&quot; may not be exactly the right word for them. Each entails addition or modification of solution constraints to narrow the field of choices.
+
+If you reach ''LRM'' and you still have several viable alternatives, you may count yourself as fortunate. Some people reach that point without any. In this case a simple round of [[Business Bingo]] will enable the team to make a decision based on their guts. 
+
+If the team can't agree on Investment estimates for the bingo session, it's best to defer to the most senior technical authority. Likewise if you can't agree on the return, defer to the [[Product Owner]]. Like it or not, these people are most responsible for the consequences.</pre>
 </div>
 <div created="20140206214608586" modified="20140912141710950" tags="Features" title="LazyLoading" tmap.id="64608973-952f-42d9-b808-d2ec87849ee5" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Ordinarily with TiddlyWiki, the full content of all tiddlers is embedded into the main HTML file. Lazy loading refers to the technique of only embedding metadata about the tiddler (in other words all fields except the ''text'' field), and requesting the body from the server when required.
