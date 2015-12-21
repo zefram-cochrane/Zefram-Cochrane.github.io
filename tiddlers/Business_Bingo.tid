@@ -1,5 +1,5 @@
 created: 20151025033945673
-modified: 20151210042219190
+modified: 20151221055816293
 title: Business Bingo
 tmap.id: 0c12d380-3c37-4d1b-9020-837483f26464
 type: text/vnd.tiddlywiki
@@ -18,9 +18,7 @@ Best of all, [[Business Bingo]] is easy, fun to play, and quickly aligns busines
 
 # Write Fibonacci numbers from 1 to 89 on cards and lay them out in a row across a large table. There’s nothing magical about Fibonacci numbers - we use them because they consistently lead people to argue in terms of trade-offs - is feature A really as big as feature B + feature C, and so on.
 
-# Select three previously delivered and deployed features with well documented costs, one small, one medium and one large. Call these probes. Describe each probe in story-normal form commensurable with the roadmap features you want to estimate.
-
-# Figure out a funding increment that constitutes the greatest common divisor of the probes’ respective costs and call this a [[Feature Point]]. Or just make a Feature Point mean the same thing as an FTE day. Or a squad-week. Whatever's easiest. Place the three probes under the Fibonacci numbers that match their respective magnitudes in feature points.
+# Select three previously delivered and deployed features with well documented costs, one small, one medium and one large. Call these probes. Describe each probe in story-normal form commensurable with the roadmap features you want to estimate and represent their complete delivery costs - including documentation, hotfix, opex, the whole nine yards - in terms of [[Feature Point]]s. Place the three probes under the Fibonacci numbers that match their respective magnitudes in feature points.
 
 # Pick a feature from your [[Behavior Map|Behavior Mapping]]. Compare it with the probes, starting with the middle one, to evaluate its relative size in Fibonacci multiples of feature points.
 

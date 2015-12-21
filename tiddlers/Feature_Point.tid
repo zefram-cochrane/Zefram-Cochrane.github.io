@@ -1,0 +1,16 @@
+created: 20151221054444080
+modified: 20151221055719308
+title: Feature Point
+tmap.id: 79a588e7-8d27-4303-9e8b-0249f4838d48
+type: text/vnd.tiddlywiki
+
+
+* The number of story points that will fit into a release varies according to [[Velocity]] so there can be no linear mapping between feature budget and story points. 
+
+* In [[Business Bingo]] there’s no need to attempt to normalise story points across teams. Instead it uses three empirical probes to standardize feature point size.
+
+* We can describe the cost of these probes in terms of multiples of a funding increment that constitutes the greatest common divisor of the probes’ respective costs. Or just count FTE days. Or a squad-weeks. Whatever's easiest. Call that a Feature Point.
+
+''Therefore,''
+
+When budgeting features in [[Business Bingo]] we change the unit of estimation from [[Story Point]]s to ''feature points''. Where story points represent only the relative effort required to deliver a story compared to other stories, feature points estimate increments of funding necesssary to deploy a feature.
