@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20151019072506986
+modified: 20151227065154181
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
@@ -12,7 +12,7 @@ An acronym for the principles of an [[Agile Organisation]]. Also the name of a [
 
 """
 [[e|eXtropic]]''X''[[tropic|eXtropic]] growth: by measuring [[Rate of ROI|ROROI]] and [[stacking the S-curves]].
-&nbsp;&nbsp;''S''[[imple]] design: the elegance of minimum. Not look and feel; how it works.
+&nbsp;&nbsp;''S''[[imple|Set Based Design]] design: the elegance of minimum. Not look and feel; how it works.
 &nbsp;&nbsp;''C''[[ontinuous|Continuous]] adaptation and delivery; teams to products to markets
 &nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-organising, right-sized squads self-aligning through [[holarchy|Holarchy]]
 &nbsp;&nbsp;''L''[[earning]]: increasing the ability to adapt via [[Agile R&D]], [[spiking]] and [[refactoring]]
