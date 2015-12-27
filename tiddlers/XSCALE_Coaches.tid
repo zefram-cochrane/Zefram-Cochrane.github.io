@@ -1,0 +1,20 @@
+created: 20151227210220847
+modified: 20151227213532740
+title: XSCALE Coaches
+tmap.id: 1c3e9af8-dae2-4413-9b89-210107a1bad2
+type: text/vnd.tiddlywiki
+
+There are many different competencies involved in Agile Coaching. The Agile movement hasn't made any distinctions between them. Coaches may be fully competent in one area but lack adequate experience in another, generating ill-informed decisions that undermine the integrity of products and teams. In extreme cases an Agile Coach may not even be aware that they lack a necessary competence. This has created many nasty surprises with serious and costly repercussions.
+
+''Therefore,''
+
+[[XSCALE|XSCALE Principles]] resolves these difficulties by [[certifying|XSCALE Certificates]] coaches in terms of four different skill-sets:
+
+; [[Technical Coach]]
+: A [[Servant Leader]] for [[Systems Squad]]s. Must possess a technology competence suited to making decisions, definitions and configurations of [[Agile Architecture]], [[Quality Automation]], [[Virtualisation]], [[Development Tools]] and [[Management Tools]]. Without this competence, delivery may appear to make rapid progress while invisibly generating huge [[Technical Debt]], eventually grinding its way into [[Hotfix Hell]].
+; [[Product Coach]]
+: A [[Servant Leader]]  suited to 
+; [[Portfolio Coach]]
+; [[Transformation Coach]]
+
+|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |! [[Certificates|XSCALE Certificates]] |
