@@ -1,5 +1,5 @@
 created: 20151108195553972
-modified: 20151221072404982
+modified: 20151227065529984
 title: Set Based Design
 tmap.id: ff1175cf-14d4-4982-af0d-5d54b30452fa
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ The word design is from Latin 'de-' meaning remove and 'signere' meaning mark.
 
 [img[http://xscale.wiki/images/bull.png]]
 
-Systems Design means removing non-valuable system behaviours by adding [[solution constraint]]s iteration by iteration until the [[System Interface]] evolves into what {{Steve Jobs}} called ''The elegance of minimum. Not form and function; how it works.''  {{Ron Jeffries}} describes it as the process of ''adding value by removing that without.'' 
+Systems Design means removing non-valuable system behaviours by adding [[solution constraint]]s iteration by iteration until the [[System Interface]] evolves into what {{Steve Jobs}} called //''the elegance of minimum. Not form and function; how it works''//.  {{Ron Jeffries}} describes it as the process of //''adding value by removing that without''//. 
 
 There are many schools of design each with their own [[Pattern Language]]s. XSCALE isn't concerned with the design language specifics, but the application of Agile principles to enable reliable evolution of design into products that obtain Jobs' "elegance". To achieve this we need a design process that accommodates:
 

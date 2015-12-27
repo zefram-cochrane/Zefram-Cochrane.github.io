@@ -1,0 +1,21 @@
+created: 20151227070135934
+modified: 20151227091847198
+title: The Game of Go
+tmap.id: 70538de3-442a-4443-bc8e-be839e99b163
+type: text/vnd.tiddlywiki
+
+The most complex game humans play outside of business. If a //Go// player doesn't reach first dan before the age of 30, they're not permitted to enter the professional ranks at all because they'd be dead of old age before they'd be competent to compete in an official tournament. //Go// remains the only game at which humans still beat computers,
+
+Nevertheless the rules of Go are extremely simple:
+
+# Black and White alternate placing a stone on the board. Your score is the number of spaces surrounded exclusively by stones of your colour.
+# Adjacent stones form groups. If a group of your colour is completely surrounded by the other colour, it's removed from the board and subtracted from your score.
+# For consistency you're not permitted to play in such a way that you would repeat an overall board state, nor cause a group of yours to become completely surrounded by filling in an empty space.
+
+As you can see these rules aren't much more complicated than Tic Tac Toe. Nevertheless they generate a game in which every stone radiates influence non-locally on every other stone, and the combinations of concerns prevent any merely tactical play from succeeding. Instead players can only win through [[Whole Board Thinking]]. The same is true in business, and learning a little //Go// is enormously helpful in understanding why. 
+
+See also:
+
+|! [[Go Business Metaphor]] |! [[Sente is worth 30 points]] |! [[Aji in Agile]] |
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/lOs5CIt07qA" frameborder="0" allowfullscreen></iframe>
