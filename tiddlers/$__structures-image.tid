@@ -1,26 +1,30 @@
 created: 20150809220300027
-modified: 20151203042003509
+modified: 20160103103045518
 tags: 
 title: $:/structures-image
 tmap.id: f310f480-85d4-47cc-8163-8f674b288622
 type: text/vnd.tiddlywiki
 
-<img src="http://xscale.wiki/images/xscale-structures.png" border="0" usemap="#structuremap" />
+<img src="http://xscale.wiki/images/xscale-structures.png" width="600" height="421" border="0" usemap="#structuremap" />
 
 <map name="structuremap">
-<area shape="rect" coords="345,236,594,347" alt="Guild Meetings" href="#Guild%20Meeting" />
-<area shape="rect" coords="360,104,597,167" alt="Portfolio Chapter" href="#Portfolio%20Chapter" />
-<area shape="rect" coords="359,168,596,222" alt="Transformation Chapter" href="#Transformation%20Chapter" />
-<area shape="rect" coords="330,8,359,386" alt="Portfolio Squad" href="#Portfolio%20Squad" />
-<area shape="rect" coords="370,8,578,54" alt="Dunbar&apos;s Number" href="#Dunbar%20Number" />
-<area shape="rect" coords="215,4,329,142" alt="Chapter Meetings" href="#Chapter%20Meeting" />
-<area shape="rect" coords="214,179,329,386" alt="Chapter Meetings" href="#Chapter%20Meeting" />
-<area shape="rect" coords="8,168,212,298" alt="Delivery Squads" href="#Delivery%20Squad" />
-<area shape="rect" coords="0,23,214,147" alt="Product Squads" href="#Product%20Squad" />
-<area shape="rect" coords="4,298,210,391" alt="DevOps Support Squads" href="#DevOps" />
-<area shape="rect" coords="358,348,592,391" alt="Portfolios" href="#Portfolio" />
-<area shape="rect" coords="220,160,331,179" alt="Portfolio Coach" href="#Portfolio%20Coach" />
-<area shape="rect" coords="17,148,116,166" alt="Product Owners" href="#Product%20Owner" />
-<area shape="rect" coords="115,148,220,169" alt="Product Coaches" href="#Product%20Coach" />
-<area shape="rect" coords="217,143,330,161" alt="Portfolio Owner" href="#Portfolio%20Owner" />
+<area shape="rect" coords="360,143,593,201" title="Guild Meetings" href="#Guild%20Meeting" />
+<area shape="rect" coords="360,202,594,231" title="Leadership Guild" href="#Leadership%20Guild" />
+<area shape="rect" coords="357,231,594,258" title="Coaching Guild" href="#Coaching%20Guild" />
+<area shape="rect" coords="330,3,359,415" title="Portfolio Squad" href="#Portfolio%20Squad" />
+<area shape="rect" coords="375,15,583,62" title="Dunbar&apos;s Number" href="#Dunbar%20Number" />
+<area shape="rect" coords="201,4,329,147" title="Chapter Meetings" href="#Chapter%20Meeting" />
+<area shape="rect" coords="202,186,329,401" title="Chapter Meetings" href="#Chapter%20Meeting" />
+<area shape="rect" coords="9,174,202,297" title="Delivery Squads" href="#Delivery%20Squad" />
+<area shape="rect" coords="0,27,202,151" title="Product Squads" href="#Product%20Squad" />
+<area shape="rect" coords="4,317,203,415" title="DevOps Support Squads" href="#DevOps" />
+<area shape="rect" coords="358,390,592,418" title="Portfolios" href="#Portfolio" />
+<area shape="rect" coords="202,166,331,185" title="Portfolio Coach" href="#Portfolio%20Coach" />
+<area shape="rect" coords="3,153,116,173" title="Product Leader" href="#Product%20Leader" />
+<area shape="rect" coords="115,153,202,174" title="Product Coaches" href="#Product%20Coach" />
+<area shape="rect" coords="201,148,330,166" title="Portfolio Leader" href="#Portfolio%20Leader" />
+<area shape="rect" coords="2,296,131,318" title="Technology Leader" href="#Technology%20Leader" />
+<area shape="rect" coords="130,297,203,318" title="Technology Coach" href="#Technology%20Coach" />
+<area shape="rect" coords="401,299,546,316" title="Transformation Leader" href="#Transformation%20Leader" />
+<area shape="rect" coords="401,314,546,332" title="Transformation Coach" href="#Transformation%20Coach" />
 </map>
