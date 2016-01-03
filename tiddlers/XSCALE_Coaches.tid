@@ -1,19 +1,19 @@
 created: 20151227210220847
-modified: 20151227213532740
+modified: 20151229004003828
 title: XSCALE Coaches
 tmap.id: 1c3e9af8-dae2-4413-9b89-210107a1bad2
 type: text/vnd.tiddlywiki
 
-There are many different competencies involved in Agile Coaching. The Agile movement hasn't made any distinctions between them. Coaches may be fully competent in one area but lack adequate experience in another, generating ill-informed decisions that undermine the integrity of products and teams. In extreme cases an Agile Coach may not even be aware that they lack a necessary competence. This has created many nasty surprises with serious and costly repercussions.
+There are several distinct competencies involved in Agile Coaching. Coaches may be fully competent in one area but lack adequate experience in another. Worse, they naturally underestimate these limitations, resulting in ill-informed decisions that undermine the integrity of products and teams. This problem has created many nasty surprises with serious and costly repercussions.
 
 ''Therefore,''
 
-[[XSCALE|XSCALE Principles]] resolves these difficulties by [[certifying|XSCALE Certificates]] coaches in terms of four different skill-sets:
+[[XSCALE|XSCALE Principles]] [[certifies|XSCALE Certificates]] coaches in four different skill-sets:
 
 ; [[Technical Coach]]
-: A [[Servant Leader]] for [[Systems Squad]]s. Must possess a technology competence suited to making decisions, definitions and configurations of [[Agile Architecture]], [[Quality Automation]], [[Virtualisation]], [[Development Tools]] and [[Management Tools]]. Without this competence, delivery may appear to make rapid progress while invisibly generating huge [[Technical Debt]], eventually grinding its way into [[Hotfix Hell]].
+: A [[Servant Leader]] for [[Systems Squad]]s. Possesses a development competence suited to making decisions, definitions and configurations of [[Agile Architecture]], [[Development Tools]], [[Versioning Tools]], [[Work Management Tools]], [[Knowledge Management Tools]] and above all [[Quality Automation]]. Without this competence, [[Technical Debt]] inevitably builds up until a product grinds its way into [[Hotfix Hell]].
 ; [[Product Coach]]
-: A [[Servant Leader]]  suited to 
+: A remedy to the [[Scrum-Master antipattern]]. A product coach is a [[Servant Leader]] focused on the definition and delivery of products. Nurturing and maintaining fully autonomous [[Product Squad]]s and [[Delivery Squad]]s that do not need someone to play manager or nanny, the product coach is a direct peer of the [[Product Owner]]. Where the owner takes ultimate responsibility for product-market fit, the coach takes it for team productivity.
 ; [[Portfolio Coach]]
 ; [[Transformation Coach]]
 
