@@ -1,16 +1,20 @@
 created: 20160103130327630
-modified: 20160103143325751
+modified: 20160103145521538
 tags: 
 title: Scrum Ceremonies
 tmap.id: 296983dd-7187-4b93-b3f6-837e2f146aa3
 type: text/vnd.tiddlywiki
 
-Sure, you can run these things by the book. But that's always been a bit rubbish - it's for teams that are just starting out and feeling timid. If you want a real [[High Performance Delivery Team]] there's huge benefit in just tweaking these ceremonies a little bit.
+* Running these by the book is for teams that are just starting out and feeling timid. 
+
+* This is hugely wasteful - much better to start out with [[High Performance Delivery Practices]]. There's huge benefit in just tweaking these ceremonies a little bit.
+
+* It's no harder to run high performance than low performance. It just gets a better result.
 
 ''Therefore,''
 
 * Daily standup. Forget the 3 questions - that sends everyone to sleep. {{Walk The Wall}} instead.
-* Sprint planning. Make sure your [[Product Squad]] has done enough [[Product Management]] ahead of time and run [[Three Amigos]] to ensure your stories have [[INVEST]] properties. Then you can go with {{Planning Poker}}, [[Business Bingo]] or {{No Estimates}} and reliably get a week's worth of planning done in under an hour.
-* Sprint review. You must have real customers there. There is no excuse for not getting real customer feedback - without that it's not a review, it's just a BS meeting.
+* Sprint planning. Make sure your [[Product Squad]] has done enough [[Product Management]] ahead of time and run [[Three Amigos]] to ensure your stories have [[INVEST]] properties. Then you can go with {{Planning Poker}}, [[Business Bingo]] or {{No Estimates}} as you like and get a week's worth of planning done in under an hour.
+* Sprint review. You must have real customers there. There is no excuse for not getting real customer feedback - without that it's not a review, just BS.
 * Sprint retrospective. Run it weekly without fail even if you're doing two week sprints. That way it will be much shorter and more effective. Run it after everyone's had their [[Chapter Meetings]] so it's fully informed by the experiences of the portfolio as a whole.
 
