@@ -1,15 +1,15 @@
 created: 20151025025853144
-modified: 20151227212908324
+modified: 20160103130324109
 title: Product Coach
 tmap.id: 57d5153d-3ad7-4adc-a4a9-b8f0509cc7c0
 type: text/vnd.tiddlywiki
 
-Going along with {{Uncle Bob}}, XSCALE considers Scrum-Masters [[harmful|https://www.youtube.com/watch?v=hG4LH6P8Syk&list=PL5DcL6vURgXolNPvr9reUnBYzV4RgWNp8&index=3]]. Why? Because designating an individual "Scrum Master" interferes in the normal processes of collaboration and self-organisation in an [[Autonomous Squad]]. 
+Going along with [[Uncle Bob||https://www.youtube.com/watch?v=hG4LH6P8Syk&list=PL5DcL6vURgXolNPvr9reUnBYzV4RgWNp8&index=3]], XSCALE considers Scrum-Masters an [[anti-pattern|Scrum-Master antipattern]].
 
-Having an individual take accountability for Scrum Mastering is just making them a [[project manager]] by another name. Or in a feature stream with more than one squad, scrum masters are generally expected to multi-task between the squads, leaving them with too little time to engage as a peer of the [[Product Owner]] in discussions with members of the [[Product Squad]], which instead pushes the product owner into project-manager behaviours.
-
-There's nothing wrong with the [[Scrum]] practice patterns. They're nice, simple ways for a small team to manage themselves ''without'' a permanently designated Scrum Master. If you insist on having a phrase to describe some scrum member running some scrum practice or, that could be "being a Scrum Master". But the role was only ever intended to be a temporary thing.
+There's nothing wrong with the {{Scrum ceremonies}}. They've proven themselves as simple ways for a small team to self-organize ''without'' a permanently designated Scrum Master. A team member running some scrum ceremony can be "being a Scrum Master". But the role is just a temporary thing for the purpose of facilitating a ceremony, not a full time job in itself.
 
 ''Therefore,''
 
-We lift the role of Scrum Master into the realm of [[Product Management]] by re-designating it a [[Product Coach]] following the proven [[XP division of labor]]. Rotating responsibility for facilitating Agile ceremonies among squad members requires only the occasional suggestion by a [[Product Coach]] to run smooth, and this way the squad experiences the empowering reality that it is fully capable and fully trusted to organise its own work for itself. Meanwhile the [[Product Coach]] functions as a fully trusted peer of a [[Product Owner]].
+We extend the role of Scrum Master into the realm of [[Product Management]] by re-designating it a [[Product Coach]] following the proven [[XP division of labor]]. Rotating responsibility for facilitating Agile ceremonies among squad members requires only the occasional suggestion by a [[Product Coach]] to run smooth, and this way the squad experiences the empowering reality that it is fully capable and fully trusted to organise its own work for itself. Meanwhile the [[Product Coach]] functions as a fully trusted peer of a [[Product Owner]].
+
+[[Product Coach]]es may or may not also possess the skills of a [[Technology Coach]]. If not, regular interaction of the [[Delivery Squad]] with a competent tech coach is essential to avoid the generation of [[Technical Debt]] that will inevitably slow delivery to a crawl.

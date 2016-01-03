@@ -1,5 +1,5 @@
 created: 20150809220531875
-modified: 20151106061342478
+modified: 20160103143709678
 tags: 
 title: $:/metrics-image
 tmap.id: 7e2cf2a1-f4db-4185-9ff1-fa1d89b95306
@@ -8,21 +8,21 @@ type: text/vnd.tiddlywiki
 <img src="http://xscale.wiki/images/xscale-metrics.png" border="0" usemap="#metricsmap" style="height: 397px; width: 600px;">
 
 <map name="metricsmap">
-<area shape="poly" coords="242,392,284,383,319,379,324,370,358,366,370,353,425,352,457,331,489,331,513,300,539,299,560,277,579,275,584,265,599,264,599,393,245,394" alt="System Integration Testing" href="#System%20Integration%20Testing">
-<area shape="poly" coords="166,392,220,390,241,379,271,379,310,362,340,362,370,347,398,346,416,327,433,329,445,310,465,309,476,292,492,293,509,277,528,279,536,271,543,271,555,260,563,260,584,234,599,234,599,263,585,264,578,274,559,278,539,300,513,300,490,329,456,330,426,352,369,352,358,365,323,368,319,379,281,382,243,394" alt="Feature Integration Testing" href="#Feature%20Integration%20Testing">
-<area shape="poly" coords="153,390,179,390,200,378,232,379,275,361,307,361,345,342,375,343,394,323,415,326,426,305,447,305,459,286,478,286,501,272,519,273,530,263,537,263,548,252,557,251,580,226,598,225,598,235,583,235,563,259,553,260,544,270,534,270,528,280,509,277,492,292,474,292,465,308,444,311,433,329,414,327,398,344,370,346,339,363,309,362,267,379,239,378,219,391,158,392" alt="Continuous Integration" href="#Continuous%20Integration">
-<area shape="poly" coords="38,390,116,384,140,373,174,373,199,360,225,357,253,349,273,349,294,340,314,341,332,331,354,331,370,315,385,316,393,300,411,300,420,285,445,285,456,274,470,275,474,271,479,271,495,261,525,253,544,234,579,216,598,216,599,225,580,227,557,251,547,253,537,265,530,263,518,275,501,273,478,285,457,286,446,304,426,305,412,324,393,322,372,342,344,341,304,359,274,359,230,376,198,376,179,389,159,393" alt="Velocity x Story Points" href="#Story%20Points">
-<area shape="poly" coords="112,381,134,368,176,364,197,348,221,348,251,335,276,334,291,322,317,322,330,313,356,308,370,291,388,289,398,268,414,269,418,253,445,254,457,235,472,236,489,229,496,218,523,213,544,184,599,152,599,214,577,217,541,235,524,252,495,262,481,273,474,270,471,274,455,274,445,286,420,286,412,301,392,301,384,318,369,318,351,332,329,329,314,344,294,340,273,349,252,348,227,357,199,360,175,374,140,373" alt="Behavior Driven Development" href="#Behavior%20Driven%20Development">
-<area shape="poly" coords="28,390,63,378,111,374,116,362,154,358,165,346,222,340,256,319,287,319,315,284,343,283,361,257,384,254,391,239,415,234,433,218,460,211,481,191,518,187,534,173,565,166,600,140,600,153,543,183,523,212,496,217,488,229,473,236,457,235,447,254,419,250,414,269,398,269,389,287,370,290,358,308,330,311,316,321,293,321,276,333,252,333,223,348,198,347,178,365,136,365,112,383" alt="Feature Point Budgets" href="#Feature%20Point">
-<area shape="poly" coords="31,390,598,123,598,142,565,166,531,175,517,190,479,194,458,211,428,217,415,234,389,241,384,256,365,257,345,285,317,285,288,319,253,319,220,343,153,360,118,362,112,375,66,378" alt="Release Map Horizon" href="#Release%20Map">
-<area shape="poly" coords="256,286,599,64,600,124" alt="Return on Product/Epic Investment" href="#ROROI">
-<area shape="rect" coords="261,21,576,83" alt="Rate of Return on Investment" href="#ROROI">
-<area shape="rect" coords="20,19,234,50" alt="Rate of Return on Investment" href="#ROROI">
-<area shape="rect" coords="21,51,235,84" alt="Release Map Horizon" href="#Release%20Map">
-<area shape="rect" coords="21,82,237,117" alt="Feature Point Budgets" href="#Feature%20Point">
-<area shape="rect" coords="21,117,236,151" alt="BDD-Covered Features" href="#Behavior%20Driven%20Development">
-<area shape="rect" coords="21,152,236,188" alt="Velocity x Story Points" href="#Story%20Point">
-<area shape="rect" coords="21,188,235,221" alt="Continuously integrated stories" href="#Continuous%20Integration">
-<area shape="rect" coords="21,221,235,255" alt="Feature Integration Testing" href="#Feature%20Integration%20Testing">
-<area shape="rect" coords="21,255,233,291" alt="System Integration Testing" href="#System%20Integration%20Testing">
+<area shape="poly" coords="242,392,284,383,319,379,324,370,358,366,370,353,425,352,457,331,489,331,513,300,539,299,560,277,579,275,584,265,599,264,599,393,245,394" title="System Integration Testing" href="#System%20Integration%20Testing">
+<area shape="poly" coords="166,392,220,390,241,379,271,379,310,362,340,362,370,347,398,346,416,327,433,329,445,310,465,309,476,292,492,293,509,277,528,279,536,271,543,271,555,260,563,260,584,234,599,234,599,263,585,264,578,274,559,278,539,300,513,300,490,329,456,330,426,352,369,352,358,365,323,368,319,379,281,382,243,394" title="Feature Integration Testing" href="#Feature%20Integration%20Testing">
+<area shape="poly" coords="153,390,179,390,200,378,232,379,275,361,307,361,345,342,375,343,394,323,415,326,426,305,447,305,459,286,478,286,501,272,519,273,530,263,537,263,548,252,557,251,580,226,598,225,598,235,583,235,563,259,553,260,544,270,534,270,528,280,509,277,492,292,474,292,465,308,444,311,433,329,414,327,398,344,370,346,339,363,309,362,267,379,239,378,219,391,158,392" title="Continuous Integration" href="#Continuous%20Integration">
+<area shape="poly" coords="38,390,116,384,140,373,174,373,199,360,225,357,253,349,273,349,294,340,314,341,332,331,354,331,370,315,385,316,393,300,411,300,420,285,445,285,456,274,470,275,474,271,479,271,495,261,525,253,544,234,579,216,598,216,599,225,580,227,557,251,547,253,537,265,530,263,518,275,501,273,478,285,457,286,446,304,426,305,412,324,393,322,372,342,344,341,304,359,274,359,230,376,198,376,179,389,159,393" title="Velocity x Story Points" href="#Story%20Points">
+<area shape="poly" coords="112,381,134,368,176,364,197,348,221,348,251,335,276,334,291,322,317,322,330,313,356,308,370,291,388,289,398,268,414,269,418,253,445,254,457,235,472,236,489,229,496,218,523,213,544,184,599,152,599,214,577,217,541,235,524,252,495,262,481,273,474,270,471,274,455,274,445,286,420,286,412,301,392,301,384,318,369,318,351,332,329,329,314,344,294,340,273,349,252,348,227,357,199,360,175,374,140,373" title="Behavior Driven Development" href="#Behavior%20Driven%20Development">
+<area shape="poly" coords="28,390,63,378,111,374,116,362,154,358,165,346,222,340,256,319,287,319,315,284,343,283,361,257,384,254,391,239,415,234,433,218,460,211,481,191,518,187,534,173,565,166,600,140,600,153,543,183,523,212,496,217,488,229,473,236,457,235,447,254,419,250,414,269,398,269,389,287,370,290,358,308,330,311,316,321,293,321,276,333,252,333,223,348,198,347,178,365,136,365,112,383" title="Feature Point Budgets" href="#Feature%20Point">
+<area shape="poly" coords="31,390,598,123,598,142,565,166,531,175,517,190,479,194,458,211,428,217,415,234,389,241,384,256,365,257,345,285,317,285,288,319,253,319,220,343,153,360,118,362,112,375,66,378" title="Release Map Horizon" href="#Release%20Map">
+<area shape="poly" coords="256,286,599,64,600,124" title="Return on Product/Epic Investment" href="#ROROI">
+<area shape="rect" coords="261,21,576,83" title="Rate of Return on Investment" href="#ROROI">
+<area shape="rect" coords="20,19,234,50" title="Rate of Return on Investment" href="#ROROI">
+<area shape="rect" coords="21,51,235,84" title="Release Map Horizon" href="#Release%20Map">
+<area shape="rect" coords="21,82,237,117" title="Feature Point Budgets" href="#Feature%20Point">
+<area shape="rect" coords="21,117,236,151" title="BDD-Covered Features" href="#Behavior%20Driven%20Development">
+<area shape="rect" coords="21,152,236,188" title="Velocity x Story Points" href="#Story%20Point">
+<area shape="rect" coords="21,188,235,221" title="Continuously integrated stories" href="#Continuous%20Integration">
+<area shape="rect" coords="21,221,235,255" title="Feature Integration Testing" href="#Feature%20Integration%20Testing">
+<area shape="rect" coords="21,255,233,291" title="System Integration Testing" href="#System%20Integration%20Testing">
 </map>

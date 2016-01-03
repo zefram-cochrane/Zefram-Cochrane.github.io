@@ -1,20 +1,24 @@
 created: 20151227210220847
-modified: 20151229004003828
+modified: 20160103131558330
 title: XSCALE Coaches
 tmap.id: 1c3e9af8-dae2-4413-9b89-210107a1bad2
 type: text/vnd.tiddlywiki
 
-There are several distinct competencies involved in Agile Coaching. Coaches may be fully competent in one area but lack adequate experience in another. Worse, they naturally underestimate these limitations, resulting in ill-informed decisions that undermine the integrity of products and teams. This problem has created many nasty surprises with serious and costly repercussions.
+There are four distinct competencies in Agile Coaching. Coaches may be fully competent in one of these but lack experience in the others. Worse, coaches naturally underestimate their own limitations, as do many self-proclaimed Agile experts. 
+
+So the confusion induced by calling all these competencies "Agile Coach" can results in ill-informed decisions that undermine the integrity of products and whole portfolos. This has created many unfortunate surprises in the Agile era with extremely costly repercussions.
 
 ''Therefore,''
 
 [[XSCALE|XSCALE Principles]] [[certifies|XSCALE Certificates]] coaches in four different skill-sets:
 
-; [[Technical Coach]]
-: A [[Servant Leader]] for [[Systems Squad]]s. Possesses a development competence suited to making decisions, definitions and configurations of [[Agile Architecture]], [[Development Tools]], [[Versioning Tools]], [[Work Management Tools]], [[Knowledge Management Tools]] and above all [[Quality Automation]]. Without this competence, [[Technical Debt]] inevitably builds up until a product grinds its way into [[Hotfix Hell]].
+; [[Technology Coach]]
+: A [[Servant Leader]] for [[Delivery Squad]]s and [[DevOps Squads|DevOps]]. Possesses an technical architecture and tools competence suited to advising definitions, selections and configurations of [[Agile Architecture]], [[Development Tools]], [[Versioning Tools]], [[Work Management Tools]], [[Knowledge Management Tools]], [[Technology Path]] and above all [[Quality Automation]]. Without this competence, [[Technical Debt]] inevitably builds up until delivery grinds its way into [[Hotfix Hell]].
 ; [[Product Coach]]
-: A remedy to the [[Scrum-Master antipattern]]. A product coach is a [[Servant Leader]] focused on the definition and delivery of products. Nurturing and maintaining fully autonomous [[Product Squad]]s and [[Delivery Squad]]s that do not need someone to play manager or nanny, the product coach is a direct peer of the [[Product Owner]]. Where the owner takes ultimate responsibility for product-market fit, the coach takes it for team productivity.
+: A remedy to the [[Scrum-Master antipattern]]. A product coach is a [[Servant Leader]] focused on the definition and delivery of products. Nurturing and maintaining fully autonomous [[Product Squad]]s and [[Delivery Squad]]s that don't need someone to play nanny, the product coach is a direct peer of the [[Product Leader]]. Where the leader takes ultimate responsibility for [[Product-Market Fit]], the coach takes it for squad [[Productivity]].
 ; [[Portfolio Coach]]
+: Similar to the product coach except that their "product" is the arrangement and interrelationships of all squads across a portfolio as a whole. Skilled in communications with senior management, product and technology coaches, tactical HR and the XSCALE [[Change Management]] patterns, the portfolio coach is a peer to the [[Portfolio Leader]] accountable for improving [[Productivity]] and [[Acceleration]] of all squads and chapters across their portfolio. 
 ; [[Transformation Coach]]
+: A rare bird who has generally already proven competent in all of the above roles, and who furthermore has the capability to apply [[Whole Board Thinking]] to induce, define, deliver and track change across an entire organisation. Combining the strategic skills of a military general, the diplomacy of a tea master, and the compassion and empathy of a psychotherapist, real transformation coaches are distinguished by a track record of both successful and unsuccessful portfolio coaching roles. Without such hard won experiences it can be extremely harmful to appoint someone to coach a transformation.
 
-|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |! [[Certificates|XSCALE Certificates]] |
+|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |
