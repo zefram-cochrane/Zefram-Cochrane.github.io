@@ -1,10 +1,8 @@
 created: 20151227210220847
-modified: 20160103144858882
+modified: 20160104211851180
 title: XSCALE Coaches
 tmap.id: 1c3e9af8-dae2-4413-9b89-210107a1bad2
 type: text/vnd.tiddlywiki
-
-|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |
 
 There are four distinct competencies in Agile Coaching. Coaches may be fully competent in one of these but lack experience in the others. Worse, coaches naturally underestimate their own limitations, as do many self-proclaimed Agile experts. 
 
@@ -12,7 +10,7 @@ So the confusion induced by calling all these competencies "Agile Coach" can res
 
 ''Therefore,''
 
-[[XSCALE|XSCALE Principles]] [[certifies|XSCALE Certificates]] coaches in four different skill-sets:
+XSCALE [[certifies|Certificates]] coaches in four different skill-sets:
 
 ; [[Technology Coach]]
 : A [[Servant Leader]] for [[Delivery Squad]]s and [[DevOps Squads|DevOps]]. Possesses an technical architecture and tools competence suited to advising definitions, selections and configurations of [[Agile Architecture]], [[Development Tools]], [[Versioning Tools]], [[Work Management Tools]], [[Knowledge Management Tools]], [[Technology Path]] and above all [[Quality Automation]]. Without this competence, [[Technical Debt]] inevitably builds up until delivery grinds its way into [[Hotfix Hell]].

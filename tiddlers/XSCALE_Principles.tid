@@ -1,12 +1,12 @@
 created: 20150807021258524
-modified: 20151227210158861
+modified: 20160104212332664
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
 
-''XSCALE'' 
+|! [[Practices|XSCALE Practices]] |! [[Organisation|XSCALE Organisation]] |! [[Metrics|XSCALE Metrics]] |! [[Roles|XSCALE Roles]] |
 
-An acronym for the principles of an [[Agile Organisation]]. Also the name of a [[practice pattern language]] that embodies these principles. As a method for [[3rd Generation Agile]], XSCALE extends the [[Agile Manifesto|http://agilemanifesto.org]] to [[Product Management]], [[Portfolio Management]], [[Change Management]] and [[Holarchy]].
+''XSCALE'' is an acronym for the principles of an [[Agile Organisation]]. Also the name of a [[practice pattern language]] that embodies these principles. As a method for [[3rd Generation Agile]], XSCALE extends the [[Agile Manifesto|http://agilemanifesto.org]] to [[Product Management]], [[Portfolio Management]], [[Change Management]] and [[Holarchy]].
 
 ''Principles''
 
@@ -16,7 +16,5 @@ An acronym for the principles of an [[Agile Organisation]]. Also the name of a [
 &nbsp;&nbsp;''C''[[ontinuous|Continuous]] adaptation and delivery; teams to products to markets
 &nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-organising, right-sized squads self-aligning through [[holarchy|Holarchy]]
 &nbsp;&nbsp;''L''[[earning]]: increasing the ability to adapt via [[Agile R&D]], [[spiking]] and [[refactoring]]
-&nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: decentralised, [[Whole Board Thinking]] and [[positive-sum games]]
+&nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: decentralised [[Whole Board Thinking]] and [[positive-sum games]]
 """
-
-|! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |! [[Coaches|XSCALE Coaches]] |

@@ -1,5 +1,5 @@
 created: 20151227070031841
-modified: 20151227201103909
+modified: 20160104211205938
 tags: 
 title: Whole Board Thinking
 tmap.id: 8e927e14-83a9-4048-a3d6-ad9c0041b392
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 ''Therefore,'''
 
-''Whole Board Thinking'' is a cycle of figuring out which decision is the most important one to make next:
+''Whole Board Thinking'' is a method of {{Systems Thinking}} that involves iteratively figuring out which decision is the most important one to make next.
 
 # Integrate the latest metric and analytic information you've received into your maps of the market, of your organization, of your product, and/or of your design
 # Considering this entire problem space breadth-first, determine which broad region of it is most fertile for development. This may be the hottest fire to fight, but often it's a region that hasn't been developed at all, where you have no market yet, no organization, no product, and/or no design.
@@ -22,4 +22,4 @@ type: text/vnd.tiddlywiki
 # Knowing [[Pattern Language]]s for responding tactically to these forces helps to understand what a good solution might be. But don't just apply a pattern.
 # Instead, try to solve it yourself. If your solution is very different to the patterns, consider that it might be sub-optimal. Experiment to learn whether it is or not.
 # At the [[Last Responsible Moment]], make the decision.
-# Forget it. Return your focus to the whole board.
+# Pop your focus back out to the whole board and start over to find the next decision.
