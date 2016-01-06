@@ -1,7 +1,9 @@
 created: 20151023025729999
-modified: 20160103105504080
+modified: 20160105100519288
 title: Product Leader
 tmap.id: 59289d3f-aa40-4693-a8bd-32d4854911b7
 type: text/vnd.tiddlywiki
 
-Like the other [[leader roles|XSCALE Leaders]], this role is a [[Servant Leader]], not a [[Command and Control]] manager. It is only accountable for making decisions when the [[Product Squad]] cannot reach consensus about feature definitions, [[Acceptance Criteria]] and [[Royal Cod]] priorities before the [[Last Responsible Moment]]. The product leader is also responsible for answering [[Delivery Squad]] questions about features and stories when the [[Product Squad]] isn't conveniently available.
+Like the other [[leader roles|XSCALE Leaders]], and unlike the Scrum [[Product Owner]], this role is a [[Servant Leader]], not a [[Command and Control]] manager. It is only accountable for making decisions when the [[Product Squad]] cannot reach consensus about feature definitions, [[Acceptance Criteria]] and [[Royal Cod]] priorities before the [[Last Responsible Moment]]. 
+
+The product leader is also responsible for answering [[Delivery Squad]] questions about features and stories when the [[Product Squad]] isn't conveniently available.
