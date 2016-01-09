@@ -1,5 +1,5 @@
 created: 20150807051018491
-modified: 20151109092206918
+modified: 20160109221052749
 title: 3rd Generation Agile
 tmap.id: 658324f5-722e-44a9-b8eb-253f643ed683
 type: text/vnd.tiddlywiki
@@ -9,3 +9,7 @@ type: text/vnd.tiddlywiki
 ''2nd generation'' - adapting Agile to enterprises - {{LeSS}}, {{Nexus}}, {{SAFe}} and {{DAD}}
 ''3rd generation'' - adapting enterprises to Agile - {{Spotify}}, {{Holacracy}} and [[XSCALE|XSCALE Practices]]
 """
+
+XSCALE is a language of best practices for Agile organisations focused on exponential growth. Extending beyond IT, XSCALE practices provide simple methods for Agile [[Product Management]], [[Portfolio Management]], [[Transformation]] and [[High Performance Delivery]].
+
+The XSCALE practices are fully compatible with {{Spotify}}, {{SAFe}}, {{LeSS}}, {{Nexus}} and {{DAD}}, and have been applied successfully at scale as a standalone method.
