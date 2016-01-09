@@ -1,12 +1,14 @@
 created: 20150809210853784
-modified: 20160108085634523
+modified: 20160109220308065
 tags: 
 title: XSCALE Practices
 tmap.id: f1f31f19-d270-4e95-b5a9-afb3b1d8a3a5
 type: text/vnd.tiddlywiki
 
+{{$:/patterns-image}}
+
 |! [[Principles|XSCALE Principles]] |! [[Organisation|XSCALE Organisation]] |! [[Metrics|XSCALE Metrics]] |! [[Roles|XSCALE Roles]] |
 
-XSCALE is a language of best practices for Agile organisations focused on exponential growth. Compatible with {{Spotify}}, {{SAFe}}, {{LeSS}}, {{Nexus}} and {{DAD}}, the XSCALE practices cover the latest advances in Agile product management, portfolio management, change management and high performance delivery.
+XSCALE is a language of best practices for Agile organisations focused on exponential growth. Extending beyond IT, XSCALE practices provide simple methods for Agile [[Product Management]], [[Portfolio Management]], [[Transformation]] and [[High Performance Delivery]].
 
-{{$:/patterns-image}}
+The XSCALE practices are fully compatible with {{Spotify}}, {{SAFe}}, {{LeSS}}, {{Nexus}} and {{DAD}}, and have been applied successfully at scale as a [[3G Agile|3rd Generation Agile]] method.

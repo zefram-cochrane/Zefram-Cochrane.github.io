@@ -1,53 +1,48 @@
-<img src="Untitled" width="600" height="392" border="0" usemap="#map" />
+<img src="Untitled" width="600" height="392" border="0" usemap="#practicemap" />
 
-<map name="map">
-<!-- #$-:Image map file created by GIMP Image Map plug-in -->
-<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
-<!-- #$-:Please do not edit lines starting with "#$" -->
-<!-- #$VERSION:2.3 -->
-<!-- #$AUTHOR:pete      -->
-<area shape="poly" coords="87,65,102,62,122,59,141,58,157,57,209,58,209,59,207,51,250,64,212,72,211,67,185,66,138,66,109,69,90,72,79,76,72,79,82,70" alt="Impact Mapping" href="#Impact%20Mspping" />
-<area shape="poly" coords="46,117,66,112,86,108,112,104,132,103,161,101,187,100,215,101,228,101,225,96,271,108,229,115,227,110,201,109,170,109,132,111,97,115,68,119,53,124,46,127,40,130" alt="Portfolio Mapping" href="#Portfolio%20Mapping" />
-<area shape="poly" coords="31,161,39,158,54,153,66,151,86,148,116,145,158,143,194,142,223,142,249,143,247,138,296,150,253,158,253,152,209,152,169,151,126,152,85,156,57,160,43,163,33,168,29,172" alt="Set Based Design" href="#Set%20Based%20Design" />
-<area shape="poly" coords="29,205,41,201,58,198,78,194,101,191,135,188,169,187,201,186,258,187,271,187,268,183,309,195,275,203,273,198,226,196,174,196,124,197,85,200,59,204,42,208,34,212,30,217" alt="Behavior Mapping" href="#Behavior%20Mapping" />
-<area shape="poly" coords="39,254,47,251,60,245,80,240,105,236,131,234,157,232,195,231,229,231,239,232,239,226,285,239,244,247,243,241,228,241,194,240,154,241,121,243,89,246,67,251,54,255,43,262" alt="Business Bingo" href="#Business%20Bingo" />
-<area shape="poly" coords="66,302,74,296,83,292,100,286,122,282,148,278,175,277,199,276,219,275,218,271,260,284,221,292,219,286,185,285,163,287,137,287,114,292,96,295,84,299,78,304,74,311" alt="Release Refactoring" href="#Release%20Refactoring" />
-<area shape="poly" coords="111,344,116,339,123,334,131,331,145,327,156,326,169,324,182,324,195,324,212,325,212,319,245,330,214,336,213,331,198,331,175,330,159,332,143,334,130,339,123,342,121,346,122,351" alt="Autonomous Squads" href="#Autonomous%20Squads" />
-<area shape="rect" coords="143,344,195,363" alt="DevOps" href="#DevOps" />
-<area shape="rect" coords="102,306,218,320" alt="Autonomous Squads" href="#Autonomous%20 Squads" />
-<area shape="rect" coords="82,171,189,186" alt="Behavior Mapping" href="#Behavior%20Mapping" />
-<area shape="rect" coords="89,260,203,276" alt="Release Refactoring" href="#Release%20Refactoring" />
-<area shape="rect" coords="84,217,172,232" alt="Business Bingo" href="#Business%20Bingo" />
-<area shape="rect" coords="88,126,189,140" alt="Set Based Design" href="#Set%20Based%20Design" />
-<area shape="rect" coords="97,84,205,99" alt="Portfolio Mapping" href="#Portfolio%20Mapping" />
-<area shape="rect" coords="124,40,218,54" alt="Impact Mapping" href="#Impact%20Mapping" />
-<area shape="rect" coords="0,117,28,266" alt="Continuous Delivery" href="#Continuous%20Delivery" />
-<area shape="rect" coords="345,52,448,72" alt="Critical Numbers" href="#Critical%20Numbers" />
-<area shape="rect" coords="208,7,313,25" alt="Product Analytics" href="#Product%20Analytics" />
-<area shape="rect" coords="249,51,345,73" alt="Epic Landscape" href="#Epic%20Landscape" />
-<area shape="rect" coords="298,140,448,159" alt="Solution Constraints" href="#Solution%20Constraints" />
-<area shape="rect" coords="315,183,449,204" alt="Feature-Theme Matrix" href="#Feature-Theme Matrix" />
-<area shape="rect" coords="288,229,373,249" alt="Feature Budget / Feature Points" href="#Feature%20Points" />
-<area shape="rect" coords="375,231,447,249" alt="ROI+COD" href="#Royal%20Cod" />
-<area shape="rect" coords="385,273,446,293" alt="Feature GTD" href="#Feature%20GTD" />
-<area shape="rect" coords="265,273,386,292" alt="Release Map" href="#Release%20Map" />
-<area shape="rect" coords="247,315,355,338" alt="Product Backlog" href="#Product%20Backlog" />
-<area shape="rect" coords="355,316,447,338" alt="Kanbans" href="#Kanban" />
-<area shape="rect" coords="316,293,439,315" alt="Quality Metrics" href="#Quality%20Metrics" />
-<area shape="rect" coords="208,363,446,382" alt="Behavior Driven Development" href="#Behavior%20Driven%20Development" />
-<area shape="rect" coords="537,248,584,265" alt="Adoption" href="#Adoption" />
-<area shape="rect" coords="473,249,524,264" alt="Awareness" href="#Awareness" />
-<area shape="rect" coords="530,363,589,378" alt="Acceleration" href="#Acceleration" />
-<area shape="circle" coords="531,314,46" alt="Chapter Meetings" href="#Chapter%20Meetings" />
-<area shape="circle" coords="530,196,46" alt="Product Squads" href="#Product%20Squads" />
-<area shape="circle" coords="531,79,47" alt="Portfolio Squad" href="#Portfolio%20Squad" />
-<area shape="rect" coords="471,13,526,26" alt="Assessment" href="#Assessment" />
-<area shape="rect" coords="535,14,585,27" alt="Allocation" href="#Allocation" />
-<area shape="rect" coords="474,130,524,144" alt="Alignment" href="#Alignment" />
-<area shape="rect" coords="532,131,589,145" alt="Architecture" href="#Architecture" />
-<area shape="rect" coords="448,101,469,284" alt="Continuous Adaptation" href="#Continuous%20Adaptation" />
-<area shape="rect" coords="475,362,525,378" alt="Autonomy" href="#Autonomy" />
-<area shape="rect" coords="314,7,447,26" alt="Product Flow Diagrams" href="#Product%20Flow%20Diagram" />
-<area shape="rect" coords="270,97,335,116" alt="Holarchy" href="#Holarchy" />
-<area shape="rect" coords="334,97,449,116" alt="Service Agreements" href="#Service%20Agreement" />
+<map name="practicemap">
+<area shape="poly" coords="87,65,102,62,122,59,141,58,157,57,209,58,209,59,207,51,250,64,212,72,211,67,185,66,138,66,109,69,90,72,79,76,72,79,82,70" title="Impact Mapping" href="#Impact%20Mspping" />
+<area shape="poly" coords="46,117,66,112,86,108,112,104,132,103,161,101,187,100,215,101,228,101,225,96,271,108,229,115,227,110,201,109,170,109,132,111,97,115,68,119,53,124,46,127,40,130" title="Portfolio Mapping" href="#Portfolio%20Mapping" />
+<area shape="poly" coords="31,161,39,158,54,153,66,151,86,148,116,145,158,143,194,142,223,142,249,143,247,138,296,150,253,158,253,152,209,152,169,151,126,152,85,156,57,160,43,163,33,168,29,172" title="Set Based Design" href="#Set%20Based%20Design" />
+<area shape="poly" coords="29,205,41,201,58,198,78,194,101,191,135,188,169,187,201,186,258,187,271,187,268,183,309,195,275,203,273,198,226,196,174,196,124,197,85,200,59,204,42,208,34,212,30,217" title="Behavior Mapping" href="#Behavior%20Mapping" />
+<area shape="poly" coords="39,254,47,251,60,245,80,240,105,236,131,234,157,232,195,231,229,231,239,232,239,226,285,239,244,247,243,241,228,241,194,240,154,241,121,243,89,246,67,251,54,255,43,262" title="Business Bingo" href="#Business%20Bingo" />
+<area shape="poly" coords="66,302,74,296,83,292,100,286,122,282,148,278,175,277,199,276,219,275,218,271,260,284,221,292,219,286,185,285,163,287,137,287,114,292,96,295,84,299,78,304,74,311" title="Release Refactoring" href="#Release%20Refactoring" />
+<area shape="poly" coords="111,344,116,339,123,334,131,331,145,327,156,326,169,324,182,324,195,324,212,325,212,319,245,330,214,336,213,331,198,331,175,330,159,332,143,334,130,339,123,342,121,346,122,351" title="Autonomous Squads" href="#Autonomous%20Squads" />
+<area shape="rect" coords="143,344,195,363" title="DevOps" href="#DevOps" />
+<area shape="rect" coords="102,306,218,320" title="Autonomous Squads" href="#Autonomous%20 Squads" />
+<area shape="rect" coords="82,171,189,186" title="Behavior Mapping" href="#Behavior%20Mapping" />
+<area shape="rect" coords="89,260,203,276" title="Release Refactoring" href="#Release%20Refactoring" />
+<area shape="rect" coords="84,217,172,232" title="Business Bingo" href="#Business%20Bingo" />
+<area shape="rect" coords="88,126,189,140" title="Set Based Design" href="#Set%20Based%20Design" />
+<area shape="rect" coords="97,84,205,99" title="Portfolio Mapping" href="#Portfolio%20Mapping" />
+<area shape="rect" coords="124,40,218,54" title="Impact Mapping" href="#Impact%20Mapping" />
+<area shape="rect" coords="0,117,28,266" title="Continuous Delivery" href="#Continuous%20Delivery" />
+<area shape="rect" coords="345,52,448,72" title="Critical Numbers" href="#Critical%20Numbers" />
+<area shape="rect" coords="208,7,313,25" title="Product Analytics" href="#Product%20Analytics" />
+<area shape="rect" coords="249,51,345,73" title="Epic Landscape" href="#Epic%20Landscape" />
+<area shape="rect" coords="298,140,448,159" title="Solution Constraints" href="#Solution%20Constraints" />
+<area shape="rect" coords="315,183,449,204" title="Feature-Theme Matrix" href="#Feature-Theme Matrix" />
+<area shape="rect" coords="288,229,373,249" title="Feature Budget / Feature Points" href="#Feature%20Points" />
+<area shape="rect" coords="375,231,447,249" title="ROI+COD" href="#Royal%20Cod" />
+<area shape="rect" coords="385,273,446,293" title="Feature GTD" href="#Feature%20GTD" />
+<area shape="rect" coords="265,273,386,292" title="Release Map" href="#Release%20Map" />
+<area shape="rect" coords="247,315,355,338" title="Product Backlog" href="#Product%20Backlog" />
+<area shape="rect" coords="355,316,447,338" title="Kanbans" href="#Kanban" />
+<area shape="rect" coords="316,293,439,315" title="Quality Metrics" href="#Quality%20Metrics" />
+<area shape="rect" coords="208,363,446,382" title="Behavior Driven Development" href="#Behavior%20Driven%20Development" />
+<area shape="rect" coords="537,248,584,265" title="Adoption" href="#Adoption" />
+<area shape="rect" coords="473,249,524,264" title="Awareness" href="#Awareness" />
+<area shape="rect" coords="530,363,589,378" title="Acceleration" href="#Acceleration" />
+<area shape="circle" coords="531,314,46" title="Chapter Meetings" href="#Chapter%20Meetings" />
+<area shape="circle" coords="530,196,46" title="Product Squads" href="#Product%20Squads" />
+<area shape="circle" coords="531,79,47" title="Portfolio Squad" href="#Portfolio%20Squad" />
+<area shape="rect" coords="471,13,526,26" title="Assessment" href="#Assessment" />
+<area shape="rect" coords="535,14,585,27" title="Allocation" href="#Allocation" />
+<area shape="rect" coords="474,130,524,144" title="Alignment" href="#Alignment" />
+<area shape="rect" coords="532,131,589,145" title="Architecture" href="#Architecture" />
+<area shape="rect" coords="448,101,469,284" title="Continuous Adaptation" href="#Continuous%20Adaptation" />
+<area shape="rect" coords="475,362,525,378" title="Autonomy" href="#Autonomy" />
+<area shape="rect" coords="314,7,447,26" title="Product Flow Diagrams" href="#Product%20Flow%20Diagram" />
+<area shape="rect" coords="270,97,335,116" title="Holarchy" href="#Holarchy" />
+<area shape="rect" coords="334,97,449,116" title="Service Agreements" href="#Service%20Agreement" />
 </map>
