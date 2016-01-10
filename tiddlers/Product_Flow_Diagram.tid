@@ -1,15 +1,17 @@
 created: 20160110010210965
-modified: 20160110045542729
+modified: 20160110100038763
 title: Product Flow Diagram
 tmap.id: 6b5ab875-3713-4755-97d5-1029090127e1
 type: text/vnd.tiddlywiki
 
-* In [[Lean Manufacturing]], the progress of a [[Kanban]] is tracked over time using a {{Cumulative Flow Diagram)) (CFD). CFDs are superior to traditional Agile burndown/burnup charts because they make it easier to see causes of [[Waste]], [[Stress]] and [[Instability]].
+* In [[Lean Manufacturing]], the progress of a [[Kanban]] is tracked over time using a {{Cumulative Flow Diagram}} (CFD). CFDs are superior to traditional Agile burndown/burnup charts because they make it easier to see causes of [[Waste]], [[Stress]] and [[Instability]].
 * To represent [[ROROI]] the diagram must account for the time taken up in analysing the Features in an Epic and the Stories in a Feature, not just the delivery and integration workflow per story.
 * If a [[Feature Team]] is trying to hit a calendar date It's important to be able to see by simple visual inspection of diagrams when the feature point budget for a feature has been exceeded by [[Story Point]] estimates, and that consequently a release must be [[refactored|Release Refactoring]].
 
 ''Therefore,''
 
-[[Feature Point]]s provide a simple basis for this accounting. The cost of an Epic over the life of a release is the sum of its Feature Points. And as each Feature is delivered by just one Squad at a time, the Feature Point cost of a story is simply its [[Story Point]]s divided by Squad [[Velocity]].
+[[Feature Point]]s provide a simple basis for this kind of accounting. The cost of an Epic over the life of a release is the sum of its Feature Points. And as each Feature is delivered by just one Squad at a time, the Feature Point cost of a story is simply its [[Story Point]]s divided by Squad [[Velocity]].
+
+A CFD that represents all these metrics is called a ''Product Flow Diagram''. The topmost "return" line can be just about revenue, but usually it's better to make it about each Epic's {{Critical Number}}. Unsurprisingly, if you stack up all these metrics for your whole [[Portfolio]] you call it a ''Portfolio Flow Diagram''.
 
 {{$:/metrics-image}}

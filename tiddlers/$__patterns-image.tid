@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20160110004902972
+modified: 20160110102904521
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -24,7 +24,7 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="124,40,218,54" title="Impact Mapping" href="#Impact%20Mapping" />
 <area shape="rect" coords="0,117,28,266" title="Continuous Delivery" href="#Continuous%20Delivery" />
 <area shape="rect" coords="345,52,448,72" title="Critical Numbers" href="http://www.inc.com/magazine/19960301/1577.html" target="_blank" />
-<area shape="rect" coords="208,7,313,25" title="Product Analytics" href="#XSCALE%20Metrics" />
+<area shape="rect" coords="208,7,313,25" title="Product Analytics" href="http://www.slideshare.net/ThoughtWorks/big-data-agile-analytics-by-ken-collier-director-agile-analytics-thoughtworks?ref=http://theagilist.com/" target="_blank" />
 <area shape="rect" coords="249,51,345,73" title="Epic Landscape" href="#Epic%20Landscape" />
 <area shape="rect" coords="298,140,448,159" title="Solution Constraints" href="#Solution%20Constraint" />
 <area shape="rect" coords="315,183,449,204" title="Feature-Theme Matrix" href="#Feature-Theme Matrix" />

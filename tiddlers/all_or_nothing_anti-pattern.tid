@@ -1,5 +1,5 @@
 created: 20151107075348979
-modified: 20151107080118827
+modified: 20160110100611169
 title: all or nothing anti-pattern
 tmap.id: c578227c-332c-4e29-ad66-7b8eecd3df9f
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ They attempt to use power and confrontation to gain the upper hand in negotiatin
 
 ''But,''
 
-[[Royal Cod]] prioritisation and [[Release Refactoring]] would derive a rational prioritisation even if all features had the same business value. Once a [[Zero Sum Game]]r realises that prioritisation will happen whether they participate or not, they generally realise, correctly, that it's in their interests to participate.
+[[Royal Cod]] prioritisation and [[Release Refactoring]] derive a rational prioritisation even if all features have the same business value. Once a [[Zero Sum Game]]r realises that prioritisation will happen whether they participate or not, they generally discover, correctly, that it's in their interests to estimate business value. They may not be happy about it, but you can't make a ZSGer happy anyway.
