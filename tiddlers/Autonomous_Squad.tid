@@ -1,11 +1,11 @@
 created: 20151010230026627
-modified: 20160106222009275
+modified: 20160110050117944
 tags: 
 title: Autonomous Squad
 tmap.id: 8e46dcb6-5a53-4901-872a-20ff89fe68a5
 type: text/vnd.tiddlywiki
 
-A squad is a small self-organizing team stable in structure over the period of a [[release]]. Its composition and priorities are determined by its [[servant leaders|XSCALE Roles]], but in every other respect it is purely autonomous, determining the details of its own process, planning its own tasking, controlling its own estimates, and making its own time commitments. 
+A squad is a small self-organizing team stable in structure over the period of a [[release]]. Its composition and priorities are determined by its [[servant leaders|Leadership as a Service]], but in every other respect it is purely autonomous, determining the details of its own process, planning its own tasking, controlling its own estimates, and making its own time commitments. 
 
 To maximize productivity, squads must be kept small, on the order of 5 to 10 members, with [[Portfolio Mapping]] used to minimize dependencies between squads and assure each possesses all competencies necessary to define, deliver and operate the functionality for which it is accountable. 
 
