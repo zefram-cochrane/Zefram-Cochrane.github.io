@@ -1,19 +1,25 @@
 created: 20151023025729999
-modified: 20160111023854181
+modified: 20160111233538617
 title: Product Leader
 tmap.id: 59289d3f-aa40-4693-a8bd-32d4854911b7
 type: text/vnd.tiddlywiki
 
-[[High Performance Delivery]] generally requires feedback directly from [[customers and stakeholders|Customer Review]]. Yet some Agile methods delegate responsibility for organising and prioritising feedback to one or more middle managers. This creates difficulties:
+The third {{Agile Manifesto}} value is 
 
-* Scrum/SAFe Product [[Owners/Managers|http://scaledagileframework.com/product-and-solution-management/]] hold unilateral accountability for acceptance criteria and story priorities, imbalancing power on the team which inhibits open communications. 
+> [[Customer|Customer Review]] collaboration over contract negotiation
 
-* Owners and Managers may still benefit from [[Whole Board Thinking]] and the XSCALE [[Product Management]] Practices. Nevertheless these practices provide the maximum benefit when a Lean UX-style [[Product Squad]] is established.
+Yet many otherwise=Agile teams delegate responsibility for customer collaboration to proxy middle managers. This isn't just compromising the intent of Agile - it creates real business risks:
 
-* The product squad still needs a [[Leader|XSCALE Leaders]] to carry accountability for decisions if the squad can't reach unanimous consensus about feature definitions, [[Acceptance Criteria]] and [[Royal Cod]] business concerns when [[Product Coach]] declares that the [[Last Responsible Moment]] has arrived.
+* [[Command and Control]] relationships in which POs play authoritative project managers rather than proper [[Servant Leaders|Leadership as a Service]]. This leads directly to [[Blame and Shame|Baseline anti-pattern]] behaviours that generate quality compromises, anti-productive heroics. Inevitably it inhibits open communication and thereby slows learning. 
+
+* Owners and Managers may still benefit from [[Whole Board Thinking]] and the XSCALE [[Product Management]] practices. Nevertheless those practices provide maximum benefit when a Lean UX-style [[Product Squad]] enables collaboration on product definition between business authorities, technical authorities and design authorities. The less direct that collaboration, the less effective and the worse the resulting design-tech-product-market fit.
+
+* The product squad needs a [[Leader|XSCALE Leaders]] to hold accountability for decisions on occasions when the squad can't reach unanimous consensus about feature definitions, [[Acceptance Criteria]] and [[Royal Cod]] business value. To be a proper servant leader, this accountability should only be exercised when the [[Product Coach]] determines that the [[Last Responsible Moment]] for a decision has arrived.
 
 ''Therefore,''
 
-The ''Product Leader'' works with the [[Product Squad]] through influence rather than power. To do this effectively they should know their market and problem domain intimately and capable of conducting experiments via [[Product Analytics]], [[Spike Solution]]s, [[A/B Testing]] and related {{Lean UX}} practices. They provide [[Leadership as a Service]] throughout all the [[Product Management]] patterns.
+The ''Product Leader'' works with the [[Product Squad]] through influence rather than power. They know their customers and problem domain by experiment rather than intuition and book learning. They are mercilessly question which {{Product Analytics}} apply at which times, pressing for more information via [[Spike Solution]]s, [[A/B Testing]] and related {{Lean UX}} practices, and sharing learnings to inform the squad's decisions. 
 
-The product leader works with [[Delivery Squad]]s, providing the traditional Scrum PO delivery decisions by answering [[Delivery Squad]] questions about features and stories, defining BDD [[Acceptance Criteria]], splitting out stories with [[INVEST]] properties, backlog grooming and facilitating [[Customer Review]] feedback.
+This way the PL does more than simply provide [[Leadership as a Service]] to the squad or "own" the product. Throughout all [[Product Management]] practices they bring a pro-active perspective of attempting to leapfrog the competition, to find new revenue models, to open unplumbed market segments, to deepen user experience and to leverage new technologies. They don't try to own the product like a bureaucrat; they try to boldly lead the market like an entrepreneur.
+
+The product leader also works closely with [[Delivery Squad]]s, providing the traditional Scrum PO delivery decisions. Answering [[Delivery Squad]] questions about features and stories, defining BDD [[Acceptance Criteria]] for features, splitting out stories with solid [[INVEST]] properties, diligently backlog grooming and above all facilitating real [[Customer Review]] feedback.
