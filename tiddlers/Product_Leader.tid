@@ -1,9 +1,19 @@
 created: 20151023025729999
-modified: 20160110050228147
+modified: 20160111023854181
 title: Product Leader
 tmap.id: 59289d3f-aa40-4693-a8bd-32d4854911b7
 type: text/vnd.tiddlywiki
 
-Like the other [[leader roles|XSCALE Leaders]], and unlike the Scrum [[Product Owner]], this role is a [[Servant Leader|Leadership as a Service]], not a [[Command and Control]] manager. It is only accountable for making decisions when the [[Product Squad]] cannot reach consensus about feature definitions, [[Acceptance Criteria]] and [[Royal Cod]] priorities before the [[Last Responsible Moment]]. 
+[[High Performance Delivery]] generally requires feedback directly from [[customers and stakeholders|Customer Review]]. Yet some Agile methods delegate responsibility for organising and prioritising feedback to one or more middle managers. This creates difficulties:
 
-The product leader is also responsible for answering [[Delivery Squad]] questions about features and stories when the [[Product Squad]] isn't conveniently available.
+* Scrum/SAFe Product [[Owners/Managers|http://scaledagileframework.com/product-and-solution-management/]] hold unilateral accountability for acceptance criteria and story priorities, imbalancing power on the team which inhibits open communications. 
+
+* Owners and Managers may still benefit from [[Whole Board Thinking]] and the XSCALE [[Product Management]] Practices. Nevertheless these practices provide the maximum benefit when a Lean UX-style [[Product Squad]] is established.
+
+* The product squad still needs a [[Leader|XSCALE Leaders]] to carry accountability for decisions if the squad can't reach unanimous consensus about feature definitions, [[Acceptance Criteria]] and [[Royal Cod]] business concerns when [[Product Coach]] declares that the [[Last Responsible Moment]] has arrived.
+
+''Therefore,''
+
+The ''Product Leader'' works with the [[Product Squad]] through influence rather than power. To do this effectively they should know their market and problem domain intimately and capable of conducting experiments via [[Product Analytics]], [[Spike Solution]]s, [[A/B Testing]] and related {{Lean UX}} practices. They provide [[Leadership as a Service]] throughout all the [[Product Management]] patterns.
+
+The product leader works with [[Delivery Squad]]s, providing the traditional Scrum PO delivery decisions by answering [[Delivery Squad]] questions about features and stories, defining BDD [[Acceptance Criteria]], splitting out stories with [[INVEST]] properties, backlog grooming and facilitating [[Customer Review]] feedback.
