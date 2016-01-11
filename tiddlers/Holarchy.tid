@@ -1,13 +1,13 @@
 created: 20151011082318085
-modified: 20151025022037423
+modified: 20160110204912325
 title: Holarchy
 tmap.id: 5077a70e-82d8-4c84-a062-00dc08391312
 type: text/vnd.tiddlywiki
 
-A term coined by {{Arthur Koestler}} in 1967. Holarchy, as opposed to hierarchy, describes the basic organizing principle of natural things. Rather than embodying a tree of [[command and control]] relationships, entities at each level of a holarchy comprise a structure of relations between the entities at a lower level.
+A term coined by {{Arthur Koestler}}, holarchy, as opposed to hierarchy, describes the basic organizing principle of natural things. Rather than embodying a tree of [[command and control]] relationships, entities at each level of a holarchy each comprise a structure of relations between the entities at a lower level.
 
 Koestler gives the example of a holarchy of subatomic particles <-> atoms <-> molecules <-> macromolecules <-> organelles <-> cells <-> tissues <-> organs <-> organisms <-> communities <-> societies. This is to say that an atom is not a container or manager of particles, but a pattern of interaction that may dominate their behaviour over time.
 
-Now in XSCALE the holarchy that chiefly concerns us is individuals <-> [[squad|Autonomous Squad]]s <-> [[product|Product Orientation]]s <-> [[portfolio|Portfolio]]s <-> [[markets|Impact Mapping]]. The XSCALE practice patterns that maintain these relations are made up of [[metric feedback loops]].
+In the social realm holarchies proved their power and stability over time in the structure of the {{Iroquois Confederacy}}. XSCALE leverages several Iroquois practices, rendering a holarchy that takes the form humans <-> [[squad|Autonomous Squad]]s <-> [[product|Product Orientation]]s <-> [[chapter|Chapter Meeting]]s <-> [[portfolio|Portfolio]]s <-> [[markets|Impact Mapping]]. The XSCALE practice patterns that maintain these relations are made up of [[metric feedback loops]].
 
-Nevertheless {{Christopher Alexander}} makes a conclusive case for regarding natural holarchies as overlapping one another rather than existing as mutually exclusive tree structures. He gives this argument in his classic paper [[A City Is Not A Tree|http://www.bp.ntu.edu.tw/wp-content/uploads/2011/12/06-Alexander-A-city-is-not-a-tree.pdf]]. Overlapping social holarchies proved their collaborative power and stability over time in the structure of the {{Iroquois Confederacy}} and feature in XSCALE, as in {{Spotify}}, in the form of [[Chapter|Chapter Meeting]]s and [[Guild|Guild Meeting]]s.
+{{Christopher Alexander}} makes a conclusive case for regarding natural holarchies as overlapping one another rather than existing as mutually exclusive tree structures in his classic paper [[A City Is Not A Tree|http://www.bp.ntu.edu.tw/wp-content/uploads/2011/12/06-Alexander-A-city-is-not-a-tree.pdf]]. Holarchy is the organising principle of Alexander's extremely influential bot, "A [[Pattern Language]]".

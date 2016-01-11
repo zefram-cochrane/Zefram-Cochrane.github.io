@@ -239,7 +239,7 @@ Error message and password prompt
 
 <li>$:/temp/tmap/currentTiddler</li>
 
-<li>$:/temp/tmap/holders/aee41e43-c2b4-4d24-a293-46aa8c4dbf17</li>
+<li>$:/temp/tmap/holders/26e67a0c-5780-4786-9ec9-874f2c5643f6</li>
 
 <li>$:/temp/tmap/nodes/Live View</li>
 
@@ -360,8 +360,6 @@ Error message and password prompt
 <li>Environment Variables on Node.js</li>
 
 <li>Epic Landscape</li>
-
-<li>Epic landscape</li>
 
 <li>ExternalImages</li>
 
@@ -7452,7 +7450,7 @@ Error message and password prompt
   &lt;/$set&gt; 
 &lt;/div&gt;</pre>
 </div>
-<div created="20150806130424381" modified="20160110195804300" title="$:/plugins/felixhayashi/tiddlymap/misc/defaultViewHolder" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div created="20150806130424381" modified="20160110195956204" title="$:/plugins/felixhayashi/tiddlymap/misc/defaultViewHolder" type="text/vnd.tiddlywiki" revision="1" bag="default">
 <pre>Live View</pre>
 </div>
 <div created="20150806095707253" modified="20151208053729442" title="$:/plugins/felixhayashi/tiddlymap/misc/meta" type="application/json" revision="0" bag="default">
@@ -7766,7 +7764,7 @@ Error message and password prompt
 &lt;/map&gt;
 </pre>
 </div>
-<div modified="20160110195955335" title="$:/temp/focussedTiddler" revision="1" bag="default">
+<div modified="20160111002547903" title="$:/temp/focussedTiddler" revision="1" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -7786,7 +7784,7 @@ Error message and password prompt
 <div title="$:/temp/tmap/currentTiddler" revision="1" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
-<div title="$:/temp/tmap/holders/aee41e43-c2b4-4d24-a293-46aa8c4dbf17" revision="1" bag="default">
+<div title="$:/temp/tmap/holders/26e67a0c-5780-4786-9ec9-874f2c5643f6" revision="1" bag="default">
 <pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View</pre>
 </div>
 <div list="[[XSCALE Practices]] [[3rd Generation Agile]] [[XSCALE Metrics]] [[XSCALE Organisation]] [[XSCALE Principles]] [[XSCALE Roles]]" title="$:/temp/tmap/nodes/Live View" revision="3" bag="default">
@@ -8639,25 +8637,26 @@ tiddlywiki mywiki --build index
 
 </pre>
 </div>
-<div created="20150811070230353" modified="20151107234833164" title="Epic Landscape" tmap.id="e63557c9-7ce3-4c99-838d-b3a7aa5b4eb8" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre></pre>
-</div>
-<div created="20151209001600685" modified="20151209004555629" title="Epic landscape" tmap.id="79342ee8-7439-4851-80fe-427167783d4f" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20150811070230353" modified="20160111002506631" title="Epic Landscape" tmap.id="e63557c9-7ce3-4c99-838d-b3a7aa5b4eb8" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Impact Mapping]] provides a simple way to reveal and reconcile overlapping analysis and delivery effort in parallel products and programs.
 
-Teams in the same portfolio are often faced with similar challenges and constraints, so it's natural for them to duplicate a lot of analysis and delivery effort. Such duplications are the worst kind of [[Waste]] - waste that could be avoided just by thinking things through. 
+* Teams in the same portfolio are often faced with similar challenges and constraints. It's natural for them to duplicate a lot of analysis and delivery effort. 
 
-Duplications also lead to incompatible services with overlapping [[sources of truth|source of truth]]. When this comes to light, projects to bridge and refactor the overlapping sources constitute still more [[Waste]]. A culture that permits this leads to very brittle enterprise architecture. With the left hand not knowing what the right hand is or is not doing, a large proportion of IT budgets are squandered.
+* Such duplications are the worst kind of [[Waste]] - waste that could be avoided just by thinking [[breadth-first|Whole Board Thinking]]. 
+
+* Duplications also give rise to incompatible services with overlapping [[sources of truth|source of truth]]. When this comes to light, projects to bridge and refactor the overlapping sources constitute still more [[Waste]]. 
+
+A culture that permits these problems evolves a brittle enterprise architecture with the left hand not knowing what the right hand is doing. A large proportion of IT budgets are squandered this way.
 
 ''Therefore,''
 
-# The [[Portfolio Squad]] maintains a cross-product [[impact map|Impact Mapping]] for all its [[Product Squad]]s. This is called the [[Epic Landscape]].
-
-# The Why/Who/How/What bubbles on the [[Epic Landscape]] are coloured to reflect their present states:
-#* Red: waste - inadequate [[ROROI]] to justify continuing to maintain this epic.
-#* Amber: - [[ROROI]] zero or less
-#* Green: [[ROROI]] positive. Though some bubbles might be more green than others ...
-#* Blue: [[ROROI]] unknown. [[Agile R&amp;D]] required to identify or evaluate [[solution constraints]].
+# The [[Portfolio Squad]] maintains a cross-product [[impact map|Impact Mapping]] for all its [[Product Squad]]s. This is called the ''Epic Landscape''.
+# The [[Critical Number]]s inherent in each Why/Who/How/What Epic are analysed and represented explicitly.
+# The Why/Who/How/What bubbles on the Epic Landscape are then coloured to reflect the state of the business:
+#* Red: waste - inadequate [[ROROI]] to justify continuing to maintain this epic. The [[Portfolio]] must take appropriate steps to cease work on it and end its life.
+#* Amber: - [[ROROI]] zero or less. This Epic is presently stagnant. New growth strategies must be considered to re-awaken its potential.
+#* Green: [[ROROI]] positive. Though some bubbles might be more green than others.
+#* Blue: [[ROROI]] unknown. [[Agile R&amp;D]] will be needed to identify and evaluate its [[Solution Constraints]].
 #* In a mature representation, bubble radius indicates the relative sizes of the [[ROROI]] 
 </pre>
 </div>
@@ -9009,15 +9008,14 @@ The main ~TiddlyWiki documentation and code lives on GitHub, and welcomes [[cont
 <div created="20151025071444825" modified="20151025071453007" title="Holacracy" tmap.id="dd6cb5e4-e289-41f3-8116-482b432edf3c" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Holacracy|http://www.holacracy.org/]]</pre>
 </div>
-<div created="20151011082318085" modified="20151025022037423" title="Holarchy" tmap.id="5077a70e-82d8-4c84-a062-00dc08391312" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>A term coined by {{Arthur Koestler}} in 1967. Holarchy, as opposed to hierarchy, describes the basic organizing principle of natural things. Rather than embodying a tree of [[command and control]] relationships, entities at each level of a holarchy comprise a structure of relations between the entities at a lower level.
+<div created="20151011082318085" modified="20160110204912325" title="Holarchy" tmap.id="5077a70e-82d8-4c84-a062-00dc08391312" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>A term coined by {{Arthur Koestler}}, holarchy, as opposed to hierarchy, describes the basic organizing principle of natural things. Rather than embodying a tree of [[command and control]] relationships, entities at each level of a holarchy each comprise a structure of relations between the entities at a lower level.
 
 Koestler gives the example of a holarchy of subatomic particles &lt;-&gt; atoms &lt;-&gt; molecules &lt;-&gt; macromolecules &lt;-&gt; organelles &lt;-&gt; cells &lt;-&gt; tissues &lt;-&gt; organs &lt;-&gt; organisms &lt;-&gt; communities &lt;-&gt; societies. This is to say that an atom is not a container or manager of particles, but a pattern of interaction that may dominate their behaviour over time.
 
-Now in XSCALE the holarchy that chiefly concerns us is individuals &lt;-&gt; [[squad|Autonomous Squad]]s &lt;-&gt; [[product|Product Orientation]]s &lt;-&gt; [[portfolio|Portfolio]]s &lt;-&gt; [[markets|Impact Mapping]]. The XSCALE practice patterns that maintain these relations are made up of [[metric feedback loops]].
+In the social realm holarchies proved their power and stability over time in the structure of the {{Iroquois Confederacy}}. XSCALE leverages several Iroquois practices, rendering a holarchy that takes the form humans &lt;-&gt; [[squad|Autonomous Squad]]s &lt;-&gt; [[product|Product Orientation]]s &lt;-&gt; [[chapter|Chapter Meeting]]s &lt;-&gt; [[portfolio|Portfolio]]s &lt;-&gt; [[markets|Impact Mapping]]. The XSCALE practice patterns that maintain these relations are made up of [[metric feedback loops]].
 
-Nevertheless {{Christopher Alexander}} makes a conclusive case for regarding natural holarchies as overlapping one another rather than existing as mutually exclusive tree structures. He gives this argument in his classic paper [[A City Is Not A Tree|http://www.bp.ntu.edu.tw/wp-content/uploads/2011/12/06-Alexander-A-city-is-not-a-tree.pdf]]. Overlapping social holarchies proved their collaborative power and stability over time in the structure of the {{Iroquois Confederacy}} and feature in XSCALE, as in {{Spotify}}, in the form of [[Chapter|Chapter Meeting]]s and [[Guild|Guild Meeting]]s.
-</pre>
+{{Christopher Alexander}} makes a conclusive case for regarding natural holarchies as overlapping one another rather than existing as mutually exclusive tree structures in his classic paper [[A City Is Not A Tree|http://www.bp.ntu.edu.tw/wp-content/uploads/2011/12/06-Alexander-A-city-is-not-a-tree.pdf]]. Holarchy is the organising principle of Alexander's extremely influential bot, &quot;A [[Pattern Language]]&quot;.</pre>
 </div>
 <div caption="Horizontal Rules" created="20131205160706975" modified="20131205160719633" tags="WikiText" title="Horizontal Rules in WikiText" tmap.id="3c967580-3ad4-4b8e-ac95-3e7ceb8de50c" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>You can include a horizontal rule with three or more dashes on their own on a line:
@@ -10053,8 +10051,9 @@ As XSCALE emphasises autonomy at squad and stream levels, metric and analytic fe
 
 * In general it's highly desirable that each [[Portfolio]] reserves some extra resource to use as a pool to ease [[Portfolio Mapping]] constraints. This pool is best formed into an [[R&amp;D Squad]].</pre>
 </div>
-<div created="20150811065840468" modified="20160106221840563" title="Portfolio Squad" tmap.id="4d5193a4-dfc4-48da-a259-7aba72489ea4" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>Each [[Portfolio]] is steered by a [[squad|Autonomous Squad]] made up of its [[Product Leader]]s, [[Technology Leader]]s and [[Chapter Leader]]s. This squad's primary accountability is to factor and refactor the functional responsibilities of its portfolio's [[squads|Autonomous Squad]] by means of [[Portfolio Mapping]] and to enable the [[Portfolio Leader]] to intelligently liaise with their peers and the business's executives and HR.</pre>
+<div created="20150811065840468" modified="20160110205802780" title="Portfolio Squad" tmap.id="4d5193a4-dfc4-48da-a259-7aba72489ea4" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>Each [[Portfolio]] is steered by a [[squad|Autonomous Squad]] made up of its [[Chapter Leader]]s, [[Product Leader]]s and [[Technology Leader]]s. As the peak body of the [[Portfolio]] its primary accountability is to factor and refactor the functional responsibilities of its portfolio's [[squads|Autonomous Squad]] by means of [[Portfolio Mapping]] and to enable the [[Portfolio Leader]] to intelligently liaise with the business's executives to manage the portfolio's finances.
+</pre>
 </div>
 <div created="20160110101208657" modified="20160110101522650" title="Positive Sum Game" tmap.id="81964b9d-45f7-43ba-bfdf-f3f023b7f7df" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Positive Sum Game|https://edge.org/response-detail/10135]]</pre>
