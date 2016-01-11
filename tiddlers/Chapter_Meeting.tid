@@ -1,11 +1,17 @@
 created: 20151011043749025
-modified: 20160104230822770
+modified: 20160111030323156
 title: Chapter Meeting
 tmap.id: bc973ec7-4b60-4c68-b46e-28f46b0cc4ae
 type: text/vnd.tiddlywiki
 
-To align dependencies and learnings among team members of common competence across [[Autonomous Squad]]s, XSCALE adopts the {{Spotify}} practice of [[Chapter Meeting]]s. 
+* [[Autonomous Squad]] members spend about 90% of their allocated time in their squads collaborating via [[Pair-Working]], [[Three Amigos]] and [[Scrum Ceremonies]] cross-competence to deliver value. 
 
-Squad members spend about 90% of their allocated time [[Pair-Working]] together cross-competence to deliver value. The remaining 10% of their time is spent sharing learnings, opportunities and challenges with their common-competence fellows in [[Chapter Meeting]]s. These meetings are synchronized to occur all at the same time weekly. Optimum timing is immediately prior to Squad [[Retrospectives]]. This synchronization serves both to ensure that squads are never starved of a specific competence, and that each retrospective is fully informed by [[Whole Board Thinking]] about the experiences of the other squads in their [[Portfolio]].
+* To ensure their time isn't misspent they also need to  learnings, opportunities and challenges with their common-competence fellows. 
 
-Each [[Chapter Meeting]] also selects one representative to participated in the [[Portfolio Squad]] meeting, which is held simultaneously with the squad retros. It is generally recommended that this representative role be rotated through all members of the chapter so that each has direct engagement in portfolio level decisions that affect them.
+* For meeting efficiency, to assure squad alignment, and to make certain squads aren't held up by any shortage of critical competence, sessions to do this should be synchronised to occur all at the same time on at least a weekly basis. 
+
+''Therefore,''
+
+XSCALE adopts the {{Spotify}} practice of ''Chapter Meetings''. Optimum timing for these is immediately prior to weekly Squad [[Retrospectives]]. This serves both to ensure that squads are never starved of competence, and that each retrospective is fully informed by [[Whole Board Thinking]] about the experiences of the other squads in their [[Portfolio]].
+
+Each [[Chapter Meeting]] also selects a [[Chapter Leader]] to participated in the [[Portfolio Squad]] meeting, which is held simultaneously with the squad retros. This representative role may be rotated through all members of the chapter, or a chapter may designate a single individual as [[Chapter Leader]] if the rest of the chapter and the [[Portfolio Coach]] agree that this would make more sense. 
