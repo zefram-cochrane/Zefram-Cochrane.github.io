@@ -1,7 +1,9 @@
 created: 20151013055616740
-modified: 20160105095542006
+modified: 20160112052533704
 title: Portfolio
 tmap.id: 1c598307-3cd4-49bb-9bc7-4e7851a612bd
 type: text/vnd.tiddlywiki
 
-A [[holarchy|Holarchy]] of [[squads|Autonomous Squad]] and [[chapters|Chapter Meeting]] that generates a set of products and value stream is called a [[Portfolio]]. XSCALE portfolios are limited in size by the [[Dunbar Number]]. Each portfolio [[continuously adapts|Continuous Adaptation]] its configuration of squads and chapters to its [[release plans|Release Plan]] and business objectives through a [[Portfolio Squad]]. 
+A [[holarchy|Holarchy]] of [[squads|Autonomous Squad]] and [[chapters|Chapter]] that generates a set of products and value stream is called a ''Portfolio''. The intent is similar to {{SAFe}} portfolio but its organisation builds on that of a {{Spotify}} or {{Iroquois Confederacy}} tribe. 
+
+Like tribes, XSCALE portfolios are limited in size by the [[Dunbar Number]]. Each portfolio [[continuously adapts|Continuous Adaptation]] its configuration of squads and chapters to its [[release plans|Release Plan]] and business objectives through a [[Portfolio Squad]]. 
