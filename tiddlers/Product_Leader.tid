@@ -1,5 +1,5 @@
 created: 20151023025729999
-modified: 20160111233538617
+modified: 20160112005254034
 title: Product Leader
 tmap.id: 59289d3f-aa40-4693-a8bd-32d4854911b7
 type: text/vnd.tiddlywiki
@@ -8,11 +8,11 @@ The third {{Agile Manifesto}} value is
 
 > [[Customer|Customer Review]] collaboration over contract negotiation
 
-Yet many otherwise=Agile teams delegate responsibility for customer collaboration to proxy middle managers. This isn't just compromising the intent of Agile - it creates real business risks:
+Nevertheless, many otherwise Agile teams delegate responsibility for customer collaboration to proxy middle managers. This isn't just a compromise of the intent of Agile. Tt creates real business risks:
 
-* [[Command and Control]] relationships in which POs play authoritative project managers rather than proper [[Servant Leaders|Leadership as a Service]]. This leads directly to [[Blame and Shame|Baseline anti-pattern]] behaviours that generate quality compromises, anti-productive heroics. Inevitably it inhibits open communication and thereby slows learning. 
+* [[Command and Control]] relationships in which POs play as authoritative project managers rather than collaborative team-members providing [[Servant Leaders|Leadership as a Service]]. This leads to [[Blame and Shame|Baseline anti-pattern]] behaviours that generate quality compromises, unsustainable heroics. inhibition of communication and thereby slowed learning. 
 
-* Owners and Managers may still benefit from [[Whole Board Thinking]] and the XSCALE [[Product Management]] practices. Nevertheless those practices provide maximum benefit when a Lean UX-style [[Product Squad]] enables collaboration on product definition between business authorities, technical authorities and design authorities. The less direct that collaboration, the less effective and the worse the resulting design-tech-product-market fit.
+* Product managers still benefit from [[Whole Board Thinking]] and the XSCALE [[Product Management]] patterns. Nevertheless those practices provide maximum benefit when a Lean UX-style [[Product Squad]] enables collaboration on product definition between business authorities, technical authorities and design authorities. The less direct that collaboration, the less effective and the worse the resulting design-tech-product-market fit.
 
 * The product squad needs a [[Leader|XSCALE Leaders]] to hold accountability for decisions on occasions when the squad can't reach unanimous consensus about feature definitions, [[Acceptance Criteria]] and [[Royal Cod]] business value. To be a proper servant leader, this accountability should only be exercised when the [[Product Coach]] determines that the [[Last Responsible Moment]] for a decision has arrived.
 

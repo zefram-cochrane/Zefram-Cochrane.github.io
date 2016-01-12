@@ -1,13 +1,15 @@
 created: 20151013075743752
-modified: 20160111234307787
-title: Guild Meeting
+draft.of: Guild Meeting
+draft.title: Guild Meeting
+modified: 20160111234932073
+title: Draft of 'Guild Meeting'
 tmap.id: 957dbfdc-9332-49a7-8dff-623f7fbd4999
 type: text/vnd.tiddlywiki
 
 * Large organisations are best factored into multiple autonomous [[Portfolios[[, each respecting the [[Dunbar Number]] as a size limit.
 
-* These portfolios must align to their organisation's overall business strategy, partnerships, [[Service Agreement]]s, market positioning and technical choices while maintaining their respective [[autonomy|Autonomy]].
+* These portfolios must align their organisation's overall business strategy, partnerships, [[Service Agreement]]s, market positioning and technical choices while maintaining their respective [[autonomy|Autonomy]].
 
-*Sosos as anti-pattern
+*
 
 Guilds are meetings held to maintain alignment between [[Portfolio]]s on crosscutting concerns outside the normal [[chapter|Chapter Meeting]] competencies. They may also be used to coordinate chapters across Portfolios. 
