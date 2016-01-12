@@ -1,5 +1,5 @@
 created: 20151023025729999
-modified: 20160112005254034
+modified: 20160112005635307
 title: Product Leader
 tmap.id: 59289d3f-aa40-4693-a8bd-32d4854911b7
 type: text/vnd.tiddlywiki
@@ -8,9 +8,9 @@ The third {{Agile Manifesto}} value is
 
 > [[Customer|Customer Review]] collaboration over contract negotiation
 
-Nevertheless, many otherwise Agile teams delegate responsibility for customer collaboration to proxy middle managers. This isn't just a compromise of the intent of Agile. Tt creates real business risks:
+Nevertheless, many otherwise Agile teams delegate responsibility for customer collaboration to proxy middle managers. This isn't just a compromise of the intent of Agile. It creates real business risks:
 
-* [[Command and Control]] relationships in which POs play as authoritative project managers rather than collaborative team-members providing [[Servant Leaders|Leadership as a Service]]. This leads to [[Blame and Shame|Baseline anti-pattern]] behaviours that generate quality compromises, unsustainable heroics. inhibition of communication and thereby slowed learning. 
+* {{Command and Control}} relationships in which Product Owners play the part of authoritative managers rather than collaborative [[Servant Leaders|Leadership as a Service]]. This leads to [[Blame and Shame|Manager anti-pattern]] behaviours that generate quality compromises, unsustainable heroics. inhibition of communication and thereby slowed learning. 
 
 * Product managers still benefit from [[Whole Board Thinking]] and the XSCALE [[Product Management]] patterns. Nevertheless those practices provide maximum benefit when a Lean UX-style [[Product Squad]] enables collaboration on product definition between business authorities, technical authorities and design authorities. The less direct that collaboration, the less effective and the worse the resulting design-tech-product-market fit.
 
