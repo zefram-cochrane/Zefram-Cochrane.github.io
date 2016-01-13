@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20160104212332664
+modified: 20160112222645989
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
@@ -13,8 +13,8 @@ type: text/vnd.tiddlywiki
 """
 [[e|eXtropic]]''X''[[tropic|eXtropic]] growth: by measuring [[Rate of ROI|ROROI]] and [[stacking the S-curves]].
 &nbsp;&nbsp;''S''[[imple|Set Based Design]] design: the elegance of minimum. Not look and feel; how it works.
-&nbsp;&nbsp;''C''[[ontinuous|Continuous]] adaptation and delivery; teams to products to markets
+&nbsp;&nbsp;''C''[[ontinuous|Continuous]] [[adaptation|Continuous Adaptation]] and [[delivery|Continuous Delivery]]; teams to products to markets
 &nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-organising, right-sized squads self-aligning through [[holarchy|Holarchy]]
-&nbsp;&nbsp;''L''[[earning]]: increasing the ability to adapt via [[Agile R&D]], [[spiking]] and [[refactoring]]
+&nbsp;&nbsp;''L''[[earning]] through [[Product Analytics]], [[Agile R&D]], [[spiking|Spike Solution]] and [[Refactoring]]
 &nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: decentralised [[Whole Board Thinking]] and [[positive-sum games]]
 """
