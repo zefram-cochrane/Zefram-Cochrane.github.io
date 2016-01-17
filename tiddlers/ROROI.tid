@@ -1,16 +1,16 @@
 created: 20150807021640290
-modified: 20151107052403475
+modified: 20160113211408435
 tags: Illustrate Portfolio Metric
 title: ROROI
 tmap.id: 6aae94db-3c6d-4bbf-9eac-67668e892a17
 type: text/vnd.tiddlywiki
 
-Business naturally focuses on [[Return on Investment|ROI]], but this is obviously short-sighted. Delivering a new feature that improves ROI isn't as advantageous as delivering a new feature that doesn't improve ROI at all, but improves the **rate** of ROI for all subsequent feature deliveries. Making that trade-off is the difference between exponential and continuing linear growth.
+Business naturally focuses on [[Return on Investment|ROI]], but this is short-sighted. Delivering a new feature that improves ROI isn't as advantageous as delivering a new feature that doesn't improve ROI, but improves the ''rate'' of ROI for subsequent feature deliveries. Making this trade-off intelligently is the difference between exponential and linear growth.
 
-If you graph ROI over time - the key [[XSCALE]] [[metric]] - you can see lots of wibbles and wobbles. Some bets don't pay off and that's okay But if it's overall flattening out, or worse declining, your portfolio is no longer continuously improving and your PortfolioSquad needs to figure out why not. Because this is the difference between [[eXtropic]] and [[entropic|entropy]]. Is your problem:
+If you graph a Product's ROI over time you will see wibbles and wobbles as some bets don't pay off. If the ROROI curve is flattening out or declining, however, the [[Portfolio Squad]] needs to figure out why. This is the difference between [[eXtropic]] and [[entropic|entropy]]. Is the problem:
 
-* MarketSaturation
+* [[Market Saturation]]
 * [[Waste]]
-* OverBurden
-* BottleNecks
-* FrameProblem?
+* [[Overburden]]
+* [[Bottlenecks]]
+* [[Frame]]?

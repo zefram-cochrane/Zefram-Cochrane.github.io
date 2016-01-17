@@ -1,17 +1,17 @@
 created: 20160103115000536
-modified: 20160110050322479
+modified: 20160115205725941
 title: Scrum-Master antipattern
 tmap.id: 5ff30597-c98d-49cb-91de-a137711596da
 type: text/vnd.tiddlywiki
 
-* It is commonplace that Scrums are saddled with crappy Scrum-Masters - people who have no aptitude for [[Servant Leader|Leadership as a Service]]ship in the first place, who don't have any real understanding of [[Product Management]], [[Engineering Disciplines]], [[Quality Automation]] or other [[Technical Factors]].
+* It is commonplace that Scrums are saddled with dysfunctional Scrum-Masters - people who have good technical or business acumen but no aptitude for [[Servant Leader|Leadership as a Service]]ship, who don't have a realistic understanding of [[Product Management]], [[Engineering Disciplines]], [[Quality Automation]] or other [[Solution Constraint]]s.
 
-* Even if you're lucky enough to have a competent Scrum-Master, the role is poorly framed in that it's not defined as a peer of the [[Product Owner]]. So in general you either get an [[Project Manager]] SM or a [[Project Manager]] PO. Or a power struggle. Or a confusion. Often, because the SM role isn't meaty enough to occupy a full time employee full time, you get SMs who are asked to multi-task across many Scrums, thereby doing justice to none of them.  
+* Even if a team is fortunate in finding a competent SM, the role itself is poorly factored in that it's not defined as a peer of the [[Product Owner]]. So we have a [[Project Manager]] SM or a [[Project Manager]] PO. Or the two in a power struggle or confusion of concerns. Moreover, because the SM role isn't substantial enough to occupy someone full time, we have SMs who multi-task across many Scrums, establishing proper service relationships with none of them.  
 
-* Worst of all, once a Scrum has matured, it simply doesn't need some extra person to play Scrum-Master. Instead the ceremonies are simple enough for a Scrum to apply for itself. When someone hovers in the middle of it playing nanny, the Scrum can never become a fully [[Autonomous Squad]], and that means it can never delivery the full benefits of working Agile.
+* Once a Scrum has matured, it simply doesn't need a specific person to play Scrum-Master. The ceremonies are intentionally simple enough that a Scrum can apply them itself with minimal oversight. When a designated SM hovers in the middle of the Scrum playing nanny, they actually prevent it maturing into a fully [[Autonomous Squad]], and thereby they obstruct the full benefits of working Agile.
 
 ''Therefore,''
 
-Lift the SM role to make it a [[Product Coach]].
+Lift the SM role to make it a [[Product Coach]] who peers with the [[Product Leader]] in providing proper [[Leadership as a Service]] to the team.
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/GGbsgs611MM" frameborder="0" allowfullscreen></iframe>
