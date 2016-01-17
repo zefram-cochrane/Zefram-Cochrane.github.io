@@ -1,5 +1,5 @@
 created: 20160117213505882
-modified: 20160117214246829
+modified: 20160117215840234
 title: Project Management anti-pattern
 tmap.id: e096c518-cdba-4b04-b91a-802e0bd4e8d7
 type: text/vnd.tiddlywiki
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 * {{PMI}} defines Project Managers as ''driving business results'' and ''resolving complex, interdependent activities into tasks and sub-tasks that are documented, monitored and controlled.'' 
 
-* [[Agile Organisation]]s rely on [[self-organising teams|Autonomous Squad]] to define and deliver business results. These teams resolve complex interdependent activities into tasking through breadth-first [[Systems Thinking]] and document, monitor and control them through routine [[Agile ceremonies|Scrum Ceremonies]]. Delegating responsibility for these functions to managers reduces productivity by disempowering teams, restricting and lengthening lines of communication, and generating needless political forces.
+* [[Agile Organisation]]s rely on [[self-organising teams|Autonomous Squad]] to define and deliver business results. These teams resolve complex interdependent activities into tasking through breadth-first [[Whole Board Thinking]] and document, monitor and control them through routine [[Agile ceremonies|Scrum Ceremonies]]. Delegating responsibility for these functions to managers reduces productivity by disempowering teams, restricting and lengthening lines of communication, and generating needless political forces.
 
 ''Therefore,''
 
