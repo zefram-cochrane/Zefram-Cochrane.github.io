@@ -1,0 +1,22 @@
+created: 20160121201644826
+modified: 20160121214144776
+title: Lean XP
+tmap.id: 6d1d601c-ec94-4814-ac0b-d64fb51c7751
+type: text/vnd.tiddlywiki
+
+* XP is the ugly duckling of the Agile family. It gets a bad rap because it's unashamedly opinionated, irreverent, high intensity and demanding. Hence the unmarketable name ''Extreme''. [[Kent Beck]] modelled it on the best practices of the greatest software wizard he knew, the inventor of the wiki, [[Ward Cunningham]]. And then "the great bird of Agile", [[Ron Jeffries]], [[refactored|Refactoring]] it.
+* XP was a strict superset of [[Scrum]], [[Continuous Delivery]] and [[Kanban]]. Except it didn't start with them because it grew up on the side of the tracks where no one had ever heard of them. Kanban hadn't yet made it from 1950s [[Lean Manufacturing]] into the Poppendiecks' [[LSD]]. Scrum was lounging in some [[academic paper]] no one in software culture had noticed. And CD was just a twinkle in someone's eye.
+* Yet XP is indeed the swan within whose breast beats the very [[Heart of Agile]]. XP practices have played a part of every high performance Agile team there has ever been. Every [[2nd generation|3rd Generation Agile]] Agile method both name-checks and applies a part of it. And every team that attempts Agile without it carries needless [[Technical Debt]].
+
+''But,'''
+
+* Because of the marketing failure of Extreme as a brand, XP has not been kept up to date. There are now commonplace high performance delivery practices - [[BDD|Behavior Driven Development]], [[DevOps]] and [[Retros|Scrum Practices]]  - that it never heard of.
+* In its heyday, a lot of people published books about XP. There are various formulations around including an "improved" 2nd edition of the original [[book|link to embrace change]] that many feel lost its way trying to perfect it. There's a big library of foundation literature and its not easy to know where to start with it.
+* Because there are not XP certificates per se and no one to defend the integrity of its original formulation, XP as a brand has been badly abused by some of the 2nd generation methods that ignore both its original intent and its core principles. Not to name names, but these ugly step-sisters sacrifice XP's technical excellence for management's safety, and obtain neither.
+
+''Therefore,''
+
+''Lean XP'' is plain old XP. It connects the core practices to the parts of Scrum and Kanban that high performance [[Delivery Squad]]s actually use today. It modernises practices where the 3 original "extremos" have learned things since the old country. And it emphasises technical excellence over management safety and philosophical perfection.
+
+Lean XP is just the following N practices:
+
