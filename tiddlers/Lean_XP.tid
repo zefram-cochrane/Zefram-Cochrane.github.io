@@ -1,5 +1,5 @@
 created: 20160121201644826
-modified: 20160122114033922
+modified: 20160122114453886
 title: Lean XP
 tmap.id: 6d1d601c-ec94-4814-ac0b-d64fb51c7751
 type: text/vnd.tiddlywiki
@@ -18,7 +18,7 @@ type: text/vnd.tiddlywiki
 
 ''Lean XP'' applies the original practices in the original tech domain but also lifts them into collaborative Product and Portfolio management, and DevOps too. 
 
-So for a [[Delivery Squad]] this is just plain old XP. Maybe updated with new practices that have advanced the state of the art. {{DAD}} provides a good approach to this.
+So for a [[Delivery Squad]] this is just plain old XP. Maybe updated with new practices that have advanced the state of the art.
 
 But Lean XP is also a set of practice patterns for [[Product Squad]]s, [[Portfolio Squad]]s and [[DevOps Squad]]s to deliver and maintain their respective functions. It's the core set of practices that empower all high discipline collaboration:
 
