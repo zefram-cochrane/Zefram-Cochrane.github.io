@@ -1,5 +1,5 @@
 created: 20160121201644826
-modified: 20160121232405607
+modified: 20160122004020761
 title: Lean XP
 tmap.id: 6d1d601c-ec94-4814-ac0b-d64fb51c7751
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 
 ''Therefore,''
 
-''Lean XP'' is plain old XP. It connects those core practices to the parts of Scrum and Kanban that high performance [[Delivery Squad]]s actually use these days and modernises practices where the 3 original "extremos" learned things after leaving the old country. It emphasises technical excellence over management safety and philosophical perfection.
+''Lean XP'' is basically just XP. It refactors the core practices to the parts of Scrum and Kanban that high performance [[Delivery Squad]]s actually use. And it modernises practices where the 3 original "extremos" learned things since leaving the old country. It emphasises technical excellence over both management safety and philosophical perfection.
 
 Lean XP is just the following N practices:
 
