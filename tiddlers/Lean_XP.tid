@@ -1,5 +1,5 @@
 created: 20160121201644826
-modified: 20160122115442573
+modified: 20160122115742369
 title: Lean XP
 tmap.id: 6d1d601c-ec94-4814-ac0b-d64fb51c7751
 type: text/vnd.tiddlywiki
@@ -20,6 +20,6 @@ type: text/vnd.tiddlywiki
 
 So for a [[Delivery Squad]] this is just plain old XP along with a few practices that have advanced the state of the art since its origin: [[Retros|Scrum Ceremonies]], [[BDD|Behavior Driven Development]] and [[CD|Continuous Delivery]].
 
-But Lean XP practices generalise to support [[Product Squad]]s, [[Portfolio Squad]]s and [[DevOps Squad]]s. It's a set of practices that work to enable all high-discipline collaboration.:
+But Lean XP practices generalise to support [[Product Squad]]s, [[Portfolio Squad]]s and [[DevOps]]s. It's a basic set of practices to enable all high-discipline collaboration.:
 
 [practices]
