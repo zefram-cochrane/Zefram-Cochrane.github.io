@@ -1,25 +1,25 @@
 created: 20160121201644826
-modified: 20160122114453886
+modified: 20160122115442573
 title: Lean XP
 tmap.id: 6d1d601c-ec94-4814-ac0b-d64fb51c7751
 type: text/vnd.tiddlywiki
 
 * XP was called [[Extreme|http://c2.com/cgi/wiki?DontCallItExtreme]] because it fixed on high quality, high discipline, no BS, no compromise, top flight collaborative engineering.
 * XP worked. It still works. It has always been the pure heartbeat of Agile: [[Listening, Testing, Coding and Refactoring||https://www.linkedin.com/pulse/xp-beats-heart-agile-peter-merel]].
-* The [[XP core practices|http://c2.com/cgi/wiki?ExtremeProgrammingCorePractices]] powered {{Scrum}}, [[Continuous Delivery]] and {{Kanban}} in every high performance Agile team there has ever been.
+* The [[XP core practices|http://c2.com/cgi/wiki?ExtremeProgrammingCorePractices]] combined with {{Scrum}} and/or {{Kanban}} in every high performance Agile team there has ever been.
 
 ''But,''
 
 * Core XP hasn't kept up. There are excellent modern delivery practices it never heard of.
-* There was a long series of books about XP including a 2nd edition of the original [[book|https://docs.google.com/file/d/0B3CYfAX8VIrNOTQ5NjcxYWEtZTViNy00ODE2LWI2ODUtNDBhMjkzOGQ2OWVk/edit?pref=2&pli=1]]. These made XP look complicated. 
-* There were no XP certificates to anchor the core and the brand was cherry-picked by 2nd generation methods that sacrificed technical excellence for management safety, obtaining neither.
+* There was a long series of books about XP including a 2nd edition of the original [[book|https://docs.google.com/file/d/0B3CYfAX8VIrNOTQ5NjcxYWEtZTViNy00ODE2LWI2ODUtNDBhMjkzOGQ2OWVk/edit?pref=2&pli=1]]. These made XP look complicated, which it isn't.
+* There were no XP certificates to anchor the core so the brand was cherry-picked by 2nd generation methods that sacrificed technical excellence for management safety, and obtained neither.
 
 ''Therefore,''
 
 ''Lean XP'' applies the original practices in the original tech domain but also lifts them into collaborative Product and Portfolio management, and DevOps too. 
 
-So for a [[Delivery Squad]] this is just plain old XP. Maybe updated with new practices that have advanced the state of the art.
+So for a [[Delivery Squad]] this is just plain old XP along with a few practices that have advanced the state of the art since its origin: [[Retros|Scrum Ceremonies]], [[BDD|Behavior Driven Development]] and [[CD|Continuous Delivery]].
 
-But Lean XP is also a set of practice patterns for [[Product Squad]]s, [[Portfolio Squad]]s and [[DevOps Squad]]s to deliver and maintain their respective functions. It's the core set of practices that empower all high discipline collaboration:
+But Lean XP practices generalise to support [[Product Squad]]s, [[Portfolio Squad]]s and [[DevOps Squad]]s. It's a set of practices that work to enable all high-discipline collaboration.:
 
 [practices]
