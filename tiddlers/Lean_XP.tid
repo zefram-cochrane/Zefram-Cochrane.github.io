@@ -1,22 +1,25 @@
 created: 20160121201644826
-modified: 20160122004020761
+modified: 20160122112738103
 title: Lean XP
 tmap.id: 6d1d601c-ec94-4814-ac0b-d64fb51c7751
 type: text/vnd.tiddlywiki
 
-* XP is the ugly duckling of the Agile family. It gets this rap because it's unashamedly opinionated, irreverent, high intensity and demanding. Hence the unmarketable name ''Extreme''. [[Kent Beck]] modelled it on the best practices of the greatest software wizard he knew, the inventor of the wiki, [[Ward Cunningham]]. And then "the great bird of Agile", [[Ron Jeffries]], went and [[refactored|Refactoring]] it.
-* XP was a strict superset of [[Scrum]], [[Continuous Delivery]] and [[Kanban]]. Except it didn't start with them because it grew up on a side of the tracks where no one had ever heard of them. Kanban hadn't yet made it from 1950s [[Lean Manufacturing]] into the Poppendiecks' [[LSD]]. Scrum was lounging in an [[academic paper]] no one in software culture had noticed yet. And CD was just some twinkle in someone's eye.
-* Yet XP is indeed the swan within whose breast beats the [[Heart of Agile]]. XP practices have played a part of every high performance Agile team there has ever been. Every [[2nd generation|3rd Generation Agile]] Agile method name-checks it because every team that attempts Agile without it greatly increases risks of [[Technical Debt]].
+* XP was the ugly duckling of Agile. It was named [[Extreme|http://c2.com/cgi/wiki?DontCallItExtreme]] because it fixes on high quality, high discipline, no BS, no compromise, proper collaborative engineering.
+* XP grew to become a beautiful swan within which beats beats the pure heart of Agile: [[Listening, Testing, Coding and Refactoring||https://www.linkedin.com/pulse/xp-beats-heart-agile-peter-merel]].
+* The beautiful [[XP core practices|http://c2.com/cgi/wiki?ExtremeProgrammingCorePractices]] powered {{Scrum}}, [[Continuous Delivery]] and {{Kanban}} in every high performance Agile team there has ever been.
 
-''But,'''
+''But,''
 
-* Because of the marketing failure of the Extreme brand, XP hasn't been kept up to date. There are now commonplace high performance delivery practices - [[BDD|Behavior Driven Development]], [[DevOps]] and [[Retros|Scrum Ceremonies]]  - that it never heard of.
-* In its heyday, a lot of people published books about XP. There are various formulations around including an "improved" 2nd edition of the original [[book|link to embrace change]] that muddied its definition. Then there's a long library of foundation literature that makes it hard to know where to start.
-* Because there are no XP certificates per se to defend the integrity of the core formulation, XP as a method has been mangled by some of the 2nd generation methods which sacrifice a little temporary technical excellence for management's safety, and obtain neither.
+* Core XP hasn't been kept up to date. There are high performance modern delivery practices it never heard of back in the day.
+* Back then there were many books about XP and a 2nd edition of the original [[book|https://docs.google.com/file/d/0B3CYfAX8VIrNOTQ5NjcxYWEtZTViNy00ODE2LWI2ODUtNDBhMjkzOGQ2OWVk/edit?pref=2&pli=1]]. All this made XP look hard to learn. 
+* There were no XP certificates to anchor the core. So it was cherry-picked by 2nd generation methods that sacrificed technical excellence for management safety, obtaining neither.
 
 ''Therefore,''
 
-''Lean XP'' is basically just XP. It refactors the core practices to the parts of Scrum and Kanban that high performance [[Delivery Squad]]s actually use. And it modernises practices where the 3 original "extremos" learned things since leaving the old country. It emphasises technical excellence over both management safety and philosophical perfection.
+Lean XP is a generalisation of plain old XP. It applies the original practices in the original tech domain but also lifts them into applications in Product, Portfolio and DevOps squads too. 
 
-Lean XP is just the following N practices:
+So ''Lean XP'' for a [[Delivery Squad]] is just plain old XP, updated with modern practices that have advanced the state of the art. These include [[Retros]], [[BDD|Behavior Driven Development]] and [[DevOps]]. Same practice patterns you see in {{DAD}}.
 
+But Lean XP is also a set of practice patterns for [[Product Squad]]s, [[Portfolio Squad]]s and [[DevOps Squad]]s to deliver and maintain their respective functions. It's the core set of practices that empower all collaboration:
+
+[practices]
