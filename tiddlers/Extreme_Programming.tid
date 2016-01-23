@@ -1,13 +1,13 @@
 created: 20160121201644826
-modified: 20160123113814425
+modified: 20160123215329914
 title: Extreme Programming
 tmap.id: 03b435cd-b605-4d54-a6e2-c714adc76b01
 type: text/vnd.tiddlywiki
 
 * XP is the pure heartbeat of Agile: [[Listening, Testing, Coding and Refactoring|https://www.linkedin.com/pulse/xp-beats-heart-agile-peter-merel]].
-* The [[XP core|http://ronjeffries.com/xprog/what-is-extreme-programming/]] works just fine on its own and can also be mixed with {{Scrum}} and {{Kanban}}. In IT it's not advisable to use one of the latter two without XP as a base. Most of its practices generalise beyond IT too.
-* It was called [[Extreme|http://c2.com/cgi/wiki?DontCallItExtreme]] because it fixes on high quality, high discipline, high return, collaborative technical excellence. That may sound expensive and hard, but the quality problems that come from not doing are still harder and more expensive.
+* The [[XP core|http://ronjeffries.com/xprog/what-is-extreme-programming/]] works just fine on its own though many teams benefit by adding elements of {{Scrum}} and {{Kanban}}. Most of its practices generalise beyond IT too.
+* XP was called [[Extreme|http://c2.com/cgi/wiki?DontCallItExtreme]] because it fixed on high quality, high discipline, high return, collaborative technical excellence. That sounded expensive and hard to many people, but common experience proves the quality problems that come from not doing XP are still harder and more expensive.
 
 ''Therefore,''
 
-Being [[autonomous|Autonomous Squad]], it's up to each squad to determine for itself which Agile practices it wants to take on. But start with XP as a minimum to generate an uncompromised Agile delivery capability.
+Being [[autonomous|Autonomous Squad]], it's up to each squad to determine for itself which Agile practices it wants to take on. But starting with XP as a foundation generates a complete and uncompromised Agile delivery capability.
