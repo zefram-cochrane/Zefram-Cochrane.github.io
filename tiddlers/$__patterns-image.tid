@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20160121132531426
+modified: 20160123214215300
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ type: text/vnd.tiddlywiki
 <area shape="poly" coords="66,302,74,296,83,292,100,286,122,282,148,278,175,277,199,276,219,275,218,271,260,284,221,292,219,286,185,285,163,287,137,287,114,292,96,295,84,299,78,304,74,311" title="Release Refactoring" href="#Release%20Refactoring" />
 <area shape="poly" coords="111,344,116,339,123,334,131,331,145,327,156,326,169,324,182,324,195,324,212,325,212,319,245,330,214,336,213,331,198,331,175,330,159,332,143,334,130,339,123,342,121,346,122,351" title="Leadership as a Service" href="#Leadership%20as%20a%20Service" />
 <area shape="rect" coords="105,305,233,320" title="Leadership as a Service" href="#Leadership%20as%20a%20Service" />
-<area shape="rect" coords="142,346,191,362" title="Lean XP" href="#Lean%20XP" />
+<area shape="rect" coords="137,344,249,363" title="Autonomous Squads" href="#Autonomous%20Squad" />
 <area shape="rect" coords="82,171,189,186" title="Behavior Mapping" href="#Behavior%20Mapping" />
 <area shape="rect" coords="89,260,203,276" title="Release Refactoring" href="#Release%20Refactoring" />
 <area shape="rect" coords="84,217,172,232" title="Business Bingo" href="#Business%20Bingo" />

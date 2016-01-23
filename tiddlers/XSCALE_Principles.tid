@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20160119074842191
+modified: 20160123113920826
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 ''Principles''
 
 """
-[[e|Extropy]]''X''[[tropic|Extropy]] growth: by measuring [[Rate of ROI|ROROI]] and {{Stacking the S-curves}}.
+[[e|Extropy]]''X''[[tropic|Extropy]] growth: by measuring [[Rate of ROI|ROROI]], {{Stacking the S-curves}} and [[Leapfrogging]].
 &nbsp;&nbsp;''S''[[imple|Set Based Design]] design: the elegance of minimum. Not look and feel; how it works.
 &nbsp;&nbsp;''C''[[ontinuous|Continuous]] [[adaptation|Continuous Adaptation]] and [[delivery|Continuous Delivery]]; teams to products to markets
 &nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-organising, right-sized squads self-aligning through [[holarchy|Holarchy]]
