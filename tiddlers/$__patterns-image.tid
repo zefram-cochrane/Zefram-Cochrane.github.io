@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20160123214215300
+modified: 20160124223824983
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -50,5 +50,5 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="475,362,525,378" title="Autonomy" href="#Autonomy" />
 <area shape="rect" coords="314,7,447,26" title="Product Flow Diagrams" href="#Product%20Flow%20Diagram" />
 <area shape="rect" coords="270,97,335,116" title="Holarchy" href="#Holarchy" />
-<area shape="rect" coords="334,97,449,116" title="Service Agreements" href="#Service%20Agreement" />
+<area shape="rect" coords="334,97,449,116" title="Service Protocols" href="#Service%20Protocol" />
 </map>

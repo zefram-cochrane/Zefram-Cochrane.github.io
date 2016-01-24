@@ -1,0 +1,21 @@
+created: 20160124204817937
+modified: 20160124230909381
+title: Service Protocol
+tmap.id: 9cc594e8-36ae-47f8-bcd4-fb8769937cb8
+type: text/vnd.tiddlywiki
+
+A service protocol is an agreement that obliges its parties to provide each other with mutually beneficial services under certain conditions.
+
+* In a traditional organisation, most of these protocols are negotiated by conversation with a manager who then carries the authority to arbit the protocol.
+* In an [[autonomous|Autonomous Squad]] [[holarchy|Holarchy]], there are no managers to carry this authority. Instead, teams negotiate protocols within and between themselves. This negotiation carries the risk that different team members may remember the details of the protocol differently.
+* [[User Stories|http://dannorth.net/whats-in-a-story/]] are a well proven, succinct format to describe a service to a user, but a protocol must involve two or more parties exchanging services for mutual benefit.
+
+''Therefore,''
+
+# Each protocol is described by two or more stories, one for each of the parties exchanging their services.
+# Each story is told from the point of view of one of the parties. Normally the "I want" and "In order to" clauses of the stories are reciprocal. Ie. for two parties, X and Y, "As X In order to A I want B" and "As Y In order to B I want A".
+# BDD acceptance criteria per story establish the specific conditions that trigger the protocol and limit its obligations. Any behaviours that don't fall under these criteria are not bound by the protocol.
+# Service protocols are only binding on the parties that consent to partake in them. Where these parties are themselves teams, decisions to partake in a protocol are arbited by [[Leadership as a Service]].
+# There may be acceptance criteria that limit the circumstances within which parties may enter or exit the protocol.
+# Protocols may inherit other protocols using the normal [[BDD|Behavior Driven Development]] Background statement.
+# A protocol between two parties may be adjusted without involving anyone else simply by [[Brightening The Chain]]. Where disputes around the interpretation of a protocol arise or protocols of general interest are proposed, a [[Condolence Council]] may be arranged to consider the matter using [[Whole Board Thinking]].
