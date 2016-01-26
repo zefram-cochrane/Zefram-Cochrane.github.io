@@ -1,5 +1,5 @@
 created: 20151229004506838
-modified: 20160123220019056
+modified: 20160126230957620
 title: Leadership as a Service
 tmap.id: 3ff8145d-7266-45cb-80a7-1455b6245e08
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ type: text/vnd.tiddlywiki
 # Leadership is only supplied when the team requires it; on all other occasions the team is trusted to behave [[autonomously|Autonomous Squad]]
 # Add a check and balance by splitting decision-making responsibilities between two roles - we call them Coach and Leader. A person filling both these roles should divest one or the other.
 # The Coach is responsible for determining the [[Last Responsible Moment]] for making a decision. Until that moment, responsibility for that decision rests with the team, not the Leader.
-# If and only if the team remains divided on the decision when the [[Last Responsible Moment]] has arrived, the Leader is responsible for determining the decision for them.
+# If and only if the team is not unanimous on a decision when the [[Last Responsible Moment]] has arrived does Leader take responsibility for determining the decision for them.
 # Servant leaders only provide leadership to their own team - for the sake of autonomy they cannot make decisions for other teams. 
 # Where an agreement must span more than one team, and disagreement or dependency cycles make this inefficient, leaders align by creating a team of team representatives to negotiate mutually beneficial [[Service Agreement]]s. To keep these agreements relevant to current circumstances, regularly [[Brighten The Chain]].
 
