@@ -1,5 +1,5 @@
 created: 20160124204817937
-modified: 20160124230909381
+modified: 20160126084050835
 title: Service Protocol
 tmap.id: 9cc594e8-36ae-47f8-bcd4-fb8769937cb8
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ A service protocol is an agreement that obliges its parties to provide each othe
 
 * In a traditional organisation, most of these protocols are negotiated by conversation with a manager who then carries the authority to arbit the protocol.
 * In an [[autonomous|Autonomous Squad]] [[holarchy|Holarchy]], there are no managers to carry this authority. Instead, teams negotiate protocols within and between themselves. This negotiation carries the risk that different team members may remember the details of the protocol differently.
-* [[User Stories|http://dannorth.net/whats-in-a-story/]] are a well proven, succinct format to describe a service to a user, but a protocol must involve two or more parties exchanging services for mutual benefit.
+* {{User Stories}} are a well proven, succinct format to describe a service to a user, but a protocol must involve two or more parties exchanging services for mutual benefit.
 
 ''Therefore,''
 

@@ -1,15 +1,17 @@
 created: 20151221054444080
-modified: 20160110004438457
+modified: 20160126223758371
 title: Feature Point
 tmap.id: 79a588e7-8d27-4303-9e8b-0249f4838d48
 type: text/vnd.tiddlywiki
 
-* The number of story points that will fit into a release varies according to [[Velocity]] so there can be no linear mapping between feature budget and story points. 
+* The number of story points that will fit into a release varies according to [[Velocity]] so it doesn't make sense to think of the total number of story points as measure of budget or capacity in [[Release Planning|Release Refactoring]].
 
-* In [[Business Bingo]] there’s no need to attempt to normalise story points across teams. Instead bingo uses three empirical probes to standardize feature point size.
+* Furthermore in [[Business Bingo]] there’s no need to attempt to normalise story points across teams. Instead bingo uses three empirical probes of previously release features to form a basis for {{Beyond Budgeting}}.
 
-* We can describe the cost of these probes in terms of multiples of a funding increment that constitutes the greatest common divisor of the probes’ respective costs. Or just count FTE days. Or a squad-weeks. Whatever's easiest. To emphasie that these are forecasting units, not calendar commitments, we can call that a Feature Point.
+* We can describe the cost of these three probes as multiples of a funding increment that constitutes their greatest common divisor. To reconcile against story points, velocity and calendar days, we generally want to represent things in terms of the amount of budget we need for 1 squad to work for 1 day.
 
 ''Therefore,''
 
-When budgeting features in [[Business Bingo]] we change the unit of estimation from [[Story Point]]s to ''feature points''. Where story points represent only the relative effort required to deliver a story compared to other stories, feature points estimate increments of funding necesssary to deploy a feature.
+# To emphasise that these are budgeting units, not calendar commitments or relative estimates, we call the unit a ''Feature Point''. 
+# Feature points estimate increments of funding necesssary to plan, delivery and deploy a [[Feature]]. One feature point represents to the amount of budget required to support one squad for one week.
+# FPs and SPs can be represented together on a [[Product Flow Diagram]] using the simple formula 1 FP = 1 SP x Velocity x [[Load Factor]], where load factor is just a constant to make sure that the time basis of SPs and FPs is the same.

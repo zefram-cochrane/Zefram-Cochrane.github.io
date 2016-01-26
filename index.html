@@ -239,7 +239,7 @@ Error message and password prompt
 
 <li>$:/temp/tmap/currentTiddler</li>
 
-<li>$:/temp/tmap/holders/9e43e7a9-8bb8-4da8-8b7a-0066021e4f1c</li>
+<li>$:/temp/tmap/holders/724159f1-223b-4adf-9d6f-fa95c3c45225</li>
 
 <li>$:/temp/tmap/nodes/Live View</li>
 
@@ -372,6 +372,8 @@ Error message and password prompt
 <li>Extreme Programming</li>
 
 <li>Extropy</li>
+
+<li>Feature</li>
 
 <li>Feature Point</li>
 
@@ -666,6 +668,8 @@ Error message and password prompt
 <li>Upgrading TiddlyWiki on Node.js</li>
 
 <li>URI</li>
+
+<li>User Stories</li>
 
 <li>Using a custom path prefix with the client-server edition</li>
 
@@ -7488,7 +7492,7 @@ Error message and password prompt
   &lt;/$set&gt; 
 &lt;/div&gt;</pre>
 </div>
-<div created="20150806130424381" modified="20160124224942931" title="$:/plugins/felixhayashi/tiddlymap/misc/defaultViewHolder" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div created="20150806130424381" modified="20160126215521908" title="$:/plugins/felixhayashi/tiddlymap/misc/defaultViewHolder" type="text/vnd.tiddlywiki" revision="1" bag="default">
 <pre>Live View</pre>
 </div>
 <div created="20150806095707253" modified="20151208053729442" title="$:/plugins/felixhayashi/tiddlymap/misc/meta" type="application/json" revision="0" bag="default">
@@ -7802,7 +7806,7 @@ Error message and password prompt
 &lt;/map&gt;
 </pre>
 </div>
-<div modified="20160124230929844" title="$:/temp/focussedTiddler" revision="1" bag="default">
+<div modified="20160126225300322" title="$:/temp/focussedTiddler" revision="1" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -7822,7 +7826,7 @@ Error message and password prompt
 <div title="$:/temp/tmap/currentTiddler" revision="1" bag="default">
 <pre>XSCALE Practices</pre>
 </div>
-<div title="$:/temp/tmap/holders/9e43e7a9-8bb8-4da8-8b7a-0066021e4f1c" revision="1" bag="default">
+<div title="$:/temp/tmap/holders/724159f1-223b-4adf-9d6f-fa95c3c45225" revision="1" bag="default">
 <pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View</pre>
 </div>
 <div list="[[XSCALE Practices]] [[3rd Generation Agile]] [[XSCALE Metrics]] [[XSCALE Organisation]] [[XSCALE Principles]] [[XSCALE Roles]]" title="$:/temp/tmap/nodes/Live View" revision="3" bag="default">
@@ -8808,16 +8812,32 @@ Extropic business isn't about competing with existing products but obsoleting th
 
 The point of Extropy isn't just the big picture stuff about [[leading|Product Leader]] the market. It's concrete. It's about making decisions that increase the [[ROROI]] of Epics, Features and Stories. In an extropic marketplace, the rate at which businesses can do this, no matter how they package it as products, makes the difference between those that grow exponentially and those that struggle and perish.</pre>
 </div>
-<div created="20151221054444080" modified="20160110004438457" title="Feature Point" tmap.id="79a588e7-8d27-4303-9e8b-0249f4838d48" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>* The number of story points that will fit into a release varies according to [[Velocity]] so there can be no linear mapping between feature budget and story points. 
-
-* In [[Business Bingo]] there’s no need to attempt to normalise story points across teams. Instead bingo uses three empirical probes to standardize feature point size.
-
-* We can describe the cost of these probes in terms of multiples of a funding increment that constitutes the greatest common divisor of the probes’ respective costs. Or just count FTE days. Or a squad-weeks. Whatever's easiest. To emphasie that these are forecasting units, not calendar commitments, we can call that a Feature Point.
+<div created="20160125050522162" modified="20160126222611468" title="Feature" tmap.id="1cfc4b52-fdb6-4710-9588-4d81ef345d93" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>* 1st generation Agile concerned itself with {{User Stories}}, pieces of a problem whose solution would be small enough that delivering it wouldn't break across [[Sprint]] boundaries. This was so that [[Sprint Planning|Scrum Ceremonies]] could be done in atomic terms; either a story was in one sprint or another, but not both, so backlogs cleanly mapped to calendar dates.
+* When it came to larger requirements, XP practitioners spoke of [[Motherhood Stories|http://c2.com/cgi/wiki?MotherhoodStory]] and Scrum of [[Epic]]s. But neither of those were scoped to a [[Release]] as a story is to a sprint. That made them problematic to use for [[Release Planning|Release Refactoring]].
+* In the 2nd generation, [[BDD|Behavior Driven Development]] defined a Feature as a deliverable that passed a certain combination of acceptance test [[Scenario]]s and {{SAFe}} defined it as a service to be delivered to a stakeholder within a [[Product Increment]] by an [[Agile Release Train]]. While the former definition is necessary to making a [[Definition of Done]], the latter is merely convenient, as neither trains nor PIs are essential concepts to [[Release Planning|Release Refactoring]].
 
 ''Therefore,''
 
-When budgeting features in [[Business Bingo]] we change the unit of estimation from [[Story Point]]s to ''feature points''. Where story points represent only the relative effort required to deliver a story compared to other stories, feature points estimate increments of funding necesssary to deploy a feature.</pre>
+We define a Feature as per [[BDD|Behavior Driven Development]] with some added constraints:
+
+# It must satisfy the [[INVEST]] properties, taking the S as &quot;Similar-sized&quot; rather than &quot;Small&quot;.
+# It must improve a [[Critical Number]] for an internal or external customer within the scope of a [[Release]]
+# It must be no larger than can be delivered by a single [[Delivery Squad]] within the SAFe limit - meaning 12 weeks to complete [[FIT|Feature Integration Testing]] and [[SIT|System Integration Testing]].
+</pre>
+</div>
+<div created="20151221054444080" modified="20160126223758371" title="Feature Point" tmap.id="79a588e7-8d27-4303-9e8b-0249f4838d48" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>* The number of story points that will fit into a release varies according to [[Velocity]] so it doesn't make sense to think of the total number of story points as measure of budget or capacity in [[Release Planning|Release Refactoring]].
+
+* Furthermore in [[Business Bingo]] there’s no need to attempt to normalise story points across teams. Instead bingo uses three empirical probes of previously release features to form a basis for {{Beyond Budgeting}}.
+
+* We can describe the cost of these three probes as multiples of a funding increment that constitutes their greatest common divisor. To reconcile against story points, velocity and calendar days, we generally want to represent things in terms of the amount of budget we need for 1 squad to work for 1 day.
+
+''Therefore,''
+
+# To emphasise that these are budgeting units, not calendar commitments or relative estimates, we call the unit a ''Feature Point''. 
+# Feature points estimate increments of funding necesssary to plan, delivery and deploy a [[Feature]]. One feature point represents to the amount of budget required to support one squad for one week.
+# FPs and SPs can be represented together on a [[Product Flow Diagram]] using the simple formula 1 FP = 1 SP x Velocity x [[Load Factor]], where load factor is just a constant to make sure that the time basis of SPs and FPs is the same.</pre>
 </div>
 <div created="20151106230916977" modified="20151106231345537" title="Feature-Theme Matrix" tmap.id="d9feba62-5ae4-44d3-b810-ad8d6b9e37a3" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Behavior Mapping]] analyzes [[Features|Feature]] in terms of key categories of acceptance criteria called [[Themes|Theme]]. Themes are drawn from 
@@ -10485,12 +10505,12 @@ Clicking on the magnifying glass icon to the right of the search box will open [
 <div created="20151107050533541" modified="20151107050611116" tags="" title="Second Law of Thermodynamics" tmap.id="659703d6-d6a2-4d2c-a618-949a95f1b9e8" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Second Law of Thermodynamics|http://en.wikipedia.org]]</pre>
 </div>
-<div created="20160124204817937" modified="20160124230909381" title="Service Protocol" tmap.id="9cc594e8-36ae-47f8-bcd4-fb8769937cb8" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20160124204817937" modified="20160126084050835" title="Service Protocol" tmap.id="9cc594e8-36ae-47f8-bcd4-fb8769937cb8" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>A service protocol is an agreement that obliges its parties to provide each other with mutually beneficial services under certain conditions.
 
 * In a traditional organisation, most of these protocols are negotiated by conversation with a manager who then carries the authority to arbit the protocol.
 * In an [[autonomous|Autonomous Squad]] [[holarchy|Holarchy]], there are no managers to carry this authority. Instead, teams negotiate protocols within and between themselves. This negotiation carries the risk that different team members may remember the details of the protocol differently.
-* [[User Stories|http://dannorth.net/whats-in-a-story/]] are a well proven, succinct format to describe a service to a user, but a protocol must involve two or more parties exchanging services for mutual benefit.
+* {{User Stories}} are a well proven, succinct format to describe a service to a user, but a protocol must involve two or more parties exchanging services for mutual benefit.
 
 ''Therefore,''
 
@@ -11410,6 +11430,9 @@ sudo npm update -g tiddlywiki
 <div created="20150228113450000" modified="20150228113654000" tags="Definitions" title="URI" tmap.id="7214e4d5-3d1b-4b39-8a8b-9938aa13f42a" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>A &lt;&lt;.dlink-ex &quot;URI&quot; &quot;http://en.wikipedia.org/wiki/Uniform_resource_identifier&quot;&gt;&gt; (also often known as a &lt;&lt;.def URL&gt;&gt;) is a string of characters used to specify the location of a resource such as a web page.
 </pre>
+</div>
+<div created="20160126083837852" modified="20160126122127218" tags="" title="User Stories" tmap.id="b28677b7-bbdd-4a43-b982-9ae2293b422c" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[User Stories|http://dannorth.net/whats-in-a-story/]]</pre>
 </div>
 <div created="20140613133627669" modified="20140912141613393" tags="[[TiddlyWiki on Node.js]]" title="Using a custom path prefix with the client-server edition" tmap.id="0c93d8cc-f4c6-4d46-90f5-0d71b1486714" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>By default, when running [[TiddlyWiki on Node.js]], the server exposes the wiki at the URI formed from the protocol, host and port - for example, `http://127.0.0.1:8080/`.

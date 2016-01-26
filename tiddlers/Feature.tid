@@ -1,0 +1,17 @@
+created: 20160125050522162
+modified: 20160126222611468
+title: Feature
+tmap.id: 1cfc4b52-fdb6-4710-9588-4d81ef345d93
+type: text/vnd.tiddlywiki
+
+* 1st generation Agile concerned itself with {{User Stories}}, pieces of a problem whose solution would be small enough that delivering it wouldn't break across [[Sprint]] boundaries. This was so that [[Sprint Planning|Scrum Ceremonies]] could be done in atomic terms; either a story was in one sprint or another, but not both, so backlogs cleanly mapped to calendar dates.
+* When it came to larger requirements, XP practitioners spoke of [[Motherhood Stories|http://c2.com/cgi/wiki?MotherhoodStory]] and Scrum of [[Epic]]s. But neither of those were scoped to a [[Release]] as a story is to a sprint. That made them problematic to use for [[Release Planning|Release Refactoring]].
+* In the 2nd generation, [[BDD|Behavior Driven Development]] defined a Feature as a deliverable that passed a certain combination of acceptance test [[Scenario]]s and {{SAFe}} defined it as a service to be delivered to a stakeholder within a [[Product Increment]] by an [[Agile Release Train]]. While the former definition is necessary to making a [[Definition of Done]], the latter is merely convenient, as neither trains nor PIs are essential concepts to [[Release Planning|Release Refactoring]].
+
+''Therefore,''
+
+We define a Feature as per [[BDD|Behavior Driven Development]] with some added constraints:
+
+# It must satisfy the [[INVEST]] properties, taking the S as "Similar-sized" rather than "Small".
+# It must improve a [[Critical Number]] for an internal or external customer within the scope of a [[Release]]
+# It must be no larger than can be delivered by a single [[Delivery Squad]] within the SAFe limit - meaning 12 weeks to complete [[FIT|Feature Integration Testing]] and [[SIT|System Integration Testing]].
