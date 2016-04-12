@@ -1,9 +1,9 @@
 created: 20151013043118316
-modified: 20151227201306807
+modified: 20160202031502056
 title: Pair-Working
 tmap.id: 0661dca8-c653-4524-94b2-1ac9b77b824c
 type: text/vnd.tiddlywiki
 
 A great deal has been written about the practice and benefits of [[Pair Programming|http://www.jamesshore.com/Agile-Book/pair_programming.html]]. But pairing isn't just for programming; it's the fundamental unit of collaboration between two members of an [[Autonomous Squad]]. 
 
-Pairing is more efficient than two people working separately if and only if both the problem domain and solution domain are unambiguous. This is normally the case when the work assigned to the pair was decomposed using [[Whole Board Thinking]]. In a [[Delivery Squad]] the last-mile of disambiguation - the generation of [[User Stories]] covered in [[Gherkin]] [[acceptance criteria]], is accomplished by means of the {{Three Amigos}} practice pattern.
+Pairing is more efficient than two people working separately if and only if both the problem domain and solution domain are unambiguous. This is normally the case when the work assigned to the pair was decomposed using [[Whole Board Thinking]]. In a [[Delivery Squad]] the last-mile of disambiguation - the generation of [[User Stories]] covered in [[Gherkin]] [[Acceptance Criteria]], is accomplished by means of the {{Three Amigos}} practice pattern.

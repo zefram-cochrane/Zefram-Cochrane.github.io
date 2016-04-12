@@ -1,0 +1,22 @@
+created: 20160202031550304
+modified: 20160202063131082
+title: Agile Architecture
+tmap.id: 8cefe17a-5f80-483d-8fd4-8c8a392abda7
+type: text/vnd.tiddlywiki
+
+Agile Architecture is a term that has been used informally for two decades:
+
+* {{XP}} originally suggested all that was needed was a [[System Metaphor]], and that an architecture of reusable solution elements would emerge through [[Refactoring]]. [[Joshua Kerievsky]] suggested refactoring alone may produce a sub-optimal design if it doesn't begin with a reasonable choice of [[Design Pattern]]s. And various authors, most notably [[Martin Fowler]], assembled a language of [[Patterns|Pattern Language]] commonplace in [[enterprise-scale architectures]].
+* The game changed when [[REST]], embodied in [[DHH]]'s [[Ruby on Rails]], proved an object lesson in the commercial reality of Agile Architecture by providing support for Fowler's patterns in executable, reusable code, Rails exemplified the essential properties of AA:
+** [[Loose Coupling]]
+** [[Cloud Scaling]]
+** [[Open/Closed Design]]
+** [[Restful API]]
+** Deep support for 
+*** [[BDD]]
+*** [[DVCS]]
+*** [[CI]]
+*** [[DA]].
+** [[Prefactoring]]
+** [[Metaprogramming]]
+** [[Active Record ... this is becoming too concrete and too long. Fix it.]]
