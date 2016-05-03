@@ -1,10 +1,10 @@
 created: 20150806095707253
-modified: 20151208053729442
+modified: 20160423001255913
 title: $:/plugins/felixhayashi/tiddlymap/misc/meta
 type: application/json
 
 {
     "originalVersion": "0.8.5+4946",
-    "dataStructureState": "0.10.3",
+    "dataStructureState": "0.11.0",
     "showWelcomeMessage": false
 }
