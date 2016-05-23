@@ -1,3 +1,4 @@
+config.background_image: http://xscale.wiki/images/pale-dolphins.png
 config.neighbourhood_directions: in
 config.neighbourhood_scope: 1
 config.physics_mode: true
@@ -6,7 +7,7 @@ config.show_inter_neighbour_edges: false
 config.vis: {"edges":{"shadow":true}}
 created: 20150806095708772
 isview: true
-modified: 20151208053747552
+modified: 20160523093611787
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
 type: text/vnd.tiddlywiki
 
