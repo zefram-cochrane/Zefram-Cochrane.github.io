@@ -1,5 +1,5 @@
 created: 20151019212104221
-modified: 20151019232352231
+modified: 20160524012428472
 tags: 
 title: Release Refactoring
 tmap.id: 54ac4d96-fd8d-4be8-a688-011f8e92f5bf
@@ -22,5 +22,5 @@ Release Refactoring is a simple consensus game that enables rapid rational trade
 # If you're playing to create a release plan for a particular [[PI|Portfolio Increment]], determine how many feature points correspond to that release. Now let the POs determine which combination of bronze/silver/gold levels will maximize [[ROROI]] for that release.
 # Keep all of these decisions on an [[Information Radiator]] to assure continuous alignment to them and as an easy starting point for the next [[Release Refactoring]] session.
 
-Release Refactoring is played whenever new features are added to the [[Behavior Map|Behavior Mapping]], whenever [[Sprint Planning]] indicates a feature's budget is blown, or whenever the PO calls for it. Because this is such a quick game it's also possible to play using [[Set Based Design]] in an [[Agile R&D]] mode to evaluate alternative product plans to evaluate possible responses to changes in market conditions.
+Release Refactoring is played whenever new features are added to the [[Behavior Map|Behavior Mapping]], whenever [[Sprint Planning]] indicates a feature's budget is blown, or whenever the PO calls for it. Because this is such a quick game it's also possible to play using set-based [[Simple Design]] in an [[Agile R&D]] mode to evaluate alternative product plans to evaluate possible responses to changes in market conditions.
 

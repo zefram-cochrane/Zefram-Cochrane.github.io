@@ -1,5 +1,5 @@
 created: 20160119220434083
-modified: 20160119230601792
+modified: 20160524012905852
 title: Learning
 tmap.id: 0de61f22-29cf-4887-a5be-ee36c52a7458
 type: text/vnd.tiddlywiki
@@ -7,5 +7,5 @@ type: text/vnd.tiddlywiki
 Specifically, [[Triple Loop Learning|http://c2.com/cgi/wiki?TripleLoopLearning]]. The basic idea is to attack the [[Frame|Frame Problem]] directly.
 
 # Learning by questioning what you're doing. This is the fundamental of the build-measure-learn loop in Ries' {{Lean Startup}} and Lean Manufacturing's [[Set Based Design]].
-# Learning by questioning what you're intending to do. This is the function of Adzic's [[Impact Mapping]] and Cockburn's collaborate-deliver-reflect-improve {{Heart of Agile}}.
-# Learning by questioning what you're questioning. This is the function of [[Continuous Adaptation]]. 
+# Learning by questioning how you're doing it. This is the function of Scrum's [[Sprint Retrospective|Scrum Ceremonies]] and Spotify's [[Chapter Meeting|Chapter]]s.
+# Learning by questioning why you're doing it. This is the function of Adzic's [[Impact Mapping]] and Cockburn's collaborate-deliver-reflect-improve {{Heart of Agile}}.

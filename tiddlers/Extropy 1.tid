@@ -1,19 +1,17 @@
 created: 20160119072625703
-modified: 20160119073319876
+modified: 20160524011932860
 title: Extropy
 tmap.id: 78a9251a-959d-45e7-b0d4-3def83035fd7
 type: text/vnd.tiddlywiki
 
 [[Entropy|entropy]] is the natural tendency of milk to blend into coffee and watch springs to wind down rather than up. It's described in physics by the {{Second Law of Thermodynamics}}. 
 
-But the second law only affects closed systems. Open systems like the Earth and all living creatures possess a different behavior than just running out of steam. It's a behavior that leverages entropic processes to access fresh sources of free energy to wind up rather than down. This is how fridges stay cold and flowers bloom every spring. 
+But the second law only affects closed systems. Open systems, including all living creatures, possess a different behavior than just running out of steam. We leverage entropic processes to access fresh sources of free energy. That enables us to wind up rather than down. This is how fridges stay cold and flowers bloom every spring. This is a pattern of behavior that adapts to keep evolving indefinitely. 
 
-Extropy is a pattern of behavior that adapts to keep growing indefinitely. In biological terms we call such patterns evolutionary or intelligent. In business terms we define them in terms of a metric: positive change in the [[rate of return on investment|ROROI]]. 
+In business terms we identify patterns in terms of a metric. Extropy turns up as positive change in the [[rate of return on investment|ROROI]]. But what does it take to initiate exponential growth in a business? The master of the art, [[Steve Jobs]], put it this way:
 
-What does it take to initiate exponential growth in a business? The master of the art, [[Steve Jobs]], put it this way:
+> If you don't cannibalise yourself, someone else will. If anybody's going to make our products obsolete, I want it to be us.
 
-> We figure out what we want. We're pretty good at having the right discipline to think through whether a lot of other people are going to want it, too. That's what we get paid to do. So you can't go out and ask people, you know, what's the next big thing. There's a great quote by Henry Ford. He said, 'If I'd have asked my customers what they wanted, they would have told me ‘A faster horse.’
+Extropic business isn't about competing with existing products but obsoleting them by delivering products with better experiences. Which is why, ten years ago, there were no smart phones, but ten years from now smart phones will have been destroyed by {{AR}}. Any apps business that isn't working on the [[AR]] growth curve in 2016 is trying to make a faster horse.
 
-Extropic business isn't about competing with existing products but obsoleting them by delivering products that provide improved user experiences. For example, ten years ago, there were no smart phones. Ten years from now smart phones will have been destroyed by {{AR}}. Any apps business that isn't working on the [[AR]] growth curve right now is just trying to make a faster horse.
-
-The point of Extropy isn't just the big picture stuff about [[leading|Product Leader]] the market. It's concrete. It's about making decisions that increase the [[ROROI]] of Epics, Features and Stories. In an extropic marketplace, the rate at which businesses can do this, no matter how they package it as products, makes the difference between those that grow exponentially and those that struggle and perish.
+The point of Extropy isn't just the big picture stuff about [[leading|Product Leader]] the market. It's concrete and iterative. It's about making decisions that increase the [[ROROI]] of Epics, Features and Stories. In an extropic marketplace, the rate at which businesses can do this, no matter how they package it as products, makes the difference between businesses that grow exponentially and those that struggle and perish.

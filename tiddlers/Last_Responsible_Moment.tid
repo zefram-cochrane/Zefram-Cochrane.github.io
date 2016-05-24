@@ -1,5 +1,5 @@
 created: 20151221035855632
-modified: 20160107100138150
+modified: 20160524013110391
 title: Last Responsible Moment
 tmap.id: a847b44d-7936-41b4-a928-ced7da28d089
 type: text/vnd.tiddlywiki
@@ -10,4 +10,4 @@ If you use [[Whole Board Thinking]] to iteratively narrow your field of choices 
 
 If you reach ''LRM'' and you still have several viable alternatives, you may count yourself as fortunate. Some people reach that point without any. In this case a simple round of [[Business Bingo]] will enable the team to make a decision based on their guts. 
 
-If the team can't agree on Investment estimates for the bingo session, it's best to defer to the most senior technical authority. Likewise if you can't agree on the return, defer to the [[Product Owner]]. Like it or not, these people are most responsible for the consequences.
+If the team can't agree on Investment estimates for the bingo session, it's best to defer to the most senior technical authority. If and only if you can't agree on the return, [[Leadership as a Service]] defers to the [[Product Leader]], who is most responsible for the consequences.

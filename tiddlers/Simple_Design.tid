@@ -1,6 +1,6 @@
 created: 20151108195553972
-modified: 20151227065529984
-title: Set Based Design
+modified: 20160524012159826
+title: Simple Design
 tmap.id: ff1175cf-14d4-4982-af0d-5d54b30452fa
 type: text/vnd.tiddlywiki
 
@@ -24,7 +24,7 @@ There are many schools of design each with their own [[Pattern Language]]s. XSCA
 
 ''Therefore,''
 
-Set Based Design is a tight iterative loop for learning solution constraints and evaluating design options. It is usually carried out during a release's [[Sprint Zero]] by a squad that includes technical authorities, design authorities and business authorities. This may be just the [[Product Squad]], or it may include technical portfolio members who are normally involved in delivery or support activities. 
+Simple Design is a tight iterative loop for learning solution constraints and evaluating design options. It is usually carried out during a release's [[Sprint Zero]] by a squad that includes technical authorities, design authorities and business authorities. This may be just the [[Product Squad]], or it may include technical portfolio members who are normally involved in delivery or support activities. 
 
 # Design [[stories|Story]] each take one of three forms
 #* [[Spike|Spike Solution]]s to be evaluated to discover [[solution constraint]]s and test customer behavior.
