@@ -1,10 +1,8 @@
 created: 20150807021258524
-modified: 20160524042311383
+modified: 20160524043451793
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
-
-|! [[Practices|XSCALE Practices]] |! [[Organisation|XSCALE Organisation]] |! [[Metrics|XSCALE Metrics]] |! [[Roles|XSCALE Roles]] |
 
 ''XSCALE'' is an acronym for the principles of an [[Agile Organisation]]. Also a [[language|Pattern Language]] of best practice for Agile organisations focused on exponential growth. As a method for [[3rd Generation Agile]], XSCALE extends the [[Agile Manifesto|http://agilemanifesto.org]] principles to [[Product Management]], [[Portfolio Management]], [[Change Management]] and [[Holarchy]].
 
@@ -14,9 +12,11 @@ XSCALE practices are fully compatible with {{Spotify}}, {{SAFe}}, {{LeSS}}, {{Ne
 
 """
 [[e|Extropy]]''X''[[ponential|Extropy]] growth in [[Rate of ROI|ROROI]] by [[Leapfrogging]] and [[Stacking the S-curves]].
-&nbsp;&nbsp;''S''[[imple|Set Based Design]] design: the elegance of minimum. Not look and feel; how it works.
-&nbsp;&nbsp;''C''[[ontinuous|Continuous]] [[adaptation|Continuous Adaptation]] and [[delivery|Continuous Delivery]]; teams to products to markets.  {{YAGNI}}.
+&nbsp;&nbsp;''S''[[imple|Simple Design]] design: the elegance of minimum. Not look and feel; how it works.
+&nbsp;&nbsp;''C''[[ontinuous|Continuous Adaptation]] Adaptation and [[delivery|Continuous Delivery]]; teams to products to markets.  {{YAGNI}}.
 &nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-organising, right-sized squads self-aligning through [[holarchy|Holarchy]]
 &nbsp;&nbsp;''L''[[earning|Learning]]: [[Agile analytics]], high cadence [[Metric Feedback]] and [[Agile R&D]]
 &nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: decentralised [[Whole Board Thinking]] and [[positive-sum games]]..
 """
+
+|! [[Practices|XSCALE Practices]] |! [[Organisation|XSCALE Organisation]] |! [[Metrics|XSCALE Metrics]] |! [[Roles|XSCALE Roles]] |

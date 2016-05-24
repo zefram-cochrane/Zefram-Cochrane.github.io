@@ -1,12 +1,10 @@
 created: 20160104211346883
-modified: 20160110050600851
+modified: 20160524043617296
 title: XSCALE Roles
 tmap.id: 61adbed3-70bf-4e84-a707-f8010dcc93a3
 type: text/vnd.tiddlywiki
 
-|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Organisation|XSCALE Organisation]] |! [[Metrics|XSCALE Metrics]] |
-
-There are two kinds of [[Servant Leader|Leadership as a Service]] role in an [[XSCALE Organisation]]: Coach and Leader. In general one coach [[pairs|Pair-Working]] with one leader. Each carries distinct responsibilities to reinforce their squads' [[autonomy|Autonomous Squad]].
+There are two kinds of [[Servant Leader|Leadership as a Service]] role in an [[XSCALE Organisation]]: Coach and Leader. In general one coach [[pairs|Pair-Working]] with one leader per the [[Leadership as a Service]] practice pattern. Each carries distinct responsibilities to reinforce their squads' [[autonomy|Autonomous Squad]].
 
 ''Coach Responsibilities''
 
@@ -24,3 +22,4 @@ Leader and Coach are functional roles, not job titles, so it is possible for som
 
 For the specific responsibilities of leaders and coaches per squad see [[XSCALE Coaches]] and [[XSCALE Leaders]].
 
+|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Organisation|XSCALE Organisation]] |! [[Metrics|XSCALE Metrics]] |
