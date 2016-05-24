@@ -5,11 +5,11 @@ title: Release Refactoring
 tmap.id: 54ac4d96-fd8d-4be8-a688-011f8e92f5bf
 type: text/vnd.tiddlywiki
 
-[[Product Squad]]s and [[Portfolio Squad]]s aim to deliver the highest [[ROROI]] in a [[Portfolio Increment]]. Where throughput expectations vary, market conditions change, or significant new learnings occur, they need to [[continuously adapt|Continuous Adaptation]] their release commitments. And they need to do align these decisions between business and technical authorities through [[Management by Numbers]] so that stress and politics do not occur.
+[[Product Squad]]s and [[Stream Squad]]s aim to deliver the highest [[ROROI]] in a [[Product Increment]]. Where throughput expectations vary, market conditions change, or significant new learnings occur, they need to [[continuously adapt|Continuous Adaptation]] their release commitments. And they need to do align these decisions between business and technical authorities through [[Management by Numbers]] so that stress and politics do not occur.
 
 ''Therefore,''
 
-Release Refactoring is a simple consensus game that enables rapid rational trade-offs between different  feature-sets while respecting the date and budget limits of a PI. An alternate approach for [[Portfolio]]s without PIs is [[Getting Features Done]].
+Release Refactoring is a simple consensus game that enables rapid rational trade-offs between different  feature-sets while respecting the date and budget limits of a PI. An alternate approach for [[Value Stream]]s without PIs is [[Getting Features Done]].
 
 # Using the [[Royal Cod]] prioritization derived by [[Business Bingo]], lay out all available [[Feature]]s in columns grouped by [[Epic]].
 # Pick the first column. Pick the feature at the top of the column. Let business authorities say whether the [[Epic]]'s business driver can be satisfied without including this feature in the PI. 

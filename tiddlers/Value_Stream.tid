@@ -1,0 +1,9 @@
+created: 20151013055616740
+modified: 20160524035046176
+title: Value Stream
+tmap.id: 6010de3e-67cd-4318-afd7-b48d41e38b13
+type: text/vnd.tiddlywiki
+
+A [[holarchy|Holarchy]] of [[squads|Autonomous Squad]] and [[chapters|Chapter]] that generates a set of products is called a value stream. The usage is similar to {{SAFe}} portfolios/value streams or {{Spotify}} / {{Iroquois Confederacy}} tribes. 
+
+Like tribes, XSCALE value streams are limited in size by the [[Dunbar Number]]. Each [[continuously adapts|Continuous Adaptation]] its configuration of squads and chapters to its [[release plans|Release Plan]] and business objectives via a [[Stream Squad]]. 

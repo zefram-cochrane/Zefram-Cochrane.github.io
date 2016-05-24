@@ -1,17 +1,17 @@
 created: 20151013075743752
-modified: 20160120100547889
+modified: 20160524041431549
 title: Guild Meeting
 tmap.id: 957dbfdc-9332-49a7-8dff-623f7fbd4999
 type: text/vnd.tiddlywiki
 
-* Large organisations are best factored into multiple autonomous [[Portfolios]], each respecting the [[Dunbar Number]] as a size limit.
+* Large organisations are best factored into multiple autonomous [[Value Stream]]s, each respecting the [[Dunbar Number]] as a size limit.
 
-* These portfolios must align their organisation's overall business strategy, partnerships, [[Service Agreement]]s, market positioning and technical choices while maintaining their respective [[autonomy|Autonomy]].
+* These streams must align their organisation's overall business strategy, partnerships, [[Service Agreement]]s, market positioning and technical choices while maintaining their respective [[autonomy|Autonomy]].
 
 * {{Command and Control}} hierarchies, scrums of scrums of scrums, and similar centralised format unnecessarily overload conversations and conflate concerns. Specific learnings and emergencies relevant to the whole organisation will still be restricted to specific communities of interest.
 
 ''Therefore,''
 
-''Guilds Meetings'' maintain alignment between [[Portfolio]]s on crosscutting concerns including any matters of common or technology and business concern. Typically held in either [[Lean Coffee]], [[Open Space]] or [[Condolence Council]] formats, depending on the intent of their convenor, they may also be used to coordinate [[Chapter]]s across Portfolios.
+''Guilds Meetings'' maintain alignment between [[Autonomous Squad]]s on crosscutting concerns including any matters of common or technology and business concern. Typically held in either [[Lean Coffee]], [[Open Space]] or [[Condolence Council]] formats, depending on the intent of their convenor, they may also be used to coordinate [[Chapter]]s across Streams.
 
 Business and Technology Guilds may be trialled informally, and if there's sufficient interest then regular meetings may be authorised/catered by the [[Leadership Guild]], which will usually refer them to the [[Coaching Guild]] to assign a [[Coach]] to each. Most Guilds meet at least once a quarter, and may meet as often as once a week depending on the respective preferences of their leaders.

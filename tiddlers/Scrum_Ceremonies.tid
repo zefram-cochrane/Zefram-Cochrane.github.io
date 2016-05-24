@@ -16,5 +16,5 @@ type: text/vnd.tiddlywiki
 * Daily standup. Forget the 3 questions - that sends everyone to sleep and encourages passive aggression. {{Walk The Wall}} instead.
 * Sprint planning. Make sure your [[Product Squad]] has done enough [[Product Management]] ahead of time and run [[Three Amigos]] to ensure your stories have [[INVEST]] properties. Then you can go with {{Planning Poker}}, [[Business Bingo]] or {{No Estimates}} as you like and get a week's worth of planning done in an hour, and often less than that.
 * Sprint review. You must have real [[customers|Customer Review]] there. There is no excuse for not getting real customer feedback - without that it's not a review, just [[managerial BS|Manager]].
-* Sprint retrospective. Run it weekly without fail even if you're doing two week sprints. That way it will be much shorter and more effective. Run it after everyone's had their [[Chapter]] meetings so it's fully informed by the experiences of the [[Portfolio]] as a whole.
+* Sprint retrospective. Run it weekly without fail even if you're doing two week sprints. That way it will be much shorter and more effective. Run it after everyone's had their [[Chapter]] meetings so it's fully informed by the experiences of the [[Value Stream]] as a whole.
 

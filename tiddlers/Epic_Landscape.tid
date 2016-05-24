@@ -16,10 +16,10 @@ A culture that permits these problems evolves a brittle enterprise architecture 
 
 ''Therefore,''
 
-# The [[Portfolio Squad]] maintains a cross-product [[impact map|Impact Mapping]] for all its [[Product Squad]]s. This is called the ''Epic Landscape''.
+# The [[Stream Squad]] maintains a cross-product [[impact map|Impact Mapping]] for all its [[Product Squad]]s. This is called the ''Epic Landscape''.
 # The [[Critical Number]]s inherent in each Why/Who/How/What Epic are analysed and represented explicitly.
 # The Why/Who/How/What bubbles on the Epic Landscape are then coloured to reflect the state of the business:
-#* Red: waste - inadequate [[ROROI]] to justify continuing to maintain this epic. The [[Portfolio]] must take appropriate steps to cease work on it and end its life.
+#* Red: waste - inadequate [[ROROI]] to justify continuing to maintain this epic. The [[Value Stream]] must take appropriate steps to cease work on it and end its life.
 #* Amber: - [[ROROI]] zero or less. This Epic is presently stagnant. New growth strategies must be considered to re-awaken its potential.
 #* Green: [[ROROI]] positive. Though some bubbles might be more green than others.
 #* Blue: [[ROROI]] unknown. [[Agile R&D]] will be needed to identify and evaluate its [[Solution Constraints]].

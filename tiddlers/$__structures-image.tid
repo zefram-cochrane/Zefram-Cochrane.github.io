@@ -1,5 +1,5 @@
 created: 20150809220300027
-modified: 20160112014105512
+modified: 20160524042630396
 tags: 
 title: $:/structures-image
 tmap.id: f310f480-85d4-47cc-8163-8f674b288622
@@ -11,18 +11,18 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="360,143,593,201" title="Guild Meetings" href="#Guild%20Meeting" />
 <area shape="rect" coords="360,202,594,231" title="Leadership Guild" href="#Leadership%20Guild" />
 <area shape="rect" coords="357,231,594,258" title="Coaching Guild" href="#Coaching%20Guild" />
-<area shape="rect" coords="330,3,359,415" title="Portfolio Squad" href="#Portfolio%20Squad" />
+<area shape="rect" coords="330,3,359,415" title="Stream Squad" href="#Stream%20Squad" />
 <area shape="rect" coords="375,15,583,62" title="Dunbar Number" href="#Dunbar%20Number" />
 <area shape="rect" coords="201,4,329,147" title="Chapter Meetings" href="#Chapter" />
 <area shape="rect" coords="202,186,329,401" title="Chapter Meetings" href="#Chapter" />
 <area shape="rect" coords="9,174,202,297" title="Delivery Squads" href="#Delivery%20Squad" />
 <area shape="rect" coords="0,27,202,151" title="Product Squads" href="#Product%20Squad" />
 <area shape="rect" coords="4,317,203,415" title="DevOps Support Squads" href="#DevOps" />
-<area shape="rect" coords="358,390,592,418" title="Portfolios" href="#Portfolio" />
-<area shape="rect" coords="202,166,331,185" title="Portfolio Coach" href="#Portfolio%20Coach" />
+<area shape="rect" coords="358,390,592,418" title="Streams" href="#Stream" />
+<area shape="rect" coords="202,166,331,185" title="Stream Coach" href="#Stream%20Coach" />
 <area shape="rect" coords="3,153,116,173" title="Product Leader" href="#Product%20Leader" />
 <area shape="rect" coords="115,153,202,174" title="Product Coaches" href="#Product%20Coach" />
-<area shape="rect" coords="201,148,330,166" title="Portfolio Leader" href="#Portfolio%20Leader" />
+<area shape="rect" coords="201,148,330,166" title="Stream Leader" href="#Stream%20Leader" />
 <area shape="rect" coords="2,296,131,318" title="Technology Leader" href="#Technology%20Leader" />
 <area shape="rect" coords="130,297,203,318" title="Technology Coach" href="#Technology%20Coach" />
 <area shape="rect" coords="401,299,546,316" title="Transformation Leader" href="#Transformation%20Leader" />

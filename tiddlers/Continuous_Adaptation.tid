@@ -1,5 +1,5 @@
 created: 20160120044915663
-modified: 20160524024656298
+modified: 20160524040526556
 tags: 
 title: Continuous Adaptation
 tmap.id: 89fe9957-febb-481b-854f-de60e512469f
@@ -23,5 +23,5 @@ The Continuous Adaptation cycle is composed of the following meetings. In order 
 
 # [[Squad Retrospectives|Scrum Ceremonies]]. These happen immediately after the chapter meetings so that each squad is fully informed about the current state of play of all the others across the stream as a whole. Each squad can thereby immediately and locally adapt to changes in the overall condition of the value stream.
 
-# The [[Stream Squad|Portfolio Squad]] meeting. Adaptations that cut across squads, or which entail changes to the compositions, relations or missions of squads, including those of entire [[Product]] lines, are determined by [[Leadership as a Service]] at this meeting. Because the meeting is entirely composed of actual doers, rather than middlemen, learnings are directly represented and resolutions are pragmatic and consistent with their experience.
+# The [[Stream Squad]] meeting. Adaptations that cut across squads, or which entail changes to the compositions, relations or missions of squads, including those of entire [[Product]] lines, are determined by [[Leadership as a Service]] at this meeting. Because the meeting is entirely composed of actual doers, rather than middlemen, learnings are directly represented and resolutions are pragmatic and consistent with their experience.
 
