@@ -1,10 +1,28 @@
 created: 20160524060741627
-modified: 20160524061356289
+modified: 20160525112126262
 title: Ecosystem
 tmap.id: 4d1aee44-6ea8-4406-b8a7-a3b9e4a24b42
 type: text/vnd.tiddlywiki
 
-Ecosystems are games that adapt the whole to its parts. In the [[Game of Go]] this is called [[Whole Board Thinking]]. The ecology movement sums it up in the phrase
+To explain the Ecosystem principle, we start with the word itself. It derives from eco- from the greek root oikos, meaning "emerging from mutual relations"; and -system from the roots syn- meaning together and -histanai meaning to cause to persist. Hence the notion of a cycle of mutually beneficial behaviours in a group of organisms that evolve together.
 
-> Think Globally, Act Locally
+The [[XSCALE Principles]] correspond to aspects of physical ecosystems. After disruption, new ecosystems develop at an [[exponential|Extropy]] rate, co-evolving [[simple|Simple Design]] designs using [[continous|Continuous Adaptation]] feedback to self-organize [[autonomously|Autonomous Squad]] until they [[learn|Triple-Loop Learning]] a new equilibrium.
 
+The Ecosystem principle completes this analogy. To put it in a historical context, where traditional organizations are legally and morally obliged to prioritize value to their shareholders, the original {{Agile Manifesto}} opposed this with its primary guiding principle:
+
+> Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+Customers are better satisfied to receive quicker, better, cheaper value at the expense of shareholder returns. Furthermore one group of customers may have interests that oppose another. Such conflicts are represented by the infamous ecological [[anti-pattern]] called [[The Tragedy Of The Commons]]. The benefit of the Ecosystem principle is to prevent the tragedy.
+
+This isn't some abstract philosophical conundrum. An Agile squad functions as a commons without tragedy. A value stream functions as a commons for its member squads. An [[Agile Organization]] does likewise for its value streams. The essential principle of the ecosystem is:
+
+> Our highest priority is organizing to deliver a combined value greater than the sum of our separate values.
+
+We elaborate this principle in 12 sub-principles by reference to [[Permaculture]]:
+
+# Mutual benefit; connect teams so that they benefit each other.
+# Open systems and content; multiply benefits by sharing them.
+# Increase resilience of critical functions by decentralizing skills and ownership.
+# Refactor teams to minimize meetings and maximize learnings
+# Automating the outcome of activities greatly multiplies their benefit
+# ...
