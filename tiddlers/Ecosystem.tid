@@ -1,30 +1,23 @@
 created: 20160524060741627
-modified: 20160525213841809
+modified: 20160525220834522
 title: Ecosystem
 tmap.id: 4d1aee44-6ea8-4406-b8a7-a3b9e4a24b42
 type: text/vnd.tiddlywiki
 
 To explain the Ecosystem principle, we start with the word itself. It derives from eco- from the greek root oikos, meaning "emerging from mutual needs"; and -system from the roots syn- meaning together and -histanai meaning to cause to stand. Hence, literally, //from mutual need, caused to stand together//.
 
-The [[XSCALE Principles]] correspond to aspects of physical ecosystems. After disruption, new ecosystems develop at an [[exponential|Extropy]] rate, co-evolving [[simple|Simple Design]] designs using [[continous|Continuous Adaptation]] feedback to self-organize [[autonomously|Autonomous Squad]] until they [[learn|Learning]] a new equilibrium.
+The [[XSCALE Principles]] correspond to aspects of physical ecosystems. After disruption, new ecosystems develop at an [[exponential|Extropy]] rate, co-evolving [[simple|Simple Design]] designs using [[continous|Continuous Adaptation]] feedback to self-organize [[autonomously|Autonomous Squad]] until they [[learn|Learning]] a new [[equilibrium|Nash Equilibrium]].
 
 The Ecosystem principle completes this analogy. To put it in a historical context, where traditional organizations are legally and morally obliged to prioritize value to their shareholders, the original {{Agile Manifesto}} opposed this with its primary guiding principle:
 
 > Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 
-Customers are satisfied to receive quicker, better, cheaper value at the expense of shareholders. Furthermore one group of customers will always have interests that oppose another. And all these interests should comply with a common law. These concerns tie our priorities into a Gordian knot no product owner can unravel. The conundrum is represented by the infamous ecological [[anti-pattern]] called [[The Tragedy Of The Commons]]. The intent of the Ecosystem principle is to oppose this tragedy.
+Customers are satisfied to receive quicker, greater, cheaper value at the expense of shareholders. Furthermore one group of customers will always have interests that oppose another. And all these interests should comply with various laws. These concerns tie our priorities into a Gordian knot no product owner can unravel. The conundrum is represented by the infamous ecological [[Antipattern]] called [[The Tragedy Of The Commons]]. The intent of the Ecosystem principle is to oppose this tragedy.
 
-The tragedy isn't some abstract philosophical problem. The history of civilization amply demonstrates that it will starve, bomb and boil its children if we don't get it right. As an [[Autonomous Squad]] must regulate its commons without tragedy, so a [[holarchic|Holarchy]] value stream for its squads, an [[Agile Organization]] for its streams and civilization for its organizations.
+The tragedy isn't some abstract philosophical problem. The history of civilization amply demonstrates that it will starve, bomb and boil its children if we don't get this right. As an [[Autonomous Squad]] must regulate its commons without its members experiencing the tragedy, so a [[holarchic|Holarchy]] value stream for its squads, an [[Agile Organization]] for its streams and civilization for its organizations.
 
-Regulating the commons enables the mutual benefit of the whole to the parts to be greater than that of part to whole. This mutual benefit only occurs when the whole adapts as a part to its whole. This enables us to reconcile the tensions between shareholder and the various customer values by stating the ecosystem principle as:
+Regulating the commons enables the mutual benefit of the whole to the parts to become greater than that of part to whole. But then the mutual benefit only occurs when the whole adapts as a part to its whole. This enables us to reconcile tensions between shareholder and the various customer values by stating the ecosystem principle as:
 
-> Our highest priority is adapting our organization to the mutual benefit of humanity. Then adapting our value stream to the mutual benefit of our organization, our team to the mutual benefit of our stream, and our humanity to the mutual benefit of our team.
+> Our highest priority is adapting our organization to the mutual benefit of humanity. Then adapting our value stream to the mutual benefit of our organization, our team to the mutual benefit of our stream, and ourselves to the mutual benefit of our team.
 
-We elaborate this principle in 12 sub-principles by reference to [[Permaculture]]:
-
-# Direct connections; connect without middlemen so you directly benefit each other.
-# Open systems and open content increase benefits by multiplying and sharing them.
-# Decentralize skills and ownership to Increase resilience of critical functions
-# Refactor teams so as to minimize meeting and maximize learning
-# Automate activities to multiply their benefits
-# ...
+We can elaborate this principle into 12 sub-principles by reference to [[Permaculture]].
