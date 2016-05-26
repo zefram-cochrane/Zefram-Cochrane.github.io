@@ -1,0 +1,16 @@
+created: 20160526003847920
+modified: 20160526005337765
+tags: 
+title: Merciless Refactoring
+tmap.id: 8da5e56b-6910-43a2-96e3-a0b686458d20
+type: text/vnd.tiddlywiki
+
+[[Ron Jeffries]] explained the idea best [[here|http://c2.com/cgi/wiki?RefactorMercilessly]]. But in XSCALE we don't just mercilessly refactor our code; we do the same to our [[release plans|Release Refactoring]] and our [[teams|Portfolio Mapping]]. If you're not merciless in refactoring, it's amazing how quickly things become 'smelly", no matter how good your plans were to begin with.
+
+Von Moltke described the need this way:
+
+> No plan survives contact with the enemy.
+
+And John Lennon like this:
+
+>Life is what happens while you're busy planning something else.

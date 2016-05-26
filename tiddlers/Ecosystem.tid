@@ -1,5 +1,5 @@
 created: 20160524060741627
-modified: 20160526002927946
+modified: 20160526063708474
 title: Ecosystem
 tmap.id: 4d1aee44-6ea8-4406-b8a7-a3b9e4a24b42
 type: text/vnd.tiddlywiki
@@ -8,14 +8,16 @@ To explain the Ecosystem principle, we start with the word itself. It derives fr
 
 The [[XSCALE Principles]] correspond to aspects of physical ecosystems. After disruption, new ecosystems develop at an [[exponential|Extropy]] rate, co-evolving [[simple|Simple Design]] designs using [[continous|Continuous Adaptation]] feedback to self-organize [[autonomously|Autonomous Squad]] until they [[learn|Learning]] a new [[equilibrium|Nash Equilibrium]].
 
-The Ecosystem principle completes this analogy. To put the need for it in a historical context, where traditional organizations are legally and morally obliged to prioritize value to their shareholders, the original {{Agile Manifesto}} opposed this with its primary guiding principle:
+The Ecosystem principle completes this analogy. To place the need for it in a historical context, where traditional organizations are legally and morally obliged to prioritize value to their shareholders, the original {{Agile Manifesto}} opposed this with its primary guiding principle:
 
 > Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 
-Customers are satisfied to receive quicker, greater, cheaper value at the expense of shareholders, and one group of customers will always hold interests that oppose another. Moreover all these interests are obliged to satisfy various laws and regulations. Together these concerns represent the infamous ecological [[Antipattern]] called [[The Tragedy Of The Commons]]. An Ecosystem principle must oppose that tragedy.
+Customers are satisfied to receive quicker, greater, cheaper value at the expense of shareholders. Also one group of customers always holds interests that oppose another. Moreover all interests are obliged to satisfy various laws and regulations. And there are open organizations that don't have customers. Together these concerns represent the infamous ecological [[Anti-pattern]] called [[The Tragedy Of The Commons]]. 
 
-In an ecosystem, the mutual benefit of the whole to the parts is greater than that of part to whole. But mutual benefit can only be sustained when the whole, considered as a part in its turn, adapts to its own whole. This provides us with a simple way to resolve the apparent tension between shareholder and customer values:
+The Ecosystem principle opposes this tragedy. In an ecosystem, the mutual benefit of the whole to all the parts is greater than that of a part to the whole. As ecosystems are [[holarchies|Holarchy]], this mutual benefit can only be sustained when the whole, considered as a part in turn, adapts to the needs of its greater whole. 
 
-> Our highest priority is adapting our organization to the benefit of humanity. Then adapting our value stream to the benefit of our organization, our team to the benefit of our stream, and ourselves to the benefit of our team.
+This provides a key to resolve the apparent tension between shareholder and customer values:
 
-Which is a fine intent, but toothless. So we elaborate this principle into 12 sub-principles by reference to [[Permaculture]].
+> Our highest priority is adapting our organization to human progress. To satisfy this we adapt ourselves to the mutual benefit of our team, our team to its value stream, value stream to organization, and organization to humanity, using [[Whole Board Thinking]] to make all decisions. We think globally to act locally.
+
+That's a noble statement of intent, but lacks pragmatism. So we elaborate this principle into 12 practices of [[Organizational Permaculture]].
