@@ -1,5 +1,5 @@
 created: 20150809220636012
-modified: 20160524043823685
+modified: 20160526105946158
 tags: 
 title: XSCALE Metrics
 tmap.id: 064f9b90-1b6a-4946-b93d-80178e6d9875
@@ -7,4 +7,4 @@ type: text/vnd.tiddlywiki
 
 {{$:/metrics-image}}
 
-|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Organisation|XSCALE Organisation]] |! [[Roles|XSCALE Roles]] |
+|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Organization|XSCALE Organization]] |! [[Roles|XSCALE Roles]] |
