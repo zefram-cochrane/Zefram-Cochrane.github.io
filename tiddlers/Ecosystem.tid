@@ -1,23 +1,21 @@
 created: 20160524060741627
-modified: 20160526001930285
+modified: 20160526002927946
 title: Ecosystem
 tmap.id: 4d1aee44-6ea8-4406-b8a7-a3b9e4a24b42
 type: text/vnd.tiddlywiki
 
-To explain the Ecosystem principle, we start with the word itself. It derives from eco- from the greek root oikos, meaning "emerging from mutual needs"; and -system from the roots syn- meaning together and -histanai meaning to cause to stand. Hence, literally, //from mutual need, caused to stand together//.
+To explain the Ecosystem principle, we start with the word itself. It derives from eco- from the greek root oikos, meaning "emerging from mutual needs"; and -system from the roots syn- meaning together and -histanai meaning to cause to stand or sustain. Hence, literally, //from mutual need, caused to sustain each other//.
 
 The [[XSCALE Principles]] correspond to aspects of physical ecosystems. After disruption, new ecosystems develop at an [[exponential|Extropy]] rate, co-evolving [[simple|Simple Design]] designs using [[continous|Continuous Adaptation]] feedback to self-organize [[autonomously|Autonomous Squad]] until they [[learn|Learning]] a new [[equilibrium|Nash Equilibrium]].
 
-The Ecosystem principle completes this analogy. To put it in a historical context, where traditional organizations are legally and morally obliged to prioritize value to their shareholders, the original {{Agile Manifesto}} opposed this with its primary guiding principle:
+The Ecosystem principle completes this analogy. To put the need for it in a historical context, where traditional organizations are legally and morally obliged to prioritize value to their shareholders, the original {{Agile Manifesto}} opposed this with its primary guiding principle:
 
 > Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 
-Customers are satisfied to receive quicker, greater, cheaper value at the expense of shareholders. Furthermore one group of customers will always have interests that oppose another. And all these interests should comply with various laws. These concerns represent by the infamous ecological [[Antipattern]] called [[The Tragedy Of The Commons]]. The Ecosystem principle opposes the tragedy.
+Customers are satisfied to receive quicker, greater, cheaper value at the expense of shareholders, and one group of customers will always hold interests that oppose another. Moreover all these interests are obliged to satisfy various laws and regulations. Together these concerns represent the infamous ecological [[Antipattern]] called [[The Tragedy Of The Commons]]. An Ecosystem principle must oppose that tragedy.
 
-The history of human civilization amply demonstrates that it will starve, bomb and boil children if it's not properly regulated. An [[Autonomous Squad]] must regulate its common resources so that its members don't experience a tragedy, and likewise a [[holarchic|Holarchy]] value stream for its squads, an [[Agile Organization]] for its streams and civilization for its organizations.
+In an ecosystem, the mutual benefit of the whole to the parts is greater than that of part to whole. But mutual benefit can only be sustained when the whole, considered as a part in its turn, adapts to its own whole. This provides us with a simple way to resolve the apparent tension between shareholder and customer values:
 
-In an ecosystem, the mutual benefit of the whole to the parts is greater than that of part to whole. But mutual benefit can only be sustained when the whole adapts as a part to its whole. This reconciles the apparent tension between shareholder and customer values:
+> Our highest priority is adapting our organization to the benefit of humanity. Then adapting our value stream to the benefit of our organization, our team to the benefit of our stream, and ourselves to the benefit of our team.
 
-> Our highest priority is adapting our organization to the benefit of humanity. Then adapting our value stream to the benefit of our organization, our team to the benefit of our stream, and ourselves to the benefit of our team. Think globally, act locally.
-
-We elaborate this principle into 12 sub-principles by reference to [[Permaculture]].
+Which is a fine intent, but toothless. So we elaborate this principle into 12 sub-principles by reference to [[Permaculture]].
