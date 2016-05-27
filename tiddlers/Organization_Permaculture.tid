@@ -1,20 +1,20 @@
 created: 20160525220844260
-modified: 20160526105540579
+modified: 20160527005628439
 title: Organization Permaculture
 tmap.id: 47726b6d-2117-48d6-ac96-f8dc08225ad8
 type: text/vnd.tiddlywiki
 
-Adapting the wonderful descriptions at https://deepgreenpermaculture.com/ . These aren't practices but they're too small to call principles. They're themes that apply to all the practices of an [[Agile Organization]]..
+Adapting the descriptions at https://deepgreenpermaculture.com/ to general guidelines for a healthy [[Ecosystem]]:
 
 # Encourage teams to directly observe and interact with their customers.
 # Empower team members to develop and share skills and trust.
 # Decentralize critical environments and business functions to increase resilience
 # [[Mercilessly refactor|Merciless Refactoring]] streams to minimize meetings and maximize synergy
-# Automate activities whenever possible to reduce the costs of their benefits
-# Stable, 100% resourced, cross-functional teams energize the culture
-# Prefer short, frequent, priority-driven ceremonies to large, long, agenda-driven.
+# Where multiple teams share a need, assign it to one and make others its customers
+# Define and motivate missions for teams, not roles for individuals.
+# Iterate short, frequent, priority-based ceremonies, not large, long, agenda-based.
 # Accelerate refactoring and learning by opening source, content and APIs
-# Invest in strategic partnerships wherever customers may also serve as suppliers
-# Invest in frequent small experiments and longitudinal metric feedback loops
-# Form learning communities across team, stream and organization boundaries.
-# Value all problems and ideas as new market opportunities.
+# Form strategic partnerships wherever customers also serve as suppliers
+# Invest in frequent small experiments and longitudinal metric analysis
+# Open learning communities across team, stream and organization boundaries.
+# Evaluate all problems and ideas as representing new market opportunities.
