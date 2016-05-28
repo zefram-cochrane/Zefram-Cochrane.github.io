@@ -1,11 +1,13 @@
 created: 20160526122245529
-modified: 20160526140723661
+modified: 20160528060528169
 tags: 
 title: Throughput Accounting
 tmap.id: 6e82d96d-386d-4432-abd7-7b93254a7010
 type: text/vnd.tiddlywiki
 
-[[Throughput Accounting|https://en.wikipedia.org/wiki/Throughput_accounting]]
+[[Throughput Accounting|http://www.informit.com/articles/article.aspx?p=169495]]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F-06WFXJARo" frameborder="0" allowfullscreen></iframe>
+The following is the best explanation of why Throughput Accounting really matters. Unfortunately Schragenheim is far from the world's most sparkling presenter - he rambles, emphasises the history of some dull academics, and uses presentation material straight out of the 1980s. So for now getting through this is a struggle. We'll transcribe the salient points here soon ...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gKPBUq7PKng" frameborder="0" allowfullscreen></iframe>
 
