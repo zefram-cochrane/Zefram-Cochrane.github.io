@@ -1,19 +1,19 @@
 created: 20160525220844260
-modified: 20160527005628439
+modified: 20160528002522833
 title: Organization Permaculture
 tmap.id: 47726b6d-2117-48d6-ac96-f8dc08225ad8
 type: text/vnd.tiddlywiki
 
-Adapting the descriptions at https://deepgreenpermaculture.com/ to general guidelines for a healthy [[Ecosystem]]:
+Adapting the descriptions at https://deepgreenpermaculture.com/ into general guidelines for an organization's [[Ecosystem]]:
 
 # Encourage teams to directly observe and interact with their customers.
 # Empower team members to develop and share skills and trust.
 # Decentralize critical environments and business functions to increase resilience
-# [[Mercilessly refactor|Merciless Refactoring]] streams to minimize meetings and maximize synergy
+# [[Refactor|Merciless Refactoring]] streams to minimize meetings and maximize synergy
 # Where multiple teams share a need, assign it to one and make others its customers
 # Define and motivate missions for teams, not roles for individuals.
 # Iterate short, frequent, priority-based ceremonies, not large, long, agenda-based.
-# Accelerate refactoring and learning by opening source, content and APIs
+# Accelerate learning and refactoring by opening your own source, content and APIs
 # Form strategic partnerships wherever customers also serve as suppliers
 # Invest in frequent small experiments and longitudinal metric analysis
 # Open learning communities across team, stream and organization boundaries.
