@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20160529093948343
+modified: 20160529210454332
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
@@ -12,8 +12,8 @@ XSCALE practices are fully compatible with {{Spotify}}, {{SAFe}}, {{LeSS}}, {{Ne
 
 """
 [[e|Extropy]]''X''[[ponential|Extropy]] growth by measuring [[Rates of ROI|ROROI]], [[Leapfrogging]] and [[Stacking the S-curves]].
-&nbsp;&nbsp;''S''[[imple|Simple Design]] design to the elegance of minimum. Not look and feel; how it works. {{YAGNI}}.
-&nbsp;&nbsp;''C''[[ontinuous|Continuous Adaptation]] Adaptation of organization to product to market. [[BPP|Product Management]], [[BDD|Behavior Driven Development]] and [[CD|Continuous Delivery]].
+&nbsp;&nbsp;''S''[[imple|Simple Design]] design to the elegance of minimum. Not look and feel; how it works.
+&nbsp;&nbsp;''C''[[ontinuous|Continuous Adaptation]] Adaptation of organization to product to market. {{YAGNI}}, [[BDD|Behavior Driven Development]] and [[CD|Continuous Delivery]].
 &nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-managing, self-designing teams + [[Leadership as a Service]].
 &nbsp;&nbsp;''L''[[earning|Learning]]: [[triple loop|Learning]]. High cadence metrics, Lean [[UX|Lean User Experience]]/[[SU|Lean Startup]], [[Hack Days]], [[Open Spaces]] ...
 &nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: mutual benefit via [[Whole Board Thinking]] and [[Consensus Decision-Making]]

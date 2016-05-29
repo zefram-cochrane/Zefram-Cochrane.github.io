@@ -1,5 +1,5 @@
 created: 20151227070031841
-modified: 20160104211205938
+modified: 20160529210553450
 tags: 
 title: Whole Board Thinking
 tmap.id: 8e927e14-83a9-4048-a3d6-ad9c0041b392
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 ''Whole Board Thinking'' is a method of {{Systems Thinking}} that involves iteratively figuring out which decision is the most important one to make next.
 
 # Integrate the latest metric and analytic information you've received into your maps of the market, of your organization, of your product, and/or of your design
-# Considering this entire problem space breadth-first, determine which broad region of it is most fertile for development. This may be the hottest fire to fight, but often it's a region that hasn't been developed at all, where you have no market yet, no organization, no product, and/or no design.
+# Considering this entire problem space [[breadth-first|Breadth-first Product Planning]], determine which broad region of it is most fertile for development. This may be the hottest fire to fight, but often it's a region that hasn't been developed at all, where you have no market yet, no organization, no product, and/or no design.
 # Determine how to quantify the strategic forces that are most influential in this region. Don't be afraid to experiment to obtain better metrics.
 # Actually quantify the strategic forces, don't just go by gut. If you're fighting a fire this may be easy, but consider that even then you may not be quantifying causes, but merely effects.
 # Knowing [[Pattern Language]]s for responding tactically to these forces helps to understand what a good solution might be. But don't just apply a pattern.

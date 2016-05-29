@@ -1,10 +1,10 @@
 created: 20151019061434639
-modified: 20160529094533371
+modified: 20160529205644351
 title: Product Management
 tmap.id: ce318a73-d226-480f-a1f4-6927f6fb1568
 type: text/vnd.tiddlywiki
 
-XSCALE Product Management uses a pattern language called [[Behavioral Product Planning]] to structure a cycle of collaborative [[Whole Board Thinking]] that iteratively, contractively reduces [[Business Driver]]s to changes in [[system behavior]]s. The cycle embodies the [[XSCALE Principles]] in 5 simple [[Practice Pattern|practice pattern language]]s:
+In XSCALE, Product Management uses a pattern language called [[Breadth-first Product Planning]] to structure a cycle of collaborative [[Whole Board Thinking]] that iteratively, contractively reduces [[Business Driver]]s to changes in [[system behavior]]s. The cycle embodies the [[XSCALE Principles]] in 5 simple [[Practice Pattern|practice pattern language]]s:
 
 # [[Impact Mapping]] to derive an [[Epic Landscape]] from [[Product Analytics]] and metric {{Critical Number}}s. 
 # [[Simple Design]] to use science to formalise and break through [[Solution Constraint]]s until the [[Last Responsible Moment]].
