@@ -1,0 +1,11 @@
+created: 20160529010604246
+modified: 20160529011500374
+title: Cultural Debt
+tmap.id: 7b371c86-a364-408b-b3a2-a741e3ad8323
+type: text/vnd.tiddlywiki
+
+By analogy with [[Technical Debt]], cultural debt includes:
+
+* The classic Lean pathologies of [[Muda]], [[Muri]] and [[Mura]] - which we might translate as waste, stress and imbalance
+* [[Organization Smells]], which are [[Antipatterns]] in the structure and dynamics of the organization that cause bottom-line to suffer
+* {{Frame Problem}}s ambient in the memes of the organization - the repeating conversations that inform its way of dealing with all the above.
