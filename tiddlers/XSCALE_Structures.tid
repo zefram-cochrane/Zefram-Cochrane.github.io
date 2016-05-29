@@ -1,0 +1,10 @@
+created: 20160529003431680
+modified: 20160529003448622
+tags: 
+title: XSCALE Structures
+tmap.id: 83541670-2d77-4475-98c7-ecfe88c44894
+type: text/vnd.tiddlywiki
+
+{{$:/structures-image}}
+
+|! [[Principles|XSCALE Principles]] |! [[Practices|XSCALE Practices]] |! [[Metrics|XSCALE Metrics]] |! [[Roles|XSCALE Roles]] |
