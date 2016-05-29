@@ -1,5 +1,5 @@
 created: 20160105095630595
-modified: 20160524042204662
+modified: 20160529015456177
 title: XSCALE Leaders
 tmap.id: 43b2f096-0955-4b3c-8823-32b49f808b9b
 type: text/vnd.tiddlywiki
@@ -14,7 +14,7 @@ These are functional roles that may be mapped onto any job title so long as the 
 
 ''Therefore,''
 
-Every [[Autonomous Squad]] identifies one of its members to play Leader, and to maintain [[Leadership as a Service]] every Leader is supported by a corresponding Coach role. To separate concerns and prevent the [[Project Management anti-pattern]], XSCALE identifies five leadership roles.
+Every [[Autonomous Squad]] identifies one of its members to play Leader, and to maintain [[Leadership as a Service]] every Leader is supported by a corresponding Coach role. To separate concerns and prevent the [[Project Management]] anti-pattern, XSCALE identifies five leadership roles.
 
 * [[Technology|Technology Leader]]
 * [[Product|Product Leader]]
