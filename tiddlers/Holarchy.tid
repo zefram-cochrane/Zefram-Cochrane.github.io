@@ -1,13 +1,13 @@
 created: 20151011082318085
-modified: 20160524034619557
+modified: 20160529113229310
 title: Holarchy
 tmap.id: 5077a70e-82d8-4c84-a062-00dc08391312
 type: text/vnd.tiddlywiki
 
-Holarchy, as opposed to hierarchy, describes the basic organizing principle of natural things. Rather than embodying a tree of {{Command and Control}} relationships, entities at each level of a holarchy each comprise a self-reinforcing pattern of behavioural feedback loops involving the entities at a lower level.
+Holarchy, as opposed to hierarchy, describes the basic organizing principle of natural things. Rather than embodying a tree of {{Command and Control}} relationships, entities at each level of a holarchy comprise a self-reinforcing pattern of feedback loops relating entities at a lower level.
 
-The word was coined by {{Arthur Koestler}}, who gives the example of a holarchy of subatomic particles <-> atoms <-> molecules <-> macromolecules <-> organelles <-> cells <-> tissues <-> organs <-> organisms <-> communities <-> societies. This is to say that an atom is not a container or manager of particles, but a pattern of their interaction that dominates their behaviour over time.
+The word holarchy was coined by {{Arthur Koestler}}, who gives the example of subatomic particles <-> atoms <-> molecules <-> macromolecules <-> organelles <-> cells <-> tissues <-> organs <-> organisms <-> communities <-> societies. This is to say an atom is not a container or manager of particles, but a pattern of their interactions that dominates their behaviour over time.
 
-In the social realm holarchy was most successful in the structure of the {{Iroquois Confederacy}}. XSCALE leverages several Iroquois practices, rendering a holarchy that takes the form humans <-> [[squad|Autonomous Squad]]s <-> [[product|Product Orientation]]s <-> [[chapter|Chapter]]s <-> [[Value Stream]]s <-> [[markets|Impact Mapping]]. The XSCALE practice patterns that maintain these relations are made up of [[Metric Feedback Loop]]s.
+In the social realm, holarchy is reflected in the structure of the {{Iroquois Confederacy}}. XSCALE leverages several Iroquois practices, rendering a [[holarchic portfolio model|XSCALE Structures]] that takes the form humans <-> [[squad|Autonomous Squad]]s <-> [[product|Product Orientation]]s <-> [[chapter|Chapter]]s <-> [[Value Stream]]s <-> [[organizations|Agile Organization]]. The XSCALE practice patterns that maintain these relations are expressed in terms of [[metric feedback loop|XSCALE Metrics]]s.
 
-{{Christopher Alexander}} makes a conclusive case for regarding natural holarchies as overlapping one another rather than existing as mutually exclusive tree structures in his classic paper [[A City Is Not A Tree|http://www.bp.ntu.edu.tw/wp-content/uploads/2011/12/06-Alexander-A-city-is-not-a-tree.pdf]]. Holarchy is the organising principle of Alexander's extremely influential book, [[A Pattern Language|Pattern Language]].
+{{Christopher Alexander}} makes a case for regarding natural holarchies as overlapping one another rather than existing as mutually exclusive tree structures in his classic paper [[A City Is Not A Tree|http://www.bp.ntu.edu.tw/wp-content/uploads/2011/12/06-Alexander-A-city-is-not-a-tree.pdf]]. Holarchy is the organising principle of Alexander's influential book, [[A Pattern Language|Pattern Language]].
