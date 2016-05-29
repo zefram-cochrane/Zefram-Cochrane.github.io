@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20160529071208586
+modified: 20160529093948343
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ XSCALE practices are fully compatible with {{Spotify}}, {{SAFe}}, {{LeSS}}, {{Ne
 &nbsp;&nbsp;''C''[[ontinuous|Continuous Adaptation]] Adaptation of organization to product to market. [[BPP|Product Management]], [[BDD|Behavior Driven Development]] and [[CD|Continuous Delivery]].
 &nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-managing, self-designing teams + [[Leadership as a Service]].
 &nbsp;&nbsp;''L''[[earning|Learning]]: [[triple loop|Learning]]. High cadence metrics, Lean [[UX|Lean User Experience]]/[[SU|Lean Startup]], [[Hack Days]], [[Open Spaces]] ...
-&nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: mutual benefit through [[Whole Board Thinking]] and [[Team Consensus]]
+&nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: mutual benefit via [[Whole Board Thinking]] and [[Consensus Decision-Making]]
 """
 
 |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |! [[Roles|XSCALE Roles]] |
