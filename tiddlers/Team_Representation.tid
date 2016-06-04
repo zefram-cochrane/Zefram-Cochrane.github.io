@@ -1,0 +1,23 @@
+created: 20160604040410621
+modified: 20160604192714016
+tags: 
+title: Team Representation
+tmap.id: 2b96037d-5a71-407c-b0a4-c2b2a02f5900
+type: text/vnd.tiddlywiki
+
+Traditional Taylorist [[Scientific Management]] makes decisions just fine. It delegates authority to a hierarchy of individuals so that two teams need to align their decisions, there's always a clearly identified individual with responsibility for that.
+
+''But,''
+
+The [[Agile Manifesto]] says ''The best architectures, requirements, and designs 
+emerge from self-organizing teams.'' If that's so, we can't compromise on self-organization by leaving the most important decisions to a hierarchy of individuals that don't form a self-organizing team.
+
+All Agile attempts to solve this problem harness the principle of [[Team Representation]]:
+
+* [[Scrum]], [[LeSS]] and [[Nexus]] rely on [[Scrum of Scrums]] to enable team representatives to align decisions through face to face conversation. But SoS doesn't have any very effective ceremonies and the Scrum camps generally fall back on management hierarchies outside definitions of ready/done.
+* [[Holacracy]] boldly empowers teams to redistribute authority for the specific kinds of decision within their mission to roles they're free to modify, share, duplicate or pass between members in a workflow. But Holacracy doesn't standardize these roles, leaving their design to emerge by trial and error. While it may be that highly efficient organizations can emerge this way, there's nothing to prevent [[strange loops|https://en.wikipedia.org/wiki/Strange_loop]] from evolving and dominating decisions, leading to suboptimal choices. 
+* [[SAFe]] promotes a standardized hierarchy of roles but likewise emphasises that they're functional and need not correspond to positions or pay grades in an organization. Substituting one hierarchy with another, however, doesn't make for self-organization, and many Agile boffins hold that this is merely command-and-control in sheep's clothing.
+* [[Spotify]] revolutionised Agile team alignment by introducing [[Chapter Meeting]]s, which replace SoS with a much higher bandwidth channel. Mechanisms for self-organizing teams to form the leadership of tribes, guilds and executive, however, haven't been described.
+
+The Iroquois paradigm of [[Leadership as a Service]] enables [[Autonomous Squads]] to [[represent|Consensus Decision-Making]] themselves consistently. In combination with [[Continuous Adaptation]] structures it provides a way for multiple squads to align all their decisions through self-organization. Reinforced by observing [[Dunbar limits|Dunbar Number]], this is a key enabler for [[Agile Organization]].
+ 

@@ -1,5 +1,5 @@
 created: 20150807021258524
-modified: 20160529210454332
+modified: 20160604193241465
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
@@ -11,7 +11,7 @@ XSCALE practices are fully compatible with {{Spotify}}, {{SAFe}}, {{LeSS}}, {{Ne
 ''Principles''
 
 """
-[[e|Extropy]]''X''[[ponential|Extropy]] growth by measuring [[Rates of ROI|ROROI]], [[Leapfrogging]] and [[Stacking the S-curves]].
+[[e|Extropy]]''X''[[ponential|Extropy]] growth by measuring [[Rates of ROI|ROROI]], to [[stack|Stacking the S-curves]] and [[disrupt|Disruption]] the growth curves
 &nbsp;&nbsp;''S''[[imple|Simple Design]] design to the elegance of minimum. Not look and feel; how it works.
 &nbsp;&nbsp;''C''[[ontinuous|Continuous Adaptation]] Adaptation of organization to product to market. {{YAGNI}}, [[BDD|Behavior Driven Development]] and [[CD|Continuous Delivery]].
 &nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-managing, self-designing teams + [[Leadership as a Service]].
