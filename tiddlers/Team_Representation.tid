@@ -1,5 +1,5 @@
 created: 20160604040410621
-modified: 20160605001317894
+modified: 20160606004814318
 tags: 
 title: Team Representation
 tmap.id: 2b96037d-5a71-407c-b0a4-c2b2a02f5900
@@ -20,7 +20,7 @@ Most Agile attempts to solve this problem harness the principle of [[Team Repres
 * [[Spotify]] revolutionised Agile team alignment by introducing [[Chapter Meeting]]s, which replace SoS with a much higher bandwidth channel. Mechanisms for self-organizing teams to form the leadership of tribes, guilds and executive, however, haven't been described.
 * Enabling such teams of representatives to achieve [[consensus|Consensus Decision-Making]], XSCALE applies the Iroquois-inspired [[Leadership as a Service]] practice to enable [[Autonomous Squads]] to [[represent|Consensus Decision-Making]] and align decisions consistently. 
 
-The [[XSCALE pattern language|XSCALE Structures]] adds [[Team Representation]] at [[Product]]/program and [[Value Stream]] levels in a pattern of [[Continuous Adaptation]]. The same techniques work well in [[Guild Meeting]]s and even [[Open Space]]s in the mode of a [[Condolence Council]].
+The [[XSCALE pattern language|XSCALE Structures]] adds [[Team Representation]] at [[Value Stream]] and [[Portfolio]] levels in a pattern of [[Continuous Adaptation]]. The same techniques work well in [[Guild Meeting]]s and even [[Open Space]]s in the mode of a [[Condolence Council]].
 
 Together these techniques enable [[Holarchy]] to scale to the [[Dunbar limits|Dunbar Number]], assuring decisions consistently represent all team concerns while still guaranteeing they're made in an accountable and timely manner.
  
