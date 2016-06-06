@@ -1,23 +1,26 @@
 created: 20160604040410621
-modified: 20160604192714016
+modified: 20160605001317894
 tags: 
 title: Team Representation
 tmap.id: 2b96037d-5a71-407c-b0a4-c2b2a02f5900
 type: text/vnd.tiddlywiki
 
-Traditional Taylorist [[Scientific Management]] makes decisions just fine. It delegates authority to a hierarchy of individuals so that two teams need to align their decisions, there's always a clearly identified individual with responsibility for that.
+Traditional Taylorist [[Scientific Management]] makes decisions just fine. It delegates authority to a hierarchy of individuals so that when two teams need to align their decisions, there's always a clearly identified individual to make and maintain the decision.
 
 ''But,''
 
 The [[Agile Manifesto]] says ''The best architectures, requirements, and designs 
-emerge from self-organizing teams.'' If that's so, we can't compromise on self-organization by leaving the most important decisions to a hierarchy of individuals that don't form a self-organizing team.
+emerge from self-organizing teams.'' We can't compromise self-organization by leaving decisions to a hierarchy that doesn't form a self-organizing team.
 
-All Agile attempts to solve this problem harness the principle of [[Team Representation]]:
+Most Agile attempts to solve this problem harness the principle of [[Team Representation]], sending representatives along to a high cadence meeting to align team activities continuously:
 
-* [[Scrum]], [[LeSS]] and [[Nexus]] rely on [[Scrum of Scrums]] to enable team representatives to align decisions through face to face conversation. But SoS doesn't have any very effective ceremonies and the Scrum camps generally fall back on management hierarchies outside definitions of ready/done.
-* [[Holacracy]] boldly empowers teams to redistribute authority for the specific kinds of decision within their mission to roles they're free to modify, share, duplicate or pass between members in a workflow. But Holacracy doesn't standardize these roles, leaving their design to emerge by trial and error. While it may be that highly efficient organizations can emerge this way, there's nothing to prevent [[strange loops|https://en.wikipedia.org/wiki/Strange_loop]] from evolving and dominating decisions, leading to suboptimal choices. 
-* [[SAFe]] promotes a standardized hierarchy of roles but likewise emphasises that they're functional and need not correspond to positions or pay grades in an organization. Substituting one hierarchy with another, however, doesn't make for self-organization, and many Agile boffins hold that this is merely command-and-control in sheep's clothing.
+* [[Scrum]], [[LeSS]] and [[Nexus]] rely on [[Scrum of Scrums]] to enable team representatives to align through face to face conversation. But [[SoS lacks ceremony|https://www.scrum.org/Blog/ArtMID/1765/ArticleID/12/Resurrecting-the-Much-Maligned-Scrum-of-Scrums]] and the Scrum camps generally fall back on management hierarchies outside definitions of ready/done.
+* [[Holacracy]] boldly empowers teams to redistribute authority for the specific kinds of decision within their mission to roles they're free to modify, share, duplicate or pass between members in a workflow. But Holacracy doesn't standardize these roles, leaving their design to emerge by trial and error. While it may be that efficient organizations can emerge this way, a laissez-faire approach to prioritisation of bottlenecks and the possibility of [[strange loops|https://en.wikipedia.org/wiki/Strange_loop]] may generate persistent cycles of tension. 
+* [[SAFe]] promotes a standardized hierarchy of roles and emphasises that they're functional and need not correspond to position or pay grade in an organization. Substituting one hierarchy with another, however, doesn't make for self-organization, and many Agilists hold that [[this is command-and-control in sheep's clothing|http://ronjeffries.com/xprog/articles/safe-good-but-not-good-enough/]].
 * [[Spotify]] revolutionised Agile team alignment by introducing [[Chapter Meeting]]s, which replace SoS with a much higher bandwidth channel. Mechanisms for self-organizing teams to form the leadership of tribes, guilds and executive, however, haven't been described.
+* Enabling such teams of representatives to achieve [[consensus|Consensus Decision-Making]], XSCALE applies the Iroquois-inspired [[Leadership as a Service]] practice to enable [[Autonomous Squads]] to [[represent|Consensus Decision-Making]] and align decisions consistently. 
 
-The Iroquois paradigm of [[Leadership as a Service]] enables [[Autonomous Squads]] to [[represent|Consensus Decision-Making]] themselves consistently. In combination with [[Continuous Adaptation]] structures it provides a way for multiple squads to align all their decisions through self-organization. Reinforced by observing [[Dunbar limits|Dunbar Number]], this is a key enabler for [[Agile Organization]].
+The [[XSCALE pattern language|XSCALE Structures]] adds [[Team Representation]] at [[Product]]/program and [[Value Stream]] levels in a pattern of [[Continuous Adaptation]]. The same techniques work well in [[Guild Meeting]]s and even [[Open Space]]s in the mode of a [[Condolence Council]].
+
+Together these techniques enable [[Holarchy]] to scale to the [[Dunbar limits|Dunbar Number]], assuring decisions consistently represent all team concerns while still guaranteeing they're made in an accountable and timely manner.
  

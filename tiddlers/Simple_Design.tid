@@ -1,5 +1,5 @@
 created: 20151108195553972
-modified: 20160524012159826
+modified: 20160605233125057
 title: Simple Design
 tmap.id: ff1175cf-14d4-4982-af0d-5d54b30452fa
 type: text/vnd.tiddlywiki
@@ -34,7 +34,7 @@ Simple Design is a tight iterative loop for learning solution constraints and ev
 #* Sprint planning applies [[Behavior Mapping]] and [[Business Bingo]] to determine priorities for the design stories. Stories that are invalidated by known constraints may be removed from the backlog without reaching "done".
 #* Sprint reviews add, modify or remove solution constraints as [[Theme]]s based on learnings, They also assess whether the [[last responsible moment]] has arrived to settle on a design.
 #* Sprint retros focus on rate of learning and enable participants to put new ideas for different design options on the table so long as they at least satisfy the Epic's starter set of constraints.
-# Some design choices must be ratified by the [[Stream Squad]]:
-#* If the [[last responsible moment]] has come and there are still no acceptable design options, the [[Stream Squad]] will have to do some [[Release Refactoring]], possibly deprioritising the corresponding Epic and repurposing the [[Product Squad]]. 
-#* If subject matter expertise in solution space, design space or problem space is lacking, the matter should be raised with the [[Stream Squad]]
-#* The [[Stream Squad]] should also be notified if the preferred design option can't integrate with present architectural norms or the portfolio's [[Non-Functional Envelope]]. Unless this is the case, full responsibility for approving the design rests autonomously with the [[Product Squad]].
+# Some design choices must be ratified by the [[Portfolio Squad]]:
+#* If the [[last responsible moment]] has come and there are still no acceptable design options, the [[Portfolio Squad]] will have to do some [[Release Refactoring]], possibly deprioritising the corresponding Epic and repurposing the [[Product Squad]]. 
+#* If subject matter expertise in solution space, design space or problem space is lacking, the matter should be raised with the [[Portfolio Squad]]
+#* The [[Portfolio Squad]] should also be notified if the preferred design option can't integrate with present architectural norms or the portfolio's [[Non-Functional Envelope]]. Unless this is the case, full responsibility for approving the design rests autonomously with the [[Product Squad]].

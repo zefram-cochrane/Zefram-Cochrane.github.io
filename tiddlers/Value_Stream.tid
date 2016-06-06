@@ -1,9 +1,15 @@
 created: 20151013055616740
-modified: 20160524035046176
+modified: 20160606003656116
 title: Value Stream
 tmap.id: 6010de3e-67cd-4318-afd7-b48d41e38b13
 type: text/vnd.tiddlywiki
 
-A [[holarchy|Holarchy]] of [[squads|Autonomous Squad]] and [[chapters|Chapter]] that generates a set of products is called a value stream. The usage is similar to {{SAFe}} portfolios/value streams or {{Spotify}} / {{Iroquois Confederacy}} tribes. 
+What do you call a stream of [[squads|Autonomous Squad]] generating [[Feature]]s of value to a subset of the customers of a [[Portfolio]]?
 
-Like tribes, XSCALE value streams are limited in size by the [[Dunbar Number]]. Each [[continuously adapts|Continuous Adaptation]] its configuration of squads and chapters to its [[release plans|Release Plan]] and business objectives via a [[Stream Squad]]. 
+* [[SAFe]] originally called this a program and prescribed its structure using a hierarchy of roles. It eventually split these roles across program and value stream levels.
+* Most alternatives to SAFe dispense with fixed roles in favour of cross-functional [[Feature Team]]s wher the [[RACI]] is taken up collaboratively by team members as they see fit to improve their productivity.
+* Lean has consistently described such things as [[Value Stream]]s and while programs may have some meaning in some Lean organizations, they're not a Lean word.
+
+''Therefore,''
+
+XSCALE emphasises the use of breadth-first [[Product Definition|Product Squad]]s and depth-first [[Feature Delivery|Delivery Squad]] squads collaborating to deliver products through a [[System Squad]], where a [[System Squad]] takes accountability for decoupling testing and deployment dependencies between these [[Delivery Squad]]s using one of the [[Release Flow]]s. We generally refer to such an arrangement as a [[Value Stream]].

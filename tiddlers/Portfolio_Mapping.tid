@@ -1,5 +1,5 @@
 created: 20151013085605792
-modified: 20151015024020550
+modified: 20160605232226707
 tags: 
 title: Portfolio Mapping
 tmap.id: 596b30a0-5d0a-464b-8a50-89f51547ef9f
@@ -21,7 +21,7 @@ As XSCALE emphasises autonomy at squad and stream levels, metric and analytic fe
 
 * Now trace each theme in the matrix back to the subject matter expertise needed to cover that theme and count the number of [[Feature Points]] worth of that expertise actually available. This generates a second number - the total expertise available per theme. Call that the ''Available Resource''. In a portfolio with plenty of database architects, for example, the Available Resource in a theme "schema changes" would exceed its Required Resource. If the portfolio has too few DBAs, Required will be greater than Available.
 
-* Themes where there's insufficient Available Resource are solution constraints that represent limits on the portfolio's ability to actually deliver the feature set planned by [[Release Refactoring]]. These constraints represent a concrete target for [[Human Resources]] to address by hiring or training. But those processes take time, so in the meanwhile the [[Stream Squad]] should conduct a new round of [[Release Refactoring]] that takes resource constraints per theme into account.
+* Themes where there's insufficient Available Resource are solution constraints that represent limits on the portfolio's ability to actually deliver the feature set planned by [[Release Refactoring]]. These constraints represent a concrete target for [[Human Resources]] to address by hiring or training. But those processes take time, so in the meanwhile the [[Portfolio Squad]] should conduct a new round of [[Release Refactoring]] that takes resource constraints per theme into account.
 
 * Once these resource constraints have been eliminated, the least available resources are used as the seeds of an arrangement of squads. It is, however, possible that even when there's no individual resource constraint, there are cycles of theme dependency between features that would induce similar dependency cycles between squads. The simplest method to deal with this is to factor out [[Technical Feature]]s that encapsulate the cycle, and tailor a squad that specifically deals with it.
 

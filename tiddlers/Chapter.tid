@@ -1,5 +1,5 @@
 created: 20151011043749025
-modified: 20160112213747875
+modified: 20160605232921404
 title: Chapter
 tmap.id: c527ba75-d3cf-4710-af3f-e5a0c67556f6
 type: text/vnd.tiddlywiki
@@ -12,6 +12,6 @@ type: text/vnd.tiddlywiki
 
 ''Therefore,''
 
-XSCALE adopts the {{Spotify}} practice of ''Chapter Meetings''. Optimum timing for these is immediately prior to weekly Squad [[Retrospectives]]. This serves both to ensure that squads are never starved of competence, and that each retrospective is fully informed by [[Whole Board Thinking]] about the experiences of the other squads in their [[Value Stream]].
+XSCALE adopts the {{Spotify}} practice of ''Chapter Meetings''. Optimum timing for these is immediately prior to weekly Squad [[Retrospectives]]. This serves both to ensure that squads are never starved of competence, and that each retrospective is fully informed by [[Whole Board Thinking]] about the experiences of the other squads in their [[Portfolio]].
 
-Each Chapter Meeting also selects a [[Chapter Leader]] to participated in the [[Stream Squad]] meeting, which is held simultaneously with the squad retros.
+Each Chapter Meeting also selects a [[Chapter Leader]] to participated in the [[Portfolio Squad]] meeting, which may be held simultaneously with the squad retros.
