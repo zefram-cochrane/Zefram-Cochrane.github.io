@@ -1,5 +1,5 @@
 created: 20160524060741627
-modified: 20160528003652504
+modified: 20160606073441625
 title: Ecosystem
 tmap.id: 4d1aee44-6ea8-4406-b8a7-a3b9e4a24b42
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ To explain the Ecosystem principle, we start with the word itself. Ecosystem der
 
 The [[XSCALE Principles]] correspond to aspects of physical ecosystems. Upon disruption, a new ecosystem develops at an [[exponential|Extropy]] rate, co-evolving [[simple|Simple Design]] designs using [[continous|Continuous Adaptation]] feedback to self-organize [[autonomously|Autonomous Squad]] until it [[learns|Learning]] a new [[equilibrium|Nash Equilibrium]].
 
-The Ecosystem principle completes this analogy between [[Agile Organization]] and physical ecosystem. To place the need for such a principle in a historical context, where traditional organizations are legally and morally obliged to prioritize value to shareholders, the original {{Agile Manifesto}} opposed this with its first principle:
+The Ecosystem principle completes this analogy between [[Agile Organization]] and physical ecosystem. To place the need for such a principle in a historical context, where traditional organizations are legally and morally obliged to prioritize value to shareholders, the original [[Agile Manifesto]] opposed this with its first principle:
 
 > Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 

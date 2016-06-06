@@ -1,0 +1,11 @@
+created: 20160606010722593
+modified: 20160606011108963
+title: Acceleration
+tmap.id: 21fde301-4146-4846-9143-ce2e8503e0e6
+type: text/vnd.tiddlywiki
+
+A workflow state in the [[Seven Samurai]] change pattern involving 
+
+* instrumenting with goal-appropriate throughput metrics
+* iteratively removing throughput constraints
+* [[refactoring|Refactor Mercilessly]] to simplify workflow and organization. 

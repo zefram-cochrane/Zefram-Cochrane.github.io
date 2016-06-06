@@ -1,14 +1,14 @@
 created: 20151013075743752
-modified: 20160524041431549
+modified: 20160606011215415
 title: Guild Meeting
 tmap.id: 957dbfdc-9332-49a7-8dff-623f7fbd4999
 type: text/vnd.tiddlywiki
 
 * Large organisations are best factored into multiple autonomous [[Value Stream]]s, each respecting the [[Dunbar Number]] as a size limit.
 
-* These streams must align their organisation's overall business strategy, partnerships, [[Service Agreement]]s, market positioning and technical choices while maintaining their respective [[autonomy|Autonomy]].
+* These streams must align their organization's overall business strategy, partnerships, [[Service Agreement]]s, market positioning and technical choices while maintaining their respective [[autonomy|Autonomy]].
 
-* {{Command and Control}} hierarchies, scrums of scrums of scrums, and similar centralised format unnecessarily overload conversations and conflate concerns. Specific learnings and emergencies relevant to the whole organisation will still be restricted to specific communities of interest.
+* {{Command and Control}} hierarchies, scrums of scrums of scrums, and similar centralised format unnecessarily overload conversations and conflate concerns. Specific learnings and emergencies relevant to the whole organization will still be restricted to specific communities of interest.
 
 ''Therefore,''
 
