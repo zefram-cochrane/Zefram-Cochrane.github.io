@@ -1,5 +1,5 @@
 created: 20150809220300027
-modified: 20160606010055096
+modified: 20160609065538429
 tags: 
 title: $:/structures-image
 tmap.id: f310f480-85d4-47cc-8163-8f674b288622
@@ -9,6 +9,7 @@ type: text/vnd.tiddlywiki
 
 <map name="structuremap">
 <area shape="rect" coords="360,143,593,201" title="Guild Meetings" href="#Guild%20Meeting" />
+<area shape="rect" coords="1,1,196,24" title="Value Streams" href="#Value%20Stream" />
 <area shape="rect" coords="360,202,594,231" title="Leadership Guild" href="#Leadership%20Guild" />
 <area shape="rect" coords="357,231,594,258" title="Coaching Guild" href="#Coaching%20Guild" />
 <area shape="rect" coords="330,3,359,415" title="Portfolio Squad" href="#Portfolio%20Squad" />
