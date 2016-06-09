@@ -1,5 +1,5 @@
 created: 20151013055616740
-modified: 20160606003656116
+modified: 20160609072819437
 title: Value Stream
 tmap.id: 6010de3e-67cd-4318-afd7-b48d41e38b13
 type: text/vnd.tiddlywiki
@@ -7,9 +7,9 @@ type: text/vnd.tiddlywiki
 What do you call a stream of [[squads|Autonomous Squad]] generating [[Feature]]s of value to a subset of the customers of a [[Portfolio]]?
 
 * [[SAFe]] originally called this a program and prescribed its structure using a hierarchy of roles. It eventually split these roles across program and value stream levels.
-* Most alternatives to SAFe dispense with fixed roles in favour of cross-functional [[Feature Team]]s wher the [[RACI]] is taken up collaboratively by team members as they see fit to improve their productivity.
+* Most alternatives to SAFe dispense with fixed roles in favour of cross-functional [[Feature Team|Feature Squad]]s where the [[RACI]] is taken up collaboratively by team members as they see fit to improve their productivity.
 * Lean has consistently described such things as [[Value Stream]]s and while programs may have some meaning in some Lean organizations, they're not a Lean word.
 
 ''Therefore,''
 
-XSCALE emphasises the use of breadth-first [[Product Definition|Product Squad]]s and depth-first [[Feature Delivery|Delivery Squad]] squads collaborating to deliver products through a [[System Squad]], where a [[System Squad]] takes accountability for decoupling testing and deployment dependencies between these [[Delivery Squad]]s using one of the [[Release Flow]]s. We generally refer to such an arrangement as a [[Value Stream]].
+XSCALE emphasises the use of breadth-first [[Product Definition|Product Squad]]s and depth-first [[Feature Delivery|Feature Squad]] squads collaborating to deliver products through a [[System Squad]], where a [[System Squad]] takes accountability for decoupling testing and deployment dependencies between these [[Feature Squad]]s using one of the [[Release Flow]]s. We generally refer to such an arrangement as a [[Value Stream]].

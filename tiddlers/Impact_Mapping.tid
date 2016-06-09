@@ -1,5 +1,5 @@
 created: 20151013040922475
-modified: 20151221065058598
+modified: 20160609072540038
 title: Impact Mapping
 tmap.id: ecf624e0-0f5e-42a6-af7c-6611e0808ede
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ There are problems in the way product roadmaps are usually specified.
 
 * [[Product Owner]]s and stakeholders may regard creative intuition as more useful than [[Product Analytics]]. They may be right about that too - customers seldom know what they want until they see a good [[design|Set Based Design]] for it. 
 
-* On the other hand, [[Business Case]]s that don't optimise [[Product-Market Fit]] generate products that don't fit the market. Building the wrong thing, no matter how excellent the quality and productivity of [[delivery|Delivery Squad]], will result in negative [[ROI]]. Maintaining the wrong thing will reduce the [[ROROI]] too. Relying on intuition may also give rise to the [[all or nothing anti-pattern]]..
+* On the other hand, [[Business Case]]s that don't optimise [[Product-Market Fit]] generate products that don't fit the market. Building the wrong thing, no matter how excellent the quality and productivity of [[delivery|Feature Squad]], will result in negative [[ROI]]. Maintaining the wrong thing will reduce the [[ROROI]] too. Relying on intuition may also give rise to the [[all or nothing anti-pattern]]..
 
 * Many analysts do not think [[Breadth First]], and thereby generate requirements that constitute [[Frame Problems]], [[Half Solutions]] and local maxima in the landscape of business value. This isn't their fault; [[Whole Board Thinking]] isn't commonly taught to analysts and most people don't test their frame of reference frequently enough to prevent these problems.
 

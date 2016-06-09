@@ -1,5 +1,5 @@
 created: 20151023025729999
-modified: 20160606073518352
+modified: 20160609072430855
 title: Product Leader
 tmap.id: 59289d3f-aa40-4693-a8bd-32d4854911b7
 type: text/vnd.tiddlywiki
@@ -22,4 +22,4 @@ The ''Product Leader'' works with the [[Product Squad]] through influence rather
 
 This way the PL does more than simply provide [[Leadership as a Service]] to their squad. Throughout all XSCALE [[Product Management]] practices they bring a pro-active perspective of pro-actively working to leapfrog the competition, to find new revenue models, to open unplumbed market segments, to deepen user experience and leverage new technologies. They don't try to own the product like a bureaucrat; they try to boldly lead the market like an entrepreneur.
 
-The product leader also works closely with [[Delivery Squad]]s, providing the traditional Scrum PO delivery decisions. Answering [[Delivery Squad]] questions about features and stories, defining BDD [[Acceptance Criteria]] for features, splitting out stories with solid [[INVEST]] properties, diligently grooming the [[Squad Backlog]] and above all facilitating real [[Customer Review]] feedback.
+The product leader also works closely with [[Feature Squad]]s, providing the traditional Scrum PO delivery decisions. Answering [[Feature Squad]] questions about features and stories, defining BDD [[Acceptance Criteria]] for features, splitting out stories with solid [[INVEST]] properties, diligently grooming the [[Squad Backlog]] and above all facilitating real [[Customer Review]] feedback.

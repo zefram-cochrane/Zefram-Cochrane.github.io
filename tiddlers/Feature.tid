@@ -1,5 +1,5 @@
 created: 20160125050522162
-modified: 20160126222611468
+modified: 20160609072252080
 title: Feature
 tmap.id: 1cfc4b52-fdb6-4710-9588-4d81ef345d93
 type: text/vnd.tiddlywiki
@@ -14,4 +14,4 @@ We define a Feature as per [[BDD|Behavior Driven Development]] with some added c
 
 # It must satisfy the [[INVEST]] properties, taking the S as "Similar-sized" rather than "Small".
 # It must improve a [[Critical Number]] for an internal or external customer within the scope of a [[Release]]
-# It must be no larger than can be delivered by a single [[Delivery Squad]] within the SAFe limit - meaning 12 weeks to complete [[FIT|Feature Integration Testing]] and [[SIT|System Integration Testing]].
+# It must be no larger than can be delivered by a single [[Feature Squad]] within a [[Product Increment]] - SAFe suggests 12 weeks - to complete [[FIT|Feature Integration Testing]] and [[SIT|System Integration Testing]].

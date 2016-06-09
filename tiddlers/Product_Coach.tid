@@ -1,5 +1,5 @@
 created: 20151025025853144
-modified: 20160103145023461
+modified: 20160609072037269
 title: Product Coach
 tmap.id: 57d5153d-3ad7-4adc-a4a9-b8f0509cc7c0
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ There's nothing wrong with the [[Scrum Ceremonies]]. They've proven themselves a
 
 We extend the role of Scrum Master into the realm of [[Product Management]] by re-designating it a [[Product Coach]] following the proven [[XP division of labor]]. Rotating responsibility for facilitating Agile ceremonies among squad members requires only the occasional suggestion by a [[Product Coach]] to run smooth, and this way the squad experiences the empowering reality that it is fully capable and fully trusted to organise its own work for itself. Meanwhile the [[Product Coach]] functions as a fully trusted peer of a [[Product Owner]].
 
-[[Product Coach]]es may or may not also possess the skills of a [[Technology Coach]]. If not, regular interaction of the [[Delivery Squad]] with a competent tech coach is essential to avoid the generation of [[Technical Debt]] that will inevitably slow delivery to a crawl.
+[[Product Coach]]es may or may not also possess the skills of a [[DevOps Coach]]. If not, regular interaction of [[Feature Squad]]s with a competent tech coach is essential to avoid the generation of [[Technical Debt]] that will inevitably slow delivery to a crawl.

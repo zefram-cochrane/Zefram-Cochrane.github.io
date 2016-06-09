@@ -1,5 +1,5 @@
 created: 20151227210220847
-modified: 20160524042142078
+modified: 20160609072645538
 title: XSCALE Coaches
 tmap.id: 1c3e9af8-dae2-4413-9b89-210107a1bad2
 type: text/vnd.tiddlywiki
@@ -13,9 +13,9 @@ So the confusion induced by calling all these competencies "Agile Coach" can res
 XSCALE [[certifies|Certificates]] coaches in four different skill-sets:
 
 ; [[Technology Coach]]
-: A [[Servant Leader|Leadership as a Service]] for [[Delivery Squad]]s and [[DevOps Squads|DevOps]]. Possesses an technical architecture and tools competence suited to advising definitions, selections and configurations of [[Agile Architecture]], [[Development Tools]], [[Versioning Tools]], [[Work Management Tools]], [[Knowledge Management Tools]], [[Technology Path]] and above all [[Quality Automation]]. Without this competence, [[Technical Debt]] inevitably builds up until delivery grinds its way into [[Hotfix Hell]].
+: A [[Servant Leader|Leadership as a Service]] for [[Feature Squad]]s and [[DevOps Squads|DevOps]]. Possesses an technical architecture and tools competence suited to advising definitions, selections and configurations of [[Agile Architecture]], [[Development Tools]], [[Versioning Tools]], [[Work Management Tools]], [[Knowledge Management Tools]], [[Technology Path]] and above all [[Quality Automation]]. Without this competence, [[Technical Debt]] inevitably builds up until delivery grinds its way into [[Hotfix Hell]].
 ; [[Product Coach]]
-: A remedy to the [[Scrum-Master antipattern]]. A product coach is a [[Servant Leader|Leadership as a Service]] focused on the definition and delivery of products. Nurturing and maintaining fully autonomous [[Product Squad]]s and [[Delivery Squad]]s that don't need someone to play nanny, the product coach is a direct peer of the [[Product Leader]]. Where the leader takes ultimate responsibility for [[Product-Market Fit]], the coach takes it for squad [[Productivity]].
+: A remedy to the [[Scrum-Master antipattern]]. A product coach is a [[Servant Leader|Leadership as a Service]] focused on the definition and delivery of products. Nurturing and maintaining fully autonomous [[Product Squad]]s and [[Feature Squad]]s that don't need someone to play nanny, the product coach is a direct peer of the [[Product Leader]]. Where the leader takes ultimate responsibility for [[Product-Market Fit]], the coach takes it for squad [[Productivity]].
 ; [[Stream Coach]]
 : Similar to the product coach except that their "product" is the arrangement and interrelationships of all squads across a value stream. Skilled in communications with senior management, product and technology coaches, tactical HR and the XSCALE [[Change Management]] patterns, the stream coach is a peer to the [[stream Leader]] accountable for improving [[Productivity]] and [[Acceleration]] of all squads and chapters across their stream. 
 ; [[Transformation Coach]]
