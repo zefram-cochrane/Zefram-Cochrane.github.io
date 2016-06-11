@@ -1,22 +1,28 @@
 created: 20151229004506838
-modified: 20160610084340756
+modified: 20160611074918015
 title: Leadership as a Service
 tmap.id: 3ff8145d-7266-45cb-80a7-1455b6245e08
 type: text/vnd.tiddlywiki
 
-* Communication is only possible between peers. When a leader does not serve their team, but instead requires its service, they naturally restrict the ability of team members to communicate freely with them, and with each other. 
+>Accurate communication only happens between equals -- [[Robert Anton Wilson|https://en.wikipedia.org/wiki/Celine%27s_laws#Celine.27s_Second_Law]]
 
-* As the responsibilities of leadership may overwhelm an individual, leaders delegate accountability to subordinates. This results in chains of {{Command and Control}} that prevent a team from responding autonomously to its circumstances, thereby generating politics, stress and waste.
+When a leader doesn't serve their team, but instead requires service, team members can't communicate accurately with the leader or with each other. As the responsibilities of leadership may overwhelm an individual, leaders delegate accountability to subordinates via [[Command and Control]], which further restricts teams from responding autonomously to change and so generates stress and waste.
 
-* "Power corrupts; absolute power corrupts absolutely". This isn't because humans are weak, but because they are naturally disposed to ambition. Teams can't do without leadership, but the most enlightened civilisations in our history restricted their ambition through systems of checks and balances. The simplest example is the Iroquois [[Fire Keepers' Consensus]].
+> Power tends to corrupt, and absolute power corrupts absolutely. Great men are almost always bad men. -- [[Lord Acton|http://www.sciencedirect.com/science/article/pii/S1048984314000800]]
+
+The most enlightened civilisations in history restricted their ambition through systems of checks and balances. The simplest example is the Iroquois [[Fire Keepers' Consensus]].
 
 ''Therefore,''
 
-# Leadership is only supplied when the team requires it. So we split decision-making responsibilities between two roles - here we call them Coach and Leader. A person filling both these roles should divest one or the other.
-# If the rest of the team are unanimous about a decision, the Leader doesn’t get to decide. The Leader is obliged to use influence rather than authority to try to move a unanimous team.
-# If the Coach judges the others won't reach a decision by the [[Last Responsible Moment]], the Coach asks the Leader to decide. This assures that a decision will always be made in a timely manner.
-# The Leader role can change the Coach role. In turn, if they are unanimous, the team can change its Leader. This guarantees that neither Coach nor Leader dominate decisions.
-# Where a team is obliged to report into a Manager, the Leader reports its decision as advice. A wise Manager will usually take their team's advice.
-# Servant leaders only provide leadership to their own team - for the sake of autonomy they cannot make decisions for other teams. 
+Supply leadership only when a team requires it to achieve a decision in a timely manner. To assure this:
+
+# Split decision-making responsibilities between two roles. Here we'll call them Coach and Leader.
+# If the rest of the team are unanimous about a decision, the Leader role doesn’t get to decide.
+# Only when the Coach judges the team can't reach a decision before the [[Last Responsible Moment]], the Coach asks the Leader to decide.
+# The Leader role can reassing the Coach role. 
+# In turn, if they are unanimous, the team can change its Leader.
+# The leader only provides leadership to their own team - for the sake of [[autonomy|Autonomous Squad]] they cannot overrule decisions of other teams, which are fully capable of [[representing themselves|Team Representation]]
+
+Where a team is obliged to report into a Manager, the decision only constitutes advice from the team. A wise Manager will welcome their team's advice. Where teams composit in a [[Holarchy]], there need be no intermediary managers.
 
 Where an agreement must span more than one team, and disagreement or dependency cycles make this inefficient, teams align by [[Team Representation]]. To keep alignment relevant to current circumstances, they regularly [[Brighten The Chain]]. Real servant leadership is more proactive than simple checks and balances. Its essence is facilitating [[Consensus Decision-Making]].
