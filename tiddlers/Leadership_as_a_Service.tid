@@ -1,16 +1,16 @@
 created: 20151229004506838
-modified: 20160611074918015
+modified: 20160611080537037
 title: Leadership as a Service
 tmap.id: 3ff8145d-7266-45cb-80a7-1455b6245e08
 type: text/vnd.tiddlywiki
 
->Accurate communication only happens between equals -- [[Robert Anton Wilson|https://en.wikipedia.org/wiki/Celine%27s_laws#Celine.27s_Second_Law]]
-
-When a leader doesn't serve their team, but instead requires service, team members can't communicate accurately with the leader or with each other. As the responsibilities of leadership may overwhelm an individual, leaders delegate accountability to subordinates via [[Command and Control]], which further restricts teams from responding autonomously to change and so generates stress and waste.
-
 > Power tends to corrupt, and absolute power corrupts absolutely. Great men are almost always bad men. -- [[Lord Acton|http://www.sciencedirect.com/science/article/pii/S1048984314000800]]
 
 The most enlightened civilisations in history restricted their ambition through systems of checks and balances. The simplest example is the Iroquois [[Fire Keepers' Consensus]].
+
+>Accurate communication only happens between equals -- [[Robert Anton Wilson|https://en.wikipedia.org/wiki/Celine%27s_laws#Celine.27s_Second_Law]]
+
+When a leader doesn't serve their team, but instead requires service, team members can't communicate accurately with the leader or with each other. As the responsibilities of leadership may overwhelm an individual, leaders are obliged to delegate accountability to subordinates via [[Command and Control]], which restricts teams from responding autonomously to change and so generates [[Cultural Debt]].
 
 ''Therefore,''
 
@@ -19,9 +19,9 @@ Supply leadership only when a team requires it to achieve a decision in a timely
 # Split decision-making responsibilities between two roles. Here we'll call them Coach and Leader.
 # If the rest of the team are unanimous about a decision, the Leader role doesn’t get to decide.
 # Only when the Coach judges the team can't reach a decision before the [[Last Responsible Moment]], the Coach asks the Leader to decide.
-# The Leader role can reassing the Coach role. 
-# In turn, if they are unanimous, the team can change its Leader.
-# The leader only provides leadership to their own team - for the sake of [[autonomy|Autonomous Squad]] they cannot overrule decisions of other teams, which are fully capable of [[representing themselves|Team Representation]]
+# The Leader role can reassign the Coach role. 
+# In turn, so long as they are unanimous, the team can reassign the Leader role.
+# The Leader only provides leadership to their own team - for the sake of [[autonomy|Autonomous Squad]] they cannot overrule decisions of other teams, which are fully capable of [[representing themselves|Team Representation]].
 
 Where a team is obliged to report into a Manager, the decision only constitutes advice from the team. A wise Manager will welcome their team's advice. Where teams composit in a [[Holarchy]], there need be no intermediary managers.
 
