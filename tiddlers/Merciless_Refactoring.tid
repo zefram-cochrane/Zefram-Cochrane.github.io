@@ -1,16 +1,20 @@
 created: 20160526003847920
-modified: 20160526005337765
+modified: 20160612225521021
 tags: 
 title: Merciless Refactoring
 tmap.id: 8da5e56b-6910-43a2-96e3-a0b686458d20
 type: text/vnd.tiddlywiki
 
-[[Ron Jeffries]] explained the idea best [[here|http://c2.com/cgi/wiki?RefactorMercilessly]]. But in XSCALE we don't just mercilessly refactor our code; we do the same to our [[release plans|Release Refactoring]] and our [[teams|Portfolio Mapping]]. If you're not merciless in refactoring, it's amazing how quickly things become 'smelly", no matter how good your plans were to begin with.
+> Adding value by removing that without.
 
-Von Moltke described the need this way:
+As [[Ron Jeffries]] originally explained the idea [[here|http://c2.com/cgi/wiki?RefactorMercilessly]], refactoring is improving the design of a system without changing its behavior. It's the essential design discipline of Agile development without which the maintenance costs of a [[Value Stream]] grow until it must be reworked from scratch.
 
-> No plan survives contact with the enemy.
+Unfortunately, refactoring was completely ignored by [[Scrum]] because including it requires [[Quality Automation]] and [[Shared Ownership]], which Scrum's founders regarded as too [[extreme|XP]] to penetrate the breadth of the market for Agile working. This omission resulted in the universal experience of [[Hotfix Hell]] by Scrum delivery teams, most of which come to believe that that's a normal Agile experience. And this is why all successful Scrum teams wound up including XP practices in their charter. Scrum was just the gateway drug ...
 
-And John Lennon like this:
+The gap also led to a useful reinvention and generalization of quality automation and shared ownership as [[DevOps]] and [[Behavior Driven Development]]. Unfortunately it also led to the odious [[SAFe]] redefinition of "[[refactors|http://www.scaledagileframework.com/refactoring/]]", a kind of technical story that aims to improve non-functionals or pay down technical debt, and which is prioritised against stories with business value. 
 
->Life is what happens while you're busy planning something else.
+SAFe's redefinition is dreadful because of the well proven exponential relationship between technical debt and defect resolution cycle time. That exponential curve means that, without refactoring as a merciless discipline, technical debt always increases until it becomes [[The Bottleneck]]. So [[Hotfix Hell]] is also a normal experience in SAFe. SAFe also leaves refactoring out of its PI process, preferring a "big design up front" approach to release plans an team structures it calls "[[Big Room Planning]]".
+
+''Therefore,''
+
+In XSCALE we don't just mercilessly refactor our code; we do the same to [[system configurations|Automated Configuration Management]], [[release plans|Release Refactoring]] and [[organization|Continuous Adaptation]]. If you're not merciless in refactoring, it's amazing how quickly everything becomes "[[smelly|Cultural Debt]]".
