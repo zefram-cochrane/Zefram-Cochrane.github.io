@@ -1,5 +1,5 @@
 created: 20150807051018491
-modified: 20160529004246713
+modified: 20160619042608505
 title: 3rd Generation Agile
 tmap.id: 658324f5-722e-44a9-b8eb-253f643ed683
 type: text/vnd.tiddlywiki
@@ -7,5 +7,5 @@ type: text/vnd.tiddlywiki
 """
 ''1st generation'' enables teams to self-organize - {{XP}}, {{Scrum}} and {{Kanban}}
 ''2nd generation'' scales Agile for traditional organizations - {{LeSS}}, {{Nexus}}, {{SAFe}} and {{DAD}}
-''3rd generation'' refactors to [[Agile Organization]] - {{Spotify}}, {{Holacracy}} and [[XSCALE|XSCALE Principles]]
+''3rd generation'' refactors to [[Agile Organization]] - [[Spotify]], {{Holacracy}} and [[XSCALE|XSCALE Principles]]
 """
