@@ -1,12 +1,12 @@
 created: 20150807021258524
-modified: 20160606073837518
+modified: 20160619020718486
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
 
 ''XSCALE'' is an acronym for the principles of an [[Agile Organization]]. Also a [[language|Pattern Language]] of best practice for Agile organisations focused on exponential growth. As a method for [[3rd Generation Agile]], XSCALE extends the [[Agile Manifesto]] principles to [[Product Management]], [[Portfolio Management|Continuous Adaptation]], [[Change Management|Self-Organizing Transformation]] and [[Holarchy]].
 
-XSCALE practices are fully compatible with {{Spotify}}, {{SAFe}}, {{LeSS}}, {{Nexus}} and {{DAD}}, and have been applied successfully at scale as a standalone method of generating a completely [[Agile Organization]].
+XSCALE practices are fully compatible with [[Spotify]], {{SAFe}}, {{LeSS}}, {{Nexus}} and {{DAD}}, and have been applied successfully at scale as a standalone method of generating a completely [[Agile Organization]].
 
 ''Principles''
 
