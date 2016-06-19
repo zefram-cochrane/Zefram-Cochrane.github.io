@@ -1,5 +1,5 @@
 created: 20160124204817937
-modified: 20160126084050835
+modified: 20160619020931282
 title: Service Protocol
 tmap.id: 9cc594e8-36ae-47f8-bcd4-fb8769937cb8
 type: text/vnd.tiddlywiki
@@ -18,4 +18,4 @@ A service protocol is an agreement that obliges its parties to provide each othe
 # Service protocols are only binding on the parties that consent to partake in them. Where these parties are themselves teams, decisions to partake in a protocol are arbited by [[Leadership as a Service]].
 # There may be acceptance criteria that limit the circumstances within which parties may enter or exit the protocol.
 # Protocols may inherit other protocols using the normal [[BDD|Behavior Driven Development]] Background statement.
-# A protocol between two parties may be adjusted without involving anyone else simply by [[Brightening The Chain]]. Where disputes around the interpretation of a protocol arise or protocols of general interest are proposed, a [[Condolence Council]] may be arranged to consider the matter using [[Whole Board Thinking]].
+# A protocol between two parties may be adjusted without involving anyone else simply by [[Brightening The Chain]]. Where disputes around the interpretation of a protocol arise or protocols of general interest are proposed, a [[Consensus Council]] may be arranged to consider the matter using [[Whole Board Thinking]].
