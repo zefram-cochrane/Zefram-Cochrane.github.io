@@ -1,13 +1,22 @@
 created: 20160526122245529
-modified: 20160528060528169
+modified: 20160716125453751
 tags: 
 title: Throughput Accounting
 tmap.id: 6e82d96d-386d-4432-abd7-7b93254a7010
 type: text/vnd.tiddlywiki
 
-[[Throughput Accounting|http://www.informit.com/articles/article.aspx?p=169495]]
+[[Throughput Accounting|http://www.informit.com/articles/article.aspx?p=169495]] is an alternative to [[Cost Accounting]] that ignores the fictional property called "cost per unit".
 
-The following is the best explanation of why Throughput Accounting really matters. Unfortunately Schragenheim is far from the world's most sparkling presenter - he rambles, emphasises the history of some dull academics, and uses presentation material straight out of the 1980s. So for now getting through this is a struggle. We'll transcribe the salient points here soon ...
+Cost accountants have fallen all over themselves trying to calculate this property for software delivery, and despite a lot of debate around measures like [[Lines of Code]] and [[Function Point]]s, they have universally failed. LoC don't equate to cost per unit because, for example, [[Refactoring]] reduces LoC while increasing [[Throughput]] and lowering [[Operating Expense]]s. FPs are even worse because, unless they contribute to improvements in a bottlenecked constraint, they have no units of any value at all.
+
+Throughput Accounting derives from the work of [[Eli Goldratt|http://goldratt.co.uk/resources/throughput_accounting/index.html]] on the [[Theory of Constraints]]. It focuses decisions on:
+
+* Delivering products that make more money
+* Making investments that contribute to making more money
+* Basing prioritisation decisions on real effects on bottom line
+* Understanding the [[Critical Number]]s that constrain the bottom line.
+
+The following is the best explanation of why Throughput Accounting really matters. Unfortunately Schragenheim isn't the world's most sparkling presenter - he tends to ramble about physics and the history of the academics, and uses presentation material out of the 1980s. We'll transcribe the salient points here soon but for now we recommend clicking the little cog on the video and amping the speed up to at least 1.5x.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gKPBUq7PKng" frameborder="0" allowfullscreen></iframe>
 

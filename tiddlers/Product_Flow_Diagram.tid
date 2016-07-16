@@ -1,5 +1,5 @@
 created: 20160110010210965
-modified: 20160524041654878
+modified: 20160716130225492
 title: Product Flow Diagram
 tmap.id: 6b5ab875-3713-4755-97d5-1029090127e1
 type: text/vnd.tiddlywiki
@@ -12,6 +12,6 @@ type: text/vnd.tiddlywiki
 
 [[Feature Point]]s provide a simple basis for this kind of accounting. The cost of an Epic over the life of a release is the sum of its Feature Points. And as each Feature is delivered by just one Squad at a time, the Feature Point cost of a story is simply its [[Story Point]]s divided by Squad [[Velocity]].
 
-A CFD that represents all these metrics is called a ''Product Flow Diagram''. The topmost "return" line can be just about revenue, but usually it's better to make it about each Epic's {{Critical Number}}. If we stack up all these metrics for our whole [[Value Stream]] we call it a ''Stream Flow Diagram''.
+A CFD that represents all these metrics is called a ''Product Flow Diagram''. The topmost "return" line can be just about revenue, but usually it's better to make it about each Epic's [[Critical Number]]. If we stack up all these metrics for our whole [[Value Stream]] we call it a ''Stream Flow Diagram''.
 
 {{$:/metrics-image}}
