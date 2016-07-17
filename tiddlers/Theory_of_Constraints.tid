@@ -1,0 +1,10 @@
+created: 20160717011054654
+modified: 20160717013237187
+tags: 
+title: Theory of Constraints
+tmap.id: 93d7db12-9457-4ef2-9ebb-2450c400a035
+type: text/vnd.tiddlywiki
+
+[[Theory of Constraints|http://www.leanproduction.com/theory-of-constraints.html]] gives a nice summary. 
+
+The critical observation in ToC is that at any point in time any system's performance is limited by a single dominant constraint. ToC calls this "The Bottleneck". Working on improving any other constraint can't possibly improve [[throughput|Throughput Accounting]]. So identifying and prioritising work on the bottleneck is critically important for [[ROROI]].

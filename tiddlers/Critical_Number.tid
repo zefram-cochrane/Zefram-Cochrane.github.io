@@ -1,7 +1,11 @@
 created: 20151221064833829
-modified: 20160716130627944
+modified: 20160717012858596
 title: Critical Number
 tmap.id: 442d78cb-ec8f-4b11-a16b-c129d54b1d62
 type: text/vnd.tiddlywiki
 
-[[Critical Number|http://www.inc.com/magazine/19960301/1577.html]]s are targets for improvement of the bottom line in terms of specific constraints.
+[[Critical Number|http://www.inc.com/magazine/19960301/1577.html]]s are targets for improvement of the bottom line in terms of improving [[throughput|Throughput Accounting]] against specific constraints.
+
+Google calls these "OKRs" and applies them to individuals. In XSCALE we only apply them to teams and organizations; it's more important for a team to align to objectives, metrics and numeric targets than for an individual to excel. This is because competing individuals can easily become [[bottleneck|Theory of Constraint]]s.
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/mJB83EZtAjc" frameborder="0" allowfullscreen></iframe>
