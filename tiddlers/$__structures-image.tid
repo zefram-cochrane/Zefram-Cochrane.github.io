@@ -1,5 +1,5 @@
 created: 20150809220300027
-modified: 20160609065538429
+modified: 20160717014431502
 tags: 
 title: $:/structures-image
 tmap.id: f310f480-85d4-47cc-8163-8f674b288622
@@ -24,8 +24,8 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="3,153,116,173" title="Product Leader" href="#Product%20Leader" />
 <area shape="rect" coords="115,153,202,174" title="Product Coaches" href="#Product%20Coach" />
 <area shape="rect" coords="201,148,330,166" title="Portfolio Leader" href="#Portfolio%20Leader" />
-<area shape="rect" coords="2,296,131,318" title="Technology Leader" href="#Technology%20Leader" />
-<area shape="rect" coords="130,297,203,318" title="Technology Coach" href="#Technology%20Coach" />
+<area shape="rect" coords="2,296,131,318" title="System Leader" href="#System%20Leader" />
+<area shape="rect" coords="130,297,203,318" title="System Coach" href="#System%20Coach" />
 <area shape="rect" coords="401,299,546,316" title="Transformation Leader" href="#Transformation%20Leader" />
 <area shape="rect" coords="401,314,546,332" title="Transformation Coach" href="#Transformation%20Coach" />
 </map>

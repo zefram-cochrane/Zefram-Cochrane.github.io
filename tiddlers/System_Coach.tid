@@ -1,12 +1,13 @@
-created: 20160113032606810
-modified: 20160609072901238
-title: Technology Coach
-tmap.id: 04e53861-2ec4-4fe0-89f4-c6aea1f6e3b9
+created: 20160717014216402
+modified: 20160717014230035
+tags: 
+title: System Coach
+tmap.id: 76f7b56c-b012-46d6-a054-cf4baf059ce3
 type: text/vnd.tiddlywiki
 
-* [[Technology Leader]]s carry ultimate responsibility for and competence to maintain the proper functioning of their [[Value Stream]]' s technology. This means they are often more knowledgeable about the limits and shortcomings of existing systems than tools, techniques and choices that would enable DevOps and [[Feature Squad]]s to address them.
+* [[System Leader]]s carry ultimate responsibility for and competence to maintain the proper functioning of their [[Value Stream]]' s technology. This means they are often more knowledgeable about the limits and shortcomings of existing systems than tools, techniques and choices that would enable DevOps and [[Feature Squad]]s to address them.
 * There is significant time and effort required to realise the huge benefit to [[ROROI]] of proper [[Behavior Driven Development]], [[Continuous Delivery]]. [[Quality Automation]], [[Process Automation]] and [[Automated Configuration Management]].
-* Keeping up with choices necessary to the proper configuration of technical frameworks, version control systems, work management and knowledge management tools requires specialist expertise and a time commitment that is not normally available to a [[Technology Leader]].
+* Keeping up with choices necessary to the proper configuration of technical frameworks, version control systems, work management and knowledge management tools requires specialist expertise and a time commitment that is not normally available to a [[System Leader]].
 
 ''Therefore,''
 

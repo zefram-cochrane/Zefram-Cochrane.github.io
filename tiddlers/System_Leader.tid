@@ -1,16 +1,17 @@
-created: 20160112224729251
-modified: 20160609072621330
-title: Technology Leader
-tmap.id: 60a42db0-ad4d-4d86-8b4e-c32253b1d1ff
+created: 20160717014004656
+modified: 20160717014106937
+tags: 
+title: System Leader
+tmap.id: 0f6ef52f-b403-47fa-9695-5f3032b637fb
 type: text/vnd.tiddlywiki
 
 * Organisations don't exist apart from technologies. Tribes based on hunting and gathering, villages on agriculture, armies on weapons and tactics, churches on cathedrals, cities on engines - every technology gives rise to a distinct form of organisation. 
-* The executive leaders of organisations seldom have time to dirty their hands. Yet technologies must be maintained, upgraded and refactored by competent engineers. To avoid piecemeal work, engineers require hands-on [[leadership|Leadership as a Service]] by a person who is fully literate in their field.
+* The executive leaders of organisations seldom have time to dirty their hands. Yet systems must be maintained, upgraded and refactored by competent engineers. To avoid piecemeal work, engineers require hands-on [[leadership|Leadership as a Service]] by a person who is fully literate in their field.
 * Good engineers, especially including software engineers, are {{lazy, impatient and proud}}. Believe it or not, in technology those are virtues. Good engineers are also diligent, painstaking and self-disciplined. Their leaders must represent similar virtues, which may not come naturally to other [[leadership|XSCALE Leaders]] competencies.
 
 ''Therefore,''
 
-''Technology Leaders'' don't merely offer [[Leadership as a Service]] to their [[Delivery|Feature Squad]] and [[DevOps]] squads..They 
+''System Leaders'' don't merely offer [[Leadership as a Service]] to their [[Delivery|Feature Squad]] and [[DevOps]] squads..They 
 
 # pro-actively evolve understanding of [[Solution Constraints]] through [[R&D Stream]] sessions,
 # mentor junior team members through [[Pair Working]] and technology-specific training
