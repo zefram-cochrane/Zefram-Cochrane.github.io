@@ -1,5 +1,5 @@
 created: 20151025075551974
-modified: 20151209013043972
+modified: 20160906232147132
 tags: 
 title: Behavior Mapping
 tmap.id: 2a0fe3c2-6cdb-49a4-a0c7-9d2731b44830
@@ -15,7 +15,7 @@ Traditional Business Analysis often yields poor [[Product-Market Fit]]:
  
 ''Therefore,''
 
-Behavior Mapping is a way to quickly but systematically discover missing features and contract the scope of [[Product Squad]] comparisons of feature sets while also preventing cycles of dependencies between features. It works [[breadth-first]] to generate a simple [[Feature-Theme Matrix]] and may be quickly revisited upon new learnings about the quality of [[Product-Market Fit]], or new [[Solution Constraint]]s and [[Resource Constraint]]s that might invalidate previous planning.
+Behavior Mapping is a way to quickly but systematically discover missing features and contract the scope of [[Product Squad]] comparisons of feature sets while also preventing cycles of dependencies between features. It works [[breadth-first]] to generate a simple [[Acceptance Matrix]] and may be quickly revisited upon new learnings about the quality of [[Product-Market Fit]], or new [[Solution Constraint]]s and [[Resource Constraint]]s that might invalidate previous planning.
 
 # Each currently contemplated [[Feature]] is listed as a statement of intent in [[Story Normal Form]]. If these features also have any bullet point [[Acceptance Criteria]] each bullet should also be converted into a [[Theme]].
 # Key [[Theme]]s relating to personas, architectural elements, business rules and non-functional requirements for one or more features are listed on the other axis of the matrix.

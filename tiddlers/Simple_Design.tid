@@ -1,5 +1,5 @@
 created: 20151108195553972
-modified: 20160716130435511
+modified: 20160906232212861
 title: Simple Design
 tmap.id: ff1175cf-14d4-4982-af0d-5d54b30452fa
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ There are many schools of design each with their own [[Pattern Language]]s. XSCA
 
 * The inherent tension between the desire to perfect product design and the desire to ship imperfect products early enough to open markets and refine design by learning from market analytics. This is not an either/or choice - both are essential.
 
-* The closure of Solution constraints as [[Acceptance Criteria]]. We can represent these on a [[Feature-Theme Matrix]] with Themes representing categories of [[solution constraint]] and Features embodied in [[Spike|Spike Solution]]s. Then [[Behavior Mapping]] makes certain we take all design perspectives into account. 
+* The closure of Solution constraints as [[Acceptance Criteria]]. We can represent these on a [[Acceptance Matrix]] with Themes representing categories of [[solution constraint]] and Features embodied in [[Spike|Spike Solution]]s. Then [[Behavior Mapping]] makes certain we take all design perspectives into account. 
 
 * Iterative [[Refactoring]] is the essential Agile design minimisation process, generating [[System Interface]]s without unnecessary feature duplication or clunky, modal [[UX]]. 
 

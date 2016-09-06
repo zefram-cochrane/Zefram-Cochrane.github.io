@@ -1,7 +1,8 @@
-created: 20151106230916977
-modified: 20151106231345537
-title: Feature-Theme Matrix
-tmap.id: d9feba62-5ae4-44d3-b810-ad8d6b9e37a3
+created: 20160906232104111
+modified: 20160906232117072
+tags: 
+title: Acceptance Matrix
+tmap.id: 266f1487-79dd-458e-9d53-8151fdd553bd
 type: text/vnd.tiddlywiki
 
 [[Behavior Mapping]] analyzes [[Features|Feature]] in terms of key categories of acceptance criteria called [[Themes|Theme]]. Themes are drawn from 
