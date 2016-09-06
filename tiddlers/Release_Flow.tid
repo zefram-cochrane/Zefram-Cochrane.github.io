@@ -1,11 +1,13 @@
 created: 20160605204447341
-modified: 20160605204814954
+modified: 20160906231132378
 title: Release Flow
 tmap.id: 56205034-231d-4058-b243-a6e5f3b68995
 type: text/vnd.tiddlywiki
 
-It may be a bit of a surprise to folks coming to XSCALE from [[SAFe]] to say that there are are more than one of these, and that Agile Release Trains are the least mature of them. Happily the other two entail less bureaucracy than SAFe, not more. ARTs are still a very good intermediary step from traditional Waterfall release flows, and there's nothing wrong with them per se. They're just not as efficient as the other two.
+It may be a bit of a surprise to folks coming to XSCALE from [[SAFe]] to say that there's more than one way to organise Releases. [[Agile Release Train]]s are still a good intermediary step from traditional release flows, and there's nothing wrong with them per se. They're just not as efficient as the other two.
 
-# [[Agile Release Train]]s as per [[SAFe]]. These are suboptimal because they reduce [[ROI]] by inducing unnecessary deployment dependencies between features. Nevertheless they're quite popular because they're the only deployment pattern in [[SAFe]], and they're a good transition step from Waterfall's synchronised releases.
+# [[Agile Release Train]]s as per [[SAFe]]. These are suboptimal because they reduce [[ROI]] by inducing unnecessary deployment dependencies between features. Nevertheless they're a good transition step from Waterfall's synchronised releases.
+
 # [[GitFlow]], which [[continuously delivers|Continuous Delivery]] [[Feature]]s through the three [[Quality Gates]] of [[CI]], [[FIT]] and [[SIT]], and accounts consistently for [[Hotfixing]] too. To prefer this to [[ART]]s generally requires quality automation in the form of [[BDD|Behavior Driven Development]]. 
-# [[Github Flow]], which is simpler and better suited to open source development than the other two models. [[BDD|Behavior Driven Development]] is still desirable, but [[FIT]], [[SIT]] and [[Hotfixing[[ are decentralized and distributed across the development community.
+
+# [[Github Flow]] is simpler and better suited to open source development than the other two models. [[BDD|Behavior Driven Development]] is still desirable, but [[FIT]], [[SIT]] and [[Hotfixing[[ are decentralized and distributed across a development community.

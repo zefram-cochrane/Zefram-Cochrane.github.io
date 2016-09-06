@@ -1,5 +1,5 @@
 created: 20151010230026627
-modified: 20160609073408945
+modified: 20160726234449539
 tags: 
 title: Autonomous Squad
 tmap.id: 8e46dcb6-5a53-4901-872a-20ff89fe68a5
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 A squad is a small self-organizing team stable in structure over the period of a [[release]]. Its priorities are determined through the process of [[Leadership as a Service]] but in every other respect it is purely self-organising, determining the details of its own process, planning its own tasking and making its own commitments. 
 
-To maximize productivity, squads must be kept small, on the order of 4 to 10 members, with [[Portfolio Mapping]] used to minimize dependencies between squads and assure each possesses all competencies necessary to define, deliver and operate the functionality for which it is accountable. 
+To maximize productivity, squads must be kept small, on the order of 4 to 10 members, with [[Constraint Mapping]] used to minimize dependencies between squads and assure each possesses all competencies necessary to define, deliver and operate the functionality for which it is accountable. 
 
 Being autonomous, the exact selection of practice patterns employed by a squad is up to the squad itself. To assure that your squad is adequately disciplined and does not start out by incurring [[Technical Debt]], however, we generally recommend setting up the [[XP core|Extreme Programming]] plus weekly [[retros|Scrum Ceremonies]] to evolve it from there.
 

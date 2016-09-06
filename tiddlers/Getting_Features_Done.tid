@@ -1,5 +1,5 @@
 created: 20151019230142177
-modified: 20160609073022458
+modified: 20160906231244575
 tags: 
 title: Getting Features Done
 tmap.id: 0bb980d1-26f7-4ad8-9363-6e0523d0a672
@@ -9,8 +9,8 @@ type: text/vnd.tiddlywiki
 
 ''Therefore,''
 
-Keep a board laid out as per [[Release Refactoring]] but dispense with bronze/silver/gold distinctions. As each [[Feature Squad]] completes a [[Feature]], the [[Portfolio Squad]] picks the next feature from the top of an epic column that best fits the competencies of that feature squad. If none do, the [[Portfolio Squad]] conducts [[Portfolio Mapping]] to refactor the feature squads according to best adapt them to the combinations of competencies needed to deliver all the "next features".
+Keep a board laid out as per [[Release Refactoring]] but dispense with bronze/silver/gold distinctions. As each [[Feature Squad]] completes a [[Feature]], the [[Portfolio Squad]] picks the next feature from the top of an epic column that best fits the competencies of that feature squad. If none do, the [[Portfolio Squad]] conducts [[Constraint Mapping]] to refactor the feature squads according to best adapt them to the combinations of competencies needed to deliver all the "next features".
 
 ''See also:''
 
-{{Getting Things Done}}.
+{{Getting Things Done}}
