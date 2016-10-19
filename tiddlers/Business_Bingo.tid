@@ -1,12 +1,12 @@
 created: 20151025033945673
-modified: 20151221055816293
+modified: 20161019221553584
 title: Business Bingo
 tmap.id: 0c12d380-3c37-4d1b-9020-837483f26464
 type: text/vnd.tiddlywiki
 
-[[Delivery squad]]s use a simple collaborative estimation method called {{Planning Poker}} to determine the relative effort needed to deliver different stories. These {{Story Point}} estimates can be converted into dollars and time by combination with squad throughput measurements called {{Velocity}}. But they're not a suitable input to [[Release Refactoring]] because:
+[[Feature Squad]]s use a simple collaborative estimation method called {{Planning Poker}} to determine the relative effort needed to deliver different stories. These {{Story Point}} estimates can be converted into dollars and time by combination with delivery throughput measurements called {{Velocity}}. But they're not a suitable input to release planning because:
 
-* They don't and were never intended to estimate a [[feature budget]]. To get at a budget estimate you'd have to multiply them by the [[Story Velocity]], which inevitably and intentionally varies from team to team and, within a single team, from time to time.
+* They don't and were never intended to estimate a [[Feature Budget]]. To get at a budget estimate you'd have to multiply them by the [[Story Velocity]], which inevitably and intentionally varies from team to team and, within a single team, from time to time.
 * You can't produce story point estimates without breaking down [[Feature]]s into [[Stories|Story]]. If you wait until you've done that for all your features, you've stepped out of Agile-land back into Waterfall-land to have an Analysis [[phase]]. But if you don't commit to some kind of Feature-level release plan you'll wind up with the Business rebelling because of a lack of [[predictability]], which will also take you back to Waterfall-land.
 * There are plenty of costs associated with delivering a Feature that aren't captured by Story estimates, especially to do with [[Feature Integration Testing]], [[System Integration Testing]], [[Marketing]] and [[Opex]]. These must be taken into account when budgeting Features for a release plan.
 
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 
 Business Bingo is a simple way to quickly determine the budget (time * resource) and relative ROI (Royal Cod) of a feature set without waiting for its features to be broken down into estimable stories. It bases estimates and priorities on the historical costs of a set of features delivered in previous releases and takes costs of analysis and operation into account too. It also provides a simple method to “monetize” [[Story Points]] in terms of feature budgets in [[Feature Points]].
 
-Best of all, [[Business Bingo]] is easy, fun to play, and quickly aligns business and technical stakeholders. It works like this:
+Best of all, ''Business Bingo'' is easy, fun to play, and quickly aligns business and technical stakeholders. It works like this:
 
 # Write Fibonacci numbers from 1 to 89 on cards and lay them out in a row across a large table. There’s nothing magical about Fibonacci numbers - we use them because they consistently lead people to argue in terms of trade-offs - is feature A really as big as feature B + feature C, and so on.
 
@@ -26,6 +26,12 @@ Best of all, [[Business Bingo]] is easy, fun to play, and quickly aligns busines
 
 # Take features that wind up in the last 3 columns and break them into pieces you can estimate separately. This granularity limit greatly improves the overall quality of the estimates.
 
-# To estimate relative business value, you simply pick a different set of 3 probes - one for an existing deployed feature that the PO says has low business value, and then one that’s critically important to business function, and then one roughly in between. Place them at 3, 13 and 55, respectively, and the rest of the Bingo game runs as above. Do an [[ROI]] calculation and use it as input to [[Royal Cod]] prioritization.
+# To estimate relative business value, you simply pick a different set of 3 probes - one for an existing deployed feature that the PO says has low business value, and then one that’s critically important to business function, and then one roughly in between. Place them at 3, 13 and 55, respectively, and the rest of the Bingo game runs as above. 
 
-Obviously there’s no dollar quantification of the return, but we’ve found business stakeholders quickly converge on which features are worth more than which. And the conversations they have in getting to agreement are extremely illuminating - the technical team members need to listen carefully and ask questions to make certain they share the businss context.
+# All [[Product Squad]] members collaborate in a 3rd pass to calculate [[Risk]]s.
+
+# Record all three numbers on each feature card as input to [[Royal Cod]] prioritization.
+
+There’s no dollar quantification of the return here, but we’ve found business stakeholders quickly converge on which features are worth more than which. And the conversations they have in getting to agreement are extremely illuminating - the technical team members need to listen carefully and ask questions to make certain they share the business context.
+
+[[ToDo]]: update this description to account for return estimation via [[Pirate Metrics]]. 
