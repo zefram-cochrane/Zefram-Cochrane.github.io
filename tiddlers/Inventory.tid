@@ -1,0 +1,13 @@
+created: 20161019212440713
+modified: 20161019213924372
+title: Inventory
+tmap.id: 7896f000-75b7-457f-9da7-c04675f11867
+type: text/vnd.tiddlywiki
+
+In [[Throughput Accounting]] this is investment tied up in forms that don't directly generate revenue. In software terms this would include
+
+* Any code, data or tests we're obliged to actively maintain
+* [[Technical Debt]]
+* [[Risk]]
+
+We control the first two components through [[Behavior Driven Development]] and  [[Merciless Refactoring]], respectively. We attack the third via [[Simple Design]].

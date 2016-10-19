@@ -1,9 +1,21 @@
 created: 20150807022845004
-modified: 20151227222433969
+modified: 20161019213351909
 title: ROI
 tmap.id: da2882b7-7dd1-4f07-87a1-373ee198b398
 type: text/vnd.tiddlywiki
 
 Return On Investment. One of the key contributors to [[XSCALE|XSCALE Principles]]'s basic [[Prioritization]] method, "[[Royal Cod]]".
 
-> ''ROI = (Return - Investment) / Investment''
+The [[Cost Accounting]] way of doing this is:
+
+> ''ROI = (Revenue - Investment) / Investment''
+
+[[Throughput Accounting]] makes distinctions between different types of investment which makes for a better kind of ROI calculation. It says what we want to maximise is the Throughput Accounting Ratio, which it defines this way:
+
+> ''Throughput Accounting Ratio = (Revenue - [[Operating Expense]]) / [[Inventory]]''.
+
+In practical terms this means we calculate ROI in XSCALE as:
+
+> ''ROI = (Business Value - Effort)/Risk
+
+

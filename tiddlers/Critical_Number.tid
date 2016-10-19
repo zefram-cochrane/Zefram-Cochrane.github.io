@@ -1,13 +1,17 @@
 created: 20151221064833829
-modified: 20160717015607475
+modified: 20161019215350868
 title: Critical Number
 tmap.id: 442d78cb-ec8f-4b11-a16b-c129d54b1d62
 type: text/vnd.tiddlywiki
 
-[[Critical Number|http://www.inc.com/magazine/19960301/1577.html]]s are targets for improvement of the bottom line in terms of improving [[throughput|Throughput Accounting]] against specific constraints.
+In [[Open Book Management|http://www.inc.com/magazine/19960301/1577.html]], Critical Numbers are targets for improvement of the bottom line in terms of improving [[throughput|Throughput Accounting]] against specific constraints.
 
-Google calls these "OKRs" and applies them hierarchically to the organization, teams and individuals. OKRs are made public from quarter to quarter, and used to set context for negotiations and meetings. They grade and systematise these.
+Google renamed these things "OKRs" and applies them across its organization to all teams and individuals. OKRs are made public from quarter to quarter, and used to set context for negotiations and meetings. Google grade and systematise these.
 
-In XSCALE, [[squad|Autonomous Squad]]s work them out collaboratively, emphasising their relationship to [[the dominant constraint|Theory of Constraints]] for [[product|Product Squad]]s and [[portfolio|Portfolio]]s. it's more important for a team to align to objectives, metrics and numeric targets than for an individual to excel. They're motivating for some individuals but not for others, and competing individuals can easily become [[bottleneck|Theory of Constraints]]s.
+It is in general more important for a team to align to objectives, metrics and numeric targets than for an individual to excel. OKRs are motivating for some individuals but not for others, and competing individuals with misaligned OKRs can easily become [[Bottleneck]]s in an organizational context.
+
+''Therefore,''
+
+In XSCALE, [[squad|Autonomous Squad]]s attend instead to [[Bottleneck]]s. These could be represented in terms of OKRs at a team level, but really in XSCALE everyone in the organization has the same OKR: Maximise [[Throughput]]. 
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/mJB83EZtAjc" frameborder="0" allowfullscreen></iframe>
