@@ -1,5 +1,5 @@
 created: 20151019212104221
-modified: 20160906231205176
+modified: 20170416113922340
 tags: 
 title: Release Refactoring
 tmap.id: 54ac4d96-fd8d-4be8-a688-011f8e92f5bf
@@ -25,5 +25,5 @@ Release Refactoring is a simple consensus game that enables rapid rational trade
 # If fitting to a continuous delivery funding model rather than a specific date, use [[Getting Features Done]] instead.
 # Keep the refactoring board on an [[Information Radiator]] to assure continuous alignment of authorities and for context for the next [[Release Refactoring]] session.
 
-Release Refactoring is played whenever new features are added to the [[Behavior Map|Behavior Mapping]], whenever [[Sprint Planning]] indicates a feature's budget is blown, or whenever the PO calls for it. Because this is such a quick game it's also possible to play using set-based [[Simple Design]] in an [[R&D Stream]] mode to evaluate alternative product plans to evaluate possible responses to changes in market conditions.
+Release Refactoring is played whenever new features are added to the [[Acceptance Matrix]], whenever [[Sprint Planning]] indicates a feature's budget is blown, or whenever the PO calls for it. Because this is such a quick game it's also possible to play using set-based [[Simple Design]] in an [[R&D Stream]] mode to evaluate alternative product plans to evaluate possible responses to changes in market conditions.
 

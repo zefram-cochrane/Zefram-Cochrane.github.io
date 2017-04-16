@@ -1,5 +1,5 @@
 created: 20151025033945673
-modified: 20161019221553584
+modified: 20170416114440337
 title: Business Bingo
 tmap.id: 0c12d380-3c37-4d1b-9020-837483f26464
 type: text/vnd.tiddlywiki
@@ -20,7 +20,7 @@ Best of all, ''Business Bingo'' is easy, fun to play, and quickly aligns busines
 
 # Select three previously delivered and deployed features with well documented costs, one small, one medium and one large. Call these probes. Describe each probe in story-normal form commensurable with the roadmap features you want to estimate and represent their complete delivery costs - including documentation, hotfix, opex, the whole nine yards - in terms of [[Feature Point]]s. Place the three probes under the Fibonacci numbers that match their respective magnitudes in feature points.
 
-# Pick a feature from your [[Behavior Map|Behavior Mapping]]. Compare it with the probes, starting with the middle one, to evaluate its relative size in Fibonacci multiples of feature points.
+# Pick a feature from your [[Acceptance Matrix]]. Compare it with the probes, starting with the middle one, to evaluate its relative size in Fibonacci multiples of feature points.
 
 # As you add features, sort them into the appropriate Fibonacci column. Continue to compare features this way until there are none left to compare. If the estimators cannot agree on the Fibonacci number for a feature, split it into pieces they can estimate separately.
 

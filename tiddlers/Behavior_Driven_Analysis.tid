@@ -1,8 +1,8 @@
-created: 20151025075551974
-modified: 20160906232147132
+created: 20170416113329659
+modified: 20170416113543746
 tags: 
-title: Behavior Mapping
-tmap.id: 2a0fe3c2-6cdb-49a4-a0c7-9d2731b44830
+title: Behavior Driven Analysis
+tmap.id: 10a7b2d4-f59b-49e9-aed1-e548985a60cc
 type: text/vnd.tiddlywiki
 
 Traditional Business Analysis often yields poor [[Product-Market Fit]]:
@@ -15,7 +15,7 @@ Traditional Business Analysis often yields poor [[Product-Market Fit]]:
  
 ''Therefore,''
 
-Behavior Mapping is a way to quickly but systematically discover missing features and contract the scope of [[Product Squad]] comparisons of feature sets while also preventing cycles of dependencies between features. It works [[breadth-first]] to generate a simple [[Acceptance Matrix]] and may be quickly revisited upon new learnings about the quality of [[Product-Market Fit]], or new [[Solution Constraint]]s and [[Resource Constraint]]s that might invalidate previous planning.
+Behavior Driven Analysis is a way to quickly but systematically discover missing features and contract the scope of [[Product Squad]] comparisons of feature sets while also preventing cycles of dependencies between features. It works [[breadth-first]] to generate a simple [[Acceptance Matrix]] and may be quickly revisited upon new learnings about the quality of [[Product-Market Fit]], or new [[Solution Constraint]]s and [[Resource Constraint]]s that might invalidate previous planning.
 
 # Each currently contemplated [[Feature]] is listed as a statement of intent in [[Story Normal Form]]. If these features also have any bullet point [[Acceptance Criteria]] each bullet should also be converted into a [[Theme]].
 # Key [[Theme]]s relating to personas, architectural elements, business rules and non-functional requirements for one or more features are listed on the other axis of the matrix.
@@ -32,9 +32,8 @@ Behavior Mapping is a way to quickly but systematically discover missing feature
 
 ''But,''
 
-* To use Behavior Mapping properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and contentious if features and themes are too numerous or too detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
+* To use Behavior Driven Analysis properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and contentious if features and themes are too numerous or too detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
 
-* Behavior Mapping is pointless if your epics don't fit the market. Therefore, before spending very much time on features, do a pass at [[Impact Mapping]].
+* BDA is pointless if your epics don't fit the market. Therefore, before spending very much time on features, do a pass at [[Impact Mapping]].
 
 * In order to determine budgets per feature and the optimal order in which to deliver features, [[Business Bingo]].
-

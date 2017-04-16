@@ -1,22 +1,20 @@
 created: 20150807021258524
-modified: 20160619020718486
+modified: 20161027010419748
 title: XSCALE Principles
 tmap.id: fc9c5e4f-d84e-4f8d-810d-37f21ba1a0bc
 type: text/vnd.tiddlywiki
 
-''XSCALE'' is an acronym for the principles of an [[Agile Organization]]. Also a [[language|Pattern Language]] of best practice for Agile organisations focused on exponential growth. As a method for [[3rd Generation Agile]], XSCALE extends the [[Agile Manifesto]] principles to [[Product Management]], [[Portfolio Management|Continuous Adaptation]], [[Change Management|Self-Organizing Transformation]] and [[Holarchy]].
+''XSCALE'' is an acronym for the principles of an [[Agile Organization]]. Also a [[language|Pattern Language]] of best practice for Agile organisations focused on exponential growth. As a method for [[3rd Generation Agile]], XSCALE extends the [[Agile Manifesto]] principles to [[Product Leadership|Product Management]], [[Portfolio Leadership|Continuous Adaptation]], [[Culture Leadership|Self-Organizing Transformation]] and [[Holarchy|Consensus Decision-Making]].
 
-XSCALE practices are fully compatible with [[Spotify]], {{SAFe}}, {{LeSS}}, {{Nexus}} and {{DAD}}, and have been applied successfully at scale as a standalone method of generating a completely [[Agile Organization]].
-
-''Principles''
+XSCALE practices are fully compatible with [[Spotify]], {{SAFe}}, {{LeSS}}, {{Nexus}} and {{DAD}}, and have been applied successfully at scale as a standalone method of generating completely [[Agile Organization]]s.
 
 """
-[[e|Extropy]]''X''[[ponential|Extropy]] growth by measuring [[Rates of ROI|ROROI]], to [[stack|Stacking the S-curves]] and [[disrupt|Disruption]] the growth curves
-&nbsp;&nbsp;''S''[[imple|Simple Design]] design to the elegance of minimum. Not look and feel; how it works.
-&nbsp;&nbsp;''C''[[ontinuous|Continuous Adaptation]] Adaptation of organization to product to market. {{YAGNI}}, [[BDD|Behavior Driven Development]] and [[CD|Continuous Delivery]].
-&nbsp;&nbsp;''A''[[utonomous|Autonomous Squad]] self-managing, self-designing teams + [[Leadership as a Service]].
-&nbsp;&nbsp;''L''[[earning|Learning]]: [[triple loop|Learning]]. High cadence metrics, Lean [[UX|Lean User Experience]]/[[SU|Lean Startup]], [[Hack Days]], [[Open Spaces]] ...
-&nbsp;&nbsp;''E''[[cosystem|Ecosystem]]: mutual benefit via [[Whole Board Thinking]] and [[Consensus Decision-Making]]
+[[e|Extropy]]''X''[[ponential|Extropy]] [[Return|ROROI]]
+&nbsp;&nbsp;''S''[[imple Design|Simple Design]]
+&nbsp;&nbsp;''C''[[ontinuous|Continuous Adaptation]] [[Throughput]]
+&nbsp;&nbsp;''A''[[utonomous Teams|Autonomous Squad]]
+&nbsp;&nbsp;''L''[[earning|Learning]]: [[triple loop|Learning]]
+&nbsp;&nbsp;''E''[[cosystems Thinking|Whole Board Thinking]]
 """
 
 |! [[Practices|XSCALE Practices]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |! [[Roles|XSCALE Roles]] |
