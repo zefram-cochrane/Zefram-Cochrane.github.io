@@ -1,21 +1,20 @@
 created: 20150807022845004
-modified: 20161019213351909
+modified: 20170416132115199
 title: ROI
 tmap.id: da2882b7-7dd1-4f07-87a1-373ee198b398
 type: text/vnd.tiddlywiki
 
-Return On Investment. One of the key contributors to [[XSCALE|XSCALE Principles]]'s basic [[Prioritization]] method, "[[Royal Cod]]".
+Return On Investment is the basis of [[XSCALE|XSCALE Principles]]'s [[Prioritization]] method, "[[Royal Cod]]".
 
-The [[Cost Accounting]] way of doing this is:
+The [[Cost Accounting]] definition of ROI is:
 
-> ''ROI = (Revenue - Investment) / Investment''
+> ''ROI = (Return - Investment) / Investment''
 
-[[Throughput Accounting]] makes distinctions between different types of investment which makes for a better kind of ROI calculation. It says what we want to maximise is the Throughput Accounting Ratio, which it defines this way:
+In bingo terms that would be //Value - Budget) / Budget//. In ranking Features, however, we're seldom able to assess Return in dollars and cents, so Value is just a relative estimate. This introduces some complexities:
 
-> ''Throughput Accounting Ratio = (Revenue - [[Operating Expense]]) / [[Inventory]]''.
+* we don't want negative ROI when Budget is larger than Value because that screws up priority order.
+* we don't want "ties" when Value is equal to Budget. In that case we want to favour features that have higher value.
 
-In practical terms this means we calculate ROI in XSCALE as:
+''Therefore,''
 
-> ''ROI = (Business Value - Effort)/Risk
-
-
+ROI = 1 + ( (Value^^2^^ –  Budget) / Budget )
