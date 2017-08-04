@@ -1,5 +1,5 @@
 created: 20151013040922475
-modified: 20170416114022078
+modified: 20170804092211113
 title: Impact Mapping
 tmap.id: ecf624e0-0f5e-42a6-af7c-6611e0808ede
 type: text/vnd.tiddlywiki
@@ -20,4 +20,4 @@ There are problems in the way product roadmaps are usually specified.
 # Winnow assumptions as you go. If the link from Why->Who is broken, no amount of Who->How or How->What is going to get you market share. This way you avoid [[Analysis Paralysis]] by not analyzing things for no good reason.
 # Where your assumptions simply don't hold up, or where one is numerically inferior to a competing assumption about which Who must change its behavior to satisfy your Why, winnow the [[Epic Landscape]] so you don't [[Waste]] further analysis and delivery bandwidth when you could be producing [[Delighter]]s instead.
 # Map the [[Epic landscape]] of all your product lines and your competitors' products too. If you don't know who your competitors are or why their products are winning market share, find out. If you have overlap in the Epics of different products, figure out how much [[ROROI]] you'd gain by fixing it. If the numbers hold up, put a fix in your [[Release Map]].
-# Determine [[Critical Number]]s for each quantified assumption. Use those as [[Acceptance Criteria]] when you get down to [[Behavior Driven Analysis]].
+# Determine [[Critical Number]]s for each quantified assumption. Use those as [[Acceptance Criteria]] when you get down to [[Behavioral Product Planning]].
