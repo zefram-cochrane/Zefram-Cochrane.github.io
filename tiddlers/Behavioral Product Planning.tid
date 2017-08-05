@@ -1,0 +1,39 @@
+created: 20170804092002678
+modified: 20170804092119822
+tags: 
+title: Behavioral Product Planning
+tmap.id: 643e7a7d-b278-4de5-9121-534c6fd64420
+type: text/vnd.tiddlywiki
+
+Traditional Business Analysis often yields poor [[Product-Market Fit]]:
+
+* It gets bogged down in details and cross-referencng as requirements documents grow, leading to [[Analysis Paralysis]]
+
+* The paralysis is cut short by [[time pressure]] whereupon the [[Product Squad]] is tasked to deliver a half-solution - a compromised product - with incomplete [[Acceptance Criteria]]
+
+* Sometimes, in [[Scrumbut]] programs, delivery begins before analysis has covered sufficient ground to assure business value will be delivered. This leads to rework and sometimes [[business case failure]].
+ 
+''Therefore,''
+
+Behavior Driven Analysis is a way to quickly but systematically discover missing features and contract the scope of [[Product Squad]] comparisons of feature sets while also preventing cycles of dependencies between features. It works [[breadth-first]] to generate a simple [[Acceptance Matrix]] and may be quickly revisited upon new learnings about the quality of [[Product-Market Fit]], or new [[Solution Constraint]]s and [[Resource Constraint]]s that might invalidate previous planning.
+
+# Each currently contemplated [[Feature]] is listed as a statement of intent in [[Story Normal Form]]. If these features also have any bullet point [[Acceptance Criteria]] each bullet should also be converted into a [[Theme]].
+# Key [[Theme]]s relating to personas, architectural elements, business rules and non-functional requirements for one or more features are listed on the other axis of the matrix.
+# The intersection of a feature and a theme is regarded as a checkbox; each checkbox can only contain a blank or a checkmark. A checkmark means there exist some [[Acceptance Criteria]] for this feature in this theme. A blank means there aren't any criteria for this feature in this theme.
+# Each feature is evaluated against all themes. 
+# As each feature is evaluated, also consider whether there are acceptance criteria in a theme that aren't yet part of the matrix. If so, add a column for a new [[Theme]] that represents the category of those criteria and evaluate all the features to determine whether they also have some acceptance criteria in it.
+# It's fine to modify or refactor features as you go so long as all the roadmap's checkboxes are updated accordingly.
+# Evaluate each [[Theme]] to determine whether it is sufficiently covered by features to deliver the scoping Epic. 
+# If not, extend the matrix with extra features to assure the theme is sufficiently covered, with each new feature evaluated in all the other themes too.
+# If it appears that all features have the same pattern of checkboxes for two themes, consider whether those two themes may be refactored into one.
+# If a [[Theme]] has checkboxes for all or almost all features, break out [[Technical Feature]]s to encapsulate the commonalities.
+# If a theme has no checkboxes ticked, delete it. If it has only a very small number ticked, consider refactoring those checkboxes into a standalone feature.
+# This process continues until the team agrees that the matrix is complete or it has reached the [[last responsible moment]].
+
+''But,''
+
+* To use Behavior Driven Analysis properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and contentious if features and themes are too numerous or too detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
+
+* BDA is pointless if your epics don't fit the market. Therefore, before spending very much time on features, do a pass at [[Impact Mapping]].
+
+* In order to determine budgets per feature and the optimal order in which to deliver features, [[Business Bingo]].

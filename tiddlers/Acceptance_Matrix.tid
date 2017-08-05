@@ -1,11 +1,11 @@
 created: 20160906232104111
-modified: 20170416113730926
+modified: 20170804092252492
 tags: 
 title: Acceptance Matrix
 tmap.id: 266f1487-79dd-458e-9d53-8151fdd553bd
 type: text/vnd.tiddlywiki
 
-[[Behavior Driven Analysis]] analyzes [[Features|Feature]] in terms of key categories of acceptance criteria called [[Themes|Theme]]. Themes are drawn from 
+[[Behavioral Product Planning]] analyzes [[Features|Feature]] in terms of key categories of acceptance criteria called [[Themes|Theme]]. Themes are drawn from 
 
 * Architectural elements
 * Business rules
