@@ -1,19 +1,21 @@
 created: 20160525220844260
-modified: 20160531054517237
+modified: 20170420212533543
 title: Organization Permaculture
 tmap.id: 47726b6d-2117-48d6-ac96-f8dc08225ad8
 type: text/vnd.tiddlywiki
 
-Adapting the descriptions at https://deepgreenpermaculture.com/ into general guidelines for an organization's [[Ecosystem]]:
+[[David Holmgren]]'s [[Permaculture]] is a land use and community building movement which strives for the harmonious integration of human dwelling and natural systems into stable, productive communities. With his partner [[Bill Mollison]], Holmgren has structured Permaculture around a language of principles and practice patterns that have come to form the core of intentional communities around the world.
 
-# Encourage teams to directly observe and interact with their customers.
-# Empower team members to develop and share skills and trust.
-# License everyone in the organization to use its systems at cost or less.
-# [[Refactor|Merciless Refactoring]] streams to minimize meetings and maximize synergy
-# Where multiple teams share a need, assign it to one and make others its customers
+Adapting Holmgren's principals at https://holmgren.com.au/downloads/Essence_of_Pc_EN.pdf into the context of an organization [[Ecosystem]]:
+
+# Encourage teams to directly ''observe and interact'' with their customers.
+# Empower teams to discover and realise value streams.
+# Identify and invest in each team's bottleneck. 
+# Refactor teams to minimize dependency and maximize synergy.
 # Define and motivate missions for teams, not roles for individuals.
-# Iterate short, frequent, priority-based ceremonies, not large, long, agenda-based.
-# Accelerate learning and refactoring by opening your own source, content and APIs
+# Where teams share a need, let one satisfy it and the others be customers.
+# Design the value stream, and thereby its products, and thereby its teams.
+# Decentralize and open your source, content and APIs to accelerate learning
 # Form strategic partnerships wherever customers also serve as suppliers
 # Invest in frequent small experiments and longitudinal metric analysis
 # Open learning communities across team, stream and organization boundaries.

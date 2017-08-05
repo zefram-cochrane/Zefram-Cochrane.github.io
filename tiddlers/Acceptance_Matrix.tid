@@ -1,11 +1,11 @@
 created: 20160906232104111
-modified: 20170416113730926
+modified: 20170619053321572
 tags: 
 title: Acceptance Matrix
 tmap.id: 266f1487-79dd-458e-9d53-8151fdd553bd
 type: text/vnd.tiddlywiki
 
-[[Behavior Driven Analysis]] analyzes [[Features|Feature]] in terms of key categories of acceptance criteria called [[Themes|Theme]]. Themes are drawn from 
+[[Behavior Driven Analysis]] analyzes all [[Features|Feature]] across a single [[Epic]] in terms of key categories of acceptance criteria called [[Themes|Theme]]. Themes are drawn from 
 
 * Architectural elements
 * Business rules
@@ -13,3 +13,5 @@ type: text/vnd.tiddlywiki
 * Non-functional requirements. 
 
 The contents of the matrix are nothing more than simple checkmarks. This is to say that a feature has acceptance criteria in a particular category, or it does not.
+
+Even though an Acceptance Matrix is confined to a single Epic, and the matrix is only binary, listing more than a handful of themes can make the practice too onerous to contemplate. In general it's best for stakeholders to list just a handful of key themes each to keep the exercise productive.
