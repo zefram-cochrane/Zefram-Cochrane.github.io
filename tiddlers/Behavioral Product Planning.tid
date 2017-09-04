@@ -1,5 +1,5 @@
 created: 20170804092002678
-modified: 20170804092119822
+modified: 20170904021138467
 tags: 
 title: Behavioral Product Planning
 tmap.id: 643e7a7d-b278-4de5-9121-534c6fd64420
@@ -15,7 +15,7 @@ Traditional Business Analysis often yields poor [[Product-Market Fit]]:
  
 ''Therefore,''
 
-Behavior Driven Analysis is a way to quickly but systematically discover missing features and contract the scope of [[Product Squad]] comparisons of feature sets while also preventing cycles of dependencies between features. It works [[breadth-first]] to generate a simple [[Acceptance Matrix]] and may be quickly revisited upon new learnings about the quality of [[Product-Market Fit]], or new [[Solution Constraint]]s and [[Resource Constraint]]s that might invalidate previous planning.
+BPP  is a way to quickly but systematically discover missing features and contract the scope of [[Product Squad]] comparisons of feature sets while also preventing cycles of dependencies between features. It works [[breadth-first]] to generate a simple [[Acceptance Matrix]] and may be quickly revisited upon new learnings about the quality of [[Product-Market Fit]], or new [[Solution Constraint]]s and [[Resource Constraint]]s that might invalidate previous planning.
 
 # Each currently contemplated [[Feature]] is listed as a statement of intent in [[Story Normal Form]]. If these features also have any bullet point [[Acceptance Criteria]] each bullet should also be converted into a [[Theme]].
 # Key [[Theme]]s relating to personas, architectural elements, business rules and non-functional requirements for one or more features are listed on the other axis of the matrix.
@@ -32,8 +32,8 @@ Behavior Driven Analysis is a way to quickly but systematically discover missing
 
 ''But,''
 
-* To use Behavior Driven Analysis properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and contentious if features and themes are too numerous or too detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
+* To use BPP properly it's essential to keep [[Breadth First]] in mind. The mapping process will become long and contentious if features and themes are too numerous or too detailed. Each feature may be expanded into an Epic if this occurs and a new matrix constructed for it.
 
-* BDA is pointless if your epics don't fit the market. Therefore, before spending very much time on features, do a pass at [[Impact Mapping]].
+* BPP is pointless if your epics don't fit the market. Therefore, before spending very much time on features, do a pass at [[Impact Mapping]].
 
 * In order to determine budgets per feature and the optimal order in which to deliver features, [[Business Bingo]].
