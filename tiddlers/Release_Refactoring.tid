@@ -5,7 +5,7 @@ title: Release Refactoring
 tmap.id: 54ac4d96-fd8d-4be8-a688-011f8e92f5bf
 type: text/vnd.tiddlywiki
 
-[[Product Squad]]s and [[Portfolio Squad]]s aim to deliver the highest [[ROROI]] in a [[Product Increment]]. Where throughput expectations vary, market conditions change, or significant new learnings occur, they need to [[continuously adapt|Continuous Adaptation]] their release commitments. And they need to do align these decisions between business and technical authorities through [[Management by Numbers]] so that stress and politics do not occur.
+[[Product Squad]]s and [[Portfolio Squad]]s aim to deliver the highest [[Throughput]] in a [[Product Increment]]. Where throughput expectations vary, market conditions change, or significant new learnings occur, they need to [[continuously adapt|Continuous Adaptation]] their release commitments. And they need to do align these decisions between business and technical authorities through [[Management by Numbers]] so that stress and politics do not occur.
 
 ''Therefore,''
 

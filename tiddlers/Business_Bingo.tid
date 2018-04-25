@@ -1,5 +1,5 @@
 created: 20151025033945673
-modified: 20170416114440337
+modified: 20180425070418892
 title: Business Bingo
 tmap.id: 0c12d380-3c37-4d1b-9020-837483f26464
 type: text/vnd.tiddlywiki
@@ -34,4 +34,4 @@ Best of all, ''Business Bingo'' is easy, fun to play, and quickly aligns busines
 
 There’s no dollar quantification of the return here, but we’ve found business stakeholders quickly converge on which features are worth more than which. And the conversations they have in getting to agreement are extremely illuminating - the technical team members need to listen carefully and ask questions to make certain they share the business context.
 
-[[ToDo]]: update this description to account for return estimation via [[Pirate Metrics]]. 
+[[ToDo]]: update this description to account for return estimation via {{Pirate Canvas}}. 

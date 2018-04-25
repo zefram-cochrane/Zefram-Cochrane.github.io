@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 > temporary in that it has a defined beginning and end in time, and therefore defined scope and resources. Unique in that it is not a routine operation, but a specific set of operations designed to accomplish a singular goal.
 
-Agile Organizations generate products and services over time. While an individual product may be disposable, product lines and the customer relationships they enable are not. [[Product Management]] involves [[continuous adaptation|Continuous Adaptation]] of products to market conditions and team configurations to products, not one-off projects with defined ends. Scope and resources are [[Solution Constraint]]s to be factored into routine release planning and sprint planning with the aim of maximising [[ROROI]], not to accomplish a singular goal.
+Agile Organizations generate products and services over time. While an individual product may be disposable, product lines and the customer relationships they enable are not. [[Product Management]] involves [[continuous adaptation|Continuous Adaptation]] of products to market conditions and team configurations to products, not one-off projects with defined ends. Scope and resources are [[Solution Constraint]]s to be factored into routine release planning and sprint planning with the aim of maximising [[Throughput]], not to accomplish a singular goal.
 
 {{PMI}} defines Project Managers as 
 

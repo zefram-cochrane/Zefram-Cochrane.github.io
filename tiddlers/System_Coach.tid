@@ -6,7 +6,7 @@ tmap.id: 76f7b56c-b012-46d6-a054-cf4baf059ce3
 type: text/vnd.tiddlywiki
 
 * [[System Leader]]s carry ultimate responsibility for and competence to maintain the proper functioning of their [[Value Stream]]' s technology. This means they are often more knowledgeable about the limits and shortcomings of existing systems than tools, techniques and choices that would enable DevOps and [[Feature Squad]]s to address them.
-* There is significant time and effort required to realise the huge benefit to [[ROROI]] of proper [[Behavior Driven Development]], [[Continuous Delivery]]. [[Quality Automation]], [[Process Automation]] and [[Automated Configuration Management]].
+* There is significant time and effort required to realise the huge benefit to [[Throughput]] of proper [[Behavior Driven Development]], [[Continuous Delivery]]. [[Quality Automation]], [[Process Automation]] and [[Automated Configuration Management]].
 * Keeping up with choices necessary to the proper configuration of technical frameworks, version control systems, work management and knowledge management tools requires specialist expertise and a time commitment that is not normally available to a [[System Leader]].
 
 ''Therefore,''

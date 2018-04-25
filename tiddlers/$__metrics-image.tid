@@ -15,9 +15,9 @@ type: text/vnd.tiddlywiki
 <area shape="poly" coords="112,381,134,368,176,364,197,348,221,348,251,335,276,334,291,322,317,322,330,313,356,308,370,291,388,289,398,268,414,269,418,253,445,254,457,235,472,236,489,229,496,218,523,213,544,184,599,152,599,214,577,217,541,235,524,252,495,262,481,273,474,270,471,274,455,274,445,286,420,286,412,301,392,301,384,318,369,318,351,332,329,329,314,344,294,340,273,349,252,348,227,357,199,360,175,374,140,373" title="Behavior Driven Development" href="#Behavior%20Driven%20Development">
 <area shape="poly" coords="28,390,63,378,111,374,116,362,154,358,165,346,222,340,256,319,287,319,315,284,343,283,361,257,384,254,391,239,415,234,433,218,460,211,481,191,518,187,534,173,565,166,600,140,600,153,543,183,523,212,496,217,488,229,473,236,457,235,447,254,419,250,414,269,398,269,389,287,370,290,358,308,330,311,316,321,293,321,276,333,252,333,223,348,198,347,178,365,136,365,112,383" title="Feature Point Budgets" href="#Feature%20Point">
 <area shape="poly" coords="31,390,598,123,598,142,565,166,531,175,517,190,479,194,458,211,428,217,415,234,389,241,384,256,365,257,345,285,317,285,288,319,253,319,220,343,153,360,118,362,112,375,66,378" title="Release Map Horizon" href="#Release%20Map">
-<area shape="poly" coords="256,286,599,64,600,124" title="Return on Product/Epic Investment" href="#ROROI">
-<area shape="rect" coords="261,21,576,83" title="Rate of Return on Investment" href="#ROROI">
-<area shape="rect" coords="20,19,234,50" title="Rate of Return on Investment" href="#ROROI">
+<area shape="poly" coords="256,286,599,64,600,124" title="Return on Product/Epic Investment" href="#Throughput">
+<area shape="rect" coords="261,21,576,83" title="Rate of Return on Investment" href="#Throughput">
+<area shape="rect" coords="20,19,234,50" title="Rate of Return on Investment" href="#Throughput">
 <area shape="rect" coords="21,51,235,84" title="Release Map Horizon" href="#Release%20Map">
 <area shape="rect" coords="21,82,237,117" title="Feature Point Budgets" href="#Feature%20Point">
 <area shape="rect" coords="21,117,236,151" title="BDD-Covered Features" href="#Behavior%20Driven%20Development">
