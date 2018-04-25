@@ -1,0 +1,18 @@
+created: 20180425035839036
+modified: 20180425040407167
+tags: 
+title: Throughput Diagram
+tmap.id: 590e1a2a-2dd5-4a01-a3ed-8e926c71247f
+type: text/vnd.tiddlywiki
+
+* In [[Lean Manufacturing]], the progress of a [[Kanban]] is tracked over time using a {{Cumulative Flow Diagram}} (CFD). CFDs are superior to traditional Agile burndown/burnup charts because they make it easier to see causes of [[Waste]], [[Stress]] and [[Instability]].
+* To represent [[Throughput]] the diagram must account for the time taken up in analysing the Features in an Epic and the Stories in a Feature, not just the delivery and integration workflow per story, and continuously represent the components of Return as well.
+* If a [[Value Stream]] is trying to hit a calendar date It's important to be able to see by simple visual inspection of diagrams when the feature point budget for a feature has been exceeded by [[Story Point]] estimates, and that consequently a release must be [[refactored|Release Refactoring]].
+
+''Therefore,''
+
+[[Feature Point]]s provide a simple basis for this kind of accounting. The cost of an Epic over the life of a release is the sum of its Feature Points. And as each Feature is delivered by just one Squad at a time, the Feature Point cost of a story is simply its [[Story Point]]s divided by Squad [[Velocity]].
+
+A CFD that represents all these metrics is called a ''Throughput Diagram''. The topmost "return" line can represent revenue or an Epic's [[Critical Number]]. As with CFDs, Throughput Diagrams can be added together to represent the flows of whole [[Portfolio]]s.
+
+{{$:/metrics-image}}

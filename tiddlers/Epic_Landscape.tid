@@ -1,5 +1,5 @@
 created: 20150811070230353
-modified: 20160605232302445
+modified: 20180425042344407
 title: Epic Landscape
 tmap.id: e63557c9-7ce3-4c99-838d-b3a7aa5b4eb8
 type: text/vnd.tiddlywiki
@@ -16,11 +16,11 @@ A culture that permits these problems evolves a brittle enterprise architecture 
 
 ''Therefore,''
 
-# The [[Portfolio Squad]] maintains a cross-product [[impact map|Impact Mapping]] for all its [[Product Squad]]s. This is called the ''Epic Landscape''.
+# The [[Portfolio Squad]] maintains a cross-product [[Pirate Canvas]] for all its [[Product Squad]]s. This is called the ''Epic Landscape''.
 # The [[Critical Number]]s inherent in each Why/Who/How/What Epic are analysed and represented explicitly.
 # The Why/Who/How/What bubbles on the Epic Landscape are then coloured to reflect the state of the business:
-#* Red: waste - inadequate [[ROROI]] to justify continuing to maintain this epic. The [[Value Stream]] must take appropriate steps to cease work on it and end its life.
-#* Amber: - [[ROROI]] zero or less. This Epic is presently stagnant. New growth strategies must be considered to re-awaken its potential.
-#* Green: [[ROROI]] positive. Though some bubbles might be more green than others.
-#* Blue: [[ROROI]] unknown. [[Agile R&D]] will be needed to identify and evaluate its [[Solution Constraints]].
-#* In a mature representation, bubble radius indicates the relative sizes of the [[ROROI]] 
+#* Red: waste - inadequate [[Throughput]] to justify continuing to maintain this epic. The [[Value Stream]] must take appropriate steps to cease work on it and end its life.
+#* Amber: - [[Throughput]] zero or less. This Epic is presently stagnant. New growth strategies must be considered to re-awaken its potential.
+#* Green: [[Throughput]] positive. Though some bubbles might be more green than others.
+#* Blue: [[Throughput]] unknown. [[Agile R&D]] will be needed to identify and evaluate its [[Solution Constraints]].
+#* In a mature representation, bubble radius indicates the relative sizes of [[Throughput]] 

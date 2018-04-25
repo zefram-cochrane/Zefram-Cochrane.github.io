@@ -1,5 +1,5 @@
 created: 20151221054444080
-modified: 20160126223758371
+modified: 20180425035808487
 title: Feature Point
 tmap.id: 79a588e7-8d27-4303-9e8b-0249f4838d48
 type: text/vnd.tiddlywiki
@@ -14,4 +14,4 @@ type: text/vnd.tiddlywiki
 
 # To emphasise that these are budgeting units, not calendar commitments or relative estimates, we call the unit a ''Feature Point''. 
 # Feature points estimate increments of funding necesssary to plan, delivery and deploy a [[Feature]]. One feature point represents to the amount of budget required to support one squad for one week.
-# FPs and SPs can be represented together on a [[Product Flow Diagram]] using the simple formula 1 FP = 1 SP x Velocity x [[Load Factor]], where load factor is just a constant to make sure that the time basis of SPs and FPs is the same.
+# FPs and SPs can be represented together on a [[Throughput Diagram]] using the simple formula 1 FP = 1 SP x Velocity x [[Load Factor]], where load factor is usually an FTE Day or a Squad Week ...

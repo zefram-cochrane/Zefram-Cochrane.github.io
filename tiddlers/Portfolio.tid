@@ -1,10 +1,10 @@
 created: 20160605202620303
-modified: 20160619042739370
+modified: 20180425041510339
 tags: 
 title: Portfolio
 tmap.id: 63c4302a-c914-4205-b583-87bd828c7318
 type: text/vnd.tiddlywiki
 
-A [[holarchy|Holarchy]] of [[squads|Autonomous Squad]] and [[chapters|Chapter]] arranged into a set of [[Value Stream]]s is called a ''portfolio''. The usage is similar to {{SAFe}} portfolios or [[Spotify]] / {{Iroquois Confederacy}} tribes. 
+A [[holarchy|Holarchy]] of [[squads|Autonomous Squad]] and [[chapters|Chapter]] arranged into a set of [[Value Stream]]s is called a ''portfolio''. The usage is similar to {{SAFe}} portfolios or [[Spotify]] / {{Haudenosaunee}} tribes. 
 
-Like tribes, XSCALE portfolios are limited in size by the [[Dunbar Number]]. Each [[continuously adapts|Continuous Adaptation]] its configuration of squads and chapters to its [[release plans|Release Plan]] and business objectives via a [[Portfolio Squad]]. 
+XSCALE portfolios are limited in size by the [[Dunbar Number]]. Each [[continuously adapts|Continuous Adaptation]] its configuration of squads and chapters to its [[release plans|Release Plan]] and business objectives via a [[Portfolio Squad]]. 
