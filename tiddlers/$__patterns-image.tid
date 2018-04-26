@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20160726235447657
+modified: 20180426030935093
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -35,7 +35,7 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="247,315,355,338" title="Product Backlog" href="#Product%20Backlog" />
 <area shape="rect" coords="355,316,447,338" title="Kanbans" href="https://www.crisp.se/gratis-material-och-guider/kanban" target="_blank" />
 <area shape="rect" coords="316,293,439,315" title="Quality Metrics" href="#Quality%20Metrics" />
-<area shape="rect" coords="208,363,446,382" title="Behavior Driven Development" href="#Behavior%20Driven%20Development" />
+<area shape="rect" coords="208,363,446,382" title="Incidents and Inflections" href="http://aits.org/agile/2016/08/implement-agile-incident-management/" target="_blank"/>
 <area shape="rect" coords="537,248,584,265" title="Adoption" href="#Adoption" />
 <area shape="rect" coords="473,249,524,264" title="Awareness" href="#Awareness" />
 <area shape="rect" coords="530,363,589,378" title="Acceleration" href="#Acceleration" />
