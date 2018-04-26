@@ -1,6 +1,6 @@
 created: 20180426035829603
 description: A dark theme
-modified: 20180426044652344
+modified: 20180426062459591
 name: Rocker
 tags: $:/tags/Palette
 title: $:/palettes/XSCALE
@@ -47,7 +47,7 @@ modal-header-border: #eeeeee
 muted-foreground: #999999
 notification-background: #ffffdd
 notification-border: #999999
-page-background: #272833
+page-background: #1c1d26
 pre-background: #f5f5f5
 pre-border: #cccccc
 primary: #7f9dfb
