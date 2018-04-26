@@ -1,0 +1,11 @@
+created: 20180426031751083
+modified: 20180426032554151
+title: Inflection
+tmap.id: cad84a76-55b6-491a-975e-93af4be7abbc
+type: text/vnd.tiddlywiki
+
+Changes in the throughput of quantitative analytics warrant immediate investigation and remediation as iff they were alarmed incidents.
+
+''Therefore,''
+
+Identify analytics for all [[Critical Number]]s and graph these over time on a [[Throughput Diagram]]. Sudden changes in the behaviors of these analytics are logged as incidents to be managed as we would any more alarming {{Incident}}. Detecting these inflections, tracing their root causes, and developing reliable methods of remediation is the heart of [[SciDevOps]].
