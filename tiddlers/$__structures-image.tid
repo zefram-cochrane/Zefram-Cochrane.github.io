@@ -1,5 +1,5 @@
 created: 20150809220300027
-modified: 20160717014431502
+modified: 20180427044334246
 tags: 
 title: $:/structures-image
 tmap.id: f310f480-85d4-47cc-8163-8f674b288622
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="375,15,583,62" title="Dunbar Number" href="#Dunbar%20Number" />
 <area shape="rect" coords="201,4,329,147" title="Chapter Meetings" href="#Chapter" />
 <area shape="rect" coords="202,186,329,401" title="Chapter Meetings" href="#Chapter" />
-<area shape="rect" coords="9,174,202,297" title="Delivery Squads" href="#Delivery%20Squad" />
+<area shape="rect" coords="9,174,202,297" title="Autonomous Squads" href="#Autonomous%20Squad" />
 <area shape="rect" coords="0,27,202,151" title="Product Squads" href="#Product%20Squad" />
 <area shape="rect" coords="4,317,203,415" title="DevOps Support Squads" href="#DevOps" />
 <area shape="rect" coords="358,390,592,418" title="Portfolios" href="#Portfolio" />

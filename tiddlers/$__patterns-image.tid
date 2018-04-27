@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20180426081132399
+modified: 20180427044113623
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -20,7 +20,7 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="89,260,203,276" title="Release Refactoring" href="#Release%20Refactoring" />
 <area shape="rect" coords="84,217,172,232" title="Business Bingo" href="#Business%20Bingo" />
 <area shape="rect" coords="88,126,189,140" title="Simple Design" href="#Simple%20Design" />
-<area shape="rect" coords="97,84,205,99" title="Throughput Accounting" href="#Throughput %20Accounting" />
+<area shape="rect" coords="97,84,205,99" title="Throughput Accounting" href="#Throughput%20Accounting" />
 <area shape="rect" coords="124,40,218,54" title="Pirate Canvas" href="#Pirate%20Canvas" />
 <area shape="rect" coords="0,117,28,266" title="Continuous Delivery" href="#Continuous%20Delivery" />
 <area shape="rect" coords="345,52,448,72" title="Critical Numbers" href="http://www.inc.com/magazine/19960301/1577.html" target="_blank" />
