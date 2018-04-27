@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20180426033140690
+modified: 20180426081132399
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -7,8 +7,8 @@ type: text/vnd.tiddlywiki
 <img src="http://xscale.wiki/images/xscale-practices.png" width="600" height="392" border="0" usemap="#practicemap" />
 
 <map name="practicemap">
-<area shape="poly" coords="87,65,102,62,122,59,141,58,157,57,209,58,209,59,207,51,250,64,212,72,211,67,185,66,138,66,109,69,90,72,79,76,72,79,82,70" title="Impact Mapping" href="#Impact%20Mapping" />
-<area shape="poly" coords="46,117,66,112,86,108,112,104,132,103,161,101,187,100,215,101,228,101,225,96,271,108,229,115,227,110,201,109,170,109,132,111,97,115,68,119,53,124,46,127,40,130" title="Constraint Mapping" href="#Constraint%20Mapping" />
+<area shape="poly" coords="87,65,102,62,122,59,141,58,157,57,209,58,209,59,207,51,250,64,212,72,211,67,185,66,138,66,109,69,90,72,79,76,72,79,82,70" title="Pirate Canvas" href="#Pirate%20Canvas" />
+<area shape="poly" coords="46,117,66,112,86,108,112,104,132,103,161,101,187,100,215,101,228,101,225,96,271,108,229,115,227,110,201,109,170,109,132,111,97,115,68,119,53,124,46,127,40,130" title="Throughput Accounting" href="#Throughput%20Accounting" />
 <area shape="poly" coords="31,161,39,158,54,153,66,151,86,148,116,145,158,143,194,142,223,142,249,143,247,138,296,150,253,158,253,152,209,152,169,151,126,152,85,156,57,160,43,163,33,168,29,172" title="Simple Design" href="#Simple%20Design" />
 <area shape="poly" coords="29,205,41,201,58,198,78,194,101,191,135,188,169,187,201,186,258,187,271,187,268,183,309,195,275,203,273,198,226,196,174,196,124,197,85,200,59,204,42,208,34,212,30,217" title="Behavior Mapping" href="#Behavior%20Mapping" />
 <area shape="poly" coords="39,254,47,251,60,245,80,240,105,236,131,234,157,232,195,231,229,231,239,232,239,226,285,239,244,247,243,241,228,241,194,240,154,241,121,243,89,246,67,251,54,255,43,262" title="Business Bingo" href="#Business%20Bingo" />
@@ -20,11 +20,11 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="89,260,203,276" title="Release Refactoring" href="#Release%20Refactoring" />
 <area shape="rect" coords="84,217,172,232" title="Business Bingo" href="#Business%20Bingo" />
 <area shape="rect" coords="88,126,189,140" title="Simple Design" href="#Simple%20Design" />
-<area shape="rect" coords="97,84,205,99" title="Constraint Mapping" href="#Constraint%20Mapping" />
-<area shape="rect" coords="124,40,218,54" title="Impact Mapping" href="#Impact%20Mapping" />
+<area shape="rect" coords="97,84,205,99" title="Throughput Accounting" href="#Throughput %20Accounting" />
+<area shape="rect" coords="124,40,218,54" title="Pirate Canvas" href="#Pirate%20Canvas" />
 <area shape="rect" coords="0,117,28,266" title="Continuous Delivery" href="#Continuous%20Delivery" />
 <area shape="rect" coords="345,52,448,72" title="Critical Numbers" href="http://www.inc.com/magazine/19960301/1577.html" target="_blank" />
-<area shape="rect" coords="208,7,313,25" title="Product Analytics" href="http://leanstack.com/lean-analytics-the-one-metric-that-matters-and-other-provocations/" target="_blank" />
+<area shape="rect" coords="208,7,313,25" title="Throughput Diagrams" href="#Throughput%20Diagram" />
 <area shape="rect" coords="249,51,345,73" title="Epic Landscape" href="#Epic%20Landscape" />
 <area shape="rect" coords="298,140,448,159" title="Solution Constraints" href="#Solution%20Constraint" />
 <area shape="rect" coords="315,183,449,204" title="Feature-Theme Matrix" href="#Feature-Theme Matrix" />
@@ -49,6 +49,6 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="448,101,469,284" title="Continuous Adaptation"  href="#Continuous%20Adaptation" />
 <area shape="rect" coords="475,362,525,378" title="Autonomy" href="#Autonomy" />
 <area shape="rect" coords="314,7,447,26" title="Product Flow Diagrams" href="#Product%20Flow%20Diagram" />
-<area shape="rect" coords="270,97,335,116" title="Holarchy" href="#Holarchy" />
-<area shape="rect" coords="334,97,449,116" title="Service Protocols" href="#Service%20Protocol" />
+<area shape="rect" coords="270,97,335,116" title="Theory of Constraints" href="#Theory%20of%20Constraints" />
+<area shape="rect" coords="334,97,449,116" title="Theory of Constraints" href="#Theory%20of%20Constraintsl" />
 </map>

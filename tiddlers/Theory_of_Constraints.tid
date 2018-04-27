@@ -1,10 +1,14 @@
-created: 20160717011054654
-modified: 20160717013237187
+created: 20180426080528419
+modified: 20180426080744364
 tags: 
 title: Theory of Constraints
-tmap.id: 93d7db12-9457-4ef2-9ebb-2450c400a035
+tmap.id: dea85025-7076-41f8-889b-58072ea249fe
 type: text/vnd.tiddlywiki
 
-[[Theory of Constraints|http://www.leanproduction.com/theory-of-constraints.html]] gives a nice summary. 
+Perhaps the world's most obvious but least understood theory. In any human or automated system there are many constraints, but at any one time  just one of these is the [[Bottleneck]]. It follows that:
 
-The critical observation in ToC is that at any point in time any system's performance is limited by a single dominant constraint. ToC calls this "The Bottleneck". Working on improving any other constraint can't possibly improve [[throughput|Throughput Accounting]]. So identifying and prioritising work on the bottleneck is critically important for [[Throughput]].
+* Work on any other constraint is waste because it won't increase [[Throughput]]. Agilists also call this [[YAGNI]].
+* Once you open one bottleneck, another constraint becomes the bottleneck. 
+* Value streams that don't analytically and continuously [[Refactor their release plans|Release Refactoring]] are wasting time, reducing [[ROI]] and increasing the [[Cost of Delay]] and [[Maintenance Cost]]s for everything else..
+
+[[Here|http://www.leanproduction.com/theory-of-constraints.html]] is a nice summary. 

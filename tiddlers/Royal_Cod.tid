@@ -1,20 +1,20 @@
 created: 20151210035520344
-modified: 20170416113205652
+modified: 20180427031332075
 title: Royal Cod
 tmap.id: 9b6a8462-491e-4044-9978-47a3fe043d74
 type: text/vnd.tiddlywiki
 
-[[ROI]] priorities are easy to establish via [[Business Bingo]]. but we still have to factor in ''Urgency'' to minimise {{Cost Of Delay}}. 
+How do you prioritise something?
 
-[[WSJF]] entails statistical smearing across the independent dimensions of COD and it's over-complex given we already know budget and ROI from bingo.
+* Ranking by simple business value is no good because it doesn't respect [[ROI]] or [[COD|Cost Of Delay]].
+* [[WSJF]] and [[CD3]] are no good because they naively divide urgency by duration and they don't take [[Release Goal]]s into account at all.
+*  Worst of all, these methods don't take disagreeing stakeholder missions into account. We need technical, design and business stakeholders to actually have conversations about trading off their constraints which is why [[Business Bingo]].
 
 ''Therefore,''
 
-Adjust the ROI prioritisation discretely to account for this.
+Adjust an [[ROI]] prioritisation discretely to account for [[COD|Cost Of Delay]]. We call the combination //Royal Cod// as an easier way to pronounce ROI+COD.
 
 # After finishing the bingo session, simply lay out the features in order of decreasing [[ROI]].
-# Ask the technical authorities in the [[Product Squad]] whether any [[Technical Feature]]s have a {{Cost Of Delay}} that trumps their [[ROI]] due to technical dependencies or opportunities. Adjust the feature order accordingly.
-# Ask the business authorities in the [[Product Squad]] whether there are any business risks that mean a [[Business Feature]]'s COD trumps its ROI.  Swap accordingly.
-# If the team wants to debate these swaps, let them. If they can't get to a unanimous agreement, use [[Leadership as a Service]] and [[DRI|Directly Responsible Individual]]s to resolve the impasse.
-
-The resulting prioritisation is called ''ROI + COD'', which we pronounce as //Royal Cod//.
+# Ask the technical authorities in the [[Product Squad]] whether any [[Technical Feature]]s have a {{Cost Of Delay}} that trumps their [[ROI]] for the next [[Release Goal]] due to technical dependencies or opportunities. Adjust the feature priorities accordingly.
+# Ask the business authorities in the [[Product Squad]] whether there are any business risks that mean a [[Business Feature]]'s COD trumps its ROI.  Adjust the order again.
+# If the team wants to debate these swaps, use [[Leadership as a Service]] and [[DRI|Directly Responsible Individual]]s to assure a decision is reached in a timely way.

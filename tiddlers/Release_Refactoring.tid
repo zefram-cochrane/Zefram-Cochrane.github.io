@@ -1,27 +1,31 @@
 created: 20151019212104221
-modified: 20170416113922340
+modified: 20180427040923627
 tags: 
 title: Release Refactoring
 tmap.id: 54ac4d96-fd8d-4be8-a688-011f8e92f5bf
 type: text/vnd.tiddlywiki
 
-[[Product Squad]]s and [[Portfolio Squad]]s aim to deliver the highest [[Throughput]] in a [[Product Increment]]. Where throughput expectations vary, market conditions change, or significant new learnings occur, they need to [[continuously adapt|Continuous Adaptation]] their release commitments. And they need to do align these decisions between business and technical authorities through [[Management by Numbers]] so that stress and politics do not occur.
+* Release planning works to maximise [[Product Market Impact|Impact Mapping]] and thereby business [[Throughput]]  by reconciling feature priorities and calendar dates with quantified [[Release Goal]]s across the [[Epic Landscape]].
+* Business, design and technical stakeholders self-organize into [[Product Squad]]s and [[Portfolio Squad]]s to collaborate on tradeoffs for this purpose using [[Leadership as a Service]] and [[Open Book Management]].
+* When solution assumptions fail, market conditions change, new business, design or technology constraints are identified, or other significant learnings show up, feature priorities and release plans must be adapted to them immediately to maintain [[Throughput]]. 
 
 ''Therefore,''
 
-Release Refactoring is a simple consensus game that enables rapid rational trade-offs between different  feature-sets while respecting the date and budget limits of a PI. An alternate approach for [[Value Stream]]s without PIs is [[Getting Features Done]].
+Release Refactoring is a rapid consensus game that enables quick numeric trade-offs between different feature-sets while respecting calendar dates and budget limits for a release goal. 
 
+# This is a game for the entire [[Product Squad]] - business stakeholders make the decisions but design and tech stakeholders question them and answer questions.
 # Using the [[Royal Cod]] prioritization derived by [[Business Bingo]], lay out all available [[Feature]]s in columns grouped by [[Epic]].
-# [[Normalise Relative ROI]].
-# Pick the first column. Pick the feature at the top of the column. Let business authorities say whether the [[Epic]]'s business driver can be satisfied without including this feature in the PI. 
-# Continue feature by feature until the Epic's [[Product Owner]] sees one that, while still valuable, could be left out without preventing satisfaction of the driver.
-# All of the features above that one constitute the minimum viable feature-set for that Epic in the PI. Call that feature-set "bronze". 
-# Continue to pick features in that column now asking its Product Owner whether the feature has a concrete quantified business value or whether it's a "nice to have". Call the former "silver" and the latter "gold".
-# Total how many feature points are in each of the bronze, silver and gold levels for that column, and then total the normalized ROI numbers for each.
-# Do steps 1-6 for all columns.
+# Pick the first column. Pick the feature at the top of the column. Let business stakeholders say whether the [[Release Goal]] can be satisfied for this Epic without including that feature. If they disagree, use [[Leadership as a Service]] to resolve the matter.
+# Continue down the column, feature by feature, until the business stakeholders agree that one of the features isn't critical for the [[Release Goal]] for this [[Epic]].
+# Call all the features above that one ''bronze'' and all the ones below them ''silver''.
+# Now ask the business stakeholders whether any of the silver features could be deferred till the following release without impacting the [[Release Goal]]. Call the ones that can be deferred "gold".
+# Total how many feature points are in each of bronze, silver and gold levels for that Epic.
+# Total how much [[ROI]] are in each of bronze, silver and gold levels for that Epic.
 
-# If you're working to create a release plan for a particular date or [[PI|Portfolio Increment]], determine how many feature points correspond to that constraint. Now simply select the combination of bronze, silver and gold groups that maximizes ROI within that number of feature points. It's a simple fitting problem.
-# Let stakeholders do some fine tuning and trade-offs of features from different epics to respect COD. But make certain they start with the bronze/silver/gold tranches so they have a reasonable starting point.
+# Repeat the above steps for all columns.
+
+# If you're working to create a release plan for a particular date, determine how many feature points correspond to that constraint. Now simply select the combination of bronze, silver and gold groups with the maximum [[ROI]] within that number.
+# Let stakeholders do some fine tuning and trade-offs of features from different epics to respect [[COD]] issues. But make certain they start with the bronze/silver/gold tranches so keep this conversation manageable.
 # If fitting to a continuous delivery funding model rather than a specific date, use [[Getting Features Done]] instead.
 # Keep the refactoring board on an [[Information Radiator]] to assure continuous alignment of authorities and for context for the next [[Release Refactoring]] session.
 

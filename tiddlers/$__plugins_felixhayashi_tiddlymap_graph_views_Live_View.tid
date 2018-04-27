@@ -7,7 +7,7 @@ config.show_inter_neighbour_edges: false
 config.vis: {"edges":{"shadow":true}}
 created: 20150806095708772
 isview: true
-modified: 20160523093611787
+modified: 20180426081811594
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
 type: text/vnd.tiddlywiki
 
