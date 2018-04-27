@@ -1,5 +1,5 @@
 created: 20150806095842135
-modified: 20180426082155063
+modified: 20180427124917951
 title: $:/plugins/felixhayashi/tiddlymap/config/sys/user
 type: application/json
 
@@ -20,9 +20,11 @@ type: application/json
     "popups.delay": "600",
     "popups.width": "240px",
     "popups.height": "140px",
+    "jsonIndentation": "1",
     "editNodeOnCreate": "false",
     "singleClickMode": "true",
     "editorMenuBar.showNeighScopeButton": "true",
+    "editorMenuBar.showRasterMenuButton": "false",
     "editorMenuBar.showScreenshotButton": "false",
     "defaultView": "Live View"
 }
