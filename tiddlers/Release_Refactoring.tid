@@ -6,7 +6,7 @@ tmap.id: 54ac4d96-fd8d-4be8-a688-011f8e92f5bf
 type: text/vnd.tiddlywiki
 
 * Release planning works to maximise [[Product Market Impact|Impact Mapping]] and thereby business [[Throughput]]  by reconciling feature priorities and calendar dates with quantified [[Release Goal]]s across the [[Epic Landscape]].
-* Business, design and technical stakeholders self-organize into [[Product Squad]]s and [[Portfolio Squad]]s to collaborate on tradeoffs for this purpose using [[Leadership as a Service]] and [[Open Book Management]].
+* Business, design and technical stakeholders self-organize into [[Product Squad]]s and [[Portfolio Council]]s to collaborate on tradeoffs for this purpose using [[Leadership as a Service]] and [[Open Book Management]].
 * When solution assumptions fail, market conditions change, new business, design or technology constraints are identified, or other significant learnings show up, feature priorities and release plans must be adapted to them immediately to maintain [[Throughput]]. 
 
 ''Therefore,''

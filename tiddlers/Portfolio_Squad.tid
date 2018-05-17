@@ -1,12 +1,12 @@
 created: 20160605231653103
-modified: 20160726235331494
+modified: 20180516210739369
 tags: 
-title: Portfolio Squad
-tmap.id: 58524646-cdc0-4845-9ac2-4b2825abd856
+title: Portfolio Council
+tmap.id: b3a1e8d1-7fd3-49c4-9412-ec662c31ad31
 type: text/vnd.tiddlywiki
 
-Each [[Portfolio]] is steered by a [[squad|Autonomous Squad]] made up of its [[Chapter Leader]]s, [[Product Leader]]s and [[System Leader]]s. It relies on a [[Portfolio Leader]] and [[Portfolio Coach]] to supply it with [[Leadership as a Service]]. Another name for the portfolio squad is [[Agile PMO]].
+Each [[Portfolio]] is steered by a [[council|Clockwork Council]] made up of its [[Chapter Leader]]s, [[Product Leader]]s and [[System Leader]]s. It relies on a [[Portfolio Leader]] and [[Portfolio Coach]] to supply it with [[Leadership as a Service]]. Another name for the portfolio squad is [[Agile PMO]].
 
 As the steering function of the [[Portfolio]], its primary accountability is to factor and refactor the functional responsibilities of its [[Value Streams]] and their [[squads|Autonomous Squad]] by means of [[Constraint Mapping]] and to enable the [[Portfolio Leader]] to intelligently liaise with the business's executive team to manage the organization's finances.
 
-The Portfolio Squad is also responsible for clearly identifying the portfolio's [[Critical Number]]s and [[Release Plans|Release Refactoring]].
+The Portfolio Council is also responsible for clearly identifying the portfolio's [[Critical Number]]s and [[Release Plans|Release Refactoring]].

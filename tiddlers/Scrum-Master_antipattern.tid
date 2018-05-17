@@ -1,5 +1,5 @@
 created: 20160103115000536
-modified: 20160115205725941
+modified: 20180517024246954
 title: Scrum-Master antipattern
 tmap.id: 5ff30597-c98d-49cb-91de-a137711596da
 type: text/vnd.tiddlywiki
@@ -15,3 +15,4 @@ type: text/vnd.tiddlywiki
 Lift the SM role to make it a [[Product Coach]] who peers with the [[Product Leader]] in providing proper [[Leadership as a Service]] to the team.
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/GGbsgs611MM" frameborder="0" allowfullscreen></iframe>
+

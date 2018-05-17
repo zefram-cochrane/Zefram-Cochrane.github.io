@@ -1,0 +1,11 @@
+created: 20150807030206149
+modified: 20180517020301102
+title: Style Guidelines
+tmap.id: 38c262c3-5cb7-4d98-bd75-83c13ad3a194
+type: text/vnd.tiddlywiki
+
+; ''Brevity is the soul of it''
+: This is a TiddlyWiki, Tiddly means all our wiki pages should be tiddly - ''no more than three paragraphs per page please''. That's prompted by the [[Continuous]] principle, but it has a practical social reason too, It's much easier to play with each others' ideas and intertwingle them this way. TiddlyWiki calls such wiki pages tiddlers. 
+
+; ''Put patterns in [[Therefore But]] format''
+: The heart of xscale.wiki is the [[XSCALE]] pattern language. We prefer the format championed on [[WardsWiki]]: you state the problem and its forces, follow it with a bold ''Therefore,'' on a line by itself, then state your tried-and-true solution. Usually that solution generates more problems, in which case you put a bold ''But,'' on a line by itself and then a list of links to tiddlers that describe the problem(s) in [[Therefore But]] format too.

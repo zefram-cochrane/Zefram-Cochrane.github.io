@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 ''Therefore,''
 
-Keep a board laid out as per [[Release Refactoring]] but dispense with bronze/silver/gold distinctions. As each [[Feature Squad]] completes a [[Feature]], the [[Portfolio Squad]] picks the next feature from the top of an epic column that best fits the competencies of that feature squad. If none do, the [[Portfolio Squad]] conducts [[Constraint Mapping]] to refactor the feature squads according to best adapt them to the combinations of competencies needed to deliver all the "next features".
+Keep a board laid out as per [[Release Refactoring]] but dispense with bronze/silver/gold distinctions. As each [[Feature Squad]] completes a [[Feature]], the [[Portfolio Council]] picks the next feature from the top of an epic column that best fits the competencies of that feature squad. If none do, the [[Portfolio Council]] conducts [[Constraint Mapping]] to refactor the feature squads according to best adapt them to the combinations of competencies needed to deliver all the "next features".
 
 ''See also:''
 

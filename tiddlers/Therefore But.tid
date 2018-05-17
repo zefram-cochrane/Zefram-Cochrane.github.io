@@ -1,0 +1,17 @@
+created: 20180517014233527
+modified: 20180517015525484
+title: Therefore But
+tmap.id: cc0e5f62-3933-4c52-8209-29f8dedf1d5b
+type: text/vnd.tiddlywiki
+
+The heart of xscale.wiki is its [[Pattern Language]]. There are many complex formats for patterns, but we use the simple one championed on [[WardsWiki]]
+
+''Therefore,''
+
+State the problem and its forces, follow it with a bold ''Therefore,'' on a line by itself, then state your tried-and-true solution. 
+
+''But,''
+
+Usually the solution involved in a pattern generates more problems, in which case you put a bold ''But,'' on a line by itself and then a list of links to tiddlers that describe the problem(s) in [[Therefore But]] format too. If this tiddler conformed to the pattern, this paragraph would be in a separate tiddler. Then again it is possible to become
+
+* [[Too Meta]]
