@@ -1,9 +1,9 @@
 created: 20150811070045414
-modified: 20180426045012879
+modified: 20180517045549435
 title: Product Squad
 tmap.id: 7023c087-adb1-4e07-8795-1ba6d1960926
 type: text/vnd.tiddlywiki
 
-A virtual team made up of all business, technical and design stakeholders necessary to define a [[Value Stream]]. The product squad meets on a regular cadence to apply the XSCALE [[Product Management]] patterns along with {{Lean UX}} to contract the [[Epic Landscape]] down to [[Estimated Stories|Estimated Story]]. It tracks its work in a {{Kanban}} with its key metric being the number of [[Story Point]]s worth of its stories its [[Feature Squad]]s are able to estimate per week.
+A Product Squad extends the [[Stream Council]] to form a virtual team made up of all business, technical and design stakeholders necessary to [[design|Simple Design]] and prioritise a [[Value Stream]]. It meets on a regular cadence to apply the XSCALE [[Product Management]] patterns along with {{Lean UX}} to contract the [[Epic Landscape]] down to a well-formed [[Release Plan]] of well-formed [[Feature]]s. It tracks its work in a {{3D Kanban}} with its key quality metric being the number of [[Story Point]]s worth of its stories its [[Feature Squad]]s are able to estimate per week.
 
-The product squad is servant-led by the [[Product Leader]] and [[Product Coach]].
+The product squad is servant-led by the [[Product Leader]] and/or [[Product Coach]].

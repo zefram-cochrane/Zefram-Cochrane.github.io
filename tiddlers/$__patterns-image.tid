@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20180427044113623
+modified: 20180517051201062
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -36,16 +36,16 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="355,316,447,338" title="Kanbans" href="https://www.crisp.se/gratis-material-och-guider/kanban" target="_blank" />
 <area shape="rect" coords="316,293,439,315" title="Quality Metrics" href="#Quality%20Metrics" />
 <area shape="rect" coords="208,363,446,382" title="Incidents and Inflections" href="#Inflection" />
-<area shape="rect" coords="537,248,584,265" title="Adoption" href="#Adoption" />
-<area shape="rect" coords="473,249,524,264" title="Awareness" href="#Awareness" />
+<area shape="rect" coords="537,248,584,265" title="Analytics" href="#Analytics" />
+<area shape="rect" coords="473,249,524,264" title="Activation" href="#Activation" />
 <area shape="rect" coords="530,363,589,378" title="Acceleration" href="#Acceleration" />
 <area shape="circle" coords="531,314,46" title="Chapter Meetings" href="#Chapter%20Meeting" />
 <area shape="circle" coords="530,196,46" title="Product Squads" href="#Product%20Squad" />
-<area shape="circle" coords="531,79,47" title="Portfolio Council" href="#Portfolio%20Squad" />
-<area shape="rect" coords="471,13,526,26" title="Assessment" href="#Assessment" />
-<area shape="rect" coords="535,14,585,27" title="Allocation" href="#Allocation" />
-<area shape="rect" coords="474,130,524,144" title="Alignment" href="#Alignment" />
-<area shape="rect" coords="532,131,589,145" title="Architecture" href="#Architecture" />
+<area shape="circle" coords="531,79,47" title="Portfolio Council" href="#Portfolio%20Council" />
+<area shape="rect" coords="471,13,526,26" title="Awareness" href="#Awareness" />
+<area shape="rect" coords="535,14,585,27" title="Assessment" href="#Assessment" />
+<area shape="rect" coords="474,130,524,144" title="Architecture" href="#Architecture" />
+<area shape="rect" coords="532,131,589,145" title="Alignment" href="#Alignment" />
 <area shape="rect" coords="448,101,469,284" title="Continuous Adaptation"  href="#Continuous%20Adaptation" />
 <area shape="rect" coords="475,362,525,378" title="Autonomy" href="#Autonomy" />
 <area shape="rect" coords="314,7,447,26" title="Product Flow Diagrams" href="#Product%20Flow%20Diagram" />

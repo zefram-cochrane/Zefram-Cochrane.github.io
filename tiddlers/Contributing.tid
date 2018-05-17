@@ -1,38 +1,13 @@
 created: 20131101111400000
-modified: 20150807134144562
-tags: Community Refactor
+modified: 20180517053127269
 title: Contributing
 tmap.id: 81c9f355-02da-4a37-91ac-ef936a5a9231
 type: text/vnd.tiddlywiki
 
-This needs to be repurposed for [[XSCALE]].
+We [[welcome|Welcome Visitors]] contributions to the [[XSCALE Blueprint]]'s [[Pattern Language]]:
 
-----
+* [[Refactoring|Merciless Refactoring]] and organizing the patterns into simpler, more general, more concrete and more useful forms.
+* Contributing new patterns and extending existing ones.
+* Adding links to case studies and contributing problem reports
 
-We welcome contributions to the code and documentation of TiddlyWiki in several ways:
-
-* ReportingBugs
-* Helping to [[improve our documentation|Improving TiddlyWiki Documentation]]
-* Contributing to the code via [[GitHub|https://github.com/Jermolene/TiddlyWiki5]]
-** See http://tiddlywiki.com/dev for more details
-
-There are other ways to [[help TiddlyWiki|HelpingTiddlyWiki]] too.
-
-! Contributor License Agreement
-
-{{Contributor License Agreement}}
-
-! How to sign the CLA
-
-{{Signing the Contributor License Agreement}}
-
----
-
-//The CLA documents used for this project were created using [[Harmony Project Templates|http://www.harmonyagreements.org]]. "HA-CLA-I-LIST Version 1.0" for "CLA-individual" and "HA-CLA-E-LIST Version 1.0" for "CLA-entity".//
-
-Remarks
--------
-
-**When not owning the copyright in the entire work of authorship**
-
-In this case, please clearly state so, since otherwise we assume that you are the legal copyright holder of the contributed work! Please provide links and additional information that clarify under which license the rest of the code is distributed.
+By contributing to the [[XSCALE Blueprint]] you warrant that your contributions don't violate anyone else's copyright, and you agree to release your contributions to be shared, edited, deleted, extended, improved and generally munged up by everyone else in the XSCALE {{Learning Ecosystem}}. You also agree to uphold our [[Style Guidelines]], [[Social Guidelines]] and above all our [[Prime Directive]] ...

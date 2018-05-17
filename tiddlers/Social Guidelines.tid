@@ -1,14 +1,12 @@
 created: 20180517020518781
-modified: 20180517031319109
+modified: 20180517033412626
 title: Social Guidelines
 tmap.id: ade7e5ed-dbbf-411d-a2f7-d3ff57a07c03
 type: text/vnd.tiddlywiki
 
 One of the beautiful things about hosting the [[XSCALE Blueprint]] on github is we don't need to worry about people violating our [[Style Guidelines]]. We simply won't accept pull requests that do. But there are a few guidelines we feel will help us all get along here:
 
-* Avoid [[Thread Mode]]. This is our reference base, not our [[slack channel|https://xscale-alliance.slack.com/messages]].
-* [[Backlinks As Signatures]]
-*  [[YAGNI]]
+*  {{YAGNI}}
 * [[Merciless Refactoring]]
-* Above all, keep in mind XSCALE's [[Prime Directive]] ...
+* [[Above all ...|Prime Directive]]
 
