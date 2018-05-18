@@ -1,0 +1,11 @@
+created: 20180518004800379
+modified: 20180518005828250
+title: CRC Carding
+tmap.id: 6f4f7fd0-8823-43eb-aeab-fcf5f3e6b1ca
+type: text/vnd.tiddlywiki
+
+[[CRC Carding|http://www.extremeprogramming.org/rules/crccards.html]] is a method of object-oriented design invented by [[Ward Cunningham]]. It builds on the fact that while humans don't have an easy time understanding and remembering complex diagrams, we're very good at understanding and remembering complex narratives. So it's essentially a method of collaboratively role-playing a design that can easily be recalled by any participant without making complex diagrams. 
+
+Once you get used to it, you don't even need to write the detailed responsibilities and collaborators on the cards. It's like remembering your favourite movie - you don't need to write down the details of who the players are and what their relationships are to play it out on a tabletop. And if someone hasn't seen the movie, you can easily play it out for them. The same thing applies to CRC Carding, which means there's really no point to [[UML]] - it's just an [[Illusion of Control|http://wiki.c2.com/?IllusionOfControl]].
+
+We apply  CRC Carding to the abstraction of [[Feature]]s from [[Epic]]s and {{User Stories}} from [[Features]]. 

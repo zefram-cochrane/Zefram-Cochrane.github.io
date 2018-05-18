@@ -1,5 +1,5 @@
 created: 20150809165413052
-modified: 20180517051201062
+modified: 20180518005857503
 title: $:/patterns-image
 tmap.id: 5c634d57-0d12-4012-81a7-99a69c2e1f1d
 type: text/vnd.tiddlywiki
@@ -26,8 +26,8 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="345,52,448,72" title="Critical Numbers" href="http://www.inc.com/magazine/19960301/1577.html" target="_blank" />
 <area shape="rect" coords="208,7,313,25" title="Throughput Diagrams" href="#Throughput%20Diagram" />
 <area shape="rect" coords="249,51,345,73" title="Epic Landscape" href="#Epic%20Landscape" />
-<area shape="rect" coords="298,140,448,159" title="Solution Constraints" href="#Solution%20Constraint" />
-<area shape="rect" coords="315,183,449,204" title="Feature-Theme Matrix" href="#Feature-Theme Matrix" />
+<area shape="rect" coords="298,140,448,159" title="CRC Carding" href="#CRC%20Carding" />
+<area shape="rect" coords="315,183,449,204" title="Acceptance Matrix" href="#Acceptance Matrix" />
 <area shape="rect" coords="288,229,373,249" title="Feature Budget / Feature Points" href="#Feature%20Point" />
 <area shape="rect" coords="375,231,447,249" title="ROI+COD" href="#Royal%20Cod" />
 <area shape="rect" coords="385,273,446,293" title="Feature GTD" href="#Feature%20GTD" />
@@ -50,5 +50,5 @@ type: text/vnd.tiddlywiki
 <area shape="rect" coords="475,362,525,378" title="Autonomy" href="#Autonomy" />
 <area shape="rect" coords="314,7,447,26" title="Product Flow Diagrams" href="#Product%20Flow%20Diagram" />
 <area shape="rect" coords="270,97,335,116" title="Theory of Constraints" href="#Theory%20of%20Constraints" />
-<area shape="rect" coords="334,97,449,116" title="Theory of Constraints" href="#Theory%20of%20Constraintsl" />
+<area shape="rect" coords="334,97,449,116" title="Theory of Constraints" href="#Theory%20of%20Constraints" />
 </map>
