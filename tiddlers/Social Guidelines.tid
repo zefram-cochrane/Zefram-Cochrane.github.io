@@ -1,5 +1,5 @@
 created: 20180517020518781
-modified: 20180517033412626
+modified: 20180518015235160
 title: Social Guidelines
 tmap.id: ade7e5ed-dbbf-411d-a2f7-d3ff57a07c03
 type: text/vnd.tiddlywiki
@@ -8,5 +8,5 @@ One of the beautiful things about hosting the [[XSCALE Blueprint]] on github is 
 
 *  {{YAGNI}}
 * [[Merciless Refactoring]]
-* [[Above all ...|Prime Directive]]
+* The [[Prime Directive]] ...
 
