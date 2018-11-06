@@ -1,0 +1,5 @@
+{ "dependencies" :
+  { "tiddlywiki" : "5.1.15" }
+, "scripts" :
+  { "tiddlywiki": "tiddlywiki" }
+}
