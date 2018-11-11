@@ -1,12 +1,16 @@
 created: 20180517020518781
-modified: 20180518015235160
+creator: Peter Merel
+modified: 20181111054627399
+modifier: Peter Merel
 title: Social Guidelines
 tmap.id: ade7e5ed-dbbf-411d-a2f7-d3ff57a07c03
 type: text/vnd.tiddlywiki
 
-One of the beautiful things about hosting the [[XSCALE Blueprint]] on github is we don't need to worry about people violating our [[Style Guidelines]]. We simply won't accept pull requests that do. But there are a few guidelines we feel will help us all get along here:
+One of the beautiful things about hosting the [[XSCALE Blueprint]] on github is we don't need to worry about people violating our [[Style Guidelines]]. We simply don't accept edits that do. But there are a few guidelines about how to interact with people that help us all get along better together here:
 
 *  {{YAGNI}}
-* [[Merciless Refactoring]]
-* The [[Prime Directive]] ...
+* [[Real Names Please]]
+* [[On Topic]]
+* [[Simplify|Merciless Refactoring]]
+* [[The Prime Directive|Prime Directive]] ...
 

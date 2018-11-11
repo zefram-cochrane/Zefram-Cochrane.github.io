@@ -1,0 +1,21 @@
+created: 20181111050627639
+modified: 20181111055648937
+tags: 
+title: Gittly Plugin
+tmap.id: 6f07f631-5088-45d1-80bd-ff2a60f55536
+type: text/vnd.tiddlywiki
+
+A plugin to enable multi-user tiddlywiki over github:
+
+* Keeping it simple, someone wanting to edit the wiki need only clone the repo and run the NPS server, same as for a normal standalone [[TiddlyWIki]].
+* The first time it's run, the server will ask the user to identify themselves and will name a new git branch after them per [[Real Names Please]]. All a user's edits will occur on this branch, which we'll call the Edit branch here.
+* The save button is where most of the magic happens. It works as follows:
+**  run git pull on the Master branch to bring down the latest changes from the github repo
+**  run git merge to pull new changes from the Master branch to the Edit branch
+** if there are no merge conflicts, rebase Master on Edit (fast-forwarding it) and attempt to push the result up to the github repo.
+** if a pull is required, reset Master to where it was before the rebase and go ahead and pull. Then merge to Edit and rebase to Master and try to push again. Continue until successful. 
+** if at any stage a merge-conflict emerges, turn the conflicted tiddlers into Draft pages on the Edit branch so the user can resolve the collision using the usual tiddly editing flow. If there were already Draft pages open for these conflicts, git stash them first.
+** Once the user has resolved the conflicts, they press Save again
+** Once the user has successfully pushed their edits, generate a flat-file index.html and push it up to the central repo, where it will naturally become the public view of xscale.wiki
+* The [[Recent Changes]] page will also need a little surgery:
+** (more to come)

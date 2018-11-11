@@ -1,13 +1,13 @@
 created: 20131101111400000
-modified: 20180906221548748
+modified: 20181109043903962
 title: Contributing
 tmap.id: 81c9f355-02da-4a37-91ac-ef936a5a9231
 type: text/vnd.tiddlywiki
 
 We [[welcome|Welcome Visitors]] contributions to the [[XSCALE Blueprint]]'s [[Pattern Language]]:
 
+* [[Experience Reports]] on the good and bad things that resulted from your application of one or more XSCALE patterns.
 * [[Refactoring|Merciless Refactoring]] and organizing the patterns into simpler, more general, more concrete and more useful forms.
 * Contributing new patterns and extending existing ones.
-* Adding links to case studies and contributing problem reports
 
-By contributing to the [[XSCALE Blueprint]] you warrant that your contributions don't violate anyone else's copyright, and you agree to release your contributions to be shared, edited, deleted, extended, improved and generally munged up by everyone else in the XSCALE {{Learning Ecosystem}} under the terms of the [[License]]. You also agree to uphold our [[Style Guidelines]], [[Social Guidelines]] and above all our [[Prime Directive]] ...
+By contributing to the [[XSCALE Blueprint]] you warrant that your contributions don't violate anyone else's copyright, and that your agree to release your contributions to be shared, edited, deleted, extended, improved and generally munged up by everyone else in the XSCALE {{Learning Ecosystem}} under the terms of the [[License]]. You also agree to uphold our [[Style Guidelines]], [[Social Guidelines]] and above all our [[Prime Directive]] ...
