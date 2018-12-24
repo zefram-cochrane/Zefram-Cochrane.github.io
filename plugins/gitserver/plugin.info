@@ -1,0 +1,10 @@
+{
+  "title": "$:/plugins/xscale/gitserver",
+  "description": "GitServer",
+  "author": "James Gorman",
+  "version": "0.1.0",
+  "core-version": ">=5.0.0",
+  "type": "application/json",
+  "plugin-type": "plugin",
+  "list": "readme"
+}

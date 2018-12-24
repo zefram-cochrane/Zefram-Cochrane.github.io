@@ -12,10 +12,16 @@ npm install
 
 Then run the server by typing
 ```
-npm run tiddlywiki -- . --server
+npm run tiddlywiki -- . --gitserver
 ```
 
 Now use your favorite browser to view the wiki at http://127.0.0.1:8080.
+
+To see the git commands being executed run the server using
+
+```
+DEBUG=* npm run tiddlywiki -- . --gitserver
+```
 
 ## How to contribute
 
@@ -24,7 +30,7 @@ These are the suggested steps to start contributing:
 1. Run the wiki locally
 1. Visit the wiki page on [Contributing]
 1. Add your name to the [Contributors] page
-1. Commit your changes and send out a pull request. 
+1. Commit your changes and send out a pull request.
    If you need help, visit our page on [editing the wiki].
 
 Thank you for your contributions!
