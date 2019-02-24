@@ -12,6 +12,7 @@ module-type: lib
 var git = require('$:/plugins/xscale/gitserver/git/git.js');
 
 var assertIsRepo = require('$:/plugins/xscale/gitserver/git/assertIsRepo.js');
+var assertIsAttached = require('$:/plugins/xscale/gitserver/git/assertIsAttached.js');
 var assertNamedEditor = require('$:/plugins/xscale/gitserver/git/assertNamedEditor.js');
 var revertUnwantedChanges = require('$:/plugins/xscale/gitserver/git/revertUnwantedChanges.js');
 var mergeUpstream = require('$:/plugins/xscale/gitserver/git/mergeUpstream.js');
@@ -22,6 +23,7 @@ var pushChanges = require('$:/plugins/xscale/gitserver/git/pushChanges.js');
 
 module.exports = function(state) {
   return assertIsRepo()
+    .then(assertIsAttached)
     .then(assertNamedEditor)
     .then(revertUnwantedChanges)
     .then(() => git.status())
