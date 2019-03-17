@@ -155,6 +155,14 @@ GitServer.prototype.listen = function(port,host) {
 	http.createServer(this.requestHandler.bind(this)).listen(port,host);
 };
 
+function toString(o) {
+	if (typeof o === 'string') {
+		return o;
+	} else {
+		return JSON.stringify(o);
+	}
+}
+
 var Command = function(params,commander,callback) {
 	this.params = params;
 	this.commander = commander;
@@ -177,10 +185,10 @@ var Command = function(params,commander,callback) {
 					console.log(`Error saving: ${e}`);
 					if (e.status) {
 						response.writeHead(e.status, "Error");
-						response.end($tw.utils.stringify(e.message), "utf8");
+						response.end($tw.utils.stringify(`${e.message}`), "utf8");
 					} else {
 						response.writeHead(500, "Server Error");
-						response.end($tw.utils.stringify(e), "utf8");
+						response.end($tw.utils.stringify(`${e}`), "utf8");
 					}
 				})
 				.catch(e => {
@@ -198,14 +206,13 @@ var Command = function(params,commander,callback) {
 					response.end();
 				})
 				.catch(e => {
-					console.log('Got an error!');
-					console.log(e);
+					console.log(`Error updating: ${e}`);
 					if (e.status) {
 						response.writeHead(e.status, "Error");
-						response.end($tw.utils.stringify(e.message), "utf8");
+						response.end($tw.utils.stringify(`${e.message}`), "utf8");
 					} else {
 						response.writeHead(500, "Server Error");
-						response.end($tw.utils.stringify(e), "utf8");
+						response.end($tw.utils.stringify(`${e}`), "utf8");
 					}
 				});
 		}

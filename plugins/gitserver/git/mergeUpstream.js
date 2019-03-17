@@ -11,6 +11,8 @@ module-type: lib
 
 var fs = require('fs');
 var git = require('$:/plugins/xscale/gitserver/git/git.js');
+var readfile = require('$:/plugins/xscale/gitserver/git/readfile.js');
+var writefile = require('$:/plugins/xscale/gitserver/git/writefile.js');
 var resetFile = require('$:/plugins/xscale/gitserver/git/resetFile.js');
 var GitError = require("$:/plugins/xscale/gitserver/git/GitError.js");
 
@@ -31,28 +33,46 @@ function exists(path) {
 }
 
 function copy(src, dst, originalTitle, draftTitle) {
-  let titleSeen = false;
-  try {
-    fs.appendFileSync(
-      dst,
-      `draft.of: ${originalTitle}
-draft.title: ${originalTitle}
-title: ${draftTitle}
-`
-    );
-    fs.readFileSync(src).toString()
-      .split('\n')
-      .forEach(line => {
-        if (titleSeen || !line.startsWith('title:')) {
-          fs.appendFileSync(dst, `${line}\n`);
-        } else {
-          titleSeen = true;
-        }
-      });
-    return Promise.resolve();
-  } catch (e) {
-    return Promise.reject(e);
-  }
+  return readfile(src)
+    .then(lines => {
+      var titleIndex = lines.findIndex(l => l.startsWith('title:'));
+      return [
+        `draft.of: ${originalTitle}`,
+        `draft.title: ${originalTitle}`,
+        `title: ${draftTitle}`
+      ].concat(
+        lines.filter(l =>
+          !(
+            l.startsWith('title:') ||
+            l.startsWith('draft.of') ||
+            l.startsWith('draft.title')
+          )
+        )
+      );
+    })
+    .then(lines => writefile(dst, lines));
+//   let titleSeen = false;
+//   try {
+//     fs.appendFileSync(
+//       dst,
+//       `draft.of: ${originalTitle}
+// draft.title: ${originalTitle}
+// title: ${draftTitle}
+// `
+//     );
+//     fs.readFileSync(src).toString()
+//       .split('\n')
+//       .forEach(line => {
+//         if (titleSeen || !line.startsWith('title:')) {
+//           fs.appendFileSync(dst, `${line}\n`);
+//         } else {
+//           titleSeen = true;
+//         }
+//       });
+//     return Promise.resolve();
+//   } catch (e) {
+//     return Promise.reject(e);
+//   }
 }
 
 function getBaseName(file) {
@@ -81,12 +101,6 @@ function createDraft(file) {
 
     i += 1;
   }
-  return Promise.reject(
-    new GitError(
-      500,
-      `Unexpected state saving draft of ${baseName}, please check your git status.`
-    )
-  );
 }
 
 function resolveConflicts() {
@@ -103,18 +117,18 @@ function resolveConflicts() {
                   .then(() => resetFile(f))
             )
         )
-        .then(() => git.reset())
-        .then(() => git.stash(['drop']))
-        .then(() =>
-          Promise.reject(
-            new GitError(
-              400,
-              'There were conflicts mering the following:\n' +
-              conflicted.map(getFileName).map(s => '  ' + s).join("\n") + '\n\n' +
-              'Your changes have been saved in draft tiddlers.'
+          .then(() => git.reset())
+          .then(() => git.stash(['drop']))
+          .then(() =>
+            Promise.reject(
+              new GitError(
+                400,
+                'There were conflicts mering the following:\n' +
+                conflicted.map(getFileName).map(s => '  ' + s).join("\n") + '\n\n' +
+                'Your changes have been saved in draft tiddlers.'
+              )
             )
           )
-        )
     );
 }
 
@@ -130,12 +144,15 @@ module.exports = function() {
             .then(() => git.stash(['pop']))
             .then(r => {
               if (r.includes('Merge conflict in')) {
-                return Promise.reject('Merge conflict');
+                return resolveConflicts();
               } else {
                 return null;
               }
             })
-            .catch(resolveConflicts) :
+            .catch(e =>
+              git.stash(['pop'])
+                .then(() => Promise.reject(e))
+            ) :
           null
     );
 };

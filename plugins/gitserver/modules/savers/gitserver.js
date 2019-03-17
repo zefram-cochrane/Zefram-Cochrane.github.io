@@ -57,7 +57,11 @@ GitServerSaver.prototype.request = function(path, callback) {
 			if (this.status === 200 || this.status === 201 || this.status === 204) {
 				callback(null); // success
 			} else {
-				callback(this.responseText); // fail
+				callback(
+					this.responseText
+						.replace(/\\n/g, '\n')
+						.replace(/\\r/g, '')
+				); // fail
 			}
 		}
 	};
