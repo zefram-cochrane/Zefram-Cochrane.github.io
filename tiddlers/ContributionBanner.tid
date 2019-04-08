@@ -17,5 +17,7 @@ https://github.com/zefram-cochrane/Zefram-Cochrane.github.io/edit/master/tiddler
 </$set>
 \end
 <div class="tc-improvement-banner">
-Do you want to share your changes with others? You can <<outerMakeGitHubLink "edit this tiddler on GitHub directly">>, or [[find more help on editing the wiki|Editing the Wiki]]. Sharing is caring!
+Do you want to share your changes with others? You can
+<<outerMakeGitHubLink "edit this tiddler on GitHub directly">>, or
+[[find more help on editing the wiki|Editing the Wiki]]. Sharing is caring!
 </div>
