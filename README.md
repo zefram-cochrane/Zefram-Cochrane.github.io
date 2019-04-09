@@ -1,5 +1,7 @@
-# Zefram-Cochrane.github.io
-The repo for the beautiful new xscale.wiki site.
+[![Build Status](https://travis-ci.org/XSCALE-Alliance/wiki.svg?branch=master)](https://travis-ci.org/XSCALE-Alliance/wiki)
+
+# XSCALE wiki
+The repo for the beautiful xscale.wiki site.
 
 ## How to run the wiki locally
 
