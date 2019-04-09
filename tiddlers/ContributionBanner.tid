@@ -1,0 +1,24 @@
+list-after: $:/core/ui/EditTemplate/title
+tags: $:/tags/EditTemplate
+title: $:/ContributionBanner
+type: text/vnd.tiddlywiki
+
+\define makeGitHubLink()
+https://github.com/XSCALE-Alliance/wiki/edit/master/tiddlers/$(githubLink)$
+\end
+\define innerMakeGitHubLink(linkText)
+<$set name="githubLink" value={{$:/config/OriginalTiddlerPaths##$(draftOfTiddler)$}}>
+<a href=<<makeGitHubLink>> class="tc-tiddlylink-external" target="_blank" rel="noopener noreferrer">$linkText$</a>
+</$set>
+\end
+\define outerMakeGitHubLink(linkText)
+<$set name="draftOfTiddler" value={{$(currentTiddler)$!!draft.of}}>
+<<innerMakeGitHubLink "$linkText$">>
+</$set>
+\end
+<div class="tc-improvement-banner">
+Do you want to share your changes with others?
+If this is your first time please check out [[Editing the Wiki]].
+Once you've done that you can
+<<outerMakeGitHubLink "edit this tiddler on GitHub">>.<br/>
+Pro tip: edit and preview your tiddler here and then copy the markup to Github!</div>
