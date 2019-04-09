@@ -4,7 +4,7 @@ title: $:/ContributionBanner
 type: text/vnd.tiddlywiki
 
 \define makeGitHubLink()
-https://github.com/zefram-cochrane/Zefram-Cochrane.github.io/edit/master/tiddlers/$(githubLink)$
+https://github.com/XSCALE-Alliance/wiki/edit/master/tiddlers/$(githubLink)$
 \end
 \define innerMakeGitHubLink(linkText)
 <$set name="githubLink" value={{$:/config/OriginalTiddlerPaths##$(draftOfTiddler)$}}>
