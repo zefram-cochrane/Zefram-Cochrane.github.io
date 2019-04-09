@@ -20,7 +20,5 @@ https://github.com/XSCALE-Alliance/wiki/edit/master/tiddlers/$(githubLink)$
 Do you want to share your changes with others?
 If this is your first time please check out [[Editing the Wiki]].
 Once you've done that you can
-<<outerMakeGitHubLink "edit this tiddler on GitHub">>.
-If you're unsure about formatting you can use the preview window here to
-check how your content will be rendered, then copy the markup over to GitHub.
-</div>
+<<outerMakeGitHubLink "edit this tiddler on GitHub">>.<br/>
+Pro tip: edit and preview your tiddler here and then copy the markup to Github!</div>
