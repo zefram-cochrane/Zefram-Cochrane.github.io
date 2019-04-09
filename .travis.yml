@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- lts/*
+before_install: 
+sudo: false
+script:
+- tiddlywiki . --rendertiddler $:/core/save/all index.html text/plain
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  local-dir: "output"
+  on:
+    repo: XSCALE-Alliance/wiki
+    branch: master
+env:
+  global:
+    secure: dfHlxV8c2hQdYgqVbwYye4xGHg/FgCbk2c6N3SjGxXXvI81sR7vxIQq1hUnRrH6NAb3Zv/sYtwekWiGUqp+zpiTSkoeWIWDCL8iYU8be0Rm6bc5jvxXbh56HS89DM/5xsGCpKlo2/ZHvbMnXcg2THFH3RFZKJfKGxL4W+NdTUNSS+BN5t6dfNK/f+lsM+H2PbIQfOm35GT/YRfBSFohayZMuQ4G/iF6J71ChWte3P1Ps+GagdOuxmVlP/ASzDomqWaDlOsx1YYvxLePfMHCTws2unYBcKPDwuIsQ9q5gLB99oLOQwvyCftqgGkNqno5y02PsUm+66DSfBzNcnfdbI3kB6o8eCWWff111taYEIY1OWnBN5E/0dsuj5VDfvTsZA/HWjddTcEbRohzBipwRh382GX2LZomxh7Mk9jVsjnqyL7fU+ehAJzvPARsIz8XuBqLfCTxeoSga7njTR1hJ3UsWuQ7qezhh4ezQA0HiQhZJZMUAxnqpAJyQ/ENd/XFu2QWAL9vtYrtvVQDKfTd8ld48XADTyKFhlYwHC5PUAWJY2hkfkeLr6gXjNHC9XQKt/VmQOYOoND9XThePtRtLFFJAiqPSvjfimw+LbWm/vXP8Xb/RdVTizTktuWoqyjdOLifad+4vwthamxpzTs8yKvids26Y0Hgy8FZdNPzFKsw=
