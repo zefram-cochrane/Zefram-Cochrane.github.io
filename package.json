@@ -3,6 +3,10 @@
     "tiddlywiki": "5.1.15"
   },
   "scripts": {
-    "tiddlywiki": "tiddlywiki"
+    "tiddlywiki": "tiddlywiki",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
   }
 }

@@ -1,10 +1,11 @@
 language: node_js
 node_js:
-- lts/*
+  - lts/*
 before_install: 
 sudo: false
 script:
-- tiddlywiki . --rendertiddler $:/plugins/tiddlywiki/tiddlyweb/save/offline index.html text/plain
+  - npm test
+  - tiddlywiki . --rendertiddler $:/plugins/tiddlywiki/tiddlyweb/save/offline index.html text/plain
 deploy:
   provider: pages
   skip-cleanup: true
