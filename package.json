@@ -4,6 +4,7 @@
   },
   "scripts": {
     "tiddlywiki": "tiddlywiki",
+    "build": "tiddlywiki . --rendertiddler $:/plugins/tiddlywiki/tiddlyweb/save/offline index.html text/plain",
     "test": "jest"
   },
   "devDependencies": {

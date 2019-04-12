@@ -19,15 +19,23 @@ npm run tiddlywiki -- . --server
 
 Now use your favorite browser to view the wiki at http://127.0.0.1:8080.
 
+## Testing tiddlers
+
+To test the correctness of the tiddlers in `./tiddlers` run
+```
+npm test
+```
+
+#Building
+
+To build the static site run
+```
+npm run build
+```
+
 ## How to contribute
 
-These are the suggested steps to start contributing:
-
-1. Run the wiki locally
-1. Visit the wiki page on [Contributing]
-1. Add your name to the [Contributors] page
-1. Commit your changes and send out a pull request. 
-   If you need help, visit our page on [editing the wiki].
+TBD
 
 Thank you for your contributions!
 

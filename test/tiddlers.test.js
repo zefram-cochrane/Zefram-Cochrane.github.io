@@ -37,8 +37,6 @@ describe('tiddlers', () => {
 
   const tiddlers = parseAllTiddlers();
 
-  // tiddlers.forEach(t => console.log(t));
-
   test.each(tiddlers)('%s should have at least one metadata field and all fields should be valid', tiddler => {
     expect(Object.keys(tiddler.metadata).length).toBeGreaterThan(0);
   });

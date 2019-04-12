@@ -5,7 +5,7 @@ before_install:
 sudo: false
 script:
   - npm test
-  - tiddlywiki . --rendertiddler $:/plugins/tiddlywiki/tiddlyweb/save/offline index.html text/plain
+  - npm run build
 deploy:
   provider: pages
   skip-cleanup: true
