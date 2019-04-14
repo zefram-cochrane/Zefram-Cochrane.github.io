@@ -46,6 +46,20 @@ In general you will only edit the content section.
 It is easiest to edit the tiddler in TiddlyWiki using the preview pane,
 then transfer the content to GitHub, making sure to only replace the content section.
 
+!! Adding a New Tiddler
+
+New Tiddlers have to be [[added manually via GitHub|https://github.com/XSCALE-Alliance/wiki/new/master/tiddlers]].
+
+First name the file with your title, then add the following metadata.
+
+```
+title: YOUR TIDDLER
+type: text/vnd.tiddlywiki
+
+```
+
+Then add the desired content. As for editing you can use the TiddlyWiki editor to author your content.
+
 !! Submitting a change
 
 Once you have updated the content, start a Pull Request to have your change reviewed. This will send a notification that a new change has been requested. It will also run automated checks on the change.
