@@ -22,7 +22,7 @@ itself.
 
 Follow the edit link to open the GitHub //Edit file// page.
 
-Note that the file has two parts. The top, before the first blank line, contain the [[metadata|https://tiddlywiki.com/static/TiddlerFiles.html]] for the tiddler:
+Note that the file has two parts. The top, before the first blank line, contains the [[metadata|https://tiddlywiki.com/static/TiddlerFiles.html]] for the tiddler:
 
 ```
 created: 20150809210853784
