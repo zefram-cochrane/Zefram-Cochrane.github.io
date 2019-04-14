@@ -1,6 +1,6 @@
 created: 20150808200216636
 modified: 20150809050559540
-title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki
+title: $:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete
 type: text/vnd.tiddlywiki
 
 hide

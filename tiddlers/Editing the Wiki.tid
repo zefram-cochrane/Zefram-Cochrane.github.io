@@ -5,126 +5,71 @@ title: Editing the Wiki
 tmap.id: f840cfc4-edd0-42dc-82e8-5926a76f127d
 type: text/vnd.tiddlywiki
 
+! Prerequisits
 
-To edit the XSCALE Wiki you need to create and edit a local copy, then upload those changes. This page takes you through setting up the Wiki locally, then editing and finally uploading your changes
+To edit the wiki you need a [[GitHub|https://github.com]] account.
 
-! Setting up the Wiki locally
+! Making Changes
 
-To run the wiki locally you require git and Node.js.
+Changes are managed using [[Pull Requests in GitHub|https://help.github.com/en/articles/about-pull-requests]]. This allows anyone to submit changes, but also have them checked and discussed before being published.
 
-!! Setting up git
+!! Editing content
 
-Download and install [[git|https://git-scm.com/downloads]].
+To edit a tiddler, click on the pencil icon. This will open the edit
+window and provide you with a link to the GitHub page where the actual
+edit will be made. You cannot save or delete the tiddler from the wiki
+itself.
 
-!! Setting up Node.js
+Follow the edit link to open the GitHub //Edit file// page.
 
-Download and install [[Current Node.js|https://nodejs.org/en/]]. 
-
-!! Create a github account
-
-Go to https://github.com and create an account if you don’t already have one. You will need this to upload changes. 
-
-!! Branches vs Forking
-
-The following example uses branching to manage changes. If you are already experienced with git or do not have access to write to modify the XSCALE Wiki repository, you can also fork the repository.
-
-!! Cloning the Wiki locally
-
-Open Terminal in MacOS or git BASH in Windows.
-Navigate to where you would like to store the wiki locally. In this example we will use the Documents directory. Type the following:
-
+Note that the file has two parts. The top, before the first blank line, contains the [[metadata|https://tiddlywiki.com/static/TiddlerFiles.html]] for the tiddler:
 
 ```
-> cd Documents
-> git clone https://github.com/zefram-cochrane/Zefram-Cochrane.github.io.git xscale-wiki
-> cd xscale-wiki
+created: 20150809210853784
+modified: 20160529004500098
+tags:
+title: XSCALE Practices
+tmap.id: f1f31f19-d270-4e95-b5a9-afb3b1d8a3a5
+type: text/vnd.tiddlywiki
+```
+
+The bottom contains the content in [[TiddlyWiki markup|https://tiddlywiki.com/static/Formatting%2520text%2520in%2520TiddlyWiki.html]]:
+
+```
+{{$:/patterns-image}}
+
+|! [[Principles|XSCALE Principles]] |! [[Structures|XSCALE Structures]] |! [[Metrics|XSCALE Metrics]] |! [[Roles|XSCALE Roles]] |
+```
+
+In general you will only edit the content section.
+
+It is easiest to edit the tiddler in TiddlyWiki using the preview pane,
+then transfer the content to GitHub, making sure to only replace the content section.
+
+!! Adding a New Tiddler
+
+New Tiddlers have to be [[added manually via GitHub|https://github.com/XSCALE-Alliance/wiki/new/master/tiddlers]].
+
+First name the file with your title, then add the following metadata.
+
+```
+title: YOUR TIDDLER
+type: text/vnd.tiddlywiki
 
 ```
 
+Then add the desired content. As for editing you can use the TiddlyWiki editor to author your content.
 
-!! Running the Wiki
+!! Submitting a change
 
+Once you have updated the content, start a Pull Request to have your change reviewed. This will send a notification that a new change has been requested. It will also run automated checks on the change.
 
-```
-> npm install
-> npm run tiddlywiki -- . --server
+This may result in requests for you to modify your change via the Pull Request interface in GitHub.
 
-```
+Once the change has been approved, it will be merged into the master wiki and published.
 
-The first command will update the server files needed to make the wiki run. The second will start a local instance and tell you where to go to find it. This will look something like
+!! Tags
 
+Tags are the exception to not editing the metadata. Tags are stored a whitespace separated list. Tags with spaces in their label are surrounded by double brackets, eg `[[Customise TiddlyWiki]]`.
 
-```
-Serving on 127.0.0.1:8080
-```
-
-
-Go to the shown address using you browser.
-
-! Editing the wiki
-
-!! Making a branch
-
-If you are not using a fork of the repository you must first create a branch. Give it a name that indicates the purpose of the change.
-
-```
-> git checkout -b <new-branch-name>
-```
-
-This will create the branch and make it active.
-
-!! Making and saving edits
-
-The wiki can now be edited. For details on using TiddlyWiki see its webpage https://tiddlywiki.com/
-
-When saved, new pages and changes will be stored as files in the XSCALE Wiki repository. 
-
-!! Viewing changes in git
-
-You can view the changes you have made by running the following:
-
-```
-> git status
-> git diff
-```
-
-The first command will list all the changed files. The second will list the changes in each of these files if they are text files.
-
-You can also download an use [[SourceTree|https://www.sourcetreeapp.com/]] to view changes to the repository.
-
-!! Committing changes to git
-
-Unless you are experienced with git, it is recommended you use SourceTree to review you changes.
-
-Before committing check which files you have changed. Any files that have been inadvertently changed by TiddlyWiki should not be committed.
-
-!! Staging files to be committed
-
-Git requires you to stage files before committing them. To stage them from the command line, type the following:
-
-```
-> git add <files to be added>
-```
-
-You can also use SourceTree to do this.
-
-!! Committing changes
-
-To send the changes to github you must commit and push them. Committing requires a commit message to be added. Pushing requires access to write to the XSCALE Wiki repository on github.
-
-```
-> git commit -m ‘<Reason for change>’
-> git push
-```
-
-Pushing may require you to enter your github password. Pushing may also fail because the remote branch does not exist. In this case git will prompt you with the command to enter.
-
-!!! Removing unneeded changes
-
-Some of the changes that are made are TiddlyWiki timestamps and don’t matter. You may also find the favicon changing. These should be ignored when committing to github. This can be done using the `git reset` command  or selecting reset using SourceTree.
-
-!! Creating a Pull Request
-
-!!! Resolving Conflicts
-
-!!! Merging from master
+The list of tags can be found under More/Tags in the menu to the right.
